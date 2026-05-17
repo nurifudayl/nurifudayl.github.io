@@ -66,7 +66,7 @@
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}
       {% if author.yokakademik %}
-        <li><a href="{{ author.yokakademik }}"><i class="fas fa-fw fa-university" aria-hidden="true"></i> YÖK Akademik</a></li>
+        <li><a href="{{ author.yokakademik }}"><img src="{{ '/images/yok-logo.png' | relative_url }}" alt="YÖK Akademik" style="width:16px; height:16px; vertical-align:middle; margin-right:5px;">YÖK Akademik</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
