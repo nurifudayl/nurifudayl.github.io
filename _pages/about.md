@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+## 1. Academic Profile
 I am a political scientist working at the intersection of political theory, the history of political thought, and international relations. My research is concerned with the concepts through which political authority is imagined, justified, contested, and institutionalized. I am particularly interested in legitimacy, the public sphere, state subjectivity, recognition, selfhood, and sovereignty.
 
 A central thread in my work is the relationship between political concepts and historical experience. Rather than treating concepts as abstract categories detached from political life, I approach them as historically situated forms of interpretation. Concepts such as legitimacy, sovereignty, recognition, and public reason do not merely describe politics; they also shape the ways political actors understand themselves, justify authority, and imagine their place within domestic and international orders.
@@ -19,7 +20,7 @@ My broader academic interests include political theory, modern political thought
 
 Beyond my current research, I am also interested in the ways academic writing can bridge disciplinary boundaries. My work engages conversations across political theory, international relations, intellectual history, and interpretive political analysis, with the aim of showing how theoretical concepts can illuminate concrete political struggles and how historically grounded cases can, in turn, refine political theory.
 
-## Education and Intellectual Formation
+## 2. Education and Intellectual Formation
 
 My academic formation began in the **Department of Political Science at Galatasaray University**, where I developed my first sustained interest in **modern political thought** and **political theory**. During my undergraduate studies, I also spent a period as an exchange student at the **Université du Québec à Montréal (UQAM)**. The courses I took there on *Hannah Arendt*, *Karl Marx*, *Friedrich Nietzsche*, and *Michel Foucault* played a decisive role in shaping my decision to focus on modern political thought and the theoretical foundations of politics.
 
@@ -34,3 +35,9 @@ This intellectual trajectory led me toward **linguistic contextualism**, especia
 I pursued this line of inquiry further in my doctoral studies in the **Department of Political Science and International Relations at Istanbul University**. Returning to the genre of advice literature, I shifted my focus from the eleventh-century Islamic political tradition to seventeenth-century Ottoman advice texts. My doctoral research, later developed into the book *Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme* (*Legitimacies of the Ancien Régime: A Political Inquiry into 17th-Century Ottoman Advice Literature*), examined how Ottoman advice writers justified political authority in different ways. Although these texts are often grouped within the same literary and political genre, my work showed that they articulated distinct forms of legitimacy and that the social positions of their authors were closely related to the kinds of social and political order they defended.
 
 Across these stages, my intellectual formation has been shaped by a sustained concern with the **historicity of political concepts** and the **political conditions under which historical meanings are produced**. I am interested not only in how political concepts change over time, but also in how historical experience is interpreted, narrated, and made politically meaningful. This continues to shape my work on **legitimacy**, **sovereignty**, **public authority**, and the historically situated languages of political order. Building on this long-range historical perspective, my current work now turns back to the **modern period**, in closer alignment with my broader formation in **political science**, to examine how questions of legitimacy, sovereignty, recognition, and state subjectivity are rearticulated in modern political life and international relations.
+
+## 3. Academic Positions and Teaching
+
+## 4. Research, Publications, and Current Projects
+
+## 5. Translation and Editorial Work
