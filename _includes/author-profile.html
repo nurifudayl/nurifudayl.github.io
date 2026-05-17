@@ -62,6 +62,14 @@
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
+      {% if author.webofscience %}
+        <li>
+          <a href="{{ author.webofscience }}">
+            <img src="{{ '/images/webofscience-logo.png' | relative_url }}" alt="Web of Science" style="width:18px; height:18px; object-fit:contain; vertical-align:-4px; margin-right:5px;">
+            Web of Science
+          </a>
+        </li>
+      {% endif %}
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}
