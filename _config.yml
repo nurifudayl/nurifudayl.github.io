@@ -27,7 +27,7 @@ author:
   name             : "Nuri Fudayl Kıcıroğlu"
   pronouns         : # example: "she/her"  
   bio              : "Political scientist at the intersection of political theory, history of political thought, and IR. I use Türkiye’s political life and foreign policy to rethink legitimacy, public sphere, and state subjectivity (recognition, selfhood, sovereignty). I combine contextual conceptual/intellectual history with concept-driven interpretive analysis."
-  location         : "Istanbul/TURKEY"
+  location         : "Istanbul, TURKEY"
   employer         : "Istanbul Nisantasi University"
   uri              : # URL
   email            : "nuri.kiciroglu@nisantasi.edu.tr" 
@@ -38,12 +38,12 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-0156-3062"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Nuri-Kiciroglu"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58554617500"
   zotero           : # URL
 
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "www.linkedin.com/in/nurifudayl"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "NuriFudayl"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
