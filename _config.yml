@@ -13,7 +13,7 @@ title                    : "Nuri Fudayl Kıcıroğlu"
 title_separator          : "-"
 name                     : &name "Nuri Fudayl Kıcıroğlu"
 description              : &description "Political Science and International Relations"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[nurifudayl].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[nurifudayl].github.io/[nurifudayl]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nurifudayl/nurifudayl.github.io"
@@ -24,13 +24,13 @@ repository               : "nurifudayl/nurifudayl.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Nuri Fudayl Kıcıroğlu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Political scientist at the intersection of political theory, history of political thought, and IR. I use Türkiye’s political life and foreign policy to rethink legitimacy, public sphere, and state subjectivity (recognition, selfhood, sovereignty). I combine contextual conceptual/intellectual history with concept-driven interpretive analysis."
+  location         : "Istanbul/TURKEY"
+  employer         : "Istanbul Nisantasi University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "nuri.kiciroglu@nisantasi.edu.tr" 
 
   # Academic websites
   academia         : # URL
