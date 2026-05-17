@@ -13,7 +13,7 @@ title                    : "Nuri Fudayl Kıcıroğlu"
 title_separator          : "-"
 name                     : &name "Nuri Fudayl Kıcıroğlu"
 description              : &description "Political Science and International Relations"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[nurifudayl].github.io",
+url                      : https://nurifudayl.github.io # The base hostname & protocol for your site e.g. "https://[nurifudayl].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[nurifudayl].github.io/[nurifudayl]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nurifudayl/nurifudayl.github.io"
