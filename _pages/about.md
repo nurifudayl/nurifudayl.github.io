@@ -7,7 +7,49 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.about-accordion details {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.75rem 0;
+}
+
+.about-accordion summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.about-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.about-accordion summary::after {
+  content: " +";
+  float: right;
+  font-weight: 400;
+}
+
+.about-accordion details[open] summary::after {
+  content: " –";
+}
+
+.about-accordion details[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.about-accordion p {
+  margin-bottom: 1rem;
+}
+</style>
+
+<div class="about-accordion" id="about-accordion" markdown="1">
+
+<details open markdown="1">
+<summary>1. Academic Profile</summary>
+
 ## 1. Academic Profile
+
 I am a political scientist working at the intersection of political theory, the history of political thought, and international relations. My research is concerned with the concepts through which political authority is imagined, justified, contested, and institutionalized. I am particularly interested in legitimacy, the public sphere, state subjectivity, recognition, selfhood, and sovereignty.
 
 A central thread in my work is the relationship between political concepts and historical experience. Rather than treating concepts as abstract categories detached from political life, I approach them as historically situated forms of interpretation. Concepts such as legitimacy, sovereignty, recognition, and public reason do not merely describe politics; they also shape the ways political actors understand themselves, justify authority, and imagine their place within domestic and international orders.
@@ -19,6 +61,11 @@ Methodologically, I combine contextual conceptual and intellectual history with 
 My broader academic interests include political theory, modern political thought, international relations theory, Turkish politics, Turkish foreign policy, theories of legitimacy, the public sphere, sovereignty, recognition, and the symbolic dimensions of state identity. Across these areas, I seek to develop theoretically informed and historically grounded analyses of political life.
 
 Beyond my current research, I am also interested in the ways academic writing can bridge disciplinary boundaries. My work engages conversations across political theory, international relations, intellectual history, and interpretive political analysis, with the aim of showing how theoretical concepts can illuminate concrete political struggles and how historically grounded cases can, in turn, refine political theory.
+
+</details>
+
+<details markdown="1">
+<summary>2. Education and Intellectual Formation</summary>
 
 ## 2. Education and Intellectual Formation
 
@@ -36,8 +83,49 @@ I pursued this line of inquiry further in my doctoral studies in the **Departmen
 
 Across these stages, my intellectual formation has been shaped by a sustained concern with the **historicity of political concepts** and the **political conditions under which historical meanings are produced**. I am interested not only in how political concepts change over time, but also in how historical experience is interpreted, narrated, and made politically meaningful. This continues to shape my work on **legitimacy**, **sovereignty**, **public authority**, and the historically situated languages of political order. Building on this long-range historical perspective, my current work now turns back to the **modern period**, in closer alignment with my broader formation in **political science**, to examine how questions of legitimacy, sovereignty, recognition, and state subjectivity are rearticulated in modern political life and international relations.
 
+</details>
+
+<details markdown="1">
+<summary>3. Academic Positions and Teaching</summary>
+
 ## 3. Academic Positions and Teaching
+
+</details>
+
+<details markdown="1">
+<summary>4. Research, Publications, and Current Projects</summary>
 
 ## 4. Research, Publications, and Current Projects
 
+</details>
+
+<details markdown="1">
+<summary>5. Translation and Editorial Work</summary>
+
 ## 5. Translation and Editorial Work
+
+</details>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const accordion = document.getElementById("about-accordion");
+  if (!accordion) return;
+
+  const items = accordion.querySelectorAll("details");
+
+  items.forEach(function (item) {
+    item.addEventListener("toggle", function () {
+      if (item.open) {
+        items.forEach(function (other) {
+          if (other !== item) {
+            other.removeAttribute("open");
+          }
+        });
+      }
+    });
+  });
+});
+</script>
+
