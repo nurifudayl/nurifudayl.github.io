@@ -50,11 +50,11 @@ redirect_from:
 
 I am a **political scientist** working at the intersection of **political theory**, **the history of political thought**, and **international relations**. My research examines how political power is conceptualized, justified, and contested across different historical and institutional contexts.
 
-My work is shaped by a sustained interest in the historical life of political concepts. I study how ideas of legitimacy, sovereignty, recognition, and public authority acquire meaning within specific political languages, and how they contribute to the formation of political order, statehood, and collective self-understanding.
+My work is shaped by a sustained interest in the historical life of political concepts. I study how ideas of legitimacy, sovereignty, and public sphere acquire meaning within specific political languages, and how they contribute to the formation of political order, statehood, and collective self-understanding.
 
-My earlier research focused on Islamic and Ottoman advice literature and the vocabularies of legitimacy in medieval and early modern political thought. Building on this historical background, my current work turns more directly toward the modern period, in closer alignment with my broader formation in political science and international relations. I now examine questions of state authority, sovereignty, and political identity in modern political life and foreign policy.
+My earlier research focused on **Islamic** and **Ottoman** advice literature and the vocabularies of legitimacy in medieval and early modern political thought. Building on this historical background, my current work turns more directly toward the modern period, in closer alignment with my broader formation in political science and international relations. I now examine questions of state authority, sovereignty, and political identity and ideologies in modern political life and foreign policy.
 
-Turkey’s political life and foreign policy provide an important historical and conceptual ground for this inquiry. I approach Turkey not merely as a case, but as a site through which wider questions about modern statehood, authority, and international order can be reconsidered.
+**Turkish political life** and foreign policy provide an important historical and conceptual ground for this inquiry. I approach Turkey not merely as a case, but as a site through which wider questions about modern statehood, authority, and international order can be reconsidered.
 
 My methodological orientation combines **linguistic contextualism**, **conceptual history**, and **interpretive political analysis**. I welcome scholarly exchange and collaboration with researchers working on political theory, international relations theory, conceptual history, Turkish politics, and history of political thought.
 
