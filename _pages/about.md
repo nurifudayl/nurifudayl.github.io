@@ -48,17 +48,17 @@ redirect_from:
 <details open markdown="1">
 <summary>1. Academic Profile</summary>
 
-I am a political scientist working at the intersection of political theory, the history of political thought, and international relations. My research is concerned with the concepts through which political authority is imagined, justified, contested, and institutionalized. I am particularly interested in legitimacy, the public sphere, state subjectivity, recognition, selfhood, and sovereignty.
+I am a **political scientist** working at the intersection of **political theory**, **the history of political thought**, and **international relations**. My research examines how political power is conceptualized, justified, and contested across different historical and institutional contexts.
 
-A central thread in my work is the relationship between political concepts and historical experience. Rather than treating concepts as abstract categories detached from political life, I approach them as historically situated forms of interpretation. Concepts such as legitimacy, sovereignty, recognition, and public reason do not merely describe politics; they also shape the ways political actors understand themselves, justify authority, and imagine their place within domestic and international orders.
+My work is shaped by a sustained interest in the historical life of political concepts. I study how ideas of legitimacy, sovereignty, recognition, and public authority acquire meaning within specific political languages, and how they contribute to the formation of political order, statehood, and collective self-understanding.
 
-Türkiye’s political life and foreign policy constitute an important empirical and conceptual site for my research. I use the Turkish case not only as an object of area-specific analysis, but also as a way of rethinking broader questions in political science and international relations. In this sense, my work moves between contextual analysis and theoretical reflection: it examines historically specific political debates while asking what they reveal about modern statehood, authority, selfhood, and international recognition.
+My earlier research focused on Islamic and Ottoman advice literature and the vocabularies of legitimacy in medieval and early modern political thought. Building on this historical background, my current work turns more directly toward the modern period, in closer alignment with my broader formation in political science and international relations. I now examine questions of state authority, sovereignty, and political identity in modern political life and foreign policy.
 
-Methodologically, I combine contextual conceptual and intellectual history with concept-driven interpretive analysis. I am interested in how political ideas travel across historical moments, institutional settings, and fields of practice; how they are translated into claims of authority and belonging; and how they help constitute the symbolic and normative horizons of political life.
+Turkey’s political life and foreign policy provide an important historical and conceptual ground for this inquiry. I approach Turkey not merely as a case, but as a site through which wider questions about modern statehood, authority, and international order can be reconsidered.
 
-My broader academic interests include political theory, modern political thought, international relations theory, Turkish politics, Turkish foreign policy, theories of legitimacy, the public sphere, sovereignty, recognition, and the symbolic dimensions of state identity. Across these areas, I seek to develop theoretically informed and historically grounded analyses of political life.
+My methodological orientation combines **linguistic contextualism**, **conceptual history**, and **interpretive political analysis**. I welcome scholarly exchange and collaboration with researchers working on political theory, international relations theory, conceptual history, Turkish politics, and history of political thought.
 
-Beyond my current research, I am also interested in the ways academic writing can bridge disciplinary boundaries. My work engages conversations across political theory, international relations, intellectual history, and interpretive political analysis, with the aim of showing how theoretical concepts can illuminate concrete political struggles and how historically grounded cases can, in turn, refine political theory.
+<img width="470" height="449" alt="image" src="https://github.com/user-attachments/assets/a400acdf-fd9f-4530-885e-084661db4ee7" />
 
 </details>
 
