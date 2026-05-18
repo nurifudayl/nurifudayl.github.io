@@ -93,6 +93,19 @@ In my teaching, I emphasize **close reading**, **conceptual analysis**, and **hi
 <details markdown="1">
 <summary>4. Research, Publications, and Current Projects</summary>
 
+My current research and project work develops along three interconnected lines: **political science education**, **political behavior**, and the **intellectual history of modern Turkish politics**.
+
+First, I am involved in several projects that seek to develop **innovative practices in political science education**. These projects focus especially on the use of **games**, **simulations**, and interactive learning environments in teaching political science. Their distinctive contribution lies in combining **game design**, **emerging technologies**, and **artificial intelligence** to create new pedagogical tools for political science education. Through these projects, I am interested in how political science can be taught not only as a body of knowledge, but also as a field of practice, decision-making, and critical reasoning.
+
+Second, I am part of a research project examining the effects of international political crises on voter behavior. This project reflects my broader interest in the relationship between domestic political perception and international developments, and in the ways foreign policy events may shape political attitudes, electoral preferences, and public responses.
+
+Alongside these ongoing project roles, my current individual research increasingly turns toward **the 1960 constitution-making process** in Turkey. I focus in particular on the intellectual worlds of jurists involved in this process, asking how legal doctrines changed over time and what political, institutional, and intellectual factors shaped these transformations. Rather than treating constitutional debates only as legal-technical discussions, I approach them as sites where competing visions of political order, authority, statehood, and democracy were articulated.
+
+In parallel with this work, I am also developing research on the simultaneous presence of multiple “Kemalisms” in Turkish political life. This line of inquiry examines how Kemalism has functioned not as a single, fixed doctrine, but as a contested and historically variable political language through which different actors have imagined the state, society, modernization, secularism, and legitimacy.
+
+Finally, I am currently involved in an editorial project on **the agendas and actors of contemporary philosophy in Turkey**. This project complements my broader interest in the circulation of ideas, intellectual fields, and the institutional conditions under which philosophical and political thought take shape.
+
+Taken together, these projects reflect my broader concern with the ways political concepts, institutional practices, and intellectual traditions are formed, transformed, and mobilized in modern political life.
 
 </details>
 
