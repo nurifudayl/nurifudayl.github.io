@@ -58,8 +58,6 @@ Turkey’s political life and foreign policy provide an important historical and
 
 My methodological orientation combines **linguistic contextualism**, **conceptual history**, and **interpretive political analysis**. I welcome scholarly exchange and collaboration with researchers working on political theory, international relations theory, conceptual history, Turkish politics, and history of political thought.
 
-<img width="470" height="449" alt="image" src="https://github.com/user-attachments/assets/a400acdf-fd9f-4530-885e-084661db4ee7" />
-
 </details>
 
 <details markdown="1">
