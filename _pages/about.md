@@ -112,7 +112,17 @@ Taken together, these projects reflect my broader concern with the ways politica
 <details markdown="1">
 <summary>5. Translation and Editorial Work</summary>
 
+My **Francophone academic formation** has also shaped my engagement with the publishing world in Turkey. One of the advantages of moving across Turkish and French intellectual contexts has been the opportunity to work not only as a scholar, but also as a translator, editor, and reader within different areas of publishing.
 
+I entered the publishing world as a translator during my first year as an undergraduate student, when I began working with **Ayrıntı Yayınları**. I later prepared reader reports for **Doğan Kitap** and wrote book reviews for literary supplements. For a considerable period, I also worked for **Dergâh Yayınları**, where I served both as a **translation editor** and as a **history editor**.
+
+My translation and editorial work has included projects carried out within the framework of the **Ministry of Culture**. I have translated a total of **four books**, two of which were the product of collaborative translation work.
+
+I regard translation and editorial work not as activities separate from academic life, but as part of the broader circulation of ideas across languages, disciplines, and publics. Moving between languages requires attention not only to words, but also to intellectual traditions, historical contexts, and conceptual worlds. In this sense, my work as a translator and editor is closely connected to my academic interest in **conceptual history**, **political language**, and the historicity of political thought.
+
+This experience has also shaped the way I think about the public and institutional life of ideas: how texts are selected, evaluated, translated, edited, circulated, and received within broader intellectual fields. My background in publishing has provided me with a valuable foundation for contributing to **peer review** and the **editorial processes of academic journals**, particularly in assessing manuscripts with attention to argument, structure, conceptual precision, style, and scholarly contribution.
+
+In this sense, my translation and editorial work remains an important part of my academic profile. It complements my research and teaching by giving me practical experience in the mediation, evaluation, and circulation of political, historical, and philosophical texts.
 
 </details>
 
