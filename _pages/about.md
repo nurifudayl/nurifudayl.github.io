@@ -48,8 +48,6 @@ redirect_from:
 <details open markdown="1">
 <summary>1. Academic Profile</summary>
 
-## 1. Academic Profile
-
 I am a political scientist working at the intersection of political theory, the history of political thought, and international relations. My research is concerned with the concepts through which political authority is imagined, justified, contested, and institutionalized. I am particularly interested in legitimacy, the public sphere, state subjectivity, recognition, selfhood, and sovereignty.
 
 A central thread in my work is the relationship between political concepts and historical experience. Rather than treating concepts as abstract categories detached from political life, I approach them as historically situated forms of interpretation. Concepts such as legitimacy, sovereignty, recognition, and public reason do not merely describe politics; they also shape the ways political actors understand themselves, justify authority, and imagine their place within domestic and international orders.
@@ -66,8 +64,6 @@ Beyond my current research, I am also interested in the ways academic writing ca
 
 <details markdown="1">
 <summary>2. Education and Intellectual Formation</summary>
-
-## 2. Education and Intellectual Formation
 
 My academic formation began in the **Department of Political Science at Galatasaray University**, where I developed my first sustained interest in **modern political thought** and **political theory**. During my undergraduate studies, I also spent a period as an exchange student at the **Université du Québec à Montréal (UQAM)**. The courses I took there on *Hannah Arendt*, *Karl Marx*, *Friedrich Nietzsche*, and *Michel Foucault* played a decisive role in shaping my decision to focus on modern political thought and the theoretical foundations of politics.
 
@@ -88,21 +84,19 @@ Across these stages, my intellectual formation has been shaped by a sustained co
 <details markdown="1">
 <summary>3. Academic Positions and Teaching</summary>
 
-## 3. Academic Positions and Teaching
 
 </details>
 
 <details markdown="1">
 <summary>4. Research, Publications, and Current Projects</summary>
 
-## 4. Research, Publications, and Current Projects
 
 </details>
 
 <details markdown="1">
 <summary>5. Translation and Editorial Work</summary>
 
-## 5. Translation and Editorial Work
+
 
 </details>
 
