@@ -1,13 +1,31 @@
 ---
-title: "Paper Title Number 4"
+title: "Türk Edebiyatını Ne Yana Yaslamalı? Nihal Atsız'ın Milli Kanonu"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: journal-articles
+permalink: /publication/article-2019-1-atsız
+date: 2019-01-01
+venue: "Eğitim Bilim Toplum Dergisi"
+paperurl: "https://search.trdizin.gov.tr/tr/yayin/detay/466592/turk-edebiyatini-ne-yana-yaslamali-nihal-atsizin-milli-kanonu"
+indexing:
+  - TR DİZİN
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This article examines the relationship between political authority, recognition, and state subjectivity in modern political life and international relations.
+
+## Citation
+
+Kıcıroğlu, Nuri. 2019. “Türk Edebiyatını Ne Yana Yaslamalı? Nihal Atsız'ın Milli Kanonu.” *Eğitim Bilim Toplum Dergisi* 17 (66): 31-54.
+
+## Abstract
+
+Buraya makalenin 100–150 kelimelik özeti gelir.
+
+## Contribution
+
+- Explores the conceptual relation between legitimacy and recognition.
+- Connects political theory with international relations.
+- Uses Türkiye as a historical and conceptual site for rethinking modern statehood.
+
+## Keywords
+
+**Nihal Atsız**, ***Türk Edebiyatı Tarihi***, **milli edebiyat**, **kanon**, **milli kahraman**
