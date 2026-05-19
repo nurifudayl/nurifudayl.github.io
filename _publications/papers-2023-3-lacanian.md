@@ -1,0 +1,33 @@
+---
+title: "Turkey, Cyprus, and the West: A Lacanian Family Portrait"
+collection: publications
+category: conference-papers
+permalink: /publication/papers-2023-3-lacanian
+date: 2024-01-01
+venue: "16th EISA Pan-European Conferance on International Relations"
+paperurl: ""
+indexing:
+---
+
+September 5-9, 2023, University of Potsdam, Potsdam.
+
+
+## Citation
+
+Kılıç, Ceren Melis and Nuri Fudayl Kıcıroğlu. 2023. “Turkey, Cyprus, and the West: A Lacanian Family Portrait.” *16th EISA Pan-European Conferance on International Relations*, Potsdam, 5-9 September 2023.
+
+## Abstract
+
+Buraya makalenin 100–150 kelimelik özeti gelir.
+
+## Contribution
+
+- Explores the conceptual relation between legitimacy and recognition.
+- Connects political theory with international relations.
+- Uses Türkiye as a historical and conceptual site for rethinking modern statehood.
+
+## Keywords
+
+**Nihal Atsız**, ***Türk Edebiyatı Tarihi***, **milli edebiyat**, **kanon**, **milli kahraman**
+
+
