@@ -9,7 +9,7 @@ paperurl: "https://ttsfd.org/yayinlar/1-ulusal-cagdas-siyaset-felsefesi-sempozyu
 indexing:
 ---
 
-
+20-21 Eylül 2018, Orta Doğu Teknik Üniversitesi, Ankara.
 
 
 ## Citation
