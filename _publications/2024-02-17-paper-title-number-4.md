@@ -14,7 +14,7 @@ This article examines the relationship between political authority, recognition,
 
 ## Citation
 
-Kıcıroğlu, Nuri. 2019. “Türk Edebiyatını Ne Yana Yaslamalı? Nihal Atsız'ın Milli Kanonu.” *Eğitim Bilim Toplum Dergisi* 17 (66): 31-54.
+Kıcıroğlu, Nuri Fudayl. 2019. “Türk Edebiyatını Ne Yana Yaslamalı? Nihal Atsız'ın Milli Kanonu.” *Eğitim Bilim Toplum Dergisi* 17 (66): 31-54.
 
 ## Abstract
 
