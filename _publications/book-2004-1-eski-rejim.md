@@ -2,7 +2,7 @@
 title: "Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme"
 collection: publications
 category: books
-permalink: /publication/2024-eski-rejimin-mesruiyeti
+permalink: /publication/book-2004-1-eski-rejim
 date: 2024-01-01
 venue: "Selenge Yayınları"
 paperurl: "YAYINEVİ-LİNKİ"
