@@ -7,6 +7,10 @@ author_profile: true
 
 {% include publications-style.html %}
 
+<p class="back-link">
+  <a href="/publications/">← Back to Publications</a>
+</p>
+
 <p class="publications-intro">
 A complete list of my book chapters.
 </p>
