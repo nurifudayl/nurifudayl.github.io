@@ -2,7 +2,7 @@
 title: "Turkey"
 collection: publications
 category: book-chapters
-permalink: /publication/article-2025-3-lacanian-family
+permalink: /publication/chapters-2025-2-turkey
 date: 2025-01-01
 venue: "The Palgrave Geopolitical Atlas"
 paperurl: "https://link.springer.com/rwe/10.1007/978-981-95-1507-3_13"
