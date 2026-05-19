@@ -2,7 +2,7 @@
 title: "Türk Edebiyatını Ne Yana Yaslamalı? Nihal Atsız'ın Milli Kanonu"
 collection: publications
 category: journal-articles
-permalink: /publication/article-2019-1-atsız
+permalink: /publication/article-2019-1-atsiz
 date: 2019-01-01
 venue: "Eğitim Bilim Toplum Dergisi"
 paperurl: "https://search.trdizin.gov.tr/tr/yayin/detay/466592/turk-edebiyatini-ne-yana-yaslamali-nihal-atsizin-milli-kanonu"
