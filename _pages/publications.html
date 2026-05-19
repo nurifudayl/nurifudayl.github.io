@@ -5,32 +5,94 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% include publications-style.html %}
+
+<p class="publications-intro">
+A selection of my books, journal articles, book chapters, conference papers, and reviews.
+</p>
+
+{% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
+{% if books.size > 0 %}
+<section class="pub-section">
+  <h2 class="pub-section-title">Books <span class="pub-count">{{ books.size }}</span></h2>
+
+  {% for post in books limit:3 %}
+    {% include publication-card.html item=post type="Book" link_label="Publisher / Link" %}
+  {% endfor %}
+
+  {% if books.size > 3 %}
+  <div class="view-all">
+    <a href="/publications/books/">View all books →</a>
+  </div>
+  {% endif %}
+</section>
 {% endif %}
 
-{% include base_path %}
+{% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
+{% if articles.size > 0 %}
+<section class="pub-section">
+  <h2 class="pub-section-title">Journal Articles <span class="pub-count">{{ articles.size }}</span></h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+  {% for post in articles limit:3 %}
+    {% include publication-card.html item=post type="Journal Article" link_label="DOI / Link" %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+
+  {% if articles.size > 3 %}
+  <div class="view-all">
+    <a href="/publications/journal-articles/">View all journal articles →</a>
+  </div>
+  {% endif %}
+</section>
 {% endif %}
 
+{% assign chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
+{% if chapters.size > 0 %}
+<section class="pub-section">
+  <h2 class="pub-section-title">Book Chapters <span class="pub-count">{{ chapters.size }}</span></h2>
 
+  {% for post in chapters limit:3 %}
+    {% include publication-card.html item=post type="Book Chapter" link_label="Link" %}
+  {% endfor %}
+
+  {% if chapters.size > 3 %}
+  <div class="view-all">
+    <a href="/publications/book-chapters/">View all book chapters →</a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% assign conferences = site.publications | where: "category", "conference-papers" | sort: "date" | reverse %}
+{% if conferences.size > 0 %}
+<section class="pub-section">
+  <h2 class="pub-section-title">Conference Papers <span class="pub-count">{{ conferences.size }}</span></h2>
+
+  {% for post in conferences limit:3 %}
+    {% include publication-card.html item=post type="Conference Paper" link_label="Link" %}
+  {% endfor %}
+
+  {% if conferences.size > 3 %}
+  <div class="view-all">
+    <a href="/publications/conference-papers/">View all conference papers →</a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% assign reviews = site.publications | where: "category", "book-reviews" | sort: "date" | reverse %}
+{% if reviews.size > 0 %}
+<section class="pub-section">
+  <h2 class="pub-section-title">Book Reviews <span class="pub-count">{{ reviews.size }}</span></h2>
+
+  {% for post in reviews limit:3 %}
+    {% include publication-card.html item=post type="Book Review" link_label="Link" %}
+  {% endfor %}
+
+  {% if reviews.size > 3 %}
+  <div class="view-all">
+    <a href="/publications/book-reviews/">View all book reviews →</a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
 
