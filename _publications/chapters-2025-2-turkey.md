@@ -1,7 +1,7 @@
 ---
 title: "Turkey"
 collection: publications
-category: journal-articles
+category: book-chapters
 permalink: /publication/article-2025-3-lacanian-family
 date: 2025-01-01
 venue: "The Palgrave Geopolitical Atlas"
