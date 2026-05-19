@@ -15,7 +15,7 @@ This article examines the relationship between political authority, recognition,
 
 ## Citation
 
-Kıcıroğlu, Nuri, and Ayşegül Komsuoğlu. 2022. “Türk Yükseköğretiminde Üniversite Yeniden Yapılanırken “İlmi Yurda Götürmek”: Üniversite Haftaları Örneği.” *Yakın Dönem Türkiye Araştırmaları* 0 (41): 1–29.
+Kıcıroğlu, Nuri Fudayl, and Ayşegül Komsuoğlu. 2022. “Türk Yükseköğretiminde Üniversite Yeniden Yapılanırken “İlmi Yurda Götürmek”: Üniversite Haftaları Örneği.” *Yakın Dönem Türkiye Araştırmaları* 0 (41): 1–29.
 
 ## Abstract
 
