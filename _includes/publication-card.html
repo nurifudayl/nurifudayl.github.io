@@ -1,1 +1,31 @@
+{% assign item = include.item %}
 
+<div class="pub-card">
+  <div class="pub-meta">
+    <span class="pub-year">{{ item.date | date: "%Y" }}</span>
+    {{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}
+  </div>
+
+  <div class="pub-title">
+    {{ item.title }}
+  </div>
+
+  {% if item.indexing %}
+  <div class="pub-indexes">
+    {% for index in item.indexing %}
+      <span class="pub-index-badge">{{ index }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="pub-description">
+    {{ item.excerpt | strip_html | truncatewords: 45 }}
+  </div>
+
+  <div class="pub-links">
+    {% if item.paperurl %}
+      <a href="{{ item.paperurl }}">{{ include.link_label }}</a>
+    {% endif %}
+    <a href="{{ item.url | relative_url }}">Details</a>
+  </div>
+</div>
