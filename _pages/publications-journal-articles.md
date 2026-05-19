@@ -7,6 +7,10 @@ author_profile: true
 
 {% include publications-style.html %}
 
+<p class="back-link">
+  <a href="/publications/">← Back to Publications</a>
+</p>
+
 {% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
 
 {% for post in articles %}
