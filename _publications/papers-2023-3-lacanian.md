@@ -5,7 +5,6 @@ category: conference-papers
 permalink: /publication/papers-2023-3-lacanian
 date: 2024-01-01
 venue: "16th EISA Pan-European Conferance on International Relations"
-paperurl: ""
 indexing:
 ---
 
