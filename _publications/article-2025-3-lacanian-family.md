@@ -2,7 +2,7 @@
 title: "Türkiye-Greece-Cyprus, and the West: A Lacanian Family Portrait"
 collection: publications
 category: journal-articles
-permalink: /publication/article-2025-lacanian-family
+permalink: /publication/article-2025-3-lacanian-family
 date: 2025-01-01
 venue: "Critical Studies on Security"
 paperurl: "https://doi.org/10.1080/21624887.2024.2380550"
