@@ -1,8 +1,8 @@
 ---
-title: "Turkey"
+title: "Ahlakın ve Özgürlüğün Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
 collection: publications
 category: book-chapters
-permalink: /publication/chapters-2019-1-arendt
+permalink: /publication/chapters-2019-1-ahlak
 date: 2019-01-01
 venue: "Toplum, Siyaset ve Etik: Felsefi Soruşturmalar"
 paperurl: "https://www.researchgate.net/publication/335542438_Ozgurluk_ve_Ahlakin_Cozulusu_Arendt'te_Devletin_Politik_Alanda_Tahakkumu"
