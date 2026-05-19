@@ -1,14 +1,23 @@
 ---
-title: "Paper Title Number 1"
+title: "Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: books
+permalink: /publication/2024-eski-rejimin-mesruiyeti
+date: 2024-01-01
+venue: "Selenge Yayınları"
+paperurl: "YAYINEVİ-LİNKİ"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This book examines seventeenth-century Ottoman advice literature as a historically situated field of political argument about legitimacy, authority, and social order.
+
+## Citation
+
+Kıcıroğlu, Nuri Fudayl. 2024. *Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme*. İstanbul: Selenge Yayınları.
+
+## About the Book
+
+This study approaches Ottoman advice literature not merely as a moral or administrative genre, but as a political language through which different forms of legitimacy were articulated. It argues that texts commonly grouped under the same genre defended different visions of social and political order.
+
+## Keywords
+
+**Ottoman political thought**, **advice literature**, **legitimacy**, **seventeenth century**, **political authority**
