@@ -10,6 +10,7 @@ indexing:
 ---
 
 
+
 ## Citation
 
 Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü.” In *Bildiri Özetleri Kitabı*, editor Selma Aydın Bayram and Erat Yağanak, 40-43. Ankara: Toplum ve Siyaset Felsefesi Derneği.
