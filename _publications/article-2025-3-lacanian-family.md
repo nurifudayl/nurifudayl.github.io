@@ -6,16 +6,20 @@ permalink: /publication/article-2025-3-lacanian-family
 date: 2025-01-01
 venue: "Critical Studies on Security"
 paperurl: "https://doi.org/10.1080/21624887.2024.2380550"
+link_label: "DOI / Link"
+citation: "Kıcıroğlu, Ceren Melis, and Nuri Fudayl Kıcıroğlu. 2025. “Türkiye-Greece-Cyprus, and the West: A Lacanian Family Portrait.” *Critical Studies on Security* 13 (3): 349–366."
 indexing:
   - ESCI
   - Scopus
+keywords:
+  - Lacanian Psychoanalysis
+  - Ontological Security Studies
+  - Cyprus conflict
+  - Türkiye
+  - Greece
 ---
 
 This article examines the relationship between Türkiye-Greece-Cyprus, and the West through a Lacanian reading of Ontological Security Studies.
-
-## Citation
-
-Kıcıroğlu, Ceren Melis, and Nuri Fudayl Kıcıroğlu. 2025. “Türkiye-Greece-Cyprus, and the West: A Lacanian Family Portrait.” *Critical Studies on Security* 13 (3): 349–66.
 
 ## Abstract
 
@@ -27,6 +31,3 @@ This study examines the protracted Cyprus conflict by employing an Ontological S
 - Connects Lacanian psychoanaytic theory, specifically Lacanian orders, with OSS.
 - Uses Cyprus case as a historical and conceptual site for rethinking modern statehood.
 
-## Keywords
-
-**Lacanian Psychoanalysis**, **OSS (Ontological Security Studies)**, **Cyprus conflict**, **Türkiye**, **Greece**
