@@ -28,12 +28,12 @@
     {% if item.paperurl %}
       <a href="{{ item.paperurl }}" class="pub-link-button external-link" target="_blank" rel="noopener noreferrer">
         <span class="pub-link-label">{{ include.link_label }}</span>
-        <i class="fas fa-external-link-alt pub-external-icon" aria-hidden="true"></i>
+        <span class="pub-external-icon" aria-hidden="true">↗</span>
       </a>
     {% endif %}
-
+  
     <a href="{{ item.url | relative_url }}" class="pub-link-button details-link">
-      Details
+      <span class="pub-link-label">Details</span>
     </a>
   </div>
 </div>
