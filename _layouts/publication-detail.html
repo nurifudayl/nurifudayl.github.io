@@ -7,9 +7,9 @@ layout: default
 
 <style>
 .publication-detail-page {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 2.2rem 1rem 3rem 1rem;
+  padding: 2.4rem 1.4rem 3rem 1.4rem;
 }
 
 .publication-detail-back {
@@ -33,28 +33,42 @@ layout: default
   border: 1px solid #D8C8BE;
   border-radius: 10px;
   background: #F4EDE4;
-  padding: 2.1rem;
+  padding: 2.2rem;
   box-shadow: 0 8px 22px rgba(78, 37, 37, 0.08);
 }
 
+/* Always keep a left visual column, even if there is no cover */
 .publication-detail-grid {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 2.2rem;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 2.4rem;
   align-items: start;
+}
+
+.publication-detail-cover {
+  width: 100%;
+  min-height: 320px;
+  border: 1px solid #D8C8BE;
+  border-radius: 6px;
+  background: rgba(244, 237, 228, 0.35);
+}
+
+.publication-detail-cover.is-empty {
+  border-style: dashed;
+  opacity: 0.45;
 }
 
 .publication-detail-cover img {
   width: 100%;
   height: auto;
   display: block;
-  border: 1px solid #D8C8BE;
   border-radius: 6px;
   box-shadow: 0 10px 25px rgba(78, 37, 37, 0.14);
 }
 
 .publication-detail-main {
   min-width: 0;
+  width: 100%;
 }
 
 .publication-detail-title {
@@ -64,6 +78,7 @@ layout: default
   line-height: 1.08 !important;
   font-weight: 700 !important;
   margin: 0 0 0.75rem 0 !important;
+  max-width: 900px;
 }
 
 .publication-detail-meta {
@@ -75,11 +90,6 @@ layout: default
   font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
   font-size: 0.95rem;
   color: #4B403A;
-}
-
-.publication-detail-meta span {
-  display: inline-flex;
-  align-items: center;
 }
 
 .publication-detail-meta .meta-separator {
@@ -101,6 +111,7 @@ layout: default
   color: #222222;
   font-size: 1rem;
   line-height: 1.72;
+  max-width: 900px;
 }
 
 .publication-detail-content p {
@@ -193,12 +204,21 @@ layout: default
     grid-template-columns: 1fr;
   }
 
+  .publication-detail-cover.is-empty {
+    display: none;
+  }
+
   .publication-detail-cover {
     max-width: 270px;
+    min-height: auto;
   }
 
   .publication-detail-title {
     font-size: 2.35rem !important;
+  }
+
+  .publication-detail-content {
+    max-width: 100%;
   }
 }
 </style>
@@ -217,6 +237,8 @@ layout: default
       <aside class="publication-detail-cover">
         <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}">
       </aside>
+      {% else %}
+      <aside class="publication-detail-cover is-empty" aria-hidden="true"></aside>
       {% endif %}
 
       <section class="publication-detail-main">
