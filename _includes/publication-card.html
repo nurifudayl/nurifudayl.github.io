@@ -1,48 +1,43 @@
 {% assign item = include.item %}
 
-<article class="pub-card">
-  <div class="pub-card-content">
+<div class="pub-card">
+  <div class="pub-meta">
+    <span class="pub-year">{{ item.date | date: "%Y" }}</span>
+    {{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}
+  </div>
 
-    <div class="pub-meta">
-      <span class="pub-year">{{ item.date | date: "%Y" }}</span>
-      <span>{{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}</span>
-    </div>
+  <div class="pub-title">
+    {{ item.title }}
+  </div>
 
-    <h3 class="pub-title">
-      {{ item.title }}
-    </h3>
+  {% if item.indexing %}
+  <div class="pub-indexes">
+    {% for index in item.indexing %}
+      <span class="pub-index-badge">{{ index }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
 
-    {% if item.indexing %}
-    <div class="pub-indexes">
-      {% for index in item.indexing %}
-        <span class="pub-index-badge">{{ index }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-
-    <div class="pub-description">
-      {{ item.excerpt | strip_html | truncatewords: 38 }}
-    </div>
-
+  <div class="pub-description">
+    {{ item.excerpt | strip_html | truncatewords: 38 }}
   </div>
 
   <div class="pub-links">
     {% if item.paperurl %}
-      <a href="{{ item.paperurl }}" class="external-link" target="_blank" rel="noopener noreferrer">
+      <a href="{{ item.paperurl }}" class="pub-link-button external-link" target="_blank" rel="noopener noreferrer">
         <span>{{ include.link_label }}</span>
         <span class="external-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M7 17L17 7"></path>
             <path d="M10 7h7v7"></path>
-            <path d="M19 13v6H5V5h6"></path>
+            <path d="M19 15v4H5V5h4"></path>
           </svg>
         </span>
       </a>
     {% endif %}
 
-    <a href="{{ item.url | relative_url }}" class="details-link">
-      <span>Details</span>
-      <span class="details-arrow">→</span>
+    <a href="{{ item.url | relative_url }}" class="pub-link-button details-link">
+      Details
     </a>
   </div>
-</article>
+</div>
