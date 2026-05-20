@@ -1,1 +1,271 @@
+---
+layout: default
+---
 
+{% include base_path %}
+{% include publications-style.html %}
+
+<style>
+.publication-detail-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.publication-detail-container {
+  border: 1px solid #D8C8BE;
+  border-radius: 10px;
+  background: #F4EDE4;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.publication-detail-grid {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.publication-detail-cover {
+  width: 100%;
+}
+
+.publication-detail-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #D8C8BE;
+  border-radius: 6px;
+}
+
+.publication-detail-main {
+  min-width: 0;
+}
+
+.publication-detail-title {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: #7A3E3E !important;
+  font-size: 3rem !important;
+  line-height: 1.08 !important;
+  font-weight: 700 !important;
+  margin: 0 0 0.75rem 0 !important;
+}
+
+.publication-detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #5A5149;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.98rem;
+}
+
+.publication-detail-meta .meta-separator {
+  color: #7A3E3E;
+}
+
+.publication-detail-divider {
+  height: 1px;
+  background: #D8C8BE;
+  margin: 1rem 0 1.25rem 0;
+}
+
+.publication-detail-summary {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  color: #222222;
+  font-size: 1rem;
+  line-height: 1.72;
+  margin-bottom: 1.4rem;
+}
+
+.publication-detail-summary p {
+  margin-bottom: 1rem;
+}
+
+.publication-detail-primary-link {
+  margin: 1.2rem 0 1.7rem 0;
+}
+
+.publication-detail-content {
+  margin-top: 1.2rem;
+}
+
+.publication-detail-content h2,
+.publication-detail-content h3 {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: #7A3E3E !important;
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-detail-content p,
+.publication-detail-content li {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  color: #222222;
+  line-height: 1.72;
+}
+
+.publication-detail-content ul {
+  margin-top: 0.4rem;
+}
+
+.publication-detail-keywords {
+  margin-top: 1.2rem;
+}
+
+.publication-detail-share {
+  margin-top: 2rem;
+}
+
+.publication-detail-share-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 1rem 0;
+  color: #7A3E3E;
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.publication-detail-share-divider::before,
+.publication-detail-share-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #D8C8BE;
+}
+
+.publication-detail-share-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.publication-detail-share-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.85rem;
+  padding: 0.3rem 0.75rem;
+  border: 1.4px solid #7A3E3E;
+  border-radius: 3px;
+  background: #F4EDE4;
+  color: #7A3E3E !important;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+}
+
+.publication-detail-share-links a:hover {
+  background: #7A3E3E;
+  color: #FFFFFF !important;
+  border-color: #7A3E3E;
+}
+
+@media (max-width: 900px) {
+  .publication-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-detail-cover {
+    max-width: 280px;
+  }
+
+  .publication-detail-title {
+    font-size: 2.4rem !important;
+  }
+}
+</style>
+
+<article class="publication-detail-page">
+
+  <p class="publication-back-link">
+    <a href="{{ '/publications/' | relative_url }}">← Back to Publications</a>
+  </p>
+
+  <div class="publication-detail-container">
+
+    <div class="publication-detail-grid">
+
+      {% if page.cover %}
+      <div class="publication-detail-cover">
+        <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}">
+      </div>
+      {% endif %}
+
+      <div class="publication-detail-main">
+        <h1 class="publication-detail-title">{{ page.title }}</h1>
+
+        <div class="publication-detail-meta">
+          {% if page.category %}
+            <span>{{ page.category | replace: "-", " " | capitalize }}</span>
+          {% endif %}
+
+          {% if page.date %}
+            <span class="meta-separator">•</span>
+            <span>{{ page.date | date: "%Y" }}</span>
+          {% endif %}
+
+          {% if page.venue %}
+            <span class="meta-separator">•</span>
+            <span>{{ page.venue }}</span>
+          {% endif %}
+        </div>
+
+        {% if page.indexing %}
+        <div class="publication-detail-indexes">
+          {% for index in page.indexing %}
+            <span class="pub-index-badge">{{ index }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="publication-detail-divider"></div>
+
+        {% if page.excerpt %}
+        <div class="publication-detail-summary">
+          <p>{{ page.excerpt | strip_html }}</p>
+        </div>
+        {% endif %}
+
+        {% if page.paperurl %}
+        <div class="publication-detail-primary-link">
+          <a href="{{ page.paperurl }}" class="pub-link-button external-link" target="_blank" rel="noopener noreferrer">
+            <span class="pub-link-label">Publisher / Link</span>
+            <span class="pub-external-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        {% endif %}
+
+        <div class="publication-detail-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-detail-share">
+      <div class="publication-detail-share-divider">
+        <span>Share This Publication</span>
+      </div>
+
+      {% assign share_url = page.url | absolute_url %}
+      {% assign share_title = page.title | uri_escape %}
+      {% assign share_url_escaped = share_url | uri_escape %}
+
+      <div class="publication-detail-share-links">
+        <a href="https://twitter.com/intent/tweet?text={{ share_title }}&url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ share_url_escaped }}">Email</a>
+      </div>
+    </div>
+
+  </div>
+</article>
