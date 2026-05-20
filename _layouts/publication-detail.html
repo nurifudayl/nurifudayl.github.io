@@ -37,7 +37,6 @@ layout: default
   box-shadow: 0 8px 22px rgba(78, 37, 37, 0.08);
 }
 
-/* Always keep a left visual column, even if there is no cover */
 .publication-detail-grid {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
@@ -77,7 +76,7 @@ layout: default
   font-size: 3rem !important;
   line-height: 1.08 !important;
   font-weight: 700 !important;
-  margin: 0 0 0.75rem 0 !important;
+  margin: 0 0 0.85rem 0 !important;
   max-width: 900px;
 }
 
@@ -85,15 +84,28 @@ layout: default
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 0.9rem;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
   font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   color: #4B403A;
 }
 
-.publication-detail-meta .meta-separator {
+.publication-detail-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.publication-detail-icon {
+  width: 1.05rem;
+  height: 1.05rem;
   color: #7A3E3E;
+  flex-shrink: 0;
+}
+
+.publication-detail-meta .meta-separator {
+  color: #B9A79A;
 }
 
 .publication-detail-indexes {
@@ -141,62 +153,168 @@ layout: default
   margin-bottom: 1rem;
 }
 
-.publication-detail-primary-link {
-  margin-top: 1.6rem;
-}
-
-.publication-share {
-  margin-top: 2.3rem;
-}
-
-.publication-share-divider {
+/* Citation box with copy button */
+.publication-citation-box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1rem;
-  color: #7A3E3E;
-  font-family: "Cormorant Garamond", Georgia, serif !important;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+
+  border: 1px solid #D8C8BE;
+  border-radius: 6px;
+  background: #F4EDE4;
+  padding: 0.95rem 1rem;
+  margin: 1.4rem 0 1.4rem 0;
 }
 
-.publication-share-divider::before,
-.publication-share-divider::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #D8C8BE;
+.publication-citation-text {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  color: #222222;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.copy-citation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+
+  min-height: 1.85rem;
+  padding: 0.32rem 0.72rem;
+
+  border: 1.4px solid #7A3E3E;
+  border-radius: 3px;
+
+  background: #F4EDE4;
+  color: #7A3E3E;
+
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copy-citation-button:hover {
+  background: #7A3E3E;
+  color: #FFFFFF;
+}
+
+/* Publisher link: filled burgundy */
+.publication-detail-primary-link {
+  margin-top: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.publication-detail-primary-link a.pub-link-button {
+  background: #7A3E3E !important;
+  color: #FFFFFF !important;
+  border-color: #7A3E3E !important;
+  padding: 0.48rem 0.95rem !important;
+  min-height: 2.25rem !important;
+  font-size: 0.88rem !important;
+}
+
+.publication-detail-primary-link a.pub-link-button:hover {
+  background: #4E2525 !important;
+  border-color: #4E2525 !important;
+  color: #FFFFFF !important;
+}
+
+.publication-detail-primary-link .pub-external-icon {
+  background: #7A3E3E !important;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+/* Keywords */
+.publication-keywords {
+  margin-top: 1.3rem;
+}
+
+.publication-keywords-title {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: #7A3E3E;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.publication-keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.publication-keyword-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.3px solid #7A3E3E;
+  border-radius: 999px;
+  background: #F4EDE4;
+  color: #7A3E3E;
+  padding: 0.22rem 0.68rem;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Share */
+.publication-share {
+  margin-top: 2.4rem;
+  border-top: 1px solid #D8C8BE;
+  padding-top: 1.25rem;
+}
+
+.publication-share-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.publication-share-title {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: #7A3E3E;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-right: 0.2rem;
 }
 
 .publication-share-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
 }
 
 .publication-share-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 1.85rem;
-  padding: 0.32rem 0.78rem;
+
+  width: 2.15rem;
+  height: 2.15rem;
+
   border: 1.4px solid #7A3E3E;
-  border-radius: 3px;
+  border-radius: 999px;
+
   background: #F4EDE4;
   color: #7A3E3E !important;
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 0.78rem;
-  font-weight: 600;
-  line-height: 1;
+
   text-decoration: none !important;
 }
 
 .publication-share-links a:hover {
   background: #7A3E3E;
   color: #FFFFFF !important;
-  border-color: #7A3E3E;
+}
+
+.publication-share-links svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: currentColor;
 }
 
 @media (max-width: 900px) {
@@ -219,6 +337,16 @@ layout: default
 
   .publication-detail-content {
     max-width: 100%;
+  }
+
+  .publication-citation-box {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .publication-share-row {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 </style>
@@ -246,18 +374,27 @@ layout: default
         <h1 class="publication-detail-title">{{ page.title }}</h1>
 
         <div class="publication-detail-meta">
-          {% if page.category %}
-            <span>{{ page.category | replace: "-", " " | capitalize }}</span>
-          {% endif %}
-
           {% if page.date %}
-            <span class="meta-separator">•</span>
-            <span>{{ page.date | date: "%Y" }}</span>
+            <span class="publication-detail-meta-item">
+              <svg class="publication-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              {{ page.date | date: "%Y" }}
+            </span>
           {% endif %}
 
           {% if page.venue %}
-            <span class="meta-separator">•</span>
-            <span>{{ page.venue }}</span>
+            <span class="meta-separator">|</span>
+            <span class="publication-detail-meta-item">
+              <svg class="publication-detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
+              </svg>
+              {{ page.venue }}
+            </span>
           {% endif %}
         </div>
 
@@ -275,12 +412,40 @@ layout: default
           {{ content }}
         </div>
 
+        {% if page.citation %}
+        <div class="publication-citation-box">
+          <div class="publication-citation-text" id="citation-text">
+            {{ page.citation }}
+          </div>
+          <button class="copy-citation-button" type="button" onclick="copyCitationText()">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </span>
+            Copy citation
+          </button>
+        </div>
+        {% endif %}
+
         {% if page.paperurl %}
         <div class="publication-detail-primary-link">
           <a href="{{ page.paperurl }}" class="pub-link-button external-link" target="_blank" rel="noopener noreferrer">
             <span class="pub-link-label">Publisher / Link</span>
             <span class="pub-external-icon" aria-hidden="true">↗</span>
           </a>
+        </div>
+        {% endif %}
+
+        {% if page.keywords %}
+        <div class="publication-keywords">
+          <div class="publication-keywords-title">Keywords</div>
+          <div class="publication-keyword-list">
+            {% for keyword in page.keywords %}
+              <span class="publication-keyword-pill">{{ keyword }}</span>
+            {% endfor %}
+          </div>
         </div>
         {% endif %}
 
@@ -291,20 +456,59 @@ layout: default
   </article>
 
   <section class="publication-share">
-    <div class="publication-share-divider">
-      <span>Share This Publication</span>
-    </div>
+    <div class="publication-share-row">
+      <div class="publication-share-title">Share</div>
 
-    {% assign share_url = page.url | absolute_url %}
-    {% assign share_title = page.title | uri_escape %}
-    {% assign share_url_escaped = share_url | uri_escape %}
+      {% assign share_url = page.url | absolute_url %}
+      {% assign share_title = page.title | uri_escape %}
+      {% assign share_url_escaped = share_url | uri_escape %}
 
-    <div class="publication-share-links">
-      <a href="https://twitter.com/intent/tweet?text={{ share_title }}&url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">X / Twitter</a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer">Facebook</a>
-      <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ share_url_escaped }}">Email</a>
+      <div class="publication-share-links">
+        <a href="https://twitter.com/intent/tweet?text={{ share_title }}&url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer" aria-label="Share on X">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-7.4L6.4 22H3.3l7.3-8.4L2.8 2h6.4l4.4 6.6L18.9 2zm-1.1 18h1.7L8.3 3.9H6.5L17.8 20z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.9-2.2 3.9-2.2 4.2 0 5 2.8 5 6.4V24h-4v-8.5c0-2 0-4.6-2.8-4.6s-3.2 2.2-3.2 4.5V24h-4V8z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url_escaped }}" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22.7 0H1.3C.6 0 0 .6 0 1.3v21.4C0 23.4.6 24 1.3 24h11.5v-9.3H9.7v-3.6h3.1V8.4c0-3.1 1.9-4.8 4.7-4.8 1.3 0 2.5.1 2.8.1V7h-1.9c-1.5 0-1.8.7-1.8 1.8v2.3h3.6l-.5 3.6h-3.1V24h6.1c.7 0 1.3-.6 1.3-1.3V1.3C24 .6 23.4 0 22.7 0z"/>
+          </svg>
+        </a>
+
+        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ share_url_escaped }}" aria-label="Share by email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4C1.8 4 0 5.8 0 8v8c0 2.2 1.8 4 4 4h16c2.2 0 4-1.8 4-4V8c0-2.2-1.8-4-4-4zm0 2-8 5-8-5h16zM4 18c-1.1 0-2-.9-2-2V8.2l9.5 5.9c.3.2.7.2 1 0L22 8.2V16c0 1.1-.9 2-2 2H4z"/>
+          </svg>
+        </a>
+      </div>
     </div>
   </section>
 
 </main>
+
+<script>
+function copyCitationText() {
+  var citation = document.getElementById("citation-text");
+  if (!citation) return;
+
+  var text = citation.innerText.trim();
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text);
+  } else {
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+  }
+}
+</script>
