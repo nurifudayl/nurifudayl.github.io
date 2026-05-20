@@ -267,5 +267,45 @@ body,
   .pub-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Final unified badge style: year, indexes, and section counts */
+.pub-year,
+.pub-index-badge,
+.pub-count {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  min-height: 1.75rem !important;
+  padding: 0.26rem 0.68rem !important;
+
+  border: 1.4px solid #7A3E3E !important;
+  border-radius: 3px !important;
+
+  background: #F4EDE4 !important;
+  color: #7A3E3E !important;
+
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* Small spacing adjustments */
+.pub-year {
+  margin-right: 0.45rem !important;
+}
+
+.pub-index-badge {
+  margin-right: 0.3rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pub-count {
+  margin-left: 0.15rem !important;
+  white-space: nowrap !important;
 }  
 </style>
