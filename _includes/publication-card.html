@@ -19,13 +19,13 @@
   {% endif %}
 
   <div class="pub-description">
-    {{ item.excerpt | strip_html | truncatewords: 45 }}
+    {{ item.excerpt | strip_html | truncatewords: 38 }}
   </div>
 
   <div class="pub-links">
     {% if item.paperurl %}
-      <a href="{{ item.paperurl }}">{{ include.link_label }}</a>
+      <a href="{{ item.paperurl }}">{{ include.link_label }} ↗</a>
     {% endif %}
-    <a href="{{ item.url | relative_url }}">Details</a>
+    <a href="{{ item.url | relative_url }}">Details →</a>
   </div>
 </div>
