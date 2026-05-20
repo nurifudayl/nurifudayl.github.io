@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 ---
 
 {% include base_path %}
@@ -7,23 +7,23 @@ layout: default
 
 <style>
 .publication-detail-page {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 1rem 2rem 1rem;
+  max-width: 100%;
 }
 
 .publication-detail-container {
   border: 1px solid #D8C8BE;
+  border-left: 5px solid #7A3E3E;
   border-radius: 10px;
   background: #F4EDE4;
-  padding: 2rem;
+  padding: 1.6rem 1.7rem;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .publication-detail-grid {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 2rem;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 1.8rem;
   align-items: start;
 }
 
@@ -37,6 +37,7 @@ layout: default
   height: auto;
   border: 1px solid #D8C8BE;
   border-radius: 6px;
+  box-shadow: 0 8px 22px rgba(78, 37, 37, 0.12);
 }
 
 .publication-detail-main {
@@ -46,7 +47,7 @@ layout: default
 .publication-detail-title {
   font-family: "Cormorant Garamond", Georgia, serif !important;
   color: #7A3E3E !important;
-  font-size: 3rem !important;
+  font-size: 2.45rem !important;
   line-height: 1.08 !important;
   font-weight: 700 !important;
   margin: 0 0 0.75rem 0 !important;
@@ -55,16 +56,20 @@ layout: default
 .publication-detail-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.55rem;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   color: #5A5149;
   font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
 }
 
 .publication-detail-meta .meta-separator {
   color: #7A3E3E;
+}
+
+.publication-detail-indexes {
+  margin-bottom: 0.9rem;
 }
 
 .publication-detail-divider {
@@ -73,33 +78,20 @@ layout: default
   margin: 1rem 0 1.25rem 0;
 }
 
-.publication-detail-summary {
+.publication-detail-content {
+  margin-top: 0;
   font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
   color: #222222;
-  font-size: 1rem;
   line-height: 1.72;
-  margin-bottom: 1.4rem;
-}
-
-.publication-detail-summary p {
-  margin-bottom: 1rem;
-}
-
-.publication-detail-primary-link {
-  margin: 1.2rem 0 1.7rem 0;
-}
-
-.publication-detail-content {
-  margin-top: 1.2rem;
 }
 
 .publication-detail-content h2,
 .publication-detail-content h3 {
   font-family: "Cormorant Garamond", Georgia, serif !important;
   color: #7A3E3E !important;
-  font-size: 1.8rem;
-  margin-top: 1.6rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.45rem;
 }
 
 .publication-detail-content p,
@@ -113,12 +105,13 @@ layout: default
   margin-top: 0.4rem;
 }
 
-.publication-detail-keywords {
-  margin-top: 1.2rem;
+.publication-detail-primary-link {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .publication-detail-share {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 
 .publication-detail-share-divider {
@@ -175,11 +168,11 @@ layout: default
   }
 
   .publication-detail-cover {
-    max-width: 280px;
+    max-width: 260px;
   }
 
   .publication-detail-title {
-    font-size: 2.4rem !important;
+    font-size: 2.1rem !important;
   }
 }
 </style>
@@ -201,6 +194,7 @@ layout: default
       {% endif %}
 
       <div class="publication-detail-main">
+
         <h1 class="publication-detail-title">{{ page.title }}</h1>
 
         <div class="publication-detail-meta">
@@ -229,11 +223,9 @@ layout: default
 
         <div class="publication-detail-divider"></div>
 
-        {% if page.excerpt %}
-        <div class="publication-detail-summary">
-          <p>{{ page.excerpt | strip_html }}</p>
+        <div class="publication-detail-content">
+          {{ content }}
         </div>
-        {% endif %}
 
         {% if page.paperurl %}
         <div class="publication-detail-primary-link">
@@ -244,9 +236,6 @@ layout: default
         </div>
         {% endif %}
 
-        <div class="publication-detail-content">
-          {{ content }}
-        </div>
       </div>
     </div>
 
