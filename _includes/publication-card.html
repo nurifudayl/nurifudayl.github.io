@@ -4,8 +4,13 @@
   <div class="pub-card-content">
     <div class="pub-meta">
       <span class="pub-year">{{ item.date | date: "%Y" }}</span>
+
+      {% if include.type %}
+        <span class="pub-type">{{ include.type }}</span>
+      {% endif %}
+
       {% if item.venue %}
-        <span>{{ item.venue }}</span>
+        <span class="pub-venue">{{ item.venue }}</span>
       {% endif %}
     </div>
 
@@ -21,9 +26,11 @@
     </div>
     {% endif %}
 
+    {% if item.excerpt %}
     <div class="pub-description">
       {{ item.excerpt | strip_html | truncatewords: 38 }}
     </div>
+    {% endif %}
   </div>
 
   <div class="pub-links">
@@ -39,7 +46,7 @@
         </span>
       </a>
     {% endif %}
-  
+
     <a href="{{ item.url | relative_url }}" class="pub-link-button details-link">
       <span class="pub-link-label">Details</span>
     </a>
