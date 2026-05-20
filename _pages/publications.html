@@ -5,147 +5,88 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style>
-.publications-intro {
-  font-size: 0.98rem;
-  line-height: 1.65;
-  color: #444;
-  margin-bottom: 2rem;
-}
+{% include publications-style.html %}
 
-.pub-section {
-  margin-top: 2.2rem;
-  margin-bottom: 2.4rem;
-}
+<p class="publications-intro">
+A selection of my books, journal articles, book chapters, and conference papers.
+</p>
 
-.pub-section h2 {
-  font-size: 1.25rem;
-  border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 0.4rem;
-  margin-bottom: 1rem;
-}
-
-.pub-card {
-  border: 1px solid #e5e5e5;
-  border-left: 4px solid #8a6f3d;
-  border-radius: 10px;
-  padding: 1rem 1.15rem;
-  margin-bottom: 1rem;
-  background: #fff;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.pub-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-}
-
-.pub-label {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #5f4b24;
-  background: #f4f1eb;
-  border-radius: 999px;
-  padding: 0.15rem 0.6rem;
-  margin-bottom: 0.55rem;
-}
-
-.pub-title {
-  font-size: 1.02rem;
-  font-weight: 650;
-  line-height: 1.45;
-  margin-bottom: 0.35rem;
-}
-
-.pub-meta {
-  font-size: 0.85rem;
-  color: #666;
-  margin-bottom: 0.65rem;
-}
-
-.pub-description {
-  font-size: 0.92rem;
-  line-height: 1.6;
-  color: #333;
-  margin-bottom: 0.7rem;
-}
-
-.pub-links a {
-  display: inline-block;
-  border: 1px solid #d6c6aa;
-  border-radius: 999px;
-  padding: 0.18rem 0.7rem;
-  margin-right: 0.4rem;
-  font-size: 0.82rem;
-  text-decoration: none;
-}
-
-.pub-links a:hover {
-  background: #222;
-  color: #fff;
-  border-color: #222;
-}
-</style>
-
-<div class="publications-intro" markdown="1">
-
-My publications are situated at the intersection of **political theory**, **the history of political thought**, **Turkish political life**, and **international relations**. Rather than reproducing a full bibliographic record here, this page highlights selected works and research outputs. A complete list is available in my **CV** and academic profiles.
-
-</div>
-
-<div class="pub-section" markdown="1">
-
-## Featured Book
-
-<div class="pub-card">
-  <div class="pub-label">Book</div>
-  <div class="pub-title"><em>Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme</em></div>
-  <div class="pub-meta">Selenge Yayınları</div>
-  <div class="pub-description">
-    This book examines seventeenth-century Ottoman advice literature as a historically situated field of political argument about legitimacy, authority, and social order.
+{% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
+{% if books.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Books <span class="pub-count">{{ books.size }}</span></h2>
+    {% if books.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/books/">View all books →</a>
+    </div>
+    {% endif %}
   </div>
-  <div class="pub-links">
-    <a href="#">Publisher</a>
+
+  <div class="pub-grid">
+    {% for post in books limit:3 %}
+      {% include publication-card.html item=post type="Book" link_label="Publisher / Link" %}
+    {% endfor %}
   </div>
-</div>
+</section>
+{% endif %}
 
-</div>
-
-<div class="pub-section" markdown="1">
-
-## Selected Works and Research Outputs
-
-<div class="pub-card">
-  <div class="pub-label">Research Area</div>
-  <div class="pub-title">Legitimacy and Political Authority</div>
-  <div class="pub-description">
-    My work examines how political authority is justified, contested, and made intelligible through historically situated political languages.
+{% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
+{% if articles.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Journal Articles <span class="pub-count">{{ articles.size }}</span></h2>
+    {% if articles.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/journal-articles/">View all journal articles →</a>
+    </div>
+    {% endif %}
   </div>
-</div>
 
-<div class="pub-card">
-  <div class="pub-label">Research Area</div>
-  <div class="pub-title">Modern Turkish Political Life and Constitutional Thought</div>
-  <div class="pub-description">
-    My current research turns toward the 1960 constitution-making process in Türkiye, with particular attention to the intellectual worlds of jurists and the transformation of legal doctrines over time.
+  <div class="pub-grid">
+    {% for post in articles limit:3 %}
+      {% include publication-card.html item=post type="Journal Article" link_label="DOI / Link" %}
+    {% endfor %}
   </div>
-</div>
+</section>
+{% endif %}
 
-<div class="pub-card">
-  <div class="pub-label">Project</div>
-  <div class="pub-title">Political Science Education, Games, Simulations, and AI</div>
-  <div class="pub-description">
-    I am involved in projects that develop innovative practices in political science education through games, simulations, game design, emerging technologies, and artificial intelligence.
+{% assign chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
+{% if chapters.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Book Chapters <span class="pub-count">{{ chapters.size }}</span></h2>
+    {% if chapters.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/book-chapters/">View all book chapters →</a>
+    </div>
+    {% endif %}
   </div>
-</div>
 
-</div>
+  <div class="pub-grid">
+    {% for post in chapters limit:3 %}
+      {% include publication-card.html item=post type="Book Chapter" link_label="Link" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-<div class="pub-section" markdown="1">
+{% assign conferences = site.publications | where: "category", "conference-papers" | sort: "date" | reverse %}
+{% if conferences.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Conference Papers <span class="pub-count">{{ conferences.size }}</span></h2>
+    {% if conferences.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/conference-papers/">View all conference papers →</a>
+    </div>
+    {% endif %}
+  </div>
 
-## Full Academic Record
-
-For a complete bibliographic list of my publications, please see my **CV**, **Google Scholar**, **ORCID**, or **YÖK Akademik** profile.
-
-</div>
+  <div class="pub-grid">
+    {% for post in conferences limit:3 %}
+      {% include publication-card.html item=post type="Conference Paper" link_label="Link" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
