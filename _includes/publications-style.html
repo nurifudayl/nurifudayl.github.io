@@ -1,15 +1,47 @@
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
 body,
 .initial-content {
   background-color: #F4EDE4;
 }
-  
+
+/* Typography */
+body,
+.page__content,
+.publications-intro,
+.pub-meta,
+.pub-description,
+.pub-links a,
+.publication-back-link,
+.citation-box,
+.keyword-pill {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.page__title,
+.pub-section-title,
+.pub-title,
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+}
+
+.page__title {
+  color: #7A3E3E !important;
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em;
+}
+
 .publications-intro {
   margin-bottom: 2rem;
   font-size: 0.98rem;
   color: #555;
 }
 
+/* Sections */
 .pub-section {
   margin-top: 2.6rem;
   margin-bottom: 3.2rem;
@@ -28,19 +60,10 @@ body,
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  font-size: 1.35rem;
-  color: #7A3E3E;
+  font-size: 1.65rem !important;
+  font-weight: 700 !important;
+  color: #7A3E3E !important;
   margin: 0;
-}
-
-.pub-count {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 600;
-  background: #F3E7E7;
-  color: #4E2525;
-  border-radius: 999px;
-  padding: 0.1rem 0.5rem;
 }
 
 .view-all {
@@ -68,7 +91,7 @@ body,
 
 /* Publication card */
 .pub-card {
-  border: 1px solid #E2CCCC;
+  border: 1px solid #D8C8BE;
   border-left: 5px solid #7A3E3E;
   border-radius: 8px;
   background: #F4EDE4;
@@ -97,41 +120,18 @@ body,
   margin-bottom: 0.55rem;
 }
 
-.pub-year {
-  display: inline-block;
-  font-size: 0.74rem;
-  font-weight: 600;
-  color: #4E2525;
-  background: #F3E7E7;
-  border-radius: 4px;
-  padding: 0.13rem 0.45rem;
-  margin-right: 0.45rem;
-}
-
 .pub-title {
-  font-size: 1rem;
-  font-weight: 650;
-  line-height: 1.4;
-  color: #222222;
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 1.18rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35;
+  color: #222222 !important;
   margin: 0 0 0.45rem 0;
 }
 
 .pub-indexes {
   margin-top: 0.25rem;
   margin-bottom: 0.55rem;
-}
-
-.pub-index-badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #4E2525;
-  background: #F3E7E7;
-  border: 1px solid #D4B0B0;
-  border-radius: 4px;
-  padding: 0.1rem 0.42rem;
-  margin-right: 0.3rem;
-  margin-bottom: 0.25rem;
 }
 
 .pub-description {
@@ -153,7 +153,6 @@ body,
 }
 
 /* Button base */
-/* More compact external-link / details buttons */
 .pub-links a.pub-link-button,
 .pub-links a.pub-link-button:visited {
   display: inline-flex !important;
@@ -188,7 +187,19 @@ body,
   box-shadow: none !important;
 }
 
-.pub-links a.pub-link-button:hover {
+/* External DOI / Publisher links: same as page/card background */
+.pub-links a.external-link,
+.pub-links a.external-link:visited,
+.pub-links a.pub-link-button.external-link,
+.pub-links a.pub-link-button.external-link:visited {
+  background: #F4EDE4 !important;
+  color: #7A3E3E !important;
+  border-color: #7A3E3E !important;
+}
+
+/* External link hover */
+.pub-links a.external-link:hover,
+.pub-links a.pub-link-button.external-link:hover {
   background: #7A3E3E !important;
   color: #FFFFFF !important;
   border-color: #7A3E3E !important;
@@ -196,18 +207,37 @@ body,
   box-shadow: none !important;
 }
 
+/* External icon */
 .pub-external-icon {
-  display: inline-block !important;
-  font-size: 0.72rem !important;
-  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 1.05rem !important;
+  height: 1.05rem !important;
   margin-left: 0.08rem !important;
-  color: currentColor !important;
+
+  border: 1px solid #7A3E3E !important;
+  border-radius: 3px !important;
+  background: #F4EDE4 !important;
+  color: #7A3E3E !important;
+
+  font-size: 0.68rem !important;
+  line-height: 1 !important;
+
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
 }
 
-/* Details button */
+.pub-links a.external-link:hover .pub-external-icon,
+.pub-links a.pub-link-button.external-link:hover .pub-external-icon {
+  background: #7A3E3E !important;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+/* Details button: filled burgundy */
 .pub-links a.details-link,
 .pub-links a.details-link:visited {
   background: #7A3E3E !important;
@@ -220,7 +250,48 @@ body,
   color: #FFFFFF !important;
   border-color: #4E2525 !important;
 }
-  
+
+/* Unified badge style: year, indexes, and section counts */
+.pub-year,
+.pub-index-badge,
+.pub-count {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  min-height: 1.55rem !important;
+  padding: 0.2rem 0.58rem !important;
+
+  border: 1.3px solid #7A3E3E !important;
+  border-radius: 3px !important;
+
+  background: #F4EDE4 !important;
+  color: #7A3E3E !important;
+
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.pub-year {
+  margin-right: 0.45rem !important;
+}
+
+.pub-index-badge {
+  margin-right: 0.3rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pub-count {
+  margin-left: 0.15rem !important;
+  white-space: nowrap !important;
+}
+
+/* Back link */
 .publication-back-link {
   margin-bottom: 1rem;
   font-size: 0.78rem;
@@ -237,6 +308,7 @@ body,
   text-decoration: underline;
 }
 
+/* Detail page elements */
 .citation-box {
   border: 1px solid #D8C8BE;
   background: #F4EDE4;
@@ -248,16 +320,18 @@ body,
 
 .keyword-pill {
   display: inline-block;
-  background: #F3E7E7;
-  border: 1px solid #D4B0B0;
-  color: #4E2525;
-  border-radius: 4px;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.8rem;
+  background: #F4EDE4;
+  border: 1.3px solid #7A3E3E;
+  color: #7A3E3E;
+  border-radius: 3px;
+  padding: 0.18rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 600;
   margin-right: 0.35rem;
   margin-bottom: 0.35rem;
 }
 
+/* Responsive */
 @media (max-width: 650px) {
   .pub-section-header {
     align-items: flex-start;
@@ -268,44 +342,4 @@ body,
     grid-template-columns: 1fr;
   }
 }
-
-/* Final unified badge style: year, indexes, and section counts */
-.pub-year,
-.pub-index-badge,
-.pub-count {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  min-height: 1.75rem !important;
-  padding: 0.26rem 0.68rem !important;
-
-  border: 1.4px solid #7A3E3E !important;
-  border-radius: 3px !important;
-
-  background: #F4EDE4 !important;
-  color: #7A3E3E !important;
-
-  font-size: 0.72rem !important;
-  font-weight: 600 !important;
-  line-height: 1 !important;
-
-  text-decoration: none !important;
-  box-shadow: none !important;
-}
-
-/* Small spacing adjustments */
-.pub-year {
-  margin-right: 0.45rem !important;
-}
-
-.pub-index-badge {
-  margin-right: 0.3rem !important;
-  margin-bottom: 0.25rem !important;
-}
-
-.pub-count {
-  margin-left: 0.15rem !important;
-  white-space: nowrap !important;
-}  
 </style>
