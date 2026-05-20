@@ -24,8 +24,10 @@
 
   <div class="pub-links">
     {% if item.paperurl %}
-      <a href="{{ item.paperurl }}">{{ include.link_label }} ↗</a>
+      <a href="{{ item.paperurl }}" class="external-link">
+        {{ include.link_label }} <span class="external-icon">↗</span>
+      </a>
     {% endif %}
-    <a href="{{ item.url | relative_url }}">Details →</a>
+  <a href="{{ item.url | relative_url }}">Details →</a>
   </div>
 </div>
