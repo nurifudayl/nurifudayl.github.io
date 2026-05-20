@@ -101,6 +101,36 @@ h6,
   font-weight: 700 !important;
 }
 
+/* Homepage accordion / numbered section titles */
+.page__content details summary,
+.page__content summary,
+.page__content .accordion summary,
+.page__content details > summary {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: var(--site-burgundy) !important;
+  font-size: 1.55rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.01em !important;
+  cursor: pointer !important;
+}
+
+.page__content details summary:hover,
+.page__content summary:hover {
+  color: var(--site-burgundy-dark) !important;
+}
+
+.page__content details summary::marker {
+  color: var(--site-burgundy) !important;
+}
+
+.page__content details p,
+.page__content details li,
+.page__content details div {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  color: var(--site-text) !important;
+}
+
 /* Main text */
 .page__content,
 .archive__item-excerpt,
@@ -126,7 +156,7 @@ h6,
   text-decoration-color: var(--site-burgundy-dark) !important;
 }
 
-/* FULL BURGUNDY TOP BAR */
+/* Full burgundy top bar */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
@@ -141,7 +171,6 @@ h6,
   background: var(--site-burgundy) !important;
 }
 
-/* Masthead structure */
 .masthead {
   border-bottom: 1px solid var(--site-burgundy-dark) !important;
   box-shadow: none !important;
@@ -231,7 +260,6 @@ button.search__toggle:hover {
   background: transparent !important;
 }
 
-/* SVG icons in top navigation */
 .masthead svg,
 .greedy-nav svg,
 .search__toggle svg,
@@ -240,7 +268,6 @@ button.search__toggle:hover {
   color: var(--site-bg) !important;
 }
 
-/* Prevent possible white pseudo-layers */
 .masthead::before,
 .masthead::after,
 .greedy-nav::before,
@@ -345,52 +372,4 @@ hr {
 }
 </style>
 
-/* Publication-specific typography */
-.pub-section-title,
-.pub-title {
-  font-family: var(--font-serif) !important;
-}
-
-.publications-intro,
-.pub-meta,
-.pub-description,
-.pub-links a,
-.pub-year,
-.pub-index-badge,
-.pub-count,
-.publication-back-link,
-.citation-box,
-.keyword-pill {
-  font-family: var(--font-sans) !important;
-}
-
-/* Homepage accordion / numbered section titles */
-.page__content details summary,
-.page__content summary,
-.page__content .accordion summary,
-.page__content details > summary {
-  font-family: "Cormorant Garamond", Georgia, serif !important;
-  color: #7A3E3E !important;
-  font-size: 1.55rem !important;
-  font-weight: 700 !important;
-  line-height: 1.25 !important;
-  letter-spacing: 0.01em !important;
-  cursor: pointer !important;
-}
-
-.page__content details summary:hover,
-.page__content summary:hover {
-  color: #4E2525 !important;
-}
-
-.page__content details summary::marker {
-  color: #7A3E3E !important;
-}
-
-.page__content details p,
-.page__content details li,
-.page__content details div {
-  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
-  color: #222222 !important;
-}
 <!-- end custom head snippets -->
