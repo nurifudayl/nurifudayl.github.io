@@ -1,25 +1,29 @@
 {% assign item = include.item %}
 
-<div class="pub-card">
-  <div class="pub-meta">
-    <span class="pub-year">{{ item.date | date: "%Y" }}</span>
-    {{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}
-  </div>
+<article class="pub-card">
+  <div class="pub-card-content">
 
-  <div class="pub-title">
-    {{ item.title }}
-  </div>
+    <div class="pub-meta">
+      <span class="pub-year">{{ item.date | date: "%Y" }}</span>
+      <span>{{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}</span>
+    </div>
 
-  {% if item.indexing %}
-  <div class="pub-indexes">
-    {% for index in item.indexing %}
-      <span class="pub-index-badge">{{ index }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
+    <h3 class="pub-title">
+      {{ item.title }}
+    </h3>
 
-  <div class="pub-description">
-    {{ item.excerpt | strip_html | truncatewords: 38 }}
+    {% if item.indexing %}
+    <div class="pub-indexes">
+      {% for index in item.indexing %}
+        <span class="pub-index-badge">{{ index }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="pub-description">
+      {{ item.excerpt | strip_html | truncatewords: 38 }}
+    </div>
+
   </div>
 
   <div class="pub-links">
@@ -27,16 +31,18 @@
       <a href="{{ item.paperurl }}" class="external-link" target="_blank" rel="noopener noreferrer">
         <span>{{ include.link_label }}</span>
         <span class="external-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
             <path d="M7 17L17 7"></path>
-            <path d="M9 7h8v8"></path>
+            <path d="M10 7h7v7"></path>
             <path d="M19 13v6H5V5h6"></path>
           </svg>
         </span>
       </a>
     {% endif %}
-    
+
     <a href="{{ item.url | relative_url }}" class="details-link">
-      Details <span class="details-arrow">→</span>
+      <span>Details</span>
+      <span class="details-arrow">→</span>
     </a>
-</div>
+  </div>
+</article>
