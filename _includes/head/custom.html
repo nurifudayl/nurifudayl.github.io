@@ -92,84 +92,12 @@ h6,
   letter-spacing: 0.01em !important;
 }
 
-/* Top navigation / main rubric bar */
-.masthead {
-  background-color: var(--site-burgundy) !important;
-  border-bottom: 1px solid var(--site-burgundy-dark) !important;
-}
-
-.masthead__inner-wrap,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background-color: var(--site-burgundy) !important;
-}
-
-/* Site name and top menu links */
-.site-title,
-.site-title:visited,
-.greedy-nav a,
-.greedy-nav a:visited,
-.masthead__menu-item a,
-.masthead__menu-item a:visited {
-  color: var(--site-bg) !important;
-  font-family: var(--font-sans) !important;
-  font-weight: 600 !important;
-  text-decoration: none !important;
-}
-
-.site-title {
-  font-family: var(--font-serif) !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.01em !important;
-}
-
-.site-title:hover,
-.greedy-nav a:hover,
-.masthead__menu-item a:hover {
-  color: #FFFFFF !important;
-}
-
-/* Active / underline state in top navigation */
-.greedy-nav .visible-links a:before {
-  background-color: var(--site-bg) !important;
-}
-
-/* Mobile menu button and theme/search icons if present */
-.greedy-nav button,
-.greedy-nav .search__toggle,
-.greedy-nav .greedy-nav__toggle,
-.search__toggle,
-.theme-toggle,
-button.search__toggle {
-  background-color: transparent !important;
-  color: var(--site-bg) !important;
-}
-
-.greedy-nav button:hover,
-.greedy-nav .search__toggle:hover,
-.greedy-nav .greedy-nav__toggle:hover,
-.search__toggle:hover,
-.theme-toggle:hover,
-button.search__toggle:hover {
-  color: #FFFFFF !important;
-  background-color: transparent !important;
-}
-
-/* SVG icons in top navigation */
-.masthead svg,
-.greedy-nav svg,
-.search__toggle svg,
-.theme-toggle svg {
-  fill: var(--site-bg) !important;
-  color: var(--site-bg) !important;
-}
-
 /* Section headings inside pages */
 .page__content h2,
 .page__content h3,
 .page__content h4 {
   color: var(--site-burgundy) !important;
+  font-family: var(--font-serif) !important;
   font-weight: 700 !important;
 }
 
@@ -196,6 +124,128 @@ button.search__toggle:hover {
 .page__footer a:hover {
   color: var(--site-burgundy-dark) !important;
   text-decoration-color: var(--site-burgundy-dark) !important;
+}
+
+/* FULL BURGUNDY TOP BAR */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li a {
+  background-color: var(--site-burgundy) !important;
+  background: var(--site-burgundy) !important;
+}
+
+/* Masthead structure */
+.masthead {
+  border-bottom: 1px solid var(--site-burgundy-dark) !important;
+  box-shadow: none !important;
+}
+
+.masthead__inner-wrap {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Top navigation text */
+.masthead a,
+.masthead a:visited,
+.greedy-nav a,
+.greedy-nav a:visited,
+.greedy-nav .visible-links a,
+.greedy-nav .visible-links a:visited,
+.masthead__menu-item a,
+.masthead__menu-item a:visited,
+.site-title,
+.site-title:visited {
+  color: var(--site-bg) !important;
+  background: transparent !important;
+  text-decoration: none !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 600 !important;
+}
+
+/* Site title / name */
+.site-title,
+.site-title:visited {
+  color: var(--site-bg) !important;
+  font-family: var(--font-serif) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* Hover in top navigation */
+.masthead a:hover,
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover,
+.masthead__menu-item a:hover,
+.site-title:hover {
+  color: #FFFFFF !important;
+  background: transparent !important;
+}
+
+/* Active underline in top navigation */
+.greedy-nav .visible-links a:before {
+  background-color: var(--site-bg) !important;
+}
+
+/* Dropdown / hidden menu */
+.greedy-nav .hidden-links {
+  background-color: var(--site-burgundy) !important;
+  border: 1px solid var(--site-burgundy-dark) !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: var(--site-bg) !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  color: #FFFFFF !important;
+  background-color: var(--site-burgundy-dark) !important;
+}
+
+/* Top bar buttons and icons */
+.masthead button,
+.greedy-nav button,
+.search__toggle,
+.theme-toggle,
+.greedy-nav .greedy-nav__toggle,
+button.search__toggle {
+  color: var(--site-bg) !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.masthead button:hover,
+.greedy-nav button:hover,
+.search__toggle:hover,
+.theme-toggle:hover,
+.greedy-nav .greedy-nav__toggle:hover,
+button.search__toggle:hover {
+  color: #FFFFFF !important;
+  background: transparent !important;
+}
+
+/* SVG icons in top navigation */
+.masthead svg,
+.greedy-nav svg,
+.search__toggle svg,
+.theme-toggle svg {
+  fill: var(--site-bg) !important;
+  color: var(--site-bg) !important;
+}
+
+/* Prevent possible white pseudo-layers */
+.masthead::before,
+.masthead::after,
+.greedy-nav::before,
+.greedy-nav::after {
+  background: var(--site-burgundy) !important;
 }
 
 /* Sidebar */
@@ -234,6 +284,14 @@ button.search__toggle:hover {
 .page__footer {
   background-color: var(--site-bg) !important;
   border-top: 1px solid var(--site-border) !important;
+}
+
+.page__footer a {
+  color: var(--site-burgundy) !important;
+}
+
+.page__footer a:hover {
+  color: var(--site-burgundy-dark) !important;
 }
 
 /* Archive lists and original theme elements */
