@@ -1,18 +1,19 @@
 ---
-layout: archive
-title: "Journal Articles"
-permalink: /publications/journal-articles/
-author_profile: true
----
 
 {% include publications-style.html %}
 
-<p class="back-link">
-  <a href="/publications/">← Back to Publications</a>
+<p class="publication-back-link">
+  <a href="/publications/">← Back</a>
+</p>
+
+<p class="publications-intro">
+A complete list of my journal articles.
 </p>
 
 {% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
 
+<div class="pub-grid">
 {% for post in articles %}
   {% include publication-card.html item=post type="Journal Article" link_label="DOI / Link" %}
 {% endfor %}
+</div>
