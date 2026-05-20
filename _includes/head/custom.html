@@ -12,7 +12,7 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" content="#F4EDE4"/>
 
 <!-- Site-wide typography: Cormorant Garamond + Source Sans 3 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +23,26 @@
 :root {
   --font-serif: "Cormorant Garamond", Georgia, serif;
   --font-sans: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+
+  --site-bg: #F4EDE4;
+  --site-burgundy: #7A3E3E;
+  --site-burgundy-dark: #4E2525;
+  --site-border: #D8C8BE;
+  --site-muted: #666666;
+  --site-text: #222222;
 }
 
-/* General body text */
+/* Site-wide background and base color */
+html,
+body,
+.initial-content,
+.page,
+.archive {
+  background-color: var(--site-bg) !important;
+  color: var(--site-text) !important;
+}
+
+/* General typography */
 body,
 .page__content,
 .archive__item,
@@ -45,48 +62,114 @@ button {
   font-family: var(--font-sans) !important;
 }
 
-/* Main titles and headings */
+/* Serif headings */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.page__title,
 .archive__item-title,
 .site-title,
 .author__name {
   font-family: var(--font-serif) !important;
 }
 
+/* Page title banner: Publications, Teaching, Projects, Translation, CV */
+.page__title {
+  display: inline-block !important;
+  background-color: var(--site-burgundy) !important;
+  color: var(--site-bg) !important;
+
+  padding: 0.45rem 0.95rem !important;
+  border-radius: 4px !important;
+
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 2.6rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0.01em !important;
+
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* Site title / name */
 .site-title {
+  color: var(--site-burgundy) !important;
   font-weight: 700 !important;
   letter-spacing: 0.01em;
 }
 
-/* Page titles */
-.page__title {
-  font-weight: 700 !important;
-  letter-spacing: 0.01em;
+.site-title:hover {
+  color: var(--site-burgundy-dark) !important;
 }
 
 /* Section headings */
 .page__content h2,
-.page__content h3 {
+.page__content h3,
+.page__content h4 {
+  color: var(--site-burgundy) !important;
   font-weight: 700 !important;
 }
 
-/* Navigation */
-.masthead__menu-item,
-.masthead__menu-item a,
-.greedy-nav a {
+/* Main text */
+.page__content,
+.archive__item-excerpt,
+.author__bio,
+.sidebar,
+.page__footer {
+  color: var(--site-text) !important;
+}
+
+/* General links */
+a,
+.page__content a,
+.archive__item-title a,
+.author__urls a {
+  color: var(--site-burgundy) !important;
+}
+
+a:hover,
+.page__content a:hover,
+.archive__item-title a:hover,
+.author__urls a:hover {
+  color: var(--site-burgundy-dark) !important;
+  text-decoration-color: var(--site-burgundy-dark) !important;
+}
+
+/* Top navigation */
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background-color: var(--site-bg) !important;
+}
+
+.masthead {
+  border-bottom: 1px solid var(--site-border) !important;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  color: var(--site-burgundy) !important;
   font-family: var(--font-sans) !important;
   font-weight: 500 !important;
 }
 
-/* Sidebar profile text */
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: var(--site-burgundy-dark) !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: transparent !important;
+}
+
 .author__name {
+  color: var(--site-burgundy) !important;
+  font-family: var(--font-serif) !important;
   font-weight: 700 !important;
 }
 
@@ -95,7 +178,68 @@ h6,
   font-family: var(--font-sans) !important;
 }
 
-/* Publication-specific elements */
+.author__avatar img {
+  border: 2px solid var(--site-border) !important;
+}
+
+.author__urls-wrapper button {
+  background-color: var(--site-bg) !important;
+  color: var(--site-burgundy) !important;
+  border: 1px solid var(--site-border) !important;
+}
+
+.author__urls-wrapper button:hover {
+  background-color: var(--site-burgundy) !important;
+  color: #ffffff !important;
+  border-color: var(--site-burgundy) !important;
+}
+
+/* Footer */
+.page__footer {
+  background-color: var(--site-bg) !important;
+  border-top: 1px solid var(--site-border) !important;
+}
+
+.page__footer a {
+  color: var(--site-burgundy) !important;
+}
+
+.page__footer a:hover {
+  color: var(--site-burgundy-dark) !important;
+}
+
+/* Archive lists and original theme elements */
+.archive__item {
+  border-bottom-color: var(--site-border) !important;
+}
+
+.archive__item-title {
+  color: var(--site-burgundy) !important;
+}
+
+/* Horizontal rules */
+hr {
+  border-color: var(--site-border) !important;
+}
+
+/* Buttons used by the theme */
+.btn,
+.btn--primary,
+.page__content .btn {
+  background-color: var(--site-burgundy) !important;
+  color: #ffffff !important;
+  border-color: var(--site-burgundy) !important;
+}
+
+.btn:hover,
+.btn--primary:hover,
+.page__content .btn:hover {
+  background-color: var(--site-burgundy-dark) !important;
+  color: #ffffff !important;
+  border-color: var(--site-burgundy-dark) !important;
+}
+
+/* Publication-specific typography */
 .pub-section-title,
 .pub-title {
   font-family: var(--font-serif) !important;
