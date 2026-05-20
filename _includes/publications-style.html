@@ -147,36 +147,42 @@
 }
 
 /* Button base */
+/* More compact external-link / details buttons */
 .pub-links a.pub-link-button,
 .pub-links a.pub-link-button:visited {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 0.55rem !important;
+  gap: 0.42rem !important;
 
-  border: 1.5px solid #7A3E3E !important;
-  border-radius: 3px !important;
-  padding: 0.38rem 0.75rem !important;
-  min-height: 2rem !important;
+  min-height: 1.72rem !important;
+  padding: 0.24rem 0.68rem !important;
 
-  color: #7A3E3E !important;
+  border: 1.4px solid #7A3E3E !important;
+  border-radius: 4px !important;
+
   background: #FFFFFF !important;
-  font-weight: 600 !important;
+  color: #7A3E3E !important;
+
+  font-size: 0.76rem !important;
+  font-weight: 500 !important;
   line-height: 1 !important;
 
   text-decoration: none !important;
-  border-bottom: 1.5px solid #7A3E3E !important;
+  border-bottom: 1.4px solid #7A3E3E !important;
   box-shadow: none !important;
 }
 
-/* Remove underline from inner text */
+.pub-links a.pub-link-button .pub-link-label,
 .pub-links a.pub-link-button span {
+  font-size: 0.76rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
   text-decoration: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
 }
 
-/* Hover */
 .pub-links a.pub-link-button:hover {
   background: #7A3E3E !important;
   color: #FFFFFF !important;
@@ -185,23 +191,36 @@
   box-shadow: none !important;
 }
 
-/* External-link icon: no box around the icon */
 .external-link-icon {
-  width: 15px !important;
-  height: 15px !important;
+  width: 13px !important;
+  height: 13px !important;
   display: inline-block !important;
   flex-shrink: 0 !important;
-  color: currentColor !important;
+  margin-left: 0.02rem !important;
+
   fill: none !important;
   stroke: currentColor !important;
-  stroke-width: 2.2 !important;
+  stroke-width: 2.1 !important;
   stroke-linecap: round !important;
   stroke-linejoin: round !important;
 
   border: none !important;
   background: transparent !important;
   padding: 0 !important;
-  margin: 0 !important;
+}
+
+/* Details button stays filled, but compact */
+.pub-links a.details-link,
+.pub-links a.details-link:visited {
+  background: #7A3E3E !important;
+  color: #FFFFFF !important;
+  border-color: #7A3E3E !important;
+}
+
+.pub-links a.details-link:hover {
+  background: #4E2525 !important;
+  color: #FFFFFF !important;
+  border-color: #4E2525 !important;
 }
 
 /* Details button */
