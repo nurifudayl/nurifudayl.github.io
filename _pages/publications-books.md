@@ -17,8 +17,14 @@ A complete list of my books.
 
 {% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
 
-<div class="pub-grid">
+{% if books.size > 0 %}
+<div class="pub-list">
 {% for post in books %}
   {% include publication-card.html item=post type="Book" link_label="Publisher / Link" %}
 {% endfor %}
 </div>
+{% else %}
+<p class="publications-intro">
+No books have been added yet.
+</p>
+{% endif %}
