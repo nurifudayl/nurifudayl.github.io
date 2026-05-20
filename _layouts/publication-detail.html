@@ -457,7 +457,7 @@ layout: default
         {% if page.citation %}
         <div class="publication-citation-box">
           <div class="publication-citation-text" id="citation-text">
-            {{ page.citation }}
+            {{ page.citation | markdownify }}
           </div>
           <button class="copy-citation-button" type="button" onclick="copyCitationText()">
             <span aria-hidden="true">
