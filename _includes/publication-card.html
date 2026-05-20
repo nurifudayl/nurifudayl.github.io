@@ -24,10 +24,19 @@
 
   <div class="pub-links">
     {% if item.paperurl %}
-      <a href="{{ item.paperurl }}" class="external-link">
-        {{ include.link_label }} <span class="external-icon">↗</span>
+      <a href="{{ item.paperurl }}" class="external-link" target="_blank" rel="noopener noreferrer">
+        <span>{{ include.link_label }}</span>
+        <span class="external-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"></path>
+            <path d="M9 7h8v8"></path>
+            <path d="M19 13v6H5V5h6"></path>
+          </svg>
+        </span>
       </a>
     {% endif %}
-  <a href="{{ item.url | relative_url }}">Details →</a>
-  </div>
+    
+    <a href="{{ item.url | relative_url }}" class="details-link">
+      Details <span class="details-arrow">→</span>
+    </a>
 </div>
