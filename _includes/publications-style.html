@@ -66,6 +66,10 @@
   padding: 1rem 1.05rem;
   background: #FFFFFF;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pub-card:hover {
@@ -126,11 +130,14 @@
 
 .pub-links {
   font-size: 0.8rem;
-  margin-top: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
 }
 
 .pub-links a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #D4B0B0;
   border-radius: 4px;
   padding: 0.28rem 0.62rem;
@@ -140,6 +147,7 @@
   color: #7A3E3E;
   background: #FFFFFF;
   font-weight: 500;
+  min-height: 1.9rem;
   transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
 
