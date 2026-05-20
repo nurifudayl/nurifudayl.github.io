@@ -17,8 +17,14 @@ A complete list of my book chapters.
 
 {% assign chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
 
-<div class="pub-grid">
+{% if chapters.size > 0 %}
+<div class="pub-list">
 {% for post in chapters %}
   {% include publication-card.html item=post type="Book Chapter" link_label="Link" %}
 {% endfor %}
 </div>
+{% else %}
+<p class="publications-intro">
+No book chapters have been added yet.
+</p>
+{% endif %}
