@@ -4,7 +4,9 @@
   <div class="pub-card-content">
     <div class="pub-meta">
       <span class="pub-year">{{ item.date | date: "%Y" }}</span>
-      {{ include.type }}{% if item.venue %} · {{ item.venue }}{% endif %}
+      {% if item.venue %}
+        <span>{{ item.venue }}</span>
+      {% endif %}
     </div>
 
     <div class="pub-title">
