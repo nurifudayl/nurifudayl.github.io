@@ -9,15 +9,13 @@ author_profile: true
 :root {
   --burgundy: #6f1d2f;
   --burgundy-dark: #571624;
-  --site-bg: #ffffff;
-  --text-main: #222222;
-  --text-soft: #666666;
-  --line: #eadde2;
+  --text-main: #222;
+  --text-soft: #666;
+  --line: #e6d9dd;
   --line-strong: #d9bcc5;
   --shadow: 0 10px 24px rgba(111, 29, 47, 0.10);
 }
 
-/* Intro */
 .translations-intro {
   font-size: 0.98rem;
   line-height: 1.7;
@@ -25,17 +23,16 @@ author_profile: true
   margin-bottom: 2rem;
 }
 
-/* List layout */
 .translation-list {
   margin-top: 1.5rem;
 }
 
 .translation-item {
   display: grid;
-  grid-template-columns: 118px minmax(0, 1fr) 120px;
+  grid-template-columns: 112px minmax(0, 1fr) 126px;
   gap: 1.15rem;
   align-items: center;
-  padding: 1.15rem 1rem;
+  padding: 1.1rem 0.95rem;
   margin-bottom: 1rem;
   border: 1px solid var(--line);
   border-left: 4px solid var(--burgundy);
@@ -50,9 +47,8 @@ author_profile: true
   border-color: var(--line-strong);
 }
 
-/* Cover */
 .translation-cover {
-  width: 118px;
+  width: 112px;
   aspect-ratio: 2 / 3;
   overflow: hidden;
   border-radius: 7px;
@@ -90,14 +86,13 @@ author_profile: true
 }
 
 .translation-year:first-child {
-  color: var(--site-bg);
+  color: #fff;
   background: var(--burgundy);
   border-color: var(--burgundy);
 }
 
 .translation-title {
-  font-family: Garamond, "EB Garamond", "Cormorant Garamond", Georgia, serif;
-  font-size: 1.18rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: #000;
   line-height: 1.35;
@@ -105,36 +100,32 @@ author_profile: true
 }
 
 .translation-author {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.91rem;
   color: var(--text-soft);
   line-height: 1.45;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 
-.translation-meta {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+.translation-collaboration {
   font-size: 0.86rem;
   line-height: 1.5;
   color: var(--text-main);
+  margin-bottom: 0.48rem;
+}
+
+.translation-collaboration strong {
+  color: var(--burgundy-dark);
+  font-weight: 650;
+}
+
+.translation-publisher-text {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--text-soft);
   margin-bottom: 0.55rem;
 }
 
-.translation-meta strong {
-  color: var(--burgundy-dark);
-}
-
-/* Citation row */
-.translation-citation-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: 0.45rem;
-}
-
 .translation-citation-text {
-  flex: 1;
-  min-width: 0;
   border-left: 3px solid var(--burgundy);
   padding: 0.38rem 0 0.38rem 0.65rem;
   font-size: 0.82rem;
@@ -142,18 +133,47 @@ author_profile: true
   color: var(--text-main);
 }
 
+/* Right-side buttons */
+.translation-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.45rem;
+  height: 100%;
+}
+
+.translation-actions a,
 .copy-btn {
-  flex: 0 0 auto;
-  display: inline-block;
-  font-size: 0.76rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 104px;
+  text-decoration: none;
+  font-size: 0.78rem;
   font-weight: 700;
-  color: var(--site-bg);
+  border-radius: 999px;
+  padding: 0.24rem 0.75rem;
+  transition: all 0.18s ease;
+}
+
+.translation-actions a {
+  color: var(--burgundy);
+  border: 1px solid var(--line-strong);
+  background: transparent;
+}
+
+.translation-actions a:hover {
+  background: var(--burgundy);
+  color: #fff;
+  border-color: var(--burgundy);
+}
+
+.copy-btn {
+  color: #fff;
   background: var(--burgundy);
   border: 1px solid var(--burgundy);
-  border-radius: 999px;
-  padding: 0.22rem 0.7rem;
   cursor: pointer;
-  transition: all 0.18s ease;
 }
 
 .copy-btn:hover {
@@ -162,39 +182,10 @@ author_profile: true
 }
 
 .copy-status {
-  flex: 0 0 auto;
-  font-size: 0.76rem;
+  min-height: 1em;
+  font-size: 0.74rem;
   color: var(--text-soft);
-}
-
-/* Right-side action */
-.translation-actions {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 100%;
-}
-
-.translation-actions a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 92px;
-  text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--burgundy);
-  border: 1px solid var(--line-strong);
-  background: transparent;
-  border-radius: 999px;
-  padding: 0.24rem 0.75rem;
-  transition: all 0.18s ease;
-}
-
-.translation-actions a:hover {
-  background: var(--burgundy);
-  color: var(--site-bg);
-  border-color: var(--burgundy);
+  text-align: right;
 }
 
 /* Mobile */
@@ -211,17 +202,18 @@ author_profile: true
 
   .translation-actions {
     grid-column: 2;
-    justify-content: flex-start;
+    align-items: flex-start;
     height: auto;
-    margin-top: 0.25rem;
+    margin-top: 0.45rem;
   }
 
-  .translation-citation-row {
-    flex-wrap: wrap;
-  }
-
+  .translation-actions a,
   .copy-btn {
-    margin-left: 0;
+    min-width: auto;
+  }
+
+  .copy-status {
+    text-align: left;
   }
 }
 </style>
@@ -234,7 +226,8 @@ This page presents my translated books. These works reflect my engagement with *
 
 <div class="translation-list">
 
-  <!-- 1. En güncel eser en üstte olmalı. Yılları en güncelden eskiye doğru dizin. -->
+  <!-- En güncel eser en üstte yer almalı. Yıl rozetlerini en güncelden eskiye doğru dizin. -->
+
   <div class="translation-item">
     <div class="translation-cover">
       <img src="/images/translations/anadoludaki-turk-anitlari.jpg" alt="Anadolu'daki Türk Anıtları cover">
@@ -248,20 +241,15 @@ This page presents my translated books. These works reflect my engagement with *
       <div class="translation-title">Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</div>
       <div class="translation-author">Albert-Louis Gabriel</div>
 
-      <div class="translation-meta">
-        <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu</div>
-        <div><strong>Publisher:</strong> Türk Arkeoloji ve Kültürel Miras Enstitüsü</div>
-      </div>
+      <div class="translation-publisher-text">Türk Arkeoloji ve Kültürel Miras Enstitüsü</div>
 
-      <div class="translation-citation-row">
-        <div class="translation-citation-text" id="citation-1">Gabriel, Albert-Louis. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü, YEAR.</div>
-        <button class="copy-btn" onclick="copyCitation('citation-1', 'status-1')">Copy citation</button>
-        <span class="copy-status" id="status-1"></span>
-      </div>
+      <div class="translation-citation-text" id="citation-1">Gabriel, Albert-Louis. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü, YEAR.</div>
     </div>
 
     <div class="translation-actions">
       <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
+      <button class="copy-btn" onclick="copyCitation('citation-1', 'status-1')">Copy citation</button>
+      <span class="copy-status" id="status-1"></span>
     </div>
   </div>
 
@@ -278,20 +266,15 @@ This page presents my translated books. These works reflect my engagement with *
       <div class="translation-title">Kral: Mitler ve Simgeler</div>
       <div class="translation-author">Jean-Paul Roux</div>
 
-      <div class="translation-meta">
-        <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu</div>
-        <div><strong>Publisher:</strong> Dergâh Yayınları</div>
-      </div>
+      <div class="translation-publisher-text">Dergâh Yayınları</div>
 
-      <div class="translation-citation-row">
-        <div class="translation-citation-text" id="citation-2">Roux, Jean-Paul. <em>Kral: Mitler ve Simgeler</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Dergâh Yayınları, YEAR.</div>
-        <button class="copy-btn" onclick="copyCitation('citation-2', 'status-2')">Copy citation</button>
-        <span class="copy-status" id="status-2"></span>
-      </div>
+      <div class="translation-citation-text" id="citation-2">Roux, Jean-Paul. <em>Kral: Mitler ve Simgeler</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Dergâh Yayınları, YEAR.</div>
     </div>
 
     <div class="translation-actions">
       <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
+      <button class="copy-btn" onclick="copyCitation('citation-2', 'status-2')">Copy citation</button>
+      <span class="copy-status" id="status-2"></span>
     </div>
   </div>
 
@@ -308,21 +291,19 @@ This page presents my translated books. These works reflect my engagement with *
       <div class="translation-title">Sömürge ve Kölelik</div>
       <div class="translation-author">Alexis de Tocqueville</div>
 
-      <div class="translation-meta">
-        <div><strong>Edited by:</strong> Lütfi Sunar</div>
-        <div><strong>Translated by:</strong> Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu</div>
-        <div><strong>Publisher:</strong> Ayrıntı Yayınları</div>
+      <div class="translation-collaboration">
+        <strong>Collaborated with:</strong> Lütfi Sunar, Burak M. N. Gücin, and Hasan Turunçkapı
       </div>
 
-      <div class="translation-citation-row">
-        <div class="translation-citation-text" id="citation-3">Tocqueville, Alexis de. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları, YEAR.</div>
-        <button class="copy-btn" onclick="copyCitation('citation-3', 'status-3')">Copy citation</button>
-        <span class="copy-status" id="status-3"></span>
-      </div>
+      <div class="translation-publisher-text">Ayrıntı Yayınları</div>
+
+      <div class="translation-citation-text" id="citation-3">Tocqueville, Alexis de. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları, YEAR.</div>
     </div>
 
     <div class="translation-actions">
       <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
+      <button class="copy-btn" onclick="copyCitation('citation-3', 'status-3')">Copy citation</button>
+      <span class="copy-status" id="status-3"></span>
     </div>
   </div>
 
@@ -341,20 +322,19 @@ This page presents my translated books. These works reflect my engagement with *
       <div class="translation-title">Bir Yeniçerinin Hatıraları</div>
       <div class="translation-author">Konstantin Mihailović</div>
 
-      <div class="translation-meta">
-        <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim</div>
-        <div><strong>Publisher:</strong> Ayrıntı Yayınları</div>
+      <div class="translation-collaboration">
+        <strong>Collaborated with:</strong> Behiç Anıl Ekim
       </div>
 
-      <div class="translation-citation-row">
-        <div class="translation-citation-text" id="citation-4">Mihailović, Konstantin. <em>Bir Yeniçerinin Hatıraları</em>. Translated by Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim. İstanbul: Ayrıntı Yayınları, YEAR.</div>
-        <button class="copy-btn" onclick="copyCitation('citation-4', 'status-4')">Copy citation</button>
-        <span class="copy-status" id="status-4"></span>
-      </div>
+      <div class="translation-publisher-text">Ayrıntı Yayınları</div>
+
+      <div class="translation-citation-text" id="citation-4">Mihailović, Konstantin. <em>Bir Yeniçerinin Hatıraları</em>. Translated by Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim. İstanbul: Ayrıntı Yayınları, YEAR.</div>
     </div>
 
     <div class="translation-actions">
       <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
+      <button class="copy-btn" onclick="copyCitation('citation-4', 'status-4')">Copy citation</button>
+      <span class="copy-status" id="status-4"></span>
     </div>
   </div>
 
