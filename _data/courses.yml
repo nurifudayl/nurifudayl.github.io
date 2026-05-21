@@ -50,8 +50,33 @@ items:
     languages:
       - TR
     codes:
-      - ESBK425
+      - ESBK209
     years:
       - "2025-26"
       - "2024-25"
     page_url:    
+
+  - title: "Political Ideologies"
+    sort_title: "Political Ideologies"
+    current: true
+    sort_year: 2025
+    languages:
+      - TR
+    codes:
+      - ESBK419
+    years:
+      - "2025-26"
+    page_url:  
+
+  - title: "Turkish Administrative History"
+    sort_title: "Turkish Administrative History"
+    current: true
+    sort_year: 2025
+    languages:
+      - TR
+    codes:
+      - ESBK427
+    years:
+      - "2025-26"
+    page_url: 
+    
