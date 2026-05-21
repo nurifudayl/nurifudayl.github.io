@@ -185,7 +185,7 @@ This page presents my translated books. It reflects my engagement with **history
   <!-- CARD 1 -->
   <div class="translation-card">
     <div class="translation-cover">
-      <img src="/images/translations/kral-mitler-ve-simgeler.jpg" alt="Kral: Mitler ve Simgeler cover">
+      <img src="/images/translations/kral.jpg" alt="Kral: Mitler ve Simgeler cover">
     </div>
     <div class="translation-content">
       <div class="translation-type">Book Translation</div>
@@ -237,16 +237,16 @@ This page presents my translated books. It reflects my engagement with **history
   <!-- CARD 3 -->
   <div class="translation-card">
     <div class="translation-cover">
-      <img src="/images/translations/translation-book-3.jpg" alt="Translation book 3 cover">
+      <img src="/images/translations/somurge-ve-kolelik.jpg" alt="Sömürge ve Kölelik cover">
     </div>
     <div class="translation-content">
       <div class="translation-type">Book Translation</div>
       <div class="translation-title">[Title of Translation]</div>
 
       <div class="translation-meta">
-        <div><strong>Original author:</strong> [Author Name]</div>
+        <div><strong>Original author:</strong> [Alexis de Tocqueville]</div>
         <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu</div>
-        <div><strong>Publisher:</strong> [Publisher Name]</div>
+        <div><strong>Publisher:</strong> [Ayrıntı Yayınları]</div>
       </div>
 
       <div class="translation-publisher">
@@ -254,7 +254,7 @@ This page presents my translated books. It reflects my engagement with **history
       </div>
 
       <div class="translation-citation-label">Citation</div>
-      <div class="translation-citation-box" id="citation-3">[Author Surname], [Author Name]. <em>[Title of Translation]</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: [Publisher Name].</div>
+      <div class="translation-citation-box" id="citation-3">[de Tocqueville], [Alexis]. <em>[Sömürge ve Kölelik]</em>. Edited by Lütfi Sunar, Translated by Burak M.N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: [Ayrıntı Yayınları].</div>
       <button class="copy-btn" onclick="copyCitation('citation-3', 'status-3')">Copy citation</button>
       <span class="copy-status" id="status-3"></span>
     </div>
@@ -263,16 +263,16 @@ This page presents my translated books. It reflects my engagement with **history
   <!-- CARD 4 -->
   <div class="translation-card">
     <div class="translation-cover">
-      <img src="/images/translations/translation-book-4.jpg" alt="Translation book 4 cover">
+      <img src="/images/translations/anadoludaki-turk-anitlari.jpg" alt="Anadolu'daki Türk Anıtları cover">
     </div>
     <div class="translation-content">
       <div class="translation-type">Collaborative Translation</div>
-      <div class="translation-title">[Title of Translation]</div>
+      <div class="translation-title">[Anadolu'daki Türk Anıtları]</div>
 
       <div class="translation-meta">
-        <div><strong>Original author:</strong> [Author Name]</div>
-        <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu and [Collaborator Name]</div>
-        <div><strong>Publisher:</strong> [Publisher Name]</div>
+        <div><strong>Original author:</strong> [Albert-Louis Gabriel]</div>
+        <div><strong>Translated by:</strong> Nuri Fudayl Kıcıroğlu</div>
+        <div><strong>Publisher:</strong> [Türk Arkeoloji ve Kültürel Miras Enstitüsü]</div>
       </div>
 
       <div class="translation-publisher">
@@ -280,7 +280,7 @@ This page presents my translated books. It reflects my engagement with **history
       </div>
 
       <div class="translation-citation-label">Citation</div>
-      <div class="translation-citation-box" id="citation-4">[Author Surname], [Author Name]. <em>[Title of Translation]</em>. Translated by Nuri Fudayl Kıcıroğlu and [Collaborator Name]. İstanbul: [Publisher Name].</div>
+      <div class="translation-citation-box" id="citation-4">[Gabriel], [Albert-Louis]. <em>[Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas]</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: [Türk Arkeoloji ve Kültürel Miras Enstitüsü].</div>
       <button class="copy-btn" onclick="copyCitation('citation-4', 'status-4')">Copy citation</button>
       <span class="copy-status" id="status-4"></span>
     </div>
