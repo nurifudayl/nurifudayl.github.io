@@ -1,1 +1,75 @@
+{% assign course = include.course %}
+{% assign current_academic_year = include.current_academic_year %}
 
+<article class="course-card">
+
+  <div class="course-card-main">
+
+    <div class="course-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 10L12 5 2 10l10 5 10-5z"></path>
+        <path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"></path>
+        <path d="M22 10v6"></path>
+      </svg>
+    </div>
+
+    <div class="course-content">
+
+      <h2 class="course-title">{{ course.title }}</h2>
+
+      {% if course.languages %}
+      <div class="course-badge-row">
+        {% for language in course.languages %}
+          <span class="course-badge">{{ language }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if course.codes %}
+      <div class="course-section-label">Course Codes</div>
+      <div class="course-badge-row">
+        {% for code in course.codes %}
+          <span class="course-badge">{{ code }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if course.years %}
+      <div class="course-section-label">Academic Years</div>
+      <div class="course-badge-row">
+        {% assign sorted_years = course.years | sort | reverse %}
+        {% for year in sorted_years %}
+          {% if year == current_academic_year %}
+            <span class="course-badge course-badge-current">{{ year | replace: "-", "–" }}</span>
+          {% else %}
+            <span class="course-badge">{{ year | replace: "-", "–" }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+  <div class="course-card-action">
+    {% if course.page_url %}
+      <a href="{{ course.page_url }}" class="course-page-button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
+        </svg>
+        <span>Course Page</span>
+      </a>
+    {% else %}
+      <span class="course-page-button course-page-button-disabled" aria-disabled="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
+        </svg>
+        <span>Course Page</span>
+      </span>
+    {% endif %}
+  </div>
+
+</article>
