@@ -31,3 +31,16 @@ items:
       - "2024-25"
     page_url:
     
+  - title: "Political Philosophy"
+    sort_title: "Political Philosophy"
+    current: true
+    sort_year: 2025
+    languages:
+      - TR
+    codes:
+      - ESBK425
+    years:
+      - "2024-25"
+    page_url:
+
+    
