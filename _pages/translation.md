@@ -217,8 +217,6 @@ author_profile: true
 
 <div class="translations-intro" markdown="1">
 
-This page presents my translated books. These works reflect my engagement with **history**, **political thought**, and the circulation of ideas across languages and intellectual traditions.
-
 </div>
 
 <div class="translation-list">
