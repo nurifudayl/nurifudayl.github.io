@@ -1,161 +1,195 @@
 <style>
 :root {
-  --archive-cream: #fbf7ef;
-  --site-burgundy: #7a1220;
-  --site-burgundy-dark: #5f0d18;
-  --site-ink: #1f1f1f;
-  --site-muted: #666;
-  --site-border: #d8cfc2;
+  --course-burgundy: #7a1220;
+  --course-burgundy-dark: #5c0d18;
+  --course-ink: #222222;
+  --course-muted: #666666;
+  --course-border: #ddd6cc;
+  --course-soft-border: #e8e0d6;
+  --course-card-bg: #fffdf8;
+  --course-page-bg: transparent;
 }
 
 .teaching-page {
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 
 .teaching-intro {
   max-width: 760px;
-  margin-bottom: 2rem;
+  margin: 0 0 1.75rem;
   font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 1rem;
+  font-size: 0.98rem;
   line-height: 1.65;
-  color: var(--site-ink);
+  color: var(--course-muted);
 }
 
 .course-list {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
+/* Main course card */
 .course-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 230px;
-  border: 1px solid var(--site-border);
-  border-radius: 6px;
-  background: var(--archive-cream);
+  grid-template-columns: minmax(0, 1fr) 180px;
+  align-items: stretch;
+  border: 1px solid var(--course-soft-border);
+  border-radius: 4px;
+  background: var(--course-card-bg);
   overflow: hidden;
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
 .course-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--site-burgundy);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--course-burgundy);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
 }
 
 .course-card-main {
   display: grid;
-  grid-template-columns: 84px minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 2rem;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.25rem 1.35rem;
 }
 
 .course-icon {
-  width: 64px;
-  height: 64px;
-  border: 1px solid var(--site-burgundy);
+  width: 42px;
+  height: 42px;
+  margin-top: 0.15rem;
+  border: 1px solid var(--course-burgundy);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--site-burgundy);
+  color: var(--course-burgundy);
+  background: transparent;
   flex-shrink: 0;
 }
 
 .course-icon svg {
-  width: 34px;
-  height: 34px;
+  width: 22px;
+  height: 22px;
 }
 
+/* Course title: Garamond */
 .course-title {
-  margin: 0 0 1rem;
+  margin: 0 0 0.65rem;
   font-family: "EB Garamond", Garamond, Georgia, serif;
-  font-size: 2rem;
+  font-size: 1.55rem;
   line-height: 1.15;
   font-weight: 600;
-  color: var(--site-burgundy);
+  color: var(--course-burgundy);
+}
+
+/* Everything else: Source Sans 3 */
+.course-content,
+.course-section-label,
+.course-badge,
+.course-page-button {
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .course-badge-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-bottom: 1.2rem;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.course-badge-row:last-child {
+  margin-bottom: 0;
 }
 
 .course-section-label {
-  margin: 1.15rem 0 0.55rem;
-  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.78rem;
+  margin: 0.85rem 0 0.4rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--site-ink);
+  color: var(--course-muted);
 }
 
+/* Badges: closer to Publications Details button */
 .course-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 2rem;
-  padding: 0.32rem 0.75rem;
-  border: 1px solid var(--site-burgundy);
+  min-height: 1.65rem;
+  padding: 0.28rem 0.58rem;
+  border: 1px solid var(--course-burgundy);
   border-radius: 2px;
-  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1;
-  color: var(--site-burgundy);
   background: transparent;
+  color: var(--course-burgundy);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
 }
 
 .course-badge-current {
-  color: var(--archive-cream);
-  background: var(--site-burgundy);
+  background: var(--course-burgundy);
+  color: #fffdf8;
 }
 
+/* Right-side action area */
 .course-card-action {
-  border-left: 1px solid var(--site-border);
+  border-left: 1px solid var(--course-soft-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 
 .course-page-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.65rem;
+  gap: 0.5rem;
   width: 100%;
-  max-width: 170px;
-  padding: 0.85rem 1rem;
-  border: 1px solid var(--site-burgundy);
-  border-radius: 4px;
-  background: var(--site-burgundy);
-  color: var(--archive-cream);
-  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95rem;
+  max-width: 135px;
+  padding: 0.58rem 0.75rem;
+  border: 1px solid var(--course-burgundy);
+  border-radius: 3px;
+  background: var(--course-burgundy);
+  color: #fffdf8;
+  font-size: 0.78rem;
   font-weight: 700;
+  line-height: 1;
   text-decoration: none;
-  transition: background 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
+.course-page-button:hover,
 .course-card:hover .course-page-button {
-  background: var(--site-burgundy-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 7px 16px rgba(122, 18, 32, 0.22);
+  background: var(--course-burgundy-dark);
+  border-color: var(--course-burgundy-dark);
+  color: #fffdf8;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(122, 18, 32, 0.18);
+  transform: translateY(-1px);
 }
 
 .course-page-button-disabled {
   cursor: default;
+  pointer-events: none;
 }
 
 .course-page-button svg {
-  width: 22px;
-  height: 22px;
+  width: 17px;
+  height: 17px;
 }
 
+/* Mobile */
 @media (max-width: 900px) {
   .course-card {
     grid-template-columns: 1fr;
@@ -163,32 +197,32 @@
 
   .course-card-action {
     border-left: 0;
-    border-top: 1px solid var(--site-border);
+    border-top: 1px solid var(--course-soft-border);
     justify-content: flex-start;
   }
 
   .course-page-button {
-    max-width: 190px;
+    max-width: 145px;
   }
 }
 
 @media (max-width: 640px) {
   .course-card-main {
     grid-template-columns: 1fr;
-    padding: 1.4rem;
+    padding: 1.1rem;
   }
 
   .course-icon {
-    width: 56px;
-    height: 56px;
+    width: 40px;
+    height: 40px;
   }
 
   .course-title {
-    font-size: 1.65rem;
+    font-size: 1.35rem;
   }
 
   .course-card-action {
-    padding: 1.4rem;
+    padding: 1rem 1.1rem;
   }
 }
 </style>
