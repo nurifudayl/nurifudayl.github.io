@@ -1,1 +1,194 @@
+<style>
+:root {
+  --archive-cream: #fbf7ef;
+  --site-burgundy: #7a1220;
+  --site-burgundy-dark: #5f0d18;
+  --site-ink: #1f1f1f;
+  --site-muted: #666;
+  --site-border: #d8cfc2;
+}
 
+.teaching-page {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.teaching-intro {
+  max-width: 760px;
+  margin-bottom: 2rem;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--site-ink);
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.course-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  border: 1px solid var(--site-border);
+  border-radius: 6px;
+  background: var(--archive-cream);
+  overflow: hidden;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--site-burgundy);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.course-card-main {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.course-icon {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--site-burgundy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--site-burgundy);
+  flex-shrink: 0;
+}
+
+.course-icon svg {
+  width: 34px;
+  height: 34px;
+}
+
+.course-title {
+  margin: 0 0 1rem;
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 600;
+  color: var(--site-burgundy);
+}
+
+.course-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 1.2rem;
+}
+
+.course-section-label {
+  margin: 1.15rem 0 0.55rem;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--site-ink);
+}
+
+.course-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.32rem 0.75rem;
+  border: 1px solid var(--site-burgundy);
+  border-radius: 2px;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--site-burgundy);
+  background: transparent;
+}
+
+.course-badge-current {
+  color: var(--archive-cream);
+  background: var(--site-burgundy);
+}
+
+.course-card-action {
+  border-left: 1px solid var(--site-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.course-page-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  width: 100%;
+  max-width: 170px;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--site-burgundy);
+  border-radius: 4px;
+  background: var(--site-burgundy);
+  color: var(--archive-cream);
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.course-card:hover .course-page-button {
+  background: var(--site-burgundy-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 7px 16px rgba(122, 18, 32, 0.22);
+}
+
+.course-page-button-disabled {
+  cursor: default;
+}
+
+.course-page-button svg {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 900px) {
+  .course-card {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card-action {
+    border-left: 0;
+    border-top: 1px solid var(--site-border);
+    justify-content: flex-start;
+  }
+
+  .course-page-button {
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 640px) {
+  .course-card-main {
+    grid-template-columns: 1fr;
+    padding: 1.4rem;
+  }
+
+  .course-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .course-title {
+    font-size: 1.65rem;
+  }
+
+  .course-card-action {
+    padding: 1.4rem;
+  }
+}
+</style>
