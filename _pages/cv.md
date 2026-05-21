@@ -74,10 +74,6 @@ author_profile: true
 
 <div class="cv-page">
 
-<p class="cv-intro">
-You can view my curriculum vitae below or download the PDF version.
-</p>
-
 <div class="cv-actions">
   <a href="/assets/files/cv.pdf" class="cv-button" target="_blank" rel="noopener noreferrer">
     View CV in New Tab
