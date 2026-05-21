@@ -93,4 +93,14 @@ items:
       - "2024-25"
     page_url: 
 
-    
+  - title: "Introduction to Political Science"
+    sort_title: "Introduction to Political Science"
+    current: true
+    sort_year: 2023
+    languages:
+      - TR
+    codes:
+      - PSIR101
+    years:
+      - "2023-24"
+    page_url:     
