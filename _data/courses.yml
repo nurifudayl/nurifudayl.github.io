@@ -80,3 +80,17 @@ items:
       - "2025-26"
     page_url: 
     
+  - title: "Social Responsibility and Ethics"
+    sort_title: "Social Responsibility and Ethics"
+    current: true
+    sort_year: 2025
+    languages:
+      - TR
+    codes:
+      - ESBK338
+    years:
+      - "2025-26"
+      - "2024-25"
+    page_url: 
+
+    
