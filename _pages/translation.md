@@ -63,7 +63,6 @@ author_profile: true
   display: block;
 }
 
-/* Main content */
 .translation-content {
   min-width: 0;
 }
@@ -133,7 +132,6 @@ author_profile: true
   color: var(--text-main);
 }
 
-/* Right-side buttons */
 .translation-actions {
   display: flex;
   flex-direction: column;
@@ -188,7 +186,6 @@ author_profile: true
   text-align: right;
 }
 
-/* Mobile */
 @media (max-width: 760px) {
   .translation-item {
     grid-template-columns: 88px 1fr;
@@ -220,122 +217,50 @@ author_profile: true
 
 <div class="translations-intro" markdown="1">
 
+This page presents my translated books. These works reflect my engagement with **history**, **political thought**, and the circulation of ideas across languages and intellectual traditions.
+
 </div>
 
 <div class="translation-list">
 
-  <!-- En güncel eser en üstte yer almalı. Yıl rozetlerini en güncelden eskiye doğru dizin. -->
+{% assign translations = site.data.translations | sort: "sort_year" | reverse %}
 
+{% for item in translations %}
   <div class="translation-item">
     <div class="translation-cover">
-      <img src="/images/translations/anadoludaki-turk-anitlari.jpg" alt="Anadolu'daki Türk Anıtları cover">
+      <img src="{{ item.cover }}" alt="{{ item.title }} cover">
     </div>
 
     <div class="translation-content">
       <div class="translation-years">
-        <span class="translation-year">2022</span>
+        {% for year in item.years %}
+          <span class="translation-year">{{ year }}</span>
+        {% endfor %}
       </div>
 
-      <div class="translation-title">Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</div>
-      <div class="translation-author">Albert-Louis Gabriel</div>
+      <div class="translation-title">{{ item.title }}</div>
+      <div class="translation-author">{{ item.author }}</div>
 
-      <div class="translation-publisher-text">Türk Arkeoloji ve Kültürel Miras Enstitüsü</div>
-
-      <div class="translation-citation-text" id="citation-1">Gabriel, Albert-Louis. 2022. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü.</div>
-    </div>
-
-    <div class="translation-actions">
-      <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
-      <button class="copy-btn" onclick="copyCitation('citation-1', 'status-1')">Copy citation</button>
-      <span class="copy-status" id="status-1"></span>
-    </div>
-  </div>
-
-  <div class="translation-item">
-    <div class="translation-cover">
-      <img src="/images/translations/kral.jpg" alt="Kral: Mitler ve Simgeler cover">
-    </div>
-
-    <div class="translation-content">
-      <div class="translation-years">
-        <span class="translation-year">2021</span>
-        <span class="translation-year">2020</span>
-      </div>
-
-      <div class="translation-title">Kral: Mitler ve Simgeler</div>
-      <div class="translation-author">Jean-Paul Roux</div>
-
-      <div class="translation-publisher-text">Dergâh Yayınları</div>
-
-      <div class="translation-citation-text" id="citation-2">Roux, Jean-Paul. 2020. <em>Kral: Mitler ve Simgeler</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Dergâh Yayınları.</div>
-    </div>
-
-    <div class="translation-actions">
-      <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
-      <button class="copy-btn" onclick="copyCitation('citation-2', 'status-2')">Copy citation</button>
-      <span class="copy-status" id="status-2"></span>
-    </div>
-  </div>
-
-  <div class="translation-item">
-    <div class="translation-cover">
-      <img src="/images/translations/somurge-ve-kolelik.jpg" alt="Sömürge ve Kölelik cover">
-    </div>
-
-    <div class="translation-content">
-      <div class="translation-years">
-        <span class="translation-year">2016</span>
-      </div>
-
-      <div class="translation-title">Sömürge ve Kölelik</div>
-      <div class="translation-author">Alexis de Tocqueville</div>
-
+      {% if item.collaborators %}
       <div class="translation-collaboration">
-        <strong>Collaborated with:</strong> Lütfi Sunar, Burak M. N. Gücin, and Hasan Turunçkapı
+        <strong>Collaborated with:</strong> {{ item.collaborators }}
       </div>
+      {% endif %}
 
-      <div class="translation-publisher-text">Ayrıntı Yayınları</div>
+      <div class="translation-publisher-text">{{ item.publisher }}</div>
 
-      <div class="translation-citation-text" id="citation-3">De Tocqueville, Alexis. 2016. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları.</div>
+      <div class="translation-citation-text" id="citation-{{ forloop.index }}">{{ item.citation }}</div>
     </div>
 
     <div class="translation-actions">
-      <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
-      <button class="copy-btn" onclick="copyCitation('citation-3', 'status-3')">Copy citation</button>
-      <span class="copy-status" id="status-3"></span>
+      {% if item.publisher_url %}
+      <a href="{{ item.publisher_url }}" target="_blank" rel="noopener noreferrer">Publisher</a>
+      {% endif %}
+      <button class="copy-btn" onclick="copyCitation('citation-{{ forloop.index }}', 'status-{{ forloop.index }}')">Copy citation</button>
+      <span class="copy-status" id="status-{{ forloop.index }}"></span>
     </div>
   </div>
-
-  <div class="translation-item">
-    <div class="translation-cover">
-      <img src="/images/translations/bir-yenicerinin-hatiralari.jpg" alt="Bir Yeniçerinin Hatıraları cover">
-    </div>
-
-    <div class="translation-content">
-      <div class="translation-years">
-        <span class="translation-year">2024</span>
-        <span class="translation-year">2017</span>
-        <span class="translation-year">2013</span>
-      </div>
-
-      <div class="translation-title">Bir Yeniçerinin Hatıraları</div>
-      <div class="translation-author">Konstantin Mihailović</div>
-
-      <div class="translation-collaboration">
-        <strong>Collaborated with:</strong> Behiç Anıl Ekim
-      </div>
-
-      <div class="translation-publisher-text">Ayrıntı Yayınları</div>
-
-      <div class="translation-citation-text" id="citation-4">Mihailović, Konstantin. 2013. <em>Bir Yeniçerinin Hatıraları</em>. Translated by Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim. İstanbul: Ayrıntı Yayınları.</div>
-    </div>
-
-    <div class="translation-actions">
-      <a href="#" target="_blank" rel="noopener noreferrer">Publisher</a>
-      <button class="copy-btn" onclick="copyCitation('citation-4', 'status-4')">Copy citation</button>
-      <span class="copy-status" id="status-4"></span>
-    </div>
-  </div>
+{% endfor %}
 
 </div>
 
