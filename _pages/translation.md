@@ -220,8 +220,6 @@ author_profile: true
 
 <div class="translations-intro" markdown="1">
 
-This page presents my translated books. These works reflect my engagement with **history**, **political thought**, and the circulation of ideas across languages and intellectual traditions.
-
 </div>
 
 <div class="translation-list">
@@ -235,7 +233,7 @@ This page presents my translated books. These works reflect my engagement with *
 
     <div class="translation-content">
       <div class="translation-years">
-        <span class="translation-year">YEAR</span>
+        <span class="translation-year">2022</span>
       </div>
 
       <div class="translation-title">Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</div>
@@ -243,7 +241,7 @@ This page presents my translated books. These works reflect my engagement with *
 
       <div class="translation-publisher-text">Türk Arkeoloji ve Kültürel Miras Enstitüsü</div>
 
-      <div class="translation-citation-text" id="citation-1">Gabriel, Albert-Louis. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü, YEAR.</div>
+      <div class="translation-citation-text" id="citation-1">Gabriel, Albert-Louis. 2022. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü.</div>
     </div>
 
     <div class="translation-actions">
@@ -260,7 +258,8 @@ This page presents my translated books. These works reflect my engagement with *
 
     <div class="translation-content">
       <div class="translation-years">
-        <span class="translation-year">YEAR</span>
+        <span class="translation-year">2021</span>
+        <span class="translation-year">2020</span>
       </div>
 
       <div class="translation-title">Kral: Mitler ve Simgeler</div>
@@ -268,7 +267,7 @@ This page presents my translated books. These works reflect my engagement with *
 
       <div class="translation-publisher-text">Dergâh Yayınları</div>
 
-      <div class="translation-citation-text" id="citation-2">Roux, Jean-Paul. <em>Kral: Mitler ve Simgeler</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Dergâh Yayınları, YEAR.</div>
+      <div class="translation-citation-text" id="citation-2">Roux, Jean-Paul. 2020. <em>Kral: Mitler ve Simgeler</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Dergâh Yayınları.</div>
     </div>
 
     <div class="translation-actions">
@@ -285,7 +284,7 @@ This page presents my translated books. These works reflect my engagement with *
 
     <div class="translation-content">
       <div class="translation-years">
-        <span class="translation-year">YEAR</span>
+        <span class="translation-year">2016</span>
       </div>
 
       <div class="translation-title">Sömürge ve Kölelik</div>
@@ -297,7 +296,7 @@ This page presents my translated books. These works reflect my engagement with *
 
       <div class="translation-publisher-text">Ayrıntı Yayınları</div>
 
-      <div class="translation-citation-text" id="citation-3">Tocqueville, Alexis de. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları, YEAR.</div>
+      <div class="translation-citation-text" id="citation-3">De Tocqueville, Alexis. 2016. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları.</div>
     </div>
 
     <div class="translation-actions">
@@ -314,9 +313,9 @@ This page presents my translated books. These works reflect my engagement with *
 
     <div class="translation-content">
       <div class="translation-years">
-        <span class="translation-year">YEAR</span>
-        <span class="translation-year">YEAR</span>
-        <span class="translation-year">YEAR</span>
+        <span class="translation-year">2024</span>
+        <span class="translation-year">2017</span>
+        <span class="translation-year">2013</span>
       </div>
 
       <div class="translation-title">Bir Yeniçerinin Hatıraları</div>
@@ -328,7 +327,7 @@ This page presents my translated books. These works reflect my engagement with *
 
       <div class="translation-publisher-text">Ayrıntı Yayınları</div>
 
-      <div class="translation-citation-text" id="citation-4">Mihailović, Konstantin. <em>Bir Yeniçerinin Hatıraları</em>. Translated by Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim. İstanbul: Ayrıntı Yayınları, YEAR.</div>
+      <div class="translation-citation-text" id="citation-4">Mihailović, Konstantin. 2013. <em>Bir Yeniçerinin Hatıraları</em>. Translated by Nuri Fudayl Kıcıroğlu and Behiç Anıl Ekim. İstanbul: Ayrıntı Yayınları.</div>
     </div>
 
     <div class="translation-actions">
