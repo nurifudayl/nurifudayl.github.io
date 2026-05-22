@@ -9,7 +9,7 @@ main:
     mobile_icon: "fa-folder"
     url: /projects/
 
-  - title: "Translation"
+  - title: "Translations"
     mobile_title: "Trans."
     mobile_icon: "fa-globe"
     url: /translations/
