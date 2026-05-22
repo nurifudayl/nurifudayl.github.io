@@ -931,82 +931,138 @@ html[data-theme="dark"] .mobile-section-nav {
 }
 
 /* ==========================================================================
-   Mobile Follow dropdown fix
+   Mobile Follow dropdown: reliable visible state
    ========================================================================== */
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 924px) {
 
-  .sidebar {
+  .sidebar,
+  .author__urls-wrapper {
     position: relative !important;
-    z-index: 1 !important;
     overflow: visible !important;
   }
 
   .author__urls-wrapper {
-    position: relative !important;
-    z-index: 30 !important;
-    overflow: visible !important;
+    z-index: 50 !important;
   }
 
   .author__urls-wrapper button {
     position: relative !important;
-    z-index: 32 !important;
+    z-index: 52 !important;
     pointer-events: auto !important;
     cursor: pointer !important;
   }
 
-  .author__urls.social-icons {
+  /*
+     Hidden by default on mobile.
+     JavaScript below adds .follow-menu-open to display it.
+  */
+  .author__urls-wrapper .author__urls.social-icons {
+    display: none !important;
     position: absolute !important;
-    z-index: 31 !important;
-    top: 100% !important;
+    top: calc(100% + 0.55rem) !important;
     right: 0 !important;
-    margin-top: 0.65rem !important;
+    z-index: 51 !important;
+
+    margin: 0 !important;
+    padding: 0.65rem 0.8rem !important;
+    min-width: 205px !important;
 
     background: #F4EDE4 !important;
     border: 1px solid #D8C8BE !important;
-    box-shadow: 0 8px 22px rgba(78, 37, 37, 0.12) !important;
+    border-radius: 4px !important;
+    box-shadow: 0 8px 22px rgba(78, 37, 37, 0.14) !important;
   }
 
-  .author__urls.social-icons li,
-  .author__urls.social-icons a {
+  .author__urls-wrapper.follow-menu-open .author__urls.social-icons {
+    display: block !important;
+  }
+
+  .author__urls-wrapper .author__urls.social-icons li,
+  .author__urls-wrapper .author__urls.social-icons a {
     background: #F4EDE4 !important;
   }
 
-  .author__urls.social-icons a {
+  .author__urls-wrapper .author__urls.social-icons a,
+  .author__urls-wrapper .author__urls.social-icons i {
     color: #7A3E3E !important;
   }
 
-  .author__urls.social-icons a:hover {
+  .author__urls-wrapper .author__urls.social-icons a:hover,
+  .author__urls-wrapper .author__urls.social-icons a:hover i {
     color: #4E2525 !important;
   }
-}
 
-/* Follow dropdown in burgundy dark mode */
-@media screen and (max-width: 925px) {
-
-  html[data-theme="dark"] .author__urls.social-icons,
-  html[data-theme="dark"] .author__urls.social-icons li,
-  html[data-theme="dark"] .author__urls.social-icons a {
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons,
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons li,
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons a {
     background: #7A3E3E !important;
   }
 
-  html[data-theme="dark"] .author__urls.social-icons {
-    border-color: rgba(244, 237, 228, 0.45) !important;
-    box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons {
+    border-color: rgba(244, 237, 228, 0.48) !important;
   }
 
-  html[data-theme="dark"] .author__urls.social-icons a,
-  html[data-theme="dark"] .author__urls.social-icons i {
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons a,
+  html[data-theme="dark"] .author__urls-wrapper .author__urls.social-icons i {
     color: #F4EDE4 !important;
-  }
-
-  html[data-theme="dark"] .author__urls.social-icons a:hover,
-  html[data-theme="dark"] .author__urls.social-icons a:hover i {
-    color: #FFFFFF !important;
   }
 }
   
 </style>
+
+<script>
+(function () {
+  function initialiseMobileFollowMenu() {
+    var wrapper = document.querySelector(".author__urls-wrapper");
+    var button = wrapper ? wrapper.querySelector("button") : null;
+    var menu = wrapper ? wrapper.querySelector(".author__urls.social-icons") : null;
+
+    if (!wrapper || !button || !menu) return;
+
+    button.setAttribute("type", "button");
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-controls", "mobile-follow-links");
+
+    menu.id = "mobile-follow-links";
+
+    button.addEventListener("click", function (event) {
+      if (window.innerWidth > 924) return;
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+
+      var isOpen = wrapper.classList.toggle("follow-menu-open");
+      button.classList.toggle("open", isOpen);
+      button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    }, true);
+
+    document.addEventListener("click", function (event) {
+      if (window.innerWidth > 924) return;
+
+      if (!wrapper.contains(event.target)) {
+        wrapper.classList.remove("follow-menu-open");
+        button.classList.remove("open");
+        button.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 924) {
+        wrapper.classList.remove("follow-menu-open");
+        button.classList.remove("open");
+        button.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialiseMobileFollowMenu);
+  } else {
+    initialiseMobileFollowMenu();
+  }
+})();
+</script>
 
 <script>
 (function () {
