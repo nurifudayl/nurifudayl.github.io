@@ -391,6 +391,157 @@ layout: default
     flex-direction: column;
   }
 }
+
+/* ==========================================================================
+   Dark mode: publication detail pages
+   ========================================================================== */
+
+html[data-theme="dark"] .publication-detail-page {
+  color: #F4EDE4 !important;
+}
+
+/* Back link */
+html[data-theme="dark"] .publication-detail-back a,
+html[data-theme="dark"] .publication-detail-back a:visited {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-detail-back a:hover {
+  color: #FFFFFF !important;
+}
+
+/* Main detail card */
+html[data-theme="dark"] .publication-detail-card {
+  background: #7A3E3E !important;
+  border-color: rgba(244, 237, 228, 0.62) !important;
+  box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
+}
+
+/* Cover */
+html[data-theme="dark"] .publication-detail-cover {
+  background: transparent !important;
+  border-color: rgba(244, 237, 228, 0.55) !important;
+}
+
+/* Title, metadata and icons */
+html[data-theme="dark"] .publication-detail-title {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-detail-meta,
+html[data-theme="dark"] .publication-detail-meta-item,
+html[data-theme="dark"] .publication-detail-icon {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-detail-meta .meta-separator {
+  color: rgba(244, 237, 228, 0.62) !important;
+}
+
+html[data-theme="dark"] .publication-detail-divider {
+  background: rgba(244, 237, 228, 0.45) !important;
+}
+
+/* Main publication content */
+html[data-theme="dark"] .publication-detail-content,
+html[data-theme="dark"] .publication-detail-content p,
+html[data-theme="dark"] .publication-detail-content li,
+html[data-theme="dark"] .publication-detail-content em,
+html[data-theme="dark"] .publication-detail-content strong {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-detail-content h2,
+html[data-theme="dark"] .publication-detail-content h3 {
+  color: #F4EDE4 !important;
+}
+
+/* Citation box */
+html[data-theme="dark"] .publication-citation-box {
+  background: #7A3E3E !important;
+  border-color: rgba(244, 237, 228, 0.62) !important;
+}
+
+html[data-theme="dark"] .publication-citation-text,
+html[data-theme="dark"] .publication-citation-text p,
+html[data-theme="dark"] .publication-citation-text em,
+html[data-theme="dark"] .publication-citation-text strong {
+  color: #F4EDE4 !important;
+}
+
+/* Copy citation button */
+html[data-theme="dark"] .copy-citation-button {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .copy-citation-button:hover {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+
+/* Publisher / Link button */
+html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button,
+html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button:visited {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .publication-detail-primary-link .pub-link-label,
+html[data-theme="dark"] .publication-detail-primary-link .detail-external-icon svg {
+  color: #7A3E3E !important;
+  stroke: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button:hover {
+  background: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  color: #7A3E3E !important;
+}
+
+/* Indexing badges */
+html[data-theme="dark"] .publication-detail-indexes .pub-index-badge {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+/* Keywords */
+html[data-theme="dark"] .publication-keywords-title {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-keyword-pill {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+/* Share section */
+html[data-theme="dark"] .publication-share {
+  border-top-color: rgba(244, 237, 228, 0.45) !important;
+}
+
+html[data-theme="dark"] .publication-share-title {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-share-links a,
+html[data-theme="dark"] .publication-share-links a:visited {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .publication-share-links a:hover {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+  
 </style>
 
 <main class="publication-detail-page">
@@ -558,156 +709,6 @@ function copyCitationText() {
     document.execCommand("copy");
     document.body.removeChild(textarea);
   }
-}
-
-/* ==========================================================================
-   Dark mode: publication detail pages
-   ========================================================================== */
-
-html[data-theme="dark"] .publication-detail-page {
-  color: #F4EDE4 !important;
-}
-
-/* Back link */
-html[data-theme="dark"] .publication-detail-back a,
-html[data-theme="dark"] .publication-detail-back a:visited {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-detail-back a:hover {
-  color: #FFFFFF !important;
-}
-
-/* Main detail card */
-html[data-theme="dark"] .publication-detail-card {
-  background: #7A3E3E !important;
-  border-color: rgba(244, 237, 228, 0.62) !important;
-  box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
-}
-
-/* Cover */
-html[data-theme="dark"] .publication-detail-cover {
-  background: transparent !important;
-  border-color: rgba(244, 237, 228, 0.55) !important;
-}
-
-/* Title, metadata and icons */
-html[data-theme="dark"] .publication-detail-title {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-detail-meta,
-html[data-theme="dark"] .publication-detail-meta-item,
-html[data-theme="dark"] .publication-detail-icon {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-detail-meta .meta-separator {
-  color: rgba(244, 237, 228, 0.62) !important;
-}
-
-html[data-theme="dark"] .publication-detail-divider {
-  background: rgba(244, 237, 228, 0.45) !important;
-}
-
-/* Main publication content */
-html[data-theme="dark"] .publication-detail-content,
-html[data-theme="dark"] .publication-detail-content p,
-html[data-theme="dark"] .publication-detail-content li,
-html[data-theme="dark"] .publication-detail-content em,
-html[data-theme="dark"] .publication-detail-content strong {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-detail-content h2,
-html[data-theme="dark"] .publication-detail-content h3 {
-  color: #F4EDE4 !important;
-}
-
-/* Citation box */
-html[data-theme="dark"] .publication-citation-box {
-  background: #7A3E3E !important;
-  border-color: rgba(244, 237, 228, 0.62) !important;
-}
-
-html[data-theme="dark"] .publication-citation-text,
-html[data-theme="dark"] .publication-citation-text p,
-html[data-theme="dark"] .publication-citation-text em,
-html[data-theme="dark"] .publication-citation-text strong {
-  color: #F4EDE4 !important;
-}
-
-/* Copy citation button */
-html[data-theme="dark"] .copy-citation-button {
-  background: transparent !important;
-  border-color: #F4EDE4 !important;
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .copy-citation-button:hover {
-  background: #F4EDE4 !important;
-  border-color: #F4EDE4 !important;
-  color: #7A3E3E !important;
-}
-
-/* Publisher / Link button */
-html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button,
-html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button:visited {
-  background: #F4EDE4 !important;
-  border-color: #F4EDE4 !important;
-  color: #7A3E3E !important;
-}
-
-html[data-theme="dark"] .publication-detail-primary-link .pub-link-label,
-html[data-theme="dark"] .publication-detail-primary-link .detail-external-icon svg {
-  color: #7A3E3E !important;
-  stroke: #7A3E3E !important;
-}
-
-html[data-theme="dark"] .publication-detail-primary-link a.pub-link-button:hover {
-  background: #FFFFFF !important;
-  border-color: #FFFFFF !important;
-  color: #7A3E3E !important;
-}
-
-/* Indexing badges */
-html[data-theme="dark"] .publication-detail-indexes .pub-index-badge {
-  background: transparent !important;
-  border-color: #F4EDE4 !important;
-  color: #F4EDE4 !important;
-}
-
-/* Keywords */
-html[data-theme="dark"] .publication-keywords-title {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-keyword-pill {
-  background: transparent !important;
-  border-color: #F4EDE4 !important;
-  color: #F4EDE4 !important;
-}
-
-/* Share section */
-html[data-theme="dark"] .publication-share {
-  border-top-color: rgba(244, 237, 228, 0.45) !important;
-}
-
-html[data-theme="dark"] .publication-share-title {
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-share-links a,
-html[data-theme="dark"] .publication-share-links a:visited {
-  background: transparent !important;
-  border-color: #F4EDE4 !important;
-  color: #F4EDE4 !important;
-}
-
-html[data-theme="dark"] .publication-share-links a:hover {
-  background: #F4EDE4 !important;
-  border-color: #F4EDE4 !important;
-  color: #7A3E3E !important;
 }
   
 </script>
