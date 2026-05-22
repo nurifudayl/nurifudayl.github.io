@@ -666,6 +666,259 @@ nav.mobile-section-nav,
     display: none !important;
   }
 }
+
+/* ==========================================================================
+   Burgundy dark mode
+   Triggered by the existing theme toggle button
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  --site-bg: #7A3E3E;
+  --site-text: #F4EDE4;
+  --site-muted: #F4EDE4;
+  --site-border: rgba(244, 237, 228, 0.42);
+  --site-burgundy: #F4EDE4;
+  --site-burgundy-dark: #FFFFFF;
+
+  --global-bg-color: #7A3E3E;
+  --global-footer-bg-color: #7A3E3E;
+  --global-border-color: rgba(244, 237, 228, 0.42);
+  --global-dark-border-color: rgba(244, 237, 228, 0.65);
+  --global-link-color: #F4EDE4;
+  --global-link-color-hover: #FFFFFF;
+  --global-link-color-visited: #F4EDE4;
+  --global-masthead-link-color: #F4EDE4;
+  --global-masthead-link-color-hover: #FFFFFF;
+  --global-text-color: #F4EDE4;
+  --global-text-color-light: #F4EDE4;
+}
+
+/* Whole-page dark background */
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] .initial-content,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .archive,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .page__footer {
+  background-color: #7A3E3E !important;
+  color: #F4EDE4 !important;
+}
+
+/* General text and headings */
+html[data-theme="dark"] body,
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] span,
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .archive__item-excerpt,
+html[data-theme="dark"] .author__bio,
+html[data-theme="dark"] .author__urls,
+html[data-theme="dark"] .page__footer,
+html[data-theme="dark"] .teaching-intro,
+html[data-theme="dark"] .pub-meta,
+html[data-theme="dark"] .pub-description {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .pub-section-title,
+html[data-theme="dark"] .pub-title,
+html[data-theme="dark"] .course-title,
+html[data-theme="dark"] .author__name,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .page__content details summary {
+  color: #F4EDE4 !important;
+}
+
+/* Links */
+html[data-theme="dark"] .page__content a,
+html[data-theme="dark"] .archive__item-title a,
+html[data-theme="dark"] .author__urls a,
+html[data-theme="dark"] .page__footer a,
+html[data-theme="dark"] .publication-back-link a,
+html[data-theme="dark"] .view-all a {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .page__content a:hover,
+html[data-theme="dark"] .archive__item-title a:hover,
+html[data-theme="dark"] .author__urls a:hover,
+html[data-theme="dark"] .page__footer a:hover,
+html[data-theme="dark"] .publication-back-link a:hover,
+html[data-theme="dark"] .view-all a:hover {
+  color: #FFFFFF !important;
+  text-decoration-color: #FFFFFF !important;
+}
+
+/* Masthead: stays burgundy, text/icons become archive cream */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] .masthead__menu,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav .visible-links,
+html[data-theme="dark"] .greedy-nav .visible-links li,
+html[data-theme="dark"] .greedy-nav .hidden-links,
+html[data-theme="dark"] .mobile-section-nav,
+html[data-theme="dark"] .mobile-section-links,
+html[data-theme="dark"] .mobile-section-item {
+  background-color: #7A3E3E !important;
+  background: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .masthead a,
+html[data-theme="dark"] .masthead a:visited,
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .greedy-nav a:visited,
+html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .site-title:visited,
+html[data-theme="dark"] .mobile-section-item a,
+html[data-theme="dark"] .mobile-section-item span,
+html[data-theme="dark"] .mobile-section-item i,
+html[data-theme="dark"] #theme-toggle,
+html[data-theme="dark"] #theme-toggle a,
+html[data-theme="dark"] #theme-toggle i,
+html[data-theme="dark"] #theme-icon {
+  color: #F4EDE4 !important;
+  background-color: #7A3E3E !important;
+  background: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .masthead a:hover,
+html[data-theme="dark"] .greedy-nav a:hover,
+html[data-theme="dark"] .mobile-section-item a:hover,
+html[data-theme="dark"] .mobile-section-item a:hover span,
+html[data-theme="dark"] .mobile-section-item a:hover i,
+html[data-theme="dark"] #theme-toggle:hover i {
+  color: #FFFFFF !important;
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a::before,
+html[data-theme="dark"] .mobile-section-item.selected::after {
+  background-color: #F4EDE4 !important;
+}
+
+/* Theme button */
+#theme-toggle,
+#theme-toggle a {
+  cursor: pointer !important;
+}
+
+#theme-toggle i,
+#theme-icon {
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+#theme-toggle:hover i,
+#theme-toggle:hover #theme-icon {
+  transform: rotate(-12deg);
+}
+
+html[data-theme="dark"] #theme-toggle:hover i,
+html[data-theme="dark"] #theme-toggle:hover #theme-icon {
+  transform: rotate(12deg);
+}
+
+/* Sidebar and Follow button */
+html[data-theme="dark"] .author__avatar img {
+  border-color: rgba(244, 237, 228, 0.52) !important;
+}
+
+html[data-theme="dark"] .author__urls-wrapper button {
+  background-color: transparent !important;
+  color: #F4EDE4 !important;
+  border-color: rgba(244, 237, 228, 0.62) !important;
+}
+
+html[data-theme="dark"] .author__urls-wrapper button:hover {
+  background-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+  border-color: #F4EDE4 !important;
+}
+
+/* Publication and teaching cards */
+html[data-theme="dark"] .pub-card,
+html[data-theme="dark"] .course-card,
+html[data-theme="dark"] .citation-box {
+  background: #7A3E3E !important;
+  border-color: rgba(244, 237, 228, 0.42) !important;
+  border-left-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .pub-card:hover,
+html[data-theme="dark"] .course-card:hover {
+  background: #7A3E3E !important;
+  border-color: #F4EDE4 !important;
+  box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
+}
+
+/* Badges */
+html[data-theme="dark"] .pub-year,
+html[data-theme="dark"] .pub-index-badge,
+html[data-theme="dark"] .pub-count,
+html[data-theme="dark"] .keyword-pill,
+html[data-theme="dark"] .course-badge {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .course-badge-current {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+
+/* Filled buttons remain readable */
+html[data-theme="dark"] .pub-links a.details-link,
+html[data-theme="dark"] .course-page-button,
+html[data-theme="dark"] .btn,
+html[data-theme="dark"] .btn--primary,
+html[data-theme="dark"] .page__content .btn {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .pub-links a.details-link:hover,
+html[data-theme="dark"] .course-page-button:hover,
+html[data-theme="dark"] .course-card:hover .course-page-button,
+html[data-theme="dark"] .btn:hover,
+html[data-theme="dark"] .btn--primary:hover,
+html[data-theme="dark"] .page__content .btn:hover {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+
+/* External publication links */
+html[data-theme="dark"] .pub-links a.external-link,
+html[data-theme="dark"] .pub-links a.pub-link-button.external-link {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .pub-links a.external-link:hover,
+html[data-theme="dark"] .pub-links a.pub-link-button.external-link:hover {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  color: #7A3E3E !important;
+}
+
+/* Lines and separators */
+html[data-theme="dark"] hr,
+html[data-theme="dark"] .page__footer,
+html[data-theme="dark"] .course-card-action,
+html[data-theme="dark"] .mobile-section-nav {
+  border-color: rgba(244, 237, 228, 0.42) !important;
+}
   
 </style>
 
