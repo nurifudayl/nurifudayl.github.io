@@ -929,6 +929,82 @@ html[data-theme="dark"] .mobile-section-nav {
     border-bottom: 2px solid #F4EDE4 !important;
   }
 }
+
+/* ==========================================================================
+   Mobile Follow dropdown fix
+   ========================================================================== */
+
+@media screen and (max-width: 925px) {
+
+  .sidebar {
+    position: relative !important;
+    z-index: 1 !important;
+    overflow: visible !important;
+  }
+
+  .author__urls-wrapper {
+    position: relative !important;
+    z-index: 30 !important;
+    overflow: visible !important;
+  }
+
+  .author__urls-wrapper button {
+    position: relative !important;
+    z-index: 32 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+  }
+
+  .author__urls.social-icons {
+    position: absolute !important;
+    z-index: 31 !important;
+    top: 100% !important;
+    right: 0 !important;
+    margin-top: 0.65rem !important;
+
+    background: #F4EDE4 !important;
+    border: 1px solid #D8C8BE !important;
+    box-shadow: 0 8px 22px rgba(78, 37, 37, 0.12) !important;
+  }
+
+  .author__urls.social-icons li,
+  .author__urls.social-icons a {
+    background: #F4EDE4 !important;
+  }
+
+  .author__urls.social-icons a {
+    color: #7A3E3E !important;
+  }
+
+  .author__urls.social-icons a:hover {
+    color: #4E2525 !important;
+  }
+}
+
+/* Follow dropdown in burgundy dark mode */
+@media screen and (max-width: 925px) {
+
+  html[data-theme="dark"] .author__urls.social-icons,
+  html[data-theme="dark"] .author__urls.social-icons li,
+  html[data-theme="dark"] .author__urls.social-icons a {
+    background: #7A3E3E !important;
+  }
+
+  html[data-theme="dark"] .author__urls.social-icons {
+    border-color: rgba(244, 237, 228, 0.45) !important;
+    box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
+  }
+
+  html[data-theme="dark"] .author__urls.social-icons a,
+  html[data-theme="dark"] .author__urls.social-icons i {
+    color: #F4EDE4 !important;
+  }
+
+  html[data-theme="dark"] .author__urls.social-icons a:hover,
+  html[data-theme="dark"] .author__urls.social-icons a:hover i {
+    color: #FFFFFF !important;
+  }
+}
   
 </style>
 
