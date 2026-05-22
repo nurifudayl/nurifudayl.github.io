@@ -12,7 +12,7 @@ indexing:
   - TR Dizin
 keywords:
   - Nihal Atsız
-  - *Türk Edebiyatı Tarihi*
+  - "*Türk Edebiyatı Tarihi*"
   - milli edebiyat
   - kanon
   - milli kahraman
