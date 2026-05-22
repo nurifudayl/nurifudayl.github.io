@@ -213,6 +213,86 @@ author_profile: true
     text-align: left;
   }
 }
+
+/* ==========================================================================
+   Dark mode: Translations page
+   ========================================================================== */
+
+html[data-theme="dark"] .translations-intro {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-item {
+  background: #7A3E3E !important;
+  border-color: rgba(244, 237, 228, 0.42) !important;
+  border-left-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-item:hover {
+  border-color: #F4EDE4 !important;
+  box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28) !important;
+}
+
+html[data-theme="dark"] .translation-cover {
+  border-color: rgba(244, 237, 228, 0.42) !important;
+}
+
+html[data-theme="dark"] .translation-year {
+  color: #F4EDE4 !important;
+  border-color: rgba(244, 237, 228, 0.62) !important;
+  background: transparent !important;
+}
+
+html[data-theme="dark"] .translation-year:first-child {
+  color: #7A3E3E !important;
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-title {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-author,
+html[data-theme="dark"] .translation-collaboration,
+html[data-theme="dark"] .translation-publisher-text,
+html[data-theme="dark"] .translation-citation-text,
+html[data-theme="dark"] .copy-status {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-collaboration strong {
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-citation-text {
+  border-left-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-actions a {
+  color: #F4EDE4 !important;
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .translation-actions a:hover {
+  color: #7A3E3E !important;
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .copy-btn {
+  color: #7A3E3E !important;
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .copy-btn:hover {
+  color: #7A3E3E !important;
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+}
+  
 </style>
 
 <div class="translations-intro" markdown="1">
