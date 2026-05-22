@@ -6,7 +6,7 @@ permalink: /publication/book-2004-1-eski-rejim
 date: 2024-01-01
 venue: "Selenge Yayınları"
 paperurl: "https://www.selenge.com.tr/kitap/eski-rejimin-mesruiyeti-and-17-yuzyil-osmanli-nasihatnameleri-uzerine-siyasal-bir-inceleme/"
-cover: "/images/publications/eski-rejimin-mesruiyeti.jpg"
+cover: "/images/publication/eski-rejimin-mesruiyeti.jpg"
 citation: "Kıcıroğlu, Nuri Fudayl. 2024. <em>Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme</em>. İstanbul: Selenge Yayınları."
 keywords:
   - Ottoman political thought
