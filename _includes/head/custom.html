@@ -373,18 +373,31 @@ hr {
 
 /* ==========================================================================
    Mobile icon navigation
+   Desktop remains unchanged
    ========================================================================== */
 
+/* Never show the mobile menu on desktop */
+nav.mobile-section-nav,
 .mobile-section-nav {
-  display: none;
+  display: none !important;
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
 
   /*
-     Mobile masthead background:
-     archive cream background with burgundy typography.
-     Desktop masthead remains unchanged.
+     The masthead now has two mobile rows:
+     1. Site title + theme icon
+     2. Icon navigation
+
+     Since the masthead is fixed, the page must begin below both rows.
+  */
+  body {
+    padding-top: 7.65rem !important;
+  }
+
+  /*
+     Mobile masthead palette:
+     burgundy background, archive cream text and icons.
   */
   .masthead,
   .masthead__inner-wrap,
@@ -393,23 +406,22 @@ hr {
   .greedy-nav .visible-links,
   .greedy-nav .visible-links li,
   .greedy-nav .visible-links li a,
+  nav.mobile-section-nav,
   .mobile-section-nav,
   .mobile-section-nav ul,
   .mobile-section-nav li,
   .mobile-section-nav li a {
-    background-color: var(--site-bg) !important;
-    background: var(--site-bg) !important;
+    background-color: var(--site-burgundy) !important;
+    background: var(--site-burgundy) !important;
   }
 
   .masthead {
-    border-bottom: 1px solid var(--site-border) !important;
+    border-bottom: 1px solid rgba(244, 237, 228, 0.38) !important;
+    box-shadow: none !important;
   }
 
-  .masthead::before,
-  .masthead::after,
-  .greedy-nav::before,
-  .greedy-nav::after {
-    background: var(--site-border) !important;
+  .masthead::after {
+    background: rgba(244, 237, 228, 0.38) !important;
   }
 
   .masthead__inner-wrap {
@@ -417,23 +429,27 @@ hr {
   }
 
   /*
-     First mobile row:
-     name on the left, theme button on the right.
+     First row:
+     full name on the left, theme toggle on the right.
   */
   .greedy-nav {
     width: 100%;
-    min-width: 0;
-    padding: 0 1.1rem;
+    min-width: 0 !important;
+    padding: 0 1rem !important;
   }
 
   .greedy-nav .visible-links {
     display: flex !important;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 3.6rem;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    height: 3.2rem !important;
   }
 
+  /*
+     Hide the ordinary desktop rubric links and hamburger only on mobile.
+     The icon menu below replaces them.
+  */
   .greedy-nav .visible-links > .masthead__menu-item:not(.persist),
   .greedy-nav button,
   .greedy-nav .hidden-links {
@@ -441,13 +457,15 @@ hr {
   }
 
   .greedy-nav .visible-links .masthead__menu-item--lg {
-    flex: 1 1 auto;
-    min-width: 0;
-    padding-right: 0.5rem;
+    display: block !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    padding-right: 0.75rem !important;
+    background: var(--site-burgundy) !important;
   }
 
   .greedy-nav .visible-links .masthead__menu-item--lg a {
-    display: block;
+    display: block !important;
     margin: 0 !important;
     padding: 0 !important;
 
@@ -455,101 +473,117 @@ hr {
     font-size: 1.28rem !important;
     font-weight: 700 !important;
     line-height: 1 !important;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.01em !important;
 
-    color: var(--site-burgundy) !important;
+    color: var(--site-bg) !important;
+    background: var(--site-burgundy) !important;
 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
   }
 
   .greedy-nav .visible-links .masthead__menu-item--lg.selected a {
     border-bottom: none !important;
+    pointer-events: auto !important;
   }
 
-  .greedy-nav .visible-links > .persist a::before {
+  .greedy-nav .visible-links a::before {
     display: none !important;
   }
 
   #theme-toggle {
-    flex: 0 0 auto;
+    display: block !important;
+    flex: 0 0 auto !important;
+    background: var(--site-burgundy) !important;
   }
 
   #theme-toggle a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     width: auto !important;
     margin: 0 !important;
-    padding: 0.2rem 0 0.2rem 0.65rem !important;
-    color: var(--site-burgundy) !important;
+    padding: 0.2rem 0 0.2rem 0.6rem !important;
+    color: var(--site-bg) !important;
+    background: var(--site-burgundy) !important;
   }
 
   #theme-toggle i,
   #theme-icon {
-    color: var(--site-burgundy) !important;
-    font-size: 1.15rem !important;
+    color: var(--site-bg) !important;
+    font-size: 1.05rem !important;
   }
 
   /*
-     Second mobile row:
-     icon-based section navigation.
+     Second row:
+     mobile-only icon navigation.
   */
+  nav.mobile-section-nav,
   .mobile-section-nav {
-    display: block;
-    width: 100%;
-    border-top: 1px solid var(--site-border);
-    border-bottom: 1px solid var(--site-border);
+    display: block !important;
+    width: 100% !important;
+    height: 4.35rem !important;
+    border-top: 1px solid rgba(244, 237, 228, 0.28) !important;
+    background: var(--site-burgundy) !important;
+    overflow: hidden !important;
   }
 
   .mobile-section-links {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-
-    width: 100%;
-    margin: 0;
-    padding: 0 0.35rem;
-    list-style: none;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: space-around !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 0.25rem !important;
+    list-style: none !important;
   }
 
   .mobile-section-item {
-    position: relative;
-    flex: 1 1 20%;
-    min-width: 0;
-    list-style: none;
+    position: relative !important;
+    display: block !important;
+    flex: 1 1 20% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    background: var(--site-burgundy) !important;
   }
 
   .mobile-section-item a,
   .masthead .mobile-section-item a,
   .masthead .mobile-section-item a:visited {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.34rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.32rem !important;
 
-    height: 4.55rem;
+    width: 100% !important;
+    height: 4.35rem !important;
     margin: 0 !important;
-    padding: 0.62rem 0.12rem 0.55rem !important;
+    padding: 0.5rem 0.1rem 0.45rem !important;
 
-    color: var(--site-burgundy) !important;
+    color: var(--site-bg) !important;
+    background: var(--site-burgundy) !important;
     text-decoration: none !important;
   }
 
   .mobile-section-item i {
-    display: block;
-    color: var(--site-burgundy) !important;
-    font-size: 1.22rem;
-    line-height: 1;
+    display: block !important;
+    color: var(--site-bg) !important;
+    font-size: 1.18rem !important;
+    line-height: 1 !important;
   }
 
   .mobile-section-item span {
-    display: block;
+    display: block !important;
     font-family: var(--font-sans) !important;
-    font-size: 0.73rem;
-    font-weight: 500;
-    line-height: 1;
-    color: var(--site-burgundy) !important;
-    white-space: nowrap;
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    color: var(--site-bg) !important;
+    white-space: nowrap !important;
   }
 
   .mobile-section-item a::before {
@@ -557,29 +591,28 @@ hr {
   }
 
   .mobile-section-item.selected::after {
-    content: "";
-    position: absolute;
-    left: 18%;
-    right: 18%;
-    bottom: 0;
-    height: 3px;
-    border-radius: 3px 3px 0 0;
-    background-color: var(--site-burgundy);
+    content: "" !important;
+    position: absolute !important;
+    left: 22% !important;
+    right: 22% !important;
+    bottom: 0 !important;
+    height: 2px !important;
+    background: var(--site-bg) !important;
   }
 
   .mobile-section-item.selected a {
-    pointer-events: none;
-    cursor: default;
+    pointer-events: none !important;
+    cursor: default !important;
   }
 
   .mobile-section-item.selected span {
-    font-weight: 700;
+    font-weight: 700 !important;
   }
 
   .mobile-section-item a:hover,
   .mobile-section-item a:hover i,
   .mobile-section-item a:hover span {
-    color: var(--site-burgundy-dark) !important;
+    color: #ffffff !important;
   }
 }
   
