@@ -1,18 +1,19 @@
-# Yeni proje ekleme şablonu:
-#
-# - title: "<em>Otorite</em>: Game-Based Applications in Political Science Education"
-#   status: "Completed"
-#   sort_year: 2024
-#   period: "2023–2024"
-#   type: "Research Project-3005"
-#   role: "Research Assistant"
-#   institution: "Samsun University/TÜBİTAK"
-#   description: ""Authority" is a game-based educational tool. Its application serves as a portal to the profound realms of political theory. 
-                  Within its digital embrace, dialogues derived from the primary sources of 22 thinkers—eight of whom are Turkish—are interwoven 
-                  into an engaging game narrative. This design invites not only students of Political Science but also all who are enchanted by the intricacies of 
-                  political theory to partake in its enlightening journey."
-#   links:
-#     - label: "Project Website"
-#       url: "https://otoriteoyunu.com/en/"
-#     - label: "App Store"
-#       url: "https://apps.apple.com/us/app/otorite/id6743128067"
+items:
+  - title: "<em>Otorite</em>: Game-Based Applications in Political Science Education"
+    status: "completed"
+    sort_year: 2024
+    period: "2023–2024"
+    type: "TÜBİTAK 3005 Research Project"
+    role: "Research Assistant"
+    institution: "Samsun University / TÜBİTAK"
+    description: >-
+      Authority is a game-based educational tool designed to introduce students
+      to the central questions of political theory. Drawing on primary sources
+      from twenty-two thinkers, including eight Turkish thinkers, it embeds
+      political ideas within an interactive game narrative for students of
+      political science and wider audiences interested in political thought.
+    links:
+      - label: "Project Website"
+        url: "https://otoriteoyunu.com/en/"
+      - label: "App Store"
+        url: "https://apps.apple.com/us/app/otorite/id6743128067"
