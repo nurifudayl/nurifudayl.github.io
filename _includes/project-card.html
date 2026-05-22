@@ -1,1 +1,72 @@
+{% assign project = include.project %}
+{% assign link_count = project.links | size %}
 
+<article class="project-card{% if link_count > 0 %} project-card-has-links{% endif %}">
+
+  <div class="project-card-content">
+
+    <div class="project-meta">
+
+      {% if project.status == "ongoing" %}
+        <span class="project-badge project-status-current">ONGOING</span>
+      {% elsif project.status == "completed" %}
+        <span class="project-badge">COMPLETED</span>
+      {% endif %}
+
+      {% if project.period %}
+        <span class="project-badge">{{ project.period }}</span>
+      {% endif %}
+
+      {% if project.type %}
+        <span class="project-badge">{{ project.type }}</span>
+      {% endif %}
+
+    </div>
+
+    <h3 class="project-title">
+      {{ project.title }}
+    </h3>
+
+    {% if project.role or project.institution %}
+      <div class="project-affiliation">
+        {% if project.role %}
+          <span class="project-role">{{ project.role }}</span>
+        {% endif %}
+
+        {% if project.role and project.institution %}
+          <span class="project-affiliation-divider">·</span>
+        {% endif %}
+
+        {% if project.institution %}
+          <span class="project-institution">{{ project.institution }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if project.description %}
+      <div class="project-description">
+        {{ project.description }}
+      </div>
+    {% endif %}
+
+  </div>
+
+  {% if link_count > 0 %}
+    <div class="project-links">
+      {% for link in project.links %}
+        <a href="{{ link.url }}" class="project-link-button" target="_blank" rel="noopener noreferrer">
+          <span class="project-link-label">{{ link.label }}</span>
+
+          <span class="project-external-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75V17.25A1.75 1.75 0 0 0 6.75 19H17.25A1.75 1.75 0 0 0 19 17.25V15"></path>
+              <path d="M10 14L19 5"></path>
+              <path d="M13.5 5H19V10.5"></path>
+            </svg>
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+</article>
