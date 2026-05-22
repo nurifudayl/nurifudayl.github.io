@@ -1,24 +1,25 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
-
 main:
   - title: "Publications"
+    mobile_title: "Pub."
+    mobile_icon: "fa-book-open"
     url: /publications/
 
   - title: "Projects"
+    mobile_title: "Proj."
+    mobile_icon: "fa-folder"
     url: /projects/
 
   - title: "Translation"
+    mobile_title: "Trans."
+    mobile_icon: "fa-globe"
     url: /translations/
 
   - title: "Teaching"
+    mobile_title: "Teach."
+    mobile_icon: "fa-graduation-cap"
     url: /teaching/
 
   - title: "CV"
+    mobile_title: "CV"
+    mobile_icon: "fa-file-lines"
     url: /cv/
