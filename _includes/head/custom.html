@@ -615,6 +615,57 @@ nav.mobile-section-nav,
     color: #ffffff !important;
   }
 }
+
+/* ==========================================================================
+   Desktop masthead alignment
+   ========================================================================== */
+
+@media screen and (min-width: 651px) {
+
+  .masthead .greedy-nav {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .masthead .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* Site title remains on the left */
+  .masthead .greedy-nav .masthead__menu-item--lg {
+    margin-right: auto !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Rubrics align on the right */
+  .masthead .greedy-nav .desktop-menu-link {
+    flex: 0 0 auto !important;
+  }
+
+  /* Theme toggle remains at far right */
+  .masthead .greedy-nav #theme-toggle {
+    flex: 0 0 auto !important;
+    margin-left: 0.35rem !important;
+  }
+
+  /*
+     Hamburger is not needed on desktop because all desktop
+     navigation items are preserved in the visible navigation.
+  */
+  .masthead .greedy-nav > button,
+  .masthead .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  /*
+     Mobile navigation must never appear on desktop.
+  */
+  .masthead .mobile-section-nav {
+    display: none !important;
+  }
+}
   
 </style>
 
