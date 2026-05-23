@@ -5,6 +5,7 @@ category: book-chapters
 permalink: /publication/chapters-2019-1-ahlak
 date: 2019-01-01
 venue: "Toplum, Siyaset ve Etik: Felsefi Soruşturmalar"
+cover: "/images/publication/toplum-siyaset-ve-etik.jpg"
 paperurl: "https://www.researchgate.net/publication/335542438_Ozgurluk_ve_Ahlakin_Cozulusu_Arendt'te_Devletin_Politik_Alanda_Tahakkumu"
 link_label: "Link"
 citation: >-
