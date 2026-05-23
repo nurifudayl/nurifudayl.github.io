@@ -11,6 +11,9 @@ indexing:
 September 5-9, 2023, University of Potsdam, Potsdam.
 
 
+The final published version of this paper is available [here](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
+
+
 ## Citation
 
 Kılıç, Ceren Melis and Nuri Fudayl Kıcıroğlu. 2023. “Turkey, Cyprus, and the West: A Lacanian Family Portrait.” *16th EISA Pan-European Conferance on International Relations*, Potsdam, 5-9 September 2023.
