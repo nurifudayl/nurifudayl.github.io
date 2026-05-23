@@ -5,10 +5,6 @@
     <div class="pub-meta">
       <span class="pub-year">{{ item.date | date: "%Y" }}</span>
 
-      {% if include.type %}
-        <span class="pub-type">{{ include.type }}</span>
-      {% endif %}
-
       {% if item.venue %}
         <span class="pub-venue">{{ item.venue }}</span>
       {% endif %}
