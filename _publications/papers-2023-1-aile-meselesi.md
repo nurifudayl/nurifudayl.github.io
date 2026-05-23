@@ -21,6 +21,9 @@ keywords:
 
 June 5-6, 2023, İstanbul Medeniyet Üniversitesi & İstanbul Üniversitesi, İstanbul.
 
+
+The final published version of this paper is available [here](/publication/article-2025-3-lacanian-family).
+
 ## Abstract
 
 
