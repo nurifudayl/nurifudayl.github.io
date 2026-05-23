@@ -1,5 +1,5 @@
 ---
-title: "Ahlakın ve Özgürlüğün Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
+title: "Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
 collection: publications
 category: book-chapters
 permalink: /publication/chapters-2019-1-ahlak
