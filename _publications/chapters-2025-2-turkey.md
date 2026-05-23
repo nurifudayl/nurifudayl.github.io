@@ -5,6 +5,7 @@ category: book-chapters
 permalink: /publication/chapters-2025-2-turkey
 date: 2025-01-01
 venue: "The Palgrave Geopolitical Atlas"
+cover: "/images/publication/palgrave-geopolitical-atlas.jpg"
 paperurl: "https://doi.org/10.26650/YTA2022-1091301"
 link_label: "DOI / Link"
 citation: 'Kıcıroğlu, Ceren Melis, Erman Ermihan and Nuri Fudayl Kıcıroğlu. 2025. “Turkey.” In <em>The Palgrave Geopolitical Atlas: State and Quasi-State Actors in Great Power Competition</em>, ed. Brian C. H. Fong, 193-208. Singapore: Palgrave Macmillan.'
