@@ -4,7 +4,7 @@ collection: publications
 category: journal-articles
 permalink: /publication/article-2022-2-üniversite-haftaları
 date: 2022-06-30
-venue: "Yakın Dönem Türkiye Araştırmaları / Recent Period Turkish Studies"
+venue: "Yakın Dönem Türkiye Araştırmaları"
 paperurl: "https://doi.org/10.26650/YTA2022-1091301"
 link_label: "DOI / Link"
 citation: 'Kıcıroğlu, Nuri Fudayl, and Ayşegül Komsuoğlu. 2022. “Türk Yükseköğretiminde Üniversite Yeniden Yapılanırken ‘İlmi Yurda Götürmek’: Üniversite Haftaları Örneği.” *Yakın Dönem Türkiye Araştırmaları / Recent Period Turkish Studies*, no. 41: 1–29. https://doi.org/10.26650/YTA2022-1091301.'
