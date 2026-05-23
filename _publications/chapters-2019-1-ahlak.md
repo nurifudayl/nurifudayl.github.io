@@ -7,7 +7,11 @@ date: 2019-01-01
 venue: "Toplum, Siyaset ve Etik: Felsefi Soruşturmalar"
 paperurl: "https://www.researchgate.net/publication/335542438_Ozgurluk_ve_Ahlakin_Cozulusu_Arendt'te_Devletin_Politik_Alanda_Tahakkumu"
 link_label: "Link"
-citation: 'Kıcıroğlu,  Nuri Fudayl. 2019. “Ahlakın ve Özgürlüğün Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü.” In <em>Toplum, Siyaset ve Etik: Felsefi Soruşturmalar</em>, ed. Eray Yağanak and A. Umut Hacıfevzioğlu, 139-158. Bursa: Sentez Yayıncılık.'
+citation: >-
+  Kıcıroğlu, Nuri Fudayl. 2019. “Ahlakın ve Özgürlüğün Çözülüşü:
+  Arendt'te Devletin Politik Alanda Tahakkümü.” In <em>Toplum, Siyaset ve
+  Etik: Felsefi Soruşturmalar</em>, ed. Eray Yağanak and A. Umut
+  Hacıfevzioğlu, 139–158. Bursa: Sentez Yayıncılık.
 indexing:
 keywords:
   - Hannah Arendt
