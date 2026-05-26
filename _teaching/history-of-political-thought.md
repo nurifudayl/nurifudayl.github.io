@@ -83,26 +83,84 @@ structure:
     thinkers: "Istibdad · Political opposition · Constitutional struggles"
 
 further_resources:
+  - type: "Fresco"
+    title: "The Allegory and Effects of Good and Bad Government"
+    detail: "Ambrogio Lorenzetti, 1338–39"
+    url: "https://www.youtube.com/watch?v=jk3wNadYA7k"
+
+  - type: "Engraving"
+    title: "Leviathan Frontispiece"
+    detail: "Abraham Bosse / Thomas Hobbes, 1651"
+    url:
+
+  - type: "Architecture"
+    title: "Hall of Mirrors, Palace of Versailles"
+    detail: "Absolutism and courtly power"
+    url:
+
+  - type: "Opera"
+    title: "Le nozze di Figaro"
+    detail: "Wolfgang Amadeus Mozart, 1786"
+    url:
+
+  - type: "Painting"
+    title: "The Tennis Court Oath"
+    detail: "Jacques-Louis David"
+    url:
+
+  - type: "Painting"
+    title: "The Death of Marat"
+    detail: "Jacques-Louis David, 1793"
+    url:
+
+  - type: "Music"
+    title: "La Marseillaise"
+    detail: "Claude Joseph Rouget de Lisle, 1792"
+    url:
+
+  - type: "Opera"
+    title: "Fidelio"
+    detail: "Ludwig van Beethoven"
+    url:
+
   - type: "Film"
-    title: "Socrates"
-    detail: "1971"
+    title: "Danton"
+    detail: "Andrzej Wajda, 1983"
     url:
-  - type: "Documentary"
-    title: "The Greeks"
+
+  - type: "Painting"
+    title: "Il Quarto Stato"
+    detail: "Giuseppe Pellizza da Volpedo, 1901"
     url:
-  - type: "Podcast"
-    title: "In Our Time — Hobbes"
+
+  - type: "Graphic Cycle"
+    title: "A Weavers’ Revolt"
+    detail: "Käthe Kollwitz, 1893–97"
     url:
-  - type: "Further Link"
-    title: "Stanford Encyclopedia of Philosophy"
+
+  - type: "Film"
+    title: "The Young Karl Marx"
+    detail: "Raoul Peck, 2017"
     url:
-  - type: "Book Recommendation"
-    title: "The Social Contract"
-    detail: "Jean-Jacques Rousseau"
+
+  - type: "Opera"
+    title: "Aida"
+    detail: "Giuseppe Verdi, 1871"
     url:
-  - type: "Article"
-    title: "On Liberty"
-    detail: "John Stuart Mill"
+
+  - type: "Architecture"
+    title: "Yıldız Palace"
+    detail: "Istanbul · Late Ottoman imperial power"
+    url:
+
+  - type: "Monument"
+    title: "Abide-i Hürriyet"
+    detail: "Istanbul · Constitutionalism and political memory"
+    url:
+
+  - type: "Film"
+    title: "Abdülhamid Düşerken"
+    detail: "Ziya Öztan, 2003"
     url:
 
 core_readings:
