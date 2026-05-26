@@ -29,7 +29,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in books limit:3 %}
-      {% include publication-card.html item=post link_label="Publisher / Link" details_label="Details" %}
+      {% include publication-card.html item=post link_label="Access" details_label="Overview" %}
     {% endfor %}
   </div>
 </section>
@@ -49,7 +49,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in articles limit:3 %}
-      {% include publication-card.html item=post link_label="DOI / Link" details_label="Details" %}
+      {% include publication-card.html item=post link_label="Access" details_label="Overview" %}
     {% endfor %}
   </div>
 </section>
@@ -69,7 +69,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in chapters limit:3 %}
-      {% include publication-card.html item=post link_label="Link" details_label="Details" %}
+      {% include publication-card.html item=post link_label="Access" details_label="Overview" %}
     {% endfor %}
   </div>
 </section>
@@ -89,7 +89,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in conferences limit:3 %}
-      {% include publication-card.html item=post link_label="Link" details_label="Details" %}
+      {% include publication-card.html item=post link_label="Access" details_label="Overview" %}
     {% endfor %}
   </div>
 </section>
