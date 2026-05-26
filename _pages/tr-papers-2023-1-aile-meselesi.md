@@ -26,4 +26,4 @@ keywords:
 
 5–6 Haziran 2023 tarihlerinde İstanbul Medeniyet Üniversitesi ve İstanbul Üniversitesi tarafından İstanbul’da düzenlenen *Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu*’nda sunulmuştur.
 
-Bu bildirinin yayımlanmış nihai makale sürümüne [buradan](https://nurifudayl.com/publication/article-2025-3-lacanian-family) ulaşılabilir.
+Bu bildirinin yayımlanmış nihai makale sürümüne [buradan](/tr/publication/article-2025-3-lacanian-family) ulaşılabilir.
