@@ -123,31 +123,53 @@
   opacity: 0.72;
 }
 
-/* Mobil üst satırı kalabalıklaştırmamak için dil seçici şimdilik masaüstünde görünür */
+/* Mobile: compact language switcher beside the theme button */
 @media (max-width: 760px) {
-  .language-switcher {
-    display: none !important;
-  }
-}
 
-/* Mobile language switcher: shown beside the theme button */
-@media (max-width: 760px) {
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Give the name as much space as possible */
+  .masthead__menu-item--lg {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-right: 0.35rem !important;
+  }
+
+  .masthead__menu-item--lg a {
+    white-space: nowrap;
+  }
+
+  /* Tight mobile language selector */
   .language-switcher {
     display: inline-flex !important;
     align-items: center;
-    gap: 0.24rem;
-    margin-left: auto;
-    margin-right: 0.45rem;
+    gap: 0.32rem;
+    margin-left: 0.15rem;
+    margin-right: 0.28rem;
     white-space: nowrap;
+    flex-shrink: 0;
 
     a {
-      font-size: 0.64rem;
-      letter-spacing: 0.06em;
+      padding: 0 !important;
+      font-size: 0.6rem;
+      letter-spacing: 0.025em;
+      color: #F4EDE4 !important;
+      opacity: 0.72;
+    }
+
+    a.active {
+      opacity: 1;
+      border-bottom: 1px solid #F4EDE4 !important;
     }
   }
 
+  /* Separating dots are unnecessary on small screens */
   .language-divider {
-    font-size: 0.64rem;
+    display: none !important;
   }
 
   #theme-toggle {
