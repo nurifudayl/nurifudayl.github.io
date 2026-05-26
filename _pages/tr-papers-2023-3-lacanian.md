@@ -26,4 +26,4 @@ keywords:
 
 5–9 Eylül 2023 tarihlerinde Potsdam Üniversitesi’nde düzenlenen *16th EISA Pan-European Conference on International Relations* konferansında sunulmuştur.
 
-Bu bildirinin yayımlanmış nihai makale sürümüne [buradan](https://nurifudayl.com/publication/article-2025-3-lacanian-family) ulaşılabilir.
+Bu bildirinin yayımlanmış nihai makale sürümüne [buradan](/tr/publication/article-2025-3-lacanian-family) ulaşılabilir.
