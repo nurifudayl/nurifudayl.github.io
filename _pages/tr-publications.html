@@ -29,7 +29,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in books limit:3 %}
-      {% include publication-card.html item=post link_label="Yayıncı / Bağlantı" details_label="Detaylar" %}
+      {% include publication-card.html item=post link_label="Erişim" details_label="Tanıtım" %}
     {% endfor %}
   </div>
 </section>
@@ -49,7 +49,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in articles limit:3 %}
-      {% include publication-card.html item=post link_label="DOI / Bağlantı" details_label="Detaylar" %}
+      {% include publication-card.html item=post link_label="Erişim" details_label="Tanıtım" %}
     {% endfor %}
   </div>
 </section>
@@ -69,7 +69,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in chapters limit:3 %}
-      {% include publication-card.html item=post link_label="Bağlantı" details_label="Detaylar" %}
+      {% include publication-card.html item=post link_label="Erişim" details_label="Tanıtım" %}
     {% endfor %}
   </div>
 </section>
@@ -89,7 +89,7 @@ translations:
 
   <div class="pub-grid">
     {% for post in conferences limit:3 %}
-      {% include publication-card.html item=post link_label="Bağlantı" details_label="Detaylar" %}
+      {% include publication-card.html item=post link_label="Erişim" details_label="Tanıtım" %}
     {% endfor %}
   </div>
 </section>
