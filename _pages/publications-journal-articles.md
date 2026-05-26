@@ -1,18 +1,19 @@
 ---
 layout: archive
 title: "Journal Articles"
+lang: en
 permalink: /publications/journal-articles/
 author_profile: true
+translations:
+  en: "/publications/journal-articles/"
+  tr: "/tr/publications/journal-articles/"
+  fr: "/fr/publications/journal-articles/"
 ---
 
 {% include publications-style.html %}
 
 <p class="publication-back-link">
-  <a href="/publications/">← Back</a>
-</p>
-
-<p class="publications-intro">
-A complete list of my journal articles.
+  <a href="{{ '/publications/' | relative_url }}">← Back</a>
 </p>
 
 {% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
@@ -20,7 +21,7 @@ A complete list of my journal articles.
 {% if articles.size > 0 %}
 <div class="pub-list">
 {% for post in articles %}
-  {% include publication-card.html item=post type="Journal Article" link_label="DOI / Link" %}
+  {% include publication-card.html item=post link_label="DOI / Link" details_label="Details" %}
 {% endfor %}
 </div>
 {% else %}
