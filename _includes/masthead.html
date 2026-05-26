@@ -37,6 +37,26 @@
               <a href="{{ link_url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          <li class="masthead__menu-item language-switcher persist">
+            <a href="{{ en_url | relative_url }}"
+               class="{% if current_lang == 'en' %}active{% endif %}"
+               lang="en"
+               hreflang="en">EN</a>
+
+            <span class="language-divider">·</span>
+
+            <a href="{{ tr_url | relative_url }}"
+               class="{% if current_lang == 'tr' %}active{% endif %}"
+               lang="tr"
+               hreflang="tr">TR</a>
+
+            <span class="language-divider">·</span>
+
+            <a href="{{ fr_url | relative_url }}"
+               class="{% if current_lang == 'fr' %}active{% endif %}"
+               lang="fr"
+               hreflang="fr">FR</a>
+          </li>
 
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon">
