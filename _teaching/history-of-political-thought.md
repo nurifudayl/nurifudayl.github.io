@@ -51,7 +51,7 @@ objectives:
 structure:
   - number: "I"
     title: "Context, Thought, and the End of the Feudal World"
-    thinkers: "Political thought in historical context · From city-states to absolute monarchy · Dante  · Marsilius of Padua
+    thinkers: "Political thought in historical context · From city-states to absolute monarchy · Dante  · Marsilius of Padua ·
               Islamic political thought · Ibn Khaldun · Ibn Taymiyyah"
 
   - number: "II"
