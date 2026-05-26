@@ -42,7 +42,7 @@ translations:
     <h2 class="pub-section-title">Makaleler <span class="pub-count">{{ articles.size }}</span></h2>
     {% if articles.size > 3 %}
     <div class="view-all">
-      <a href="/publications/journal-articles/">Tüm makaleleri gör →</a>
+      <a href="{{ '/tr/publications/journal-articles/' | relative_url }}">Tüm makaleleri gör →</a>
     </div>
     {% endif %}
   </div>
@@ -62,7 +62,7 @@ translations:
     <h2 class="pub-section-title">Kitap Bölümleri <span class="pub-count">{{ chapters.size }}</span></h2>
     {% if chapters.size > 3 %}
     <div class="view-all">
-      <a href="{{ '/tr/publications/books/' | relative_url }}">Tüm kitapları gör →</a>
+      <a href="{{ '/tr/publications/books-chapters/' | relative_url }}">Tüm kitap bölümlerini gör →</a>
     </div>
     {% endif %}
   </div>
