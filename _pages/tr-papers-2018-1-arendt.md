@@ -1,20 +1,22 @@
 ---
 layout: publication-detail
 title: "Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
-category: conference-papers
-permalink: /tr-papers-2018-1-arendt/
 lang: tr
-translation_key: papers-2018-1-arendt
-date: 2018-09-20
+permalink: /tr/publication/papers-2018-1-arendt
+author_profile: false
+date: 2018-01-01
 venue: "I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu"
 paperurl: "https://ttsfd.org/yayinlar/1-ulusal-cagdas-siyaset-felsefesi-sempozyumu20-21-eylul-2018-orta-dogu-teknik-universitesi-ankara/"
-link_label: "Bağlantı"
 citation: >-
-  Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü:
-  Arendt'te Devletin Politik Alanda Tahakkümü.” In <em>Bildiri Özetleri Kitabı</em>,
-  edited by Selma Aydın Bayram and Erat Yağanak, 40–43. Ankara:
+  Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü.”
+  In <em>Bildiri Özetleri Kitabı</em>, edited by Selma Aydın Bayram and Erat Yağanak, 40–43. Ankara:
   Toplum ve Siyaset Felsefesi Derneği.
-indexing:
+
+translations:
+  en: "/publication/papers-2018-1-arendt"
+  tr: "/tr/publication/papers-2018-1-arendt"
+  fr: "/fr/publication/papers-2018-1-arendt"
+
 keywords:
   - Hannah Arendt
   - şiddet
@@ -23,6 +25,6 @@ keywords:
   - bürokrasi
 ---
 
-20–21 Eylül 2018, Orta Doğu Teknik Üniversitesi, Ankara.
+20–21 Eylül 2018 tarihlerinde Orta Doğu Teknik Üniversitesi’nde, Ankara’da düzenlenen *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*’nda sunulmuştur.
 
-Bu bildirinin geliştirilmiş bir versiyonu daha sonra kitap bölümü olarak yayımlanmıştır. İlgili yayına [buradan](/tr/_pages/chapters-2019-1-ahlak/) ulaşılabilir.
+Bu bildirinin kitap bölümü olarak yayımlanan nihai sürümüne [buradan](https://nurifudayl.com/publication/chapters-2019-1-ahlak) ulaşılabilir.
