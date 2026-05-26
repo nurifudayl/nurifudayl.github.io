@@ -26,4 +26,4 @@ keywords:
 
 Communication présentée lors du *Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu*, organisé par l’Université Istanbul Medeniyet et l’Université d’Istanbul à Istanbul, les 5 et 6 juin 2023.
 
-La version finale publiée de cette communication est disponible [ici](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
+La version finale publiée de cette communication est disponible [ici](/fr/publication/article-2025-3-lacanian-family).
