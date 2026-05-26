@@ -1,20 +1,22 @@
 ---
 layout: publication-detail
-title: "La dissolution de la liberté et de la morale : la domination de l’État dans l’espace politique chez Arendt"
-category: conference-papers
-permalink: /fr-papers-2018-1-arendt/
+title: "Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
 lang: fr
-translation_key: papers-2018-1-arendt
-date: 2018-09-20
+permalink: /fr/publication/papers-2018-1-arendt
+author_profile: false
+date: 2018-01-01
 venue: "I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu"
 paperurl: "https://ttsfd.org/yayinlar/1-ulusal-cagdas-siyaset-felsefesi-sempozyumu20-21-eylul-2018-orta-dogu-teknik-universitesi-ankara/"
-link_label: "Accès"
 citation: >-
-  Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü:
-  Arendt'te Devletin Politik Alanda Tahakkümü.” In <em>Bildiri Özetleri Kitabı</em>,
-  edited by Selma Aydın Bayram and Erat Yağanak, 40–43. Ankara:
+  Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü.”
+  In <em>Bildiri Özetleri Kitabı</em>, edited by Selma Aydın Bayram and Erat Yağanak, 40–43. Ankara:
   Toplum ve Siyaset Felsefesi Derneği.
-indexing:
+
+translations:
+  en: "/publication/papers-2018-1-arendt"
+  tr: "/tr/publication/papers-2018-1-arendt"
+  fr: "/fr/publication/papers-2018-1-arendt"
+
 keywords:
   - Hannah Arendt
   - violence
@@ -23,6 +25,6 @@ keywords:
   - bureaucratie
 ---
 
- 20-21 septembre 2018, Ortadoğu Teknik Üniversitesi, Ankara.
+Communication présentée lors du *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*, tenu à l’Université technique du Moyen-Orient, à Ankara, les 20 et 21 septembre 2018.
 
-Une version développée de cette communication a ensuite été publiée sous la forme d'un chapitre d'ouvrage. La publication correspondante est disponible [ici](/fr-chapters-2019-1-ahlak/).
+La version finale de cette communication, publiée sous la forme d’un chapitre d’ouvrage, est disponible [ici](https://nurifudayl.com/publication/chapters-2019-1-ahlak).
