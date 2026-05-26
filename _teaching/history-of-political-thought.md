@@ -113,30 +113,25 @@ further_resources:
     detail: "Claude Joseph Rouget de Lisle, 1792"
     url: "https://open.spotify.com/intl-tr/track/3UcgFpeFrrebm1upPSYsy8"
 
-  - type: "Opera"
-    title: "Fidelio"
-    detail: "Ludwig van Beethoven"
-    url:
-
   - type: "Film"
     title: "Danton"
     detail: "Andrzej Wajda, 1983"
-    url:
+    url: "https://www.imdb.com/title/tt0083789/?ref_=vp_close"
 
   - type: "Painting"
     title: "Il Quarto Stato"
     detail: "Giuseppe Pellizza da Volpedo, 1901"
-    url:
+    url: "https://www.gam-milano.com/percorsi/collezioni/focus1/il-quarto-stato"
 
   - type: "Graphic Cycle"
     title: "A Weavers’ Revolt"
     detail: "Käthe Kollwitz, 1893–97"
-    url:
+    url: "https://www.kollwitz.de/en/cycle-weavers-revolt-overview"
 
   - type: "Film"
     title: "The Young Karl Marx"
     detail: "Raoul Peck, 2017"
-    url:
+    url: "https://www.imdb.com/title/tt1699518/"
 
   - type: "Opera"
     title: "Aida"
