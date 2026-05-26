@@ -123,57 +123,60 @@
   opacity: 0.72;
 }
 
-/* Mobile: compact language switcher beside the theme button */
+/* ==========================================================================
+   Mobile language switcher: compact inline layout
+   ========================================================================== */
+
 @media (max-width: 760px) {
 
-  .greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-
-  /* Give the name as much space as possible */
-  .masthead__menu-item--lg {
-    flex: 1 1 auto;
-    min-width: 0;
-    padding-right: 0.35rem !important;
-  }
-
-  .masthead__menu-item--lg a {
-    white-space: nowrap;
-  }
-
-  /* Tight mobile language selector */
   .language-switcher {
     display: inline-flex !important;
-    align-items: center;
-    gap: 0.32rem;
-    margin-left: 0.15rem;
-    margin-right: 0.28rem;
+    align-items: center !important;
+    gap: 0 !important;
+    margin-left: auto !important;
+    margin-right: 0.08rem !important;
+    padding: 0 !important;
     white-space: nowrap;
-    flex-shrink: 0;
-
-    a {
-      padding: 0 !important;
-      font-size: 0.6rem;
-      letter-spacing: 0.025em;
-      color: #F4EDE4 !important;
-      opacity: 0.72;
-    }
-
-    a.active {
-      opacity: 1;
-      border-bottom: 1px solid #F4EDE4 !important;
-    }
+    flex: 0 0 auto;
+    background: transparent;
   }
 
-  /* Separating dots are unnecessary on small screens */
+  .language-switcher a {
+    display: inline-block !important;
+    padding: 0 0.08rem !important;
+    margin: 0 !important;
+    font-size: 0.6rem !important;
+    line-height: 1 !important;
+    letter-spacing: 0.015em !important;
+    color: #F4EDE4 !important;
+    opacity: 0.72;
+  }
+
+  .language-switcher a.active {
+    opacity: 1;
+    font-weight: 700;
+    color: #F4EDE4 !important;
+    border-bottom: 1px solid #F4EDE4 !important;
+  }
+
   .language-divider {
-    display: none !important;
+    display: inline-block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 0.58rem !important;
+    line-height: 1 !important;
+    color: #F4EDE4 !important;
+    opacity: 0.7;
   }
 
   #theme-toggle {
     margin-left: 0 !important;
-    flex-shrink: 0;
+    padding-left: 0.08rem !important;
+    flex: 0 0 auto;
+  }
+
+  #theme-toggle a {
+    padding-left: 0.2rem !important;
+    padding-right: 0.1rem !important;
   }
 }
