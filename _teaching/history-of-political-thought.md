@@ -60,11 +60,11 @@ structure:
 
   - number: "III"
     title: "Security, Property, and the Expansion of Capitalism"
-    thinkers: "Sovereignty · Reformism · Jean Bodin · Thomas Hobbes · <em>Leviathan</em>"
+    thinkers: "Sovereignty · Reformism · Jean Bodin · Thomas Hobbes · <em>Leviathan</em> · Social Contract"
 
   - number: "IV"
     title: "Limiting Political Power"
-    thinkers: "The problem of authority · Constraints on government · Modern political models"
+    thinkers: "The problem of authority · Constraints on government · John Locke · Law of Nature · Jean-Jacques Rousseau"
 
   - number: "V"
     title: "Equality against Abstract Universalism"
