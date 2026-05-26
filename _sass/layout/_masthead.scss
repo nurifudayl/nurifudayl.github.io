@@ -124,7 +124,7 @@
 }
 
 /* ==========================================================================
-   Mobile language switcher: compact inline layout
+   Mobile language switcher: balanced spacing and usable tap targets
    ========================================================================== */
 
 @media (max-width: 760px) {
@@ -132,9 +132,9 @@
   .language-switcher {
     display: inline-flex !important;
     align-items: center !important;
-    gap: 0 !important;
+    gap: 0.02rem !important;
     margin-left: auto !important;
-    margin-right: 0.08rem !important;
+    margin-right: 0.22rem !important;
     padding: 0 !important;
     white-space: nowrap;
     flex: 0 0 auto;
@@ -142,31 +142,42 @@
   }
 
   .language-switcher a {
-    display: inline-block !important;
-    padding: 0 0.08rem !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 1.75rem;
+    padding: 0 0.22rem !important;
     margin: 0 !important;
-    font-size: 0.6rem !important;
+    font-size: 0.64rem !important;
     line-height: 1 !important;
-    letter-spacing: 0.015em !important;
+    letter-spacing: 0.035em !important;
     color: #F4EDE4 !important;
-    opacity: 0.72;
+    opacity: 0.76;
+    text-decoration: none;
+  }
+
+  .language-switcher a:hover {
+    color: #F4EDE4 !important;
+    opacity: 1;
   }
 
   .language-switcher a.active {
+    color: #F4EDE4 !important;
     opacity: 1;
     font-weight: 700;
-    color: #F4EDE4 !important;
     border-bottom: 1px solid #F4EDE4 !important;
+    pointer-events: none;
+    cursor: default;
   }
 
   .language-divider {
     display: inline-block !important;
+    margin: 0 0.02rem !important;
     padding: 0 !important;
-    margin: 0 !important;
-    font-size: 0.58rem !important;
+    font-size: 0.6rem !important;
     line-height: 1 !important;
     color: #F4EDE4 !important;
-    opacity: 0.7;
+    opacity: 0.72;
   }
 
   #theme-toggle {
@@ -176,7 +187,7 @@
   }
 
   #theme-toggle a {
-    padding-left: 0.2rem !important;
-    padding-right: 0.1rem !important;
+    padding-left: 0.24rem !important;
+    padding-right: 0.12rem !important;
   }
 }
