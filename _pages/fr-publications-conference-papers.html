@@ -1,0 +1,31 @@
+---
+layout: archive
+title: "Communications"
+lang: fr
+permalink: /fr/publications/conference-papers/
+author_profile: true
+translations:
+  en: "/publications/conference-papers/"
+  tr: "/tr/publications/conference-papers/"
+  fr: "/fr/publications/conference-papers/"
+---
+
+{% include publications-style.html %}
+
+<p class="publication-back-link">
+  <a href="{{ '/fr/publications/' | relative_url }}">← Retour</a>
+</p>
+
+{% assign conferences = site.publications | where: "category", "conference-papers" | sort: "date" | reverse %}
+
+{% if conferences.size > 0 %}
+<div class="pub-list">
+{% for post in conferences %}
+  {% include publication-card.html item=post link_label="Lien" details_label="Détails" %}
+{% endfor %}
+</div>
+{% else %}
+<p class="publications-intro">
+Aucune communication n’a encore été ajoutée.
+</p>
+{% endif %}
