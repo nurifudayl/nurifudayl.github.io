@@ -11,6 +11,16 @@ citation: >-
   Kılıç, Ceren and Nuri Fudayl Kıcıroğlu. 2023. “Kıbrıs’ı Lacancı Perspektifle Açıklamak: Bir Aile Meselesi.”
   In <em>Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu Bildiriler Kitabı</em>, edited by Muhammed Köse, 7. İstanbul: İstanbul Medeniyet Üniversitesi.
 
+excerpt_tr: >-
+  5–6 Haziran 2023 tarihlerinde İstanbul Medeniyet Üniversitesi ve İstanbul
+  Üniversitesi tarafından İstanbul’da düzenlenen Yüzüncü Yılında Cumhuriyetin
+  Politik Psikolojisi Sempozyumu’nda sunulmuştur.
+
+excerpt_fr: >-
+  Communication présentée lors du Yüzüncü Yılında Cumhuriyetin Politik
+  Psikolojisi Sempozyumu, organisé par l’Université Istanbul Medeniyet et
+  l’Université d’Istanbul à Istanbul, les 5 et 6 juin 2023.
+
 detail_url_tr: "/tr/publication/papers-2023-1-aile-meselesi"
 detail_url_fr: "/fr/publication/papers-2023-1-aile-meselesi"
 
