@@ -62,7 +62,7 @@ translations:
     <h2 class="pub-section-title">Chapitres d’ouvrage <span class="pub-count">{{ chapters.size }}</span></h2>
     {% if chapters.size > 3 %}
     <div class="view-all">
-      <a href="/publications/book-chapters/">Voir tous les chapitres d’ouvrage →</a>
+      <a href="{{ '/fr/publications/book-chapters/' | relative_url }}">Voir tous les chapitres d’ouvrage →</a>
     </div>
     {% endif %}
   </div>
