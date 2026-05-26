@@ -40,9 +40,9 @@
     </div>
     {% endif %}
 
-    {% if item.excerpt %}
+    {% if displayed_excerpt %}
     <div class="pub-description">
-      {{ item.excerpt | strip_html | truncatewords: 38 }}
+      {{ displayed_excerpt | strip_html | truncatewords: 38 }}
     </div>
     {% endif %}
   </div>
