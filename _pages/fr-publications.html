@@ -42,7 +42,7 @@ translations:
     <h2 class="pub-section-title">Articles scientifiques <span class="pub-count">{{ articles.size }}</span></h2>
     {% if articles.size > 3 %}
     <div class="view-all">
-      <a href="/publications/journal-articles/">Voir tous les articles scientifiques →</a>
+      <a href="{{ '/fr/publications/journal-articles/' | relative_url }}">Voir tous les articles scientifiques →</a>
     </div>
     {% endif %}
   </div>
