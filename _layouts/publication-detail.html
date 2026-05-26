@@ -650,7 +650,7 @@ html[data-theme="dark"] .publication-share-links a:hover {
         {% if page.paperurl %}
         <div class="publication-detail-primary-link">
           <a href="{{ page.paperurl }}" class="pub-link-button external-link" target="_blank" rel="noopener noreferrer">
-            <span class="pub-link-label">{{ page.link_label | default: "Publisher / Link" }}</span>
+            <span class="pub-link-label">{{ access_label }}</span>
             <span class="detail-external-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75V17.25A1.75 1.75 0 0 0 6.75 19H17.25A1.75 1.75 0 0 0 19 17.25V15"></path>
