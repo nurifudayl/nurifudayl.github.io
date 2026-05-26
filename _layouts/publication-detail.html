@@ -5,6 +5,31 @@ layout: default
 {% include base_path %}
 {% include publications-style.html %}
 
+{% assign current_lang = page.lang | default: "en" %}
+
+{% if current_lang == "tr" %}
+  {% assign publications_url = "/tr/publications/" %}
+  {% assign back_label = "Yayınlara Dön" %}
+  {% assign copy_label = "Atfı Kopyala" %}
+  {% assign access_label = "Erişim" %}
+  {% assign keywords_label = "Anahtar Kelimeler" %}
+  {% assign share_label = "Paylaş" %}
+{% elsif current_lang == "fr" %}
+  {% assign publications_url = "/fr/publications/" %}
+  {% assign back_label = "Retour aux publications" %}
+  {% assign copy_label = "Copier la référence" %}
+  {% assign access_label = "Accès" %}
+  {% assign keywords_label = "Mots-clés" %}
+  {% assign share_label = "Partager" %}
+{% else %}
+  {% assign publications_url = "/publications/" %}
+  {% assign back_label = "Back to Publications" %}
+  {% assign copy_label = "Copy Citation" %}
+  {% assign access_label = "Access" %}
+  {% assign keywords_label = "Keywords" %}
+  {% assign share_label = "Share" %}
+{% endif %}
+
 <style>
 .publication-detail-page {
   max-width: 1180px;
