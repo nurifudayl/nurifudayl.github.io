@@ -17,7 +17,7 @@ translations:
 
 keywords:
   - pensée politique ottomane
-  - littérature de conseil
+  - mirroirs des princes
   - légitimité
   - XVIIe siècle
   - Kâtip Çelebi
@@ -25,9 +25,8 @@ keywords:
   - Veysî
 ---
 
-Cet ouvrage analyse la littérature ottomane de conseil du XVIIe siècle comme un champ historiquement situé de controverses politiques portant sur la légitimité, 
-l’autorité et l’ordre social.
+Cet ouvrage analyse les miroirs des princes ottomans du XVIIe siècle comme un espace historiquement situé de controverses politiques autour de la légitimité, de l’autorité et de l’ordre social.
 
 ## À propos de l’ouvrage
 
-Cette étude aborde la littérature ottomane de conseil non pas simplement comme un genre moral ou administratif, mais comme un langage politique à travers lequel différentes prétentions à la légitimité ont été formulées. Elle soutient que les textes traditionnellement regroupés sous un même genre ne se contentaient pas de répéter un vocabulaire commun du conseil, de l’ordre et de la réforme ; ils avançaient au contraire des conceptions distinctes de l’autorité politique et de la hiérarchie sociale. Afin de développer cet argument, l’étude examine trois textes ottomans relevant du genre des miroirs des princes : le *Düstûrü’l-Amel li-Islâhi’l-Halel* de Kâtip Çelebi, la *Risâle* de Koçi Bey et le *Hâbnâme* de Veysî. Lus ensemble, ces ouvrages mettent en évidence la pluralité interne de la littérature ottomane de conseil et montrent que ce genre fonctionnait comme un médium souple permettant de débattre des fondements du gouvernement légitime.
+Cette étude appréhende les miroirs des princes ottomans du XVIIe siècle non comme un simple genre moral ou administratif, mais comme un langage politique à travers lequel se formulent différentes prétentions à la légitimité. Elle soutient que les textes habituellement rassemblés sous cette catégorie générique ne se bornent pas à reproduire un vocabulaire commun du conseil, de l’ordre et de la réforme, mais défendent des conceptions distinctes de l’autorité politique et de la hiérarchie sociale. Pour étayer cette thèse, l’étude analyse trois miroirs des princes ottomans : le Düstûrü’l-Amel li-Islâhi’l-Halel de Kâtip Çelebi, la Risâle de Koçi Bey et le Hâbnâme de Veysî. Lus ensemble, ces textes révèlent la pluralité interne du genre et montrent que les miroirs des princes constituaient un espace souple de controverse sur les fondements du gouvernement légitime.
