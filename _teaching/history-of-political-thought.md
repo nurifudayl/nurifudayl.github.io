@@ -96,7 +96,7 @@ further_resources:
   - type: "Architecture"
     title: "Hall of Mirrors, Palace of Versailles"
     detail: "Absolutism and courtly power"
-    url:
+    url: "https://www.youtube.com/watch?v=4CuzgTljuwk"
 
   - type: "Opera"
     title: "Le nozze di Figaro"
