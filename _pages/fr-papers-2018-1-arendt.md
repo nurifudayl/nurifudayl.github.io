@@ -2,13 +2,13 @@
 layout: publication-detail
 title: "La dissolution de la liberté et de la morale : la domination de l’État dans l’espace politique chez Arendt"
 category: conference-papers
-permalink: /fr/publication/papers-2018-1-arendt/
+permalink: /fr-papers-2018-1-arendt/
 lang: fr
 translation_key: papers-2018-1-arendt
 date: 2018-09-20
 venue: "I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu"
 paperurl: "https://ttsfd.org/yayinlar/1-ulusal-cagdas-siyaset-felsefesi-sempozyumu20-21-eylul-2018-orta-dogu-teknik-universitesi-ankara/"
-link_label: "Lien"
+link_label: "Accès"
 citation: >-
   Kıcıroğlu, Nuri Fudayl. 2018. “Özgürlük ve Ahlakın Çözülüşü:
   Arendt'te Devletin Politik Alanda Tahakkümü.” In <em>Bildiri Özetleri Kitabı</em>,
@@ -23,6 +23,6 @@ keywords:
   - bureaucratie
 ---
 
-Communication présentée lors du *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*, les 20 et 21 septembre 2018, à l'Université technique du Moyen-Orient, Ankara.
+ 20-21 septembre 2018, Ortadoğu Teknik Üniversitesi, Ankara.
 
-Une version développée de cette communication a ensuite été publiée sous la forme d'un chapitre d'ouvrage. La publication correspondante est disponible [ici](/fr/publication/chapters-2019-1-ahlak/).
+Une version développée de cette communication a ensuite été publiée sous la forme d'un chapitre d'ouvrage. La publication correspondante est disponible [ici](/fr-chapters-2019-1-ahlak/).
