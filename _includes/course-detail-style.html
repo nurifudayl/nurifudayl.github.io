@@ -487,66 +487,10 @@ html[data-theme="dark"] .course-filled-button {
 }
 
 /* ==========================================================================
-   Responsive
+   Responsive and desktop column alignment
    ========================================================================== */
 
-@media (max-width: 1040px) {
-  .course-detail-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .course-detail-sidebar {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  }
-}
-
-@media (max-width: 760px) {
-  .course-detail-title {
-    font-size: 2.05rem !important;
-    line-height: 1.12 !important;
-    white-space: normal;
-  }
-
-  .course-section-title {
-    font-size: 1.38rem !important;
-  }
-
-  .course-sidebar-title {
-    font-size: 1.42rem !important;
-  }
-}
-
-  .course-metadata-row {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.42rem;
-    padding: 0.42rem 0;
-  }
-
-  .course-metadata-label {
-    width: auto;
-    flex: none;
-  }
-
-  .course-content-row {
-    grid-template-columns: 1fr;
-    gap: 0.55rem;
-  }
-
-  .course-section-title {
-    font-size: 1.5rem !important;
-  }
-
-  .course-detail-sidebar {
-    display: flex;
-  }
-}
-
-/* ==========================================================================
-   Fix: keep section headings and content side by side on desktop
-   ========================================================================== */
-
+/* Desktop and tablet: headings remain beside their content */
 @media screen and (min-width: 761px) {
 
   .course-detail-main .course-content-row {
@@ -572,8 +516,43 @@ html[data-theme="dark"] .course-filled-button {
   }
 }
 
-/* Mobile: sections remain stacked for readability */
+/* Medium screens: sidebar moves below the main content */
+@media screen and (max-width: 1040px) {
+
+  .course-detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .course-detail-sidebar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+/* Mobile: headings stack above their content */
 @media screen and (max-width: 760px) {
+
+  .course-detail-page {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  .course-detail-title {
+    font-size: 2.05rem !important;
+    line-height: 1.12 !important;
+    white-space: normal;
+  }
+
+  .course-metadata-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.42rem;
+    padding: 0.42rem 0;
+  }
+
+  .course-metadata-label {
+    width: auto;
+    flex: none;
+  }
 
   .course-detail-main .course-content-row {
     display: grid !important;
@@ -585,6 +564,19 @@ html[data-theme="dark"] .course-filled-button {
   .course-detail-main .course-section-body {
     grid-column: 1 !important;
   }
+
+  .course-section-title {
+    font-size: 1.38rem !important;
+  }
+
+  .course-sidebar-title {
+    font-size: 1.42rem !important;
+  }
+
+  .course-detail-sidebar {
+    display: flex;
+    flex-direction: column;
+  }
 }
-   
+
 </style>
