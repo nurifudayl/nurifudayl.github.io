@@ -9,7 +9,8 @@ office_hours:
     to discuss readings, assignments, or course-related questions.
 
 items:
-  - title: "History of Political Thought"
+  - id: "history-of-political-thought"
+    title: "History of Political Thought"
     sort_title: "History of Political Thought"
     current: true
     sort_year: 2025
@@ -24,7 +25,8 @@ items:
       - "2024-25"
     page_url: "/teaching/history-of-political-thought/"
 
-  - title: "Comparative Political Systems"
+  - id: "comparative-political-systems"
+    title: "Comparative Political Systems"
     sort_title: "Comparative Political Systems"
     current: true
     sort_year: 2025
@@ -39,7 +41,8 @@ items:
       - "2024-25"
     page_url:
     
-  - title: "Political Philosophy"
+  - id: "political-philosophy"
+    title: "Political Philosophy"
     sort_title: "Political Philosophy"
     current: false
     sort_year: 2024
@@ -51,7 +54,8 @@ items:
       - "2024-25"
     page_url:
 
-  - title: "Political Theory"
+  - id: "political-theory"
+    title: "Political Theory"
     sort_title: "Political Theory"
     current: true
     sort_year: 2025
@@ -64,7 +68,8 @@ items:
       - "2024-25"
     page_url:    
 
-  - title: "Political Ideologies"
+  - id: "political-ideologies"
+    title: "Political Ideologies"
     sort_title: "Political Ideologies"
     current: true
     sort_year: 2025
@@ -76,7 +81,8 @@ items:
       - "2025-26"
     page_url:  
 
-  - title: "Turkish Administrative History"
+  - id: "turkish-administrative-history"
+    title: "Turkish Administrative History"
     sort_title: "Turkish Administrative History"
     current: true
     sort_year: 2025
@@ -88,7 +94,8 @@ items:
       - "2025-26"
     page_url: 
     
-  - title: "Social Responsibility and Ethics"
+  - id: "social-responsibility-and-ethics"
+    title: "Social Responsibility and Ethics"
     sort_title: "Social Responsibility and Ethics"
     current: true
     sort_year: 2025
@@ -101,7 +108,8 @@ items:
       - "2024-25"
     page_url: 
 
-  - title: "Introduction to Political Science"
+  - id: "introduction-to-political-science"
+    title: "Introduction to Political Science"
     sort_title: "Introduction to Political Science"
     current: false
     sort_year: 2023
