@@ -25,7 +25,7 @@ Liste complète de mes livres.
 {% if books.size > 0 %}
 <div class="pub-list">
 {% for post in books %}
-  {% include publication-card.html item=post link_label="Éditeur / Lien" details_label="Détails" %}
+  {% include publication-card.html item=post link_label="Accès" details_label="Aperçu" %}
 {% endfor %}
 </div>
 {% else %}
