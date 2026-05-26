@@ -33,7 +33,7 @@ items:
     
   - title: "Political Philosophy"
     sort_title: "Political Philosophy"
-    current: true
+    current: false
     sort_year: 2024
     languages:
       - TR
@@ -95,7 +95,7 @@ items:
 
   - title: "Introduction to Political Science"
     sort_title: "Introduction to Political Science"
-    current: true
+    current: false
     sort_year: 2023
     languages:
       - EN
