@@ -1,0 +1,47 @@
+en:
+  teaching:
+    back: "Back to Teaching"
+    languages: "Languages"
+    course_codes: "Course Codes"
+    offerings: "Offerings"
+    overview: "Course Overview"
+    themes: "Key Themes"
+    objectives: "Learning Objectives"
+    structure: "Course Structure"
+    beyond_text: "Beyond the Text"
+    core_readings: "Core Readings"
+    syllabi: "Syllabi"
+    office_hours: "Office Hours"
+    complete_reading_list: "View Complete Reading List"
+
+tr:
+  teaching:
+    back: "Derslere Dön"
+    languages: "Diller"
+    course_codes: "Ders Kodları"
+    offerings: "Verildiği Dönemler"
+    overview: "Dersin Çerçevesi"
+    themes: "Temel Konular"
+    objectives: "Öğrenme Çıktıları"
+    structure: "Dersin Yapısı"
+    beyond_text: "Metnin Ötesinde"
+    core_readings: "Temel Okumalar"
+    syllabi: "İzlenceler"
+    office_hours: "Görüşme Saatleri"
+    complete_reading_list: "Kapsamlı Okuma Listesi"
+
+fr:
+  teaching:
+    back: "Retour à l’enseignement"
+    languages: "Langues"
+    course_codes: "Codes du cours"
+    offerings: "Années universitaires"
+    overview: "Présentation du cours"
+    themes: "Thèmes principaux"
+    objectives: "Objectifs d’apprentissage"
+    structure: "Structure du cours"
+    beyond_text: "Au-delà du texte"
+    core_readings: "Lectures fondamentales"
+    syllabi: "Syllabi"
+    office_hours: "Heures de permanence"
+    complete_reading_list: "Bibliographie complète"
