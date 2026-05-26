@@ -106,12 +106,12 @@ further_resources:
   - type: "Painting"
     title: "The Death of Marat"
     detail: "Jacques-Louis David, 1793"
-    url:
+    url: "https://fine-arts-museum.be/fr/la-collection/jacques-louis-david-marat-assassine?letter=d&artist=david-jacques-louis"
 
   - type: "Music"
     title: "La Marseillaise"
     detail: "Claude Joseph Rouget de Lisle, 1792"
-    url:
+    url: "https://open.spotify.com/intl-tr/track/3UcgFpeFrrebm1upPSYsy8"
 
   - type: "Opera"
     title: "Fidelio"
