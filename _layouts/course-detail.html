@@ -1,1 +1,230 @@
+---
+layout: default
+---
 
+{% include base_path %}
+{% include course-detail-style.html %}
+
+<main class="course-detail-page">
+
+  <div class="course-back-link">
+    <a href="{{ '/teaching/' | relative_url }}">← Back to Teaching</a>
+  </div>
+
+  <header class="course-header">
+
+    <h1 class="course-detail-title">{{ page.title }}</h1>
+
+    <div class="course-metadata">
+
+      {% if page.languages %}
+      <div class="course-metadata-row">
+        <div class="course-metadata-label">Languages</div>
+        <div class="course-badge-list">
+          {% for language in page.languages %}
+            <span class="course-badge">{{ language }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.codes %}
+      <div class="course-metadata-row">
+        <div class="course-metadata-label">Course Codes</div>
+        <div class="course-badge-list">
+          {% for code in page.codes %}
+            <span class="course-badge">{{ code }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.offerings %}
+      <div class="course-metadata-row">
+        <div class="course-metadata-label">Offerings</div>
+        <div class="course-badge-list">
+          {% for offering in page.offerings %}
+            <span class="course-badge{% if offering.current %} course-badge-current{% endif %}">
+              {{ offering.year }}
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </header>
+
+  <div class="course-detail-layout">
+
+    <div class="course-detail-main">
+
+      {% if page.overview %}
+      <section class="course-content-row">
+        <h2 class="course-section-title">Course Overview</h2>
+        <div class="course-section-body course-overview">
+          {{ page.overview }}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if page.themes %}
+      <section class="course-content-row">
+        <h2 class="course-section-title">Key Themes</h2>
+        <div class="course-section-body">
+          <div class="course-theme-list">
+            {% for theme in page.themes %}
+              <span class="course-theme-pill">{{ theme }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% endif %}
+
+      {% if page.objectives %}
+      <section class="course-content-row">
+        <h2 class="course-section-title">Learning Objectives</h2>
+        <div class="course-section-body">
+          <ul class="course-objectives-list">
+            {% for objective in page.objectives %}
+              <li>{{ objective }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endif %}
+
+      {% if page.structure %}
+      <section class="course-content-row">
+        <h2 class="course-section-title">Course Structure</h2>
+        <div class="course-section-body">
+          <div class="course-structure-list">
+            {% for module in page.structure %}
+              <div class="course-structure-item">
+                <span class="course-structure-number">{{ module.number }}</span>
+                <div class="course-structure-text">
+                  <span class="course-structure-name">{{ module.title }}</span>
+                  {% if module.thinkers %}
+                    <span class="course-structure-thinkers">— {{ module.thinkers }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% endif %}
+
+      {% if page.further_resources %}
+      <section class="course-content-row course-resources-row">
+        <h2 class="course-section-title">Further Resources</h2>
+        <div class="course-section-body">
+          <div class="course-resource-list">
+            {% for resource in page.further_resources %}
+              <div class="course-resource-item">
+                <div class="course-resource-text">
+                  <span class="course-resource-type">{{ resource.type }}:</span>
+                  <span class="course-resource-title">{{ resource.title }}</span>
+                  {% if resource.detail %}
+                    <span class="course-resource-detail">— {{ resource.detail }}</span>
+                  {% endif %}
+                </div>
+
+                {% if resource.url %}
+                  <a href="{{ resource.url }}" class="course-resource-link" target="_blank" rel="noopener noreferrer" aria-label="Open {{ resource.title }}">
+                    ↗
+                  </a>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% endif %}
+
+    </div>
+
+    <aside class="course-detail-sidebar">
+
+      {% if page.core_readings %}
+      <section class="course-sidebar-card">
+        <h2 class="course-sidebar-title">
+          <span class="course-sidebar-icon" aria-hidden="true">⌑</span>
+          Core Readings
+        </h2>
+
+        <ul class="course-readings-list">
+          {% for reading in page.core_readings %}
+            <li>
+              {{ reading.author }}, <em>{{ reading.title }}</em>
+            </li>
+          {% endfor %}
+        </ul>
+
+        {% if page.complete_reading_list_url %}
+          <a href="{{ page.complete_reading_list_url }}" class="course-outline-button" target="_blank" rel="noopener noreferrer">
+            View Complete Reading List
+            <span aria-hidden="true">↗</span>
+          </a>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if page.syllabi %}
+      <section class="course-sidebar-card">
+        <h2 class="course-sidebar-title">
+          <span class="course-sidebar-icon" aria-hidden="true">▧</span>
+          Syllabi
+        </h2>
+
+        {% for syllabus_group in page.syllabi %}
+          <div class="course-syllabus-group">
+            {% if page.syllabi.size > 1 %}
+              <div class="course-syllabus-year{% if syllabus_group.current %} current{% endif %}">
+                {{ syllabus_group.year }}
+              </div>
+            {% endif %}
+
+            <div class="course-syllabus-buttons">
+              {% for file in syllabus_group.files %}
+                {% if file.url %}
+                  <a href="{{ file.url | relative_url }}" class="course-outline-button course-syllabus-button" download>
+                    {{ file.language }} Syllabus (PDF)
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                {% else %}
+                  <span class="course-outline-button course-syllabus-button disabled">
+                    {{ file.language }} Syllabus (PDF)
+                  </span>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if page.current and page.office_hours and page.office_hours.enabled and page.office_hours.url %}
+      <section class="course-sidebar-card">
+        <h2 class="course-sidebar-title">
+          <span class="course-sidebar-icon" aria-hidden="true">◷</span>
+          Office Hours
+        </h2>
+
+        <p class="course-office-text">
+          {{ page.office_hours.text }}
+        </p>
+
+        <a href="{{ page.office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
+          Book Office Hours
+          <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+      {% endif %}
+
+    </aside>
+
+  </div>
+
+</main>
