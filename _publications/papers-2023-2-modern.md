@@ -11,6 +11,12 @@ paperurl: "https://www.sitd.org.tr/wp-content/uploads/2024/11/Ozet-Kitapcigi_202
 citation: >-
   Nuri Fudayl Kıcıroğlu. 2023. “Modernden Önce Modern, Klasikten Önce Klasik: 17. Yüzyıl Osmanlı Nasihatnamelerini Siyasal Düşünceler Tarihinin Nesnesi Haline Getirirken Karşılaşılan Sorunlara Dair Bazı Tespitler.” In <em>SİTD II. Ulusal Siyaset Bilimi Kongresi Özet Kitapçığı</em>, edited by Tunahan Yıldız, İlker Aytürk, and Hasret Dikici-Bilgin, 35–36. İstanbul: Siyasi İlimler Türk Derneği.
 
+excerpt_tr: >-
+  7–8 Ekim 2023, Bilkent Üniversitesi, Ankara.
+
+excerpt_fr: >-
+   à l’Université Bilkent, à Ankara, les 7-8 octobre 2023.
+
 detail_url_tr: "/tr/publication/papers-2023-2-modern"
 detail_url_fr: "/fr/publication/papers-2023-2-modern"
 
@@ -27,7 +33,7 @@ keywords:
   - social classes
 ---
 
-Presented at the *SİTD II. Ulusal Siyaset Bilimi Kongresi*, held at Bilkent University, Ankara, 7–8 October 2023.
+held at Bilkent University, in Ankara, on 7–8 October 2023.
 
 
 
