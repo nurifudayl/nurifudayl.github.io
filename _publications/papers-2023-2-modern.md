@@ -33,7 +33,7 @@ keywords:
   - social classes
 ---
 
-held at Bilkent University, in Ankara, on 7–8 October 2023.
+held at Bilkent University in Ankara on 7–8 October 2023.
 
 
 
