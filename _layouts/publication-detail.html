@@ -664,7 +664,7 @@ html[data-theme="dark"] .publication-share-links a:hover {
 
         {% if page.keywords %}
         <div class="publication-keywords">
-          <div class="publication-keywords-title">Keywords</div>
+          <div class="publication-keywords-title">{{ keywords_label }}</div>
           <div class="publication-keyword-list">
             {% for keyword in page.keywords %}
               <span class="publication-keyword-pill">{{ keyword }}</span>
@@ -681,7 +681,7 @@ html[data-theme="dark"] .publication-share-links a:hover {
 
   <section class="publication-share">
     <div class="publication-share-row">
-      <div class="publication-share-title">Share</div>
+      <div class="publication-share-title">{{ share_label }}</div>
 
       {% assign share_url = page.url | absolute_url %}
       {% assign share_title = page.title | uri_escape %}
