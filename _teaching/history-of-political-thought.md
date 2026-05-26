@@ -3,8 +3,7 @@ layout: course-detail
 title: "History of Political Thought"
 permalink: /teaching/history-of-political-thought/
 author_profile: false
-
-current: true
+course_id: "history-of-political-thought"
 
 languages:
   - TR
@@ -114,10 +113,4 @@ syllabi:
       - language: "EN"
         url: "/assets/files/syllabi/history-of-political-thought-2025-26-en.pdf"
 
-office_hours:
-  enabled: false
-  url:
-  text: >-
-    Students enrolled in the current offering of this course may schedule an
-    appointment to discuss readings, assignments, or course-related questions.
 ---
