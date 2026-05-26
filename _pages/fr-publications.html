@@ -1,0 +1,96 @@
+---
+layout: archive
+title: "Publications"
+lang: fr
+permalink: /fr/publications/
+author_profile: true
+translations:
+  en: "/publications/"
+  tr: "/tr/publications/"
+  fr: "/fr/publications/"
+---
+
+{% include publications-style.html %}
+
+<p class="publications-intro">
+</p>
+
+{% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
+{% if books.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Livres <span class="pub-count">{{ books.size }}</span></h2>
+    {% if books.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/books/">Voir tous les livres →</a>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="pub-grid">
+    {% for post in books limit:3 %}
+      {% include publication-card.html item=post link_label="Éditeur / Lien" details_label="Détails" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign articles = site.publications | where: "category", "journal-articles" | sort: "date" | reverse %}
+{% if articles.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Articles scientifiques <span class="pub-count">{{ articles.size }}</span></h2>
+    {% if articles.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/journal-articles/">Voir tous les articles scientifiques →</a>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="pub-grid">
+    {% for post in articles limit:3 %}
+      {% include publication-card.html item=post link_label="DOI / Lien" details_label="Détails" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
+{% if chapters.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Chapitres d’ouvrage <span class="pub-count">{{ chapters.size }}</span></h2>
+    {% if chapters.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/book-chapters/">Voir tous les chapitres d’ouvrage →</a>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="pub-grid">
+    {% for post in chapters limit:3 %}
+      {% include publication-card.html item=post link_label="Lien" details_label="Détails" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign conferences = site.publications | where: "category", "conference-papers" | sort: "date" | reverse %}
+{% if conferences.size > 0 %}
+<section class="pub-section">
+  <div class="pub-section-header">
+    <h2 class="pub-section-title">Communications <span class="pub-count">{{ conferences.size }}</span></h2>
+    {% if conferences.size > 3 %}
+    <div class="view-all">
+      <a href="/publications/conference-papers/">Voir toutes les communications →</a>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="pub-grid">
+    {% for post in conferences limit:3 %}
+      {% include publication-card.html item=post link_label="Lien" details_label="Détails" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
