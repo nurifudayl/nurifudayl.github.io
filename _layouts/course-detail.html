@@ -5,6 +5,9 @@ layout: default
 {% include base_path %}
 {% include course-detail-style.html %}
 
+{% assign course_record = site.data.courses.items | where: "id", page.course_id | first %}
+{% assign shared_office_hours = site.data.courses.office_hours %}
+
 <main class="course-detail-page">
 
   <div class="course-back-link">
@@ -218,19 +221,28 @@ layout: default
       </section>
       {% endif %}
 
-      {% if page.current and page.office_hours and page.office_hours.enabled and page.office_hours.url %}
+      {% if course_record and course_record.current and shared_office_hours.enabled and shared_office_hours.url %}
       <section class="course-sidebar-card">
         <h2 class="course-sidebar-title">
-          <span class="course-sidebar-icon" aria-hidden="true">◷</span>
+          <span class="course-sidebar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="course-sidebar-svg">
+              <rect x="3.5" y="4.5" width="17" height="16" rx="2"></rect>
+              <path d="M8 2.8v4"></path>
+              <path d="M16 2.8v4"></path>
+              <path d="M3.5 9.2h17"></path>
+              <circle cx="12" cy="14.5" r="3.2"></circle>
+              <path d="M12 13v1.8l1.35.8"></path>
+            </svg>
+          </span>
           Office Hours
         </h2>
-
+      
         <p class="course-office-text">
-          {{ page.office_hours.text }}
+          {{ shared_office_hours.text }}
         </p>
-
-        <a href="{{ page.office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
-          Book Office Hours
+      
+        <a href="{{ shared_office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
+          {{ shared_office_hours.label }}
           <span aria-hidden="true">↗</span>
         </a>
       </section>
