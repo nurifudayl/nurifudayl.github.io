@@ -79,3 +79,52 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* ==========================================================================
+   LANGUAGE SWITCHER
+   ========================================================================== */
+
+.language-switcher {
+  display: flex !important;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 1rem;
+  background-color: var(--global-bg-color);
+
+  a {
+    padding: 0 !important;
+    font-family: $sans-serif-narrow;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--global-text-color);
+    text-decoration: none;
+    opacity: 0.55;
+  }
+
+  a:hover {
+    opacity: 1;
+    color: var(--global-text-color);
+  }
+
+  a.active {
+    opacity: 1;
+    font-weight: 700;
+    border-bottom: 1px solid var(--global-text-color);
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+.language-divider {
+  color: var(--global-text-color);
+  font-size: 0.72rem;
+  opacity: 0.45;
+}
+
+/* Mobil üst satırı kalabalıklaştırmamak için dil seçici şimdilik masaüstünde görünür */
+@media (max-width: 760px) {
+  .language-switcher {
+    display: none !important;
+  }
+}
