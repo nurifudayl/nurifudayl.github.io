@@ -16,6 +16,12 @@ citation: >-
 detail_url_tr: "/tr/publication/papers-2018-1-arendt"
 detail_url_fr: "/fr/publication/papers-2018-1-arendt"
 
+excerpt_tr: >-
+  20–21 Eylül 2018, Orta Doğu Teknik Üniversitesi, Ankara.
+
+excerpt_fr: >-
+  Ortadoğu Teknik Üniversitesi, à Ankara, 20-21 septembre 2018.
+  
 translations:
   en: "/publication/papers-2018-1-arendt"
   tr: "/tr/publication/papers-2018-1-arendt"
@@ -29,7 +35,7 @@ keywords:
   - bureaucracy
 ---
 
-Presented at the *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*, held at Middle East Technical University, Ankara, 20–21 September 2018.
+at Ortadoğu Teknik Üniversitesi, in Ankara, on 20–21 September 2018.
 
 The final published version of this paper is available [here](https://nurifudayl.com/publication/chapters-2019-1-ahlak).
 
