@@ -542,4 +542,49 @@ html[data-theme="dark"] .course-filled-button {
     display: flex;
   }
 }
+
+/* ==========================================================================
+   Fix: keep section headings and content side by side on desktop
+   ========================================================================== */
+
+@media screen and (min-width: 761px) {
+
+  .course-detail-main .course-content-row {
+    display: grid !important;
+    grid-template-columns: 220px minmax(0, 1fr) !important;
+    column-gap: 1.35rem !important;
+    row-gap: 0 !important;
+    align-items: start !important;
+  }
+
+  .course-detail-main .course-section-title {
+    grid-column: 1 !important;
+    margin: 0 !important;
+    font-size: 1.5rem !important;
+    line-height: 1.18 !important;
+    font-weight: 700 !important;
+  }
+
+  .course-detail-main .course-section-body {
+    grid-column: 2 !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Mobile: sections remain stacked for readability */
+@media screen and (max-width: 760px) {
+
+  .course-detail-main .course-content-row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.55rem !important;
+  }
+
+  .course-detail-main .course-section-title,
+  .course-detail-main .course-section-body {
+    grid-column: 1 !important;
+  }
+}
+   
 </style>
