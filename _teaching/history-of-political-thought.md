@@ -136,22 +136,22 @@ further_resources:
   - type: "Opera"
     title: "Aida"
     detail: "Giuseppe Verdi, 1871"
-    url:
+    url: "https://www.youtube.com/watch?v=yVIFwXCV494"
 
   - type: "Architecture"
     title: "Yıldız Palace"
     detail: "Istanbul · Late Ottoman imperial power"
-    url:
+    url: "https://www.youtube.com/watch?v=1id_x6evv9Q"
 
   - type: "Monument"
     title: "Abide-i Hürriyet"
     detail: "Istanbul · Constitutionalism and political memory"
-    url:
+    url: "https://www.youtube.com/watch?v=yO-Fhn81aDQ"
 
   - type: "Film"
     title: "Abdülhamid Düşerken"
     detail: "Ziya Öztan, 2003"
-    url:
+    url: "https://www.imdb.com/title/tt0363410/"
 
 core_readings:
   - author: "Plato"
