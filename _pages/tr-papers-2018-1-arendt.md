@@ -27,4 +27,4 @@ keywords:
 
 20–21 Eylül 2018 tarihlerinde Orta Doğu Teknik Üniversitesi’nde, Ankara’da düzenlenen *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*’nda sunulmuştur.
 
-Bu bildirinin kitap bölümü olarak yayımlanan nihai sürümüne [buradan](https://nurifudayl.com/publication/chapters-2019-1-ahlak) ulaşılabilir.
+Bu bildirinin kitap bölümü olarak yayımlanan nihai sürümüne [buradan](/tr/publication/chapters-2019-1-ahlak) ulaşılabilir.
