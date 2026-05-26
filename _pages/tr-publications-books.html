@@ -1,0 +1,18 @@
+<p class="publication-back-link">
+  <a href="{{ '/tr/publications/' | relative_url }}">← Geri Dön</a>
+</p>
+
+
+{% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
+
+{% if books.size > 0 %}
+<div class="pub-list">
+{% for post in books %}
+  {% include publication-card.html item=post link_label="Yayıncı / Bağlantı" details_label="Detaylar" %}
+{% endfor %}
+</div>
+{% else %}
+<p class="publications-intro">
+Henüz kitap eklenmemiştir.
+</p>
+{% endif %}
