@@ -128,3 +128,29 @@
     display: none !important;
   }
 }
+
+/* Mobile language switcher: shown beside the theme button */
+@media (max-width: 760px) {
+  .language-switcher {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.24rem;
+    margin-left: auto;
+    margin-right: 0.45rem;
+    white-space: nowrap;
+
+    a {
+      font-size: 0.64rem;
+      letter-spacing: 0.06em;
+    }
+  }
+
+  .language-divider {
+    font-size: 0.64rem;
+  }
+
+  #theme-toggle {
+    margin-left: 0 !important;
+    flex-shrink: 0;
+  }
+}
