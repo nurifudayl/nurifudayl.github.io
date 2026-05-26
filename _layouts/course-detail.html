@@ -121,7 +121,7 @@ layout: default
 
       {% if page.further_resources %}
       <section class="course-content-row course-resources-row">
-        <h2 class="course-section-title">Further Resources</h2>
+        <h2 class="course-section-title">Beyond Text</h2>
         <div class="course-section-body">
           <div class="course-resource-list">
             {% for resource in page.further_resources %}
@@ -241,9 +241,9 @@ layout: default
           {{ shared_office_hours.text }}
         </p>
       
-        <a href="{{ page.office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
-          Book Office Hours
-          <span aria-hidden="true">↗</span>
+        <a href="{{ shared_office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
+          <span>{{ shared_office_hours.label }}</span>
+          {% include external-link-icon.html %}
         </a>
       </section>
       {% endif %}
