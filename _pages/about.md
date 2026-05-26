@@ -1,7 +1,12 @@
 ---
 permalink: /
 title: ""
+lang: en
 author_profile: true
+translations:
+  en: "/"
+  tr: "/tr/"
+  fr: "/fr/"
 redirect_from: 
   - /about/
   - /about.html
