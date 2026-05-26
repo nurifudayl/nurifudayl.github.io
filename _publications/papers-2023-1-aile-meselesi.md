@@ -15,7 +15,7 @@ excerpt_tr: >-
   5–6 Haziran 2023,  İstanbul Medeniyet Üniversitesi ve İstanbul Üniversitesi, İstanbul.
 
 excerpt_fr: >-
-  par Istanbul Medeniyet Universitesi et l’Université d’Istanbul, à Istanbul, les 5-6 juin 2023.
+  par l'Université Medeniyet à Istanbul et l’Université d’Istanbul, à Istanbul, les 5-6 juin 2023.
 
 detail_url_tr: "/tr/publication/papers-2023-1-aile-meselesi"
 detail_url_fr: "/fr/publication/papers-2023-1-aile-meselesi"
