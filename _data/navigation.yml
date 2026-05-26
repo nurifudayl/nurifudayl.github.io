@@ -1,4 +1,4 @@
-main:
+en:
   - title: "Publications"
     mobile_title: "Pub."
     mobile_icon: "fa-book-open"
@@ -23,3 +23,55 @@ main:
     mobile_title: "CV"
     mobile_icon: "fa-file-lines"
     url: /cv/
+
+tr:
+  - title: "Yayınlar"
+    mobile_title: "Yay."
+    mobile_icon: "fa-book-open"
+    url: /tr/publications/
+
+  - title: "Projeler"
+    mobile_title: "Proj."
+    mobile_icon: "fa-folder"
+    url: /tr/projects/
+
+  - title: "Çeviriler"
+    mobile_title: "Çev."
+    mobile_icon: "fa-globe"
+    url: /tr/translations/
+
+  - title: "Dersler"
+    mobile_title: "Ders"
+    mobile_icon: "fa-graduation-cap"
+    url: /tr/teaching/
+
+  - title: "CV"
+    mobile_title: "CV"
+    mobile_icon: "fa-file-lines"
+    url: /tr/cv/
+
+fr:
+  - title: "Publications"
+    mobile_title: "Pub."
+    mobile_icon: "fa-book-open"
+    url: /fr/publications/
+
+  - title: "Projets"
+    mobile_title: "Proj."
+    mobile_icon: "fa-folder"
+    url: /fr/projects/
+
+  - title: "Traductions"
+    mobile_title: "Trad."
+    mobile_icon: "fa-globe"
+    url: /fr/translations/
+
+  - title: "Enseignement"
+    mobile_title: "Ens."
+    mobile_icon: "fa-graduation-cap"
+    url: /fr/teaching/
+
+  - title: "CV"
+    mobile_title: "CV"
+    mobile_icon: "fa-file-lines"
+    url: /fr/cv/
