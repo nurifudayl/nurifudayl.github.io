@@ -27,6 +27,6 @@ keywords:
 
 Cet ouvrage analyse les miroirs des princes ottomans du XVIIe siècle comme un espace historiquement situé de controverses politiques autour de la légitimité, de l’autorité et de l’ordre social.
 
-## À propos de l’ouvrage
+## À propos
 
 Cette étude appréhende les miroirs des princes ottomans du XVIIe siècle non comme un simple genre moral ou administratif, mais comme un langage politique à travers lequel se formulent différentes prétentions à la légitimité. Elle soutient que les textes habituellement rassemblés sous cette catégorie générique ne se bornent pas à reproduire un vocabulaire commun du conseil, de l’ordre et de la réforme, mais défendent des conceptions distinctes de l’autorité politique et de la hiérarchie sociale. Pour étayer cette thèse, l’étude analyse trois miroirs des princes ottomans : le Düstûrü’l-Amel li-Islâhi’l-Halel de Kâtip Çelebi, la Risâle de Koçi Bey et le Hâbnâme de Veysî. Lus ensemble, ces textes révèlent la pluralité interne du genre et montrent que les miroirs des princes constituaient un espace souple de controverse sur les fondements du gouvernement légitime.
