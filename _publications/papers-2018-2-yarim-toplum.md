@@ -33,7 +33,7 @@ keywords:
   - women
 ---
 
-by Hukuk Kuramı Dergisi & Eskişehir Okulu, Eskişehir, 24–25 November 2018.
+organised by Hukuk Kuramı Dergisi & Eskişehir Okulu, Eskişehir, 24–25 November 2018.
 
 
 
