@@ -15,7 +15,7 @@ excerpt_tr: >-
   5–6 Haziran 2023,  İstanbul Medeniyet Üniversitesi ve İstanbul Üniversitesi, İstanbul.
 
 excerpt_fr: >-
-  par l’Université Istanbul Medeniyet et l’Université d’Istanbul, à Istanbul, 5-6 juin 2023.
+  par Istanbul Medeniyet Universitesi et l’Université d’Istanbul, à Istanbul, les 5-6 juin 2023.
 
 detail_url_tr: "/tr/publication/papers-2023-1-aile-meselesi"
 detail_url_fr: "/fr/publication/papers-2023-1-aile-meselesi"
@@ -33,6 +33,6 @@ keywords:
   - Greece
 ---
 
-by İstanbul Medeniyet Üniversitesi and İstanbul Üniversitesi, İstanbul, 5–6 June 2023.
+by Istanbul Medeniyet University and İstanbul University in Istanbul on 5–6 June 2023.
 
 The final published version of this paper is available [here](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
