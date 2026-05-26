@@ -1,16 +1,24 @@
 ---
 title: "Kıbrıs’ı Lacancı Perspektifle Açıklamak: Bir Aile Meselesi"
+lang: en
 collection: publications
 category: conference-papers
 permalink: /publication/papers-2023-1-aile-meselesi
 date: 2023-01-01
 venue: "Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu"
 paperurl: "https://cumhuriyet100yasinda.medeniyet.edu.tr/documents/siyasetvekamuenstitu/yuzuncu-yilinda-cumhuriyetin-politik-psikolojisi-sempozyumu-bildiri-ozet-tam-metin-kitabi.pdf"
-link_label: "Link"
 citation: >-
-  Kılıç, Ceren and Nuri Fudayl Kıcıroğlu. 2023. “Kıbrıs’ı Lacancı Perspektifle Açıklamak: Bir Aile Meselesi.” 
+  Kılıç, Ceren and Nuri Fudayl Kıcıroğlu. 2023. “Kıbrıs’ı Lacancı Perspektifle Açıklamak: Bir Aile Meselesi.”
   In <em>Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu Bildiriler Kitabı</em>, edited by Muhammed Köse, 7. İstanbul: İstanbul Medeniyet Üniversitesi.
-indexing:
+
+detail_url_tr: "/tr/publication/papers-2023-1-aile-meselesi"
+detail_url_fr: "/fr/publication/papers-2023-1-aile-meselesi"
+
+translations:
+  en: "/publication/papers-2023-1-aile-meselesi"
+  tr: "/tr/publication/papers-2023-1-aile-meselesi"
+  fr: "/fr/publication/papers-2023-1-aile-meselesi"
+
 keywords:
   - Turkey
   - Cyprus
@@ -19,10 +27,6 @@ keywords:
   - Greece
 ---
 
-June 5-6, 2023, İstanbul Medeniyet Üniversitesi & İstanbul Üniversitesi, İstanbul.
-
+Presented at the *Yüzüncü Yılında Cumhuriyetin Politik Psikolojisi Sempozyumu*, organized by İstanbul Medeniyet Üniversitesi and İstanbul Üniversitesi, İstanbul, 5–6 June 2023.
 
 The final published version of this paper is available [here](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
-
-
-
