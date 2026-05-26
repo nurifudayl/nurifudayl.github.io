@@ -136,7 +136,7 @@ layout: default
 
                 {% if resource.url %}
                   <a href="{{ resource.url }}" class="course-resource-link" target="_blank" rel="noopener noreferrer" aria-label="Open {{ resource.title }}">
-                    ↗
+                    {% include external-link-icon.html %}
                   </a>
                 {% endif %}
               </div>
@@ -173,8 +173,8 @@ layout: default
 
         {% if page.complete_reading_list_url %}
           <a href="{{ page.complete_reading_list_url }}" class="course-outline-button" target="_blank" rel="noopener noreferrer">
-            View Complete Reading List
-            <span aria-hidden="true">↗</span>
+            <span>View Complete Reading List</span>
+            {% include external-link-icon.html %}
           </a>
         {% endif %}
       </section>
@@ -206,8 +206,8 @@ layout: default
               {% for file in syllabus_group.files %}
                 {% if file.url %}
                   <a href="{{ file.url | relative_url }}" class="course-outline-button course-syllabus-button" download>
-                    {{ file.language }} Syllabus (PDF)
-                    <span aria-hidden="true">↗</span>
+                    <span>{{ file.language }} Syllabus (PDF)</span>
+                    {% include external-link-icon.html %}
                   </a>
                 {% else %}
                   <span class="course-outline-button course-syllabus-button disabled">
@@ -241,8 +241,8 @@ layout: default
           {{ shared_office_hours.text }}
         </p>
       
-        <a href="{{ shared_office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
-          {{ shared_office_hours.label }}
+        <a href="{{ page.office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
+          Book Office Hours
           <span aria-hidden="true">↗</span>
         </a>
       </section>
