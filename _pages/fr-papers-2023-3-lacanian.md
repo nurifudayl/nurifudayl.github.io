@@ -26,4 +26,4 @@ keywords:
 
 Communication présentée lors de la *16th EISA Pan-European Conference on International Relations*, tenue à l’Université de Potsdam, à Potsdam, du 5 au 9 septembre 2023.
 
-La version finale publiée de cette communication est disponible [ici](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
+La version finale publiée de cette communication est disponible [ici](/fr/publication/article-2025-3-lacanian-family).
