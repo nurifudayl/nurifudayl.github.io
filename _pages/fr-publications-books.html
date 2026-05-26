@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Livres"
+lang: fr
+permalink: /fr/publications/books/
+author_profile: true
+translations:
+  en: "/publications/books/"
+  tr: "/tr/publications/books/"
+  fr: "/fr/publications/books/"
+---
+
+{% include publications-style.html %}
+
+<p class="publication-back-link">
+  <a href="{{ '/fr/publications/' | relative_url }}">← Retour</a>
+</p>
+
+<p class="publications-intro">
+Liste complète de mes livres.
+</p>
+
+{% assign books = site.publications | where: "category", "books" | sort: "date" | reverse %}
+
+{% if books.size > 0 %}
+<div class="pub-list">
+{% for post in books %}
+  {% include publication-card.html item=post link_label="Éditeur / Lien" details_label="Détails" %}
+{% endfor %}
+</div>
+{% else %}
+<p class="publications-intro">
+Aucun livre n’a encore été ajouté.
+</p>
+{% endif %}
