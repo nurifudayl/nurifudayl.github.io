@@ -21,7 +21,7 @@ translations:
 {% if chapters.size > 0 %}
 <div class="pub-list">
 {% for post in chapters %}
-  {% include publication-card.html item=post link_label="Link" details_label="Details" %}
+  {% include publication-card.html item=post link_label="Access" details_label="Overview" %}
 {% endfor %}
 </div>
 {% else %}
