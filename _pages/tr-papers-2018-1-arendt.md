@@ -2,7 +2,7 @@
 layout: publication-detail
 title: "Özgürlük ve Ahlakın Çözülüşü: Arendt'te Devletin Politik Alanda Tahakkümü"
 category: conference-papers
-permalink: /tr/publication/papers-2018-1-arendt/
+permalink: /tr-papers-2018-1-arendt/
 lang: tr
 translation_key: papers-2018-1-arendt
 date: 2018-09-20
