@@ -27,4 +27,4 @@ keywords:
 
 Communication présentée lors du *I. Ulusal Çağdaş Siyaset Felsefesi Sempozyumu*, tenu à l’Université technique du Moyen-Orient, à Ankara, les 20 et 21 septembre 2018.
 
-La version finale de cette communication, publiée sous la forme d’un chapitre d’ouvrage, est disponible [ici](https://nurifudayl.com/publication/chapters-2019-1-ahlak).
+La version finale de cette communication, publiée sous la forme d’un chapitre d’ouvrage, est disponible [ici](/fr/publication/chapters-2019-1-ahlak).
