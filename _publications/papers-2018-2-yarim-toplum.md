@@ -14,6 +14,12 @@ citation: >-
 detail_url_tr: "/tr/publication/papers-2018-2-yarim-toplum"
 detail_url_fr: "/fr/publication/papers-2018-2-yarim-toplum"
 
+excerpt_tr: >-
+  24–25 Kasım 2018, Hukuk Kuramı Dergisi ve Eskişehir Okulu, Eskişehir.
+
+excerpt_fr: >-
+  par Hukuk Kuramı Dergisi et Eskişehir Okulu à Eskişehir, 24-25 novembre 2018.
+
 translations:
   en: "/publication/papers-2018-2-yarim-toplum"
   tr: "/tr/publication/papers-2018-2-yarim-toplum"
