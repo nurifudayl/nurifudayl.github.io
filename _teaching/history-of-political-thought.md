@@ -20,46 +20,67 @@ offerings:
     current: false
 
 overview: >-
-  This course examines major works in the history of political thought as
-  interventions in historically specific debates over authority, justice,
-  freedom, citizenship, and political order. Rather than treating canonical
-  thinkers as sources of timeless doctrines, it introduces students to the
-  contexts in which political arguments were formulated, contested, and
-  transformed. Through close reading of key texts, the course explores how
-  ideas about power, legitimacy, rights, and the good life continue to shape
-  political imagination and public life today.
+  This course examines the relationship between political thought and historical
+  transformation from the late medieval world to the early twentieth century.
+  Rather than presenting political ideas as timeless philosophical doctrines, it
+  situates them within changing social and political conditions: the decline of
+  feudal structures, the emergence and expansion of capitalism, the formation of
+  modern states, struggles over liberty and property, critiques of abstract
+  universalism, and the rise of socialist, feminist, anarchist, imperial, and
+  constitutional debates. Through lectures, discussion, and contextual reading,
+  students explore how political concepts acquire different meanings in different
+  historical settings, while also engaging with non-Western trajectories of
+  political thought, particularly Ottoman debates on opposition and constitutionalism.
 
 themes:
-  - Authority
-  - Justice
-  - Citizenship
-  - Freedom
-  - Sovereignty
-  - Political Order
+  - Context and Political Thought
+  - State Formation & Sovereignty
+  - Capitalism and Property
+  - Liberty and Political Authority
+  - Equality and Universalism
+  - Empire and Imperialism
+  - Socialism, Feminism, and Anarchism
+  - Ottoman Constitutionalism
 
 objectives:
-  - "Identify the central concepts and arguments of major political thinkers."
-  - "Situate political texts within their historical and intellectual contexts."
-  - "Compare competing conceptions of authority, freedom, justice, and political order."
-  - "Develop text-based interpretations of primary sources."
-  - "Connect historical political arguments to contemporary political questions."
+  - "Identify key concepts and historical contexts in political thought."
+  - "Analyze how state formation, capitalism, property, and empire shaped political arguments."
+  - "Compare conceptions of liberty, equality, authority, and political order across European and Ottoman contexts."
+  - "Evaluate the relevance of historical debates to contemporary questions of democracy and justice."
 
 structure:
   - number: "I"
-    title: "Classical Foundations"
-    thinkers: "Plato · Aristotle"
+    title: "Context, Thought, and the End of the Feudal World"
+    thinkers: "Political thought in historical context · From city-states to absolute monarchy · Dante  · Marsilius of Padua
+              Islamic political thought · Ibn Khaldun · Ibn Taymiyyah"
+
   - number: "II"
-    title: "Christianity and Political Authority"
-    thinkers: "Augustine"
+    title: "Transitions to Capitalism and Early Modern Political Order"
+    thinkers: "Sixteenth-century Europe · Renaissance · Humanism · Machiavelli · Anti-Machiavellism · <em>Il Principe</em>"
+
   - number: "III"
-    title: "The Emergence of Modern Sovereignty"
-    thinkers: "Machiavelli · Hobbes"
+    title: "Security, Property, and the Expansion of Capitalism"
+    thinkers: "Sovereignty · Reformism · Jean Bodin · Thomas Hobbes · <em>Leviathan</em>"
+
   - number: "IV"
-    title: "Rights, Freedom, and Social Contract"
-    thinkers: "Locke · Rousseau"
+    title: "Limiting Political Power"
+    thinkers: "The problem of authority · Constraints on government · Modern political models"
+
   - number: "V"
-    title: "Modernity, Liberty, and Emancipation"
-    thinkers: "Burke · Marx · Mill · Arendt"
+    title: "Equality against Abstract Universalism"
+    thinkers: "The revolutionary era · Claims to equality · Critiques of universalism"
+
+  - number: "VI"
+    title: "Restoration, Romanticism, Positivism, and Socialism"
+    thinkers: "Nineteenth-century ideological formations and social transformation"
+
+  - number: "VII"
+    title: "Empire, Emancipation, and Radical Critique"
+    thinkers: "Imperialism · Socialism · Feminism · Anarchism"
+
+  - number: "VIII"
+    title: "Ottoman Authoritarianism, Opposition, and Constitutionalism"
+    thinkers: "Istibdad · Political opposition · Constitutional struggles"
 
 further_resources:
   - type: "Film"
