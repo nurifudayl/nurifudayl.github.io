@@ -34,7 +34,7 @@ keywords:
   - Greece
 ---
 
-at University of Potsdam in Potsdam on 5–9 September 2023.
+held at University of Potsdam in Potsdam on 5–9 September 2023.
 
 The final published version of this paper is available [here](https://nurifudayl.com/publication/article-2025-3-lacanian-family).
 
