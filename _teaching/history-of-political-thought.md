@@ -91,7 +91,7 @@ further_resources:
   - type: "Engraving"
     title: "Leviathan Frontispiece"
     detail: "Abraham Bosse / Thomas Hobbes, 1651"
-    url:
+    url: "https://www.britishmuseum.org/collection/object/P_1858-0417-283"
 
   - type: "Architecture"
     title: "Hall of Mirrors, Palace of Versailles"
