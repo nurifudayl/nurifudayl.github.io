@@ -1,17 +1,19 @@
 ---
 layout: archive
 title: "Conference Papers"
+lang: en
 permalink: /publications/conference-papers/
 author_profile: true
+translations:
+  en: "/publications/conference-papers/"
+  tr: "/tr/publications/conference-papers/"
+  fr: "/fr/publications/conference-papers/"
 ---
 
 {% include publications-style.html %}
 
 <p class="publication-back-link">
-  <a href="/publications/">← Back</a>
-</p>
-
-<p class="publications-intro">
+  <a href="{{ '/publications/' | relative_url }}">← Back</a>
 </p>
 
 {% assign conferences = site.publications | where: "category", "conference-papers" | sort: "date" | reverse %}
@@ -19,7 +21,7 @@ author_profile: true
 {% if conferences.size > 0 %}
 <div class="pub-list">
 {% for post in conferences %}
-  {% include publication-card.html item=post type="Conference Paper" link_label="Link" %}
+  {% include publication-card.html item=post link_label="Link" details_label="Details" %}
 {% endfor %}
 </div>
 {% else %}
