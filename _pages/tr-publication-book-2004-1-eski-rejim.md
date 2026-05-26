@@ -19,7 +19,7 @@ keywords:
   - Osmanlı siyasal düşüncesi
   - nasihatname literatürü
   - meşruiyet
-  - on yedinci yüzyıl
+  - 17. yüzyıl
   - Kâtip Çelebi
   - Koçi Bey
   - Veysî
