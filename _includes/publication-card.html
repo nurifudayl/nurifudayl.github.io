@@ -1,6 +1,15 @@
 {% assign item = include.item %}
 {% assign details_label = include.details_label | default: "Details" %}
 
+{% assign current_lang = page.lang | default: "en" %}
+{% assign detail_url = item.url %}
+
+{% if current_lang == "tr" and item.detail_url_tr %}
+  {% assign detail_url = item.detail_url_tr %}
+{% elsif current_lang == "fr" and item.detail_url_fr %}
+  {% assign detail_url = item.detail_url_fr %}
+{% endif %}
+
 <div class="pub-card">
   <div class="pub-card-content">
     <div class="pub-meta">
@@ -44,7 +53,7 @@
       </a>
     {% endif %}
 
-    <a href="{{ item.url | relative_url }}" class="pub-link-button details-link">
+    <a href="{{ detail_url | relative_url }}" class="pub-link-button details-link">
       <span class="pub-link-label">{{ details_label }}</span>
     </a>
   </div>
