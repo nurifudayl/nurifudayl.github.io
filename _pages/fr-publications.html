@@ -22,7 +22,7 @@ translations:
     <h2 class="pub-section-title">Livres <span class="pub-count">{{ books.size }}</span></h2>
     {% if books.size > 3 %}
     <div class="view-all">
-      <a href="/publications/books/">Voir tous les livres →</a>
+      <a href="{{ '/fr/publications/books/' | relative_url }}">Voir tous les livres →</a>
     </div>
     {% endif %}
   </div>
