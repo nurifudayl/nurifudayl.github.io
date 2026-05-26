@@ -82,7 +82,7 @@ translations:
     <h2 class="pub-section-title">Conference Papers <span class="pub-count">{{ conferences.size }}</span></h2>
     {% if conferences.size > 3 %}
     <div class="view-all">
-      <a href="/publications/conference-papers/">View all conference papers →</a>
+      <a href="{{ '/publications/conference-papers/' | relative_url }}">View all conference papers →</a>
     </div>
     {% endif %}
   </div>
