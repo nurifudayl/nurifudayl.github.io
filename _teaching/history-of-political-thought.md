@@ -98,15 +98,10 @@ further_resources:
     detail: "Absolutism and courtly power"
     url: "https://www.youtube.com/watch?v=4CuzgTljuwk"
 
-  - type: "Opera"
-    title: "Le nozze di Figaro"
-    detail: "Wolfgang Amadeus Mozart, 1786"
-    url:
-
   - type: "Painting"
     title: "The Tennis Court Oath"
     detail: "Jacques-Louis David"
-    url:
+    url: "https://en.chateauversailles.fr/discover/estate/royal-tennis-court"
 
   - type: "Painting"
     title: "The Death of Marat"
