@@ -1,5 +1,6 @@
 ---
 title: "Turkey"
+lang: en
 collection: publications
 category: book-chapters
 permalink: /publication/chapters-2025-2-turkey
@@ -7,9 +8,28 @@ date: 2025-01-01
 venue: "The Palgrave Geopolitical Atlas"
 cover: "/images/publication/palgrave-geopolitical-atlas.jpg"
 paperurl: "https://doi.org/10.26650/YTA2022-1091301"
-link_label: "DOI / Link"
-citation: 'Kıcıroğlu, Ceren Melis, Erman Ermihan and Nuri Fudayl Kıcıroğlu. 2025. “Turkey.” In <em>The Palgrave Geopolitical Atlas: State and Quasi-State Actors in Great Power Competition</em>, ed. Brian C. H. Fong, 193-208. Singapore: Palgrave Macmillan.'
-indexing:
+citation: 'Kıcıroğlu, Ceren Melis, Erman Ermihan and Nuri Fudayl Kıcıroğlu. 2025. “Turkey.” In <em>The Palgrave Geopolitical Atlas: State and Quasi-State Actors in Great Power Competition</em>, ed. Brian C. H. Fong, 193–208. Singapore: Palgrave Macmillan.'
+
+excerpt_tr: >-
+  Bu bölüm, Türkiye’yi hibrit bir bölgesel güç olarak yeniden kavramsallaştırır:
+  askerî, ekonomik ve sembolik erişimi kayda değer, ancak iç kırılganlıklar ve
+  tartışmalı bir bölgesel düzen tarafından sürekli sınırlandırılan iddialı ve
+  çok boyutlu bir aktör.
+
+excerpt_fr: >-
+  Ce chapitre reconceptualise la Turquie comme une puissance régionale hybride :
+  un acteur ambitieux et multidimensionnel, doté d’une portée militaire,
+  économique et symbolique considérable, mais constamment limité par ses
+  fragilités internes et par un ordre régional contesté.
+
+detail_url_tr: "/tr/publication/chapters-2025-2-turkey"
+detail_url_fr: "/fr/publication/chapters-2025-2-turkey"
+
+translations:
+  en: "/publication/chapters-2025-2-turkey"
+  tr: "/tr/publication/chapters-2025-2-turkey"
+  fr: "/fr/publication/chapters-2025-2-turkey"
+
 keywords:
   - Turkey
   - Hybrid Regional Power
