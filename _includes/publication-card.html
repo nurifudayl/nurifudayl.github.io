@@ -10,6 +10,14 @@
   {% assign detail_url = item.detail_url_fr %}
 {% endif %}
 
+{% assign displayed_excerpt = item.excerpt %}
+
+{% if current_lang == "tr" and item.excerpt_tr %}
+  {% assign displayed_excerpt = item.excerpt_tr %}
+{% elsif current_lang == "fr" and item.excerpt_fr %}
+  {% assign displayed_excerpt = item.excerpt_fr %}
+{% endif %}
+
 <div class="pub-card">
   <div class="pub-card-content">
     <div class="pub-meta">
