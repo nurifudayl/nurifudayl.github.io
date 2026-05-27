@@ -1,5 +1,57 @@
 {% assign project = include.project %}
+{% assign current_lang = page.lang | default: "en" %}
 {% assign link_count = project.links | size %}
+
+{% assign project_title = project.title %}
+{% assign project_type = project.type %}
+{% assign project_role = project.role %}
+{% assign project_institution = project.institution %}
+{% assign project_description = project.description %}
+
+{% if current_lang == "tr" %}
+  {% assign status_ongoing = "DEVAM EDİYOR" %}
+  {% assign status_completed = "TAMAMLANDI" %}
+
+  {% if project.title_tr %}
+    {% assign project_title = project.title_tr %}
+  {% endif %}
+  {% if project.type_tr %}
+    {% assign project_type = project.type_tr %}
+  {% endif %}
+  {% if project.role_tr %}
+    {% assign project_role = project.role_tr %}
+  {% endif %}
+  {% if project.institution_tr %}
+    {% assign project_institution = project.institution_tr %}
+  {% endif %}
+  {% if project.description_tr %}
+    {% assign project_description = project.description_tr %}
+  {% endif %}
+
+{% elsif current_lang == "fr" %}
+  {% assign status_ongoing = "EN COURS" %}
+  {% assign status_completed = "ACHEVÉ" %}
+
+  {% if project.title_fr %}
+    {% assign project_title = project.title_fr %}
+  {% endif %}
+  {% if project.type_fr %}
+    {% assign project_type = project.type_fr %}
+  {% endif %}
+  {% if project.role_fr %}
+    {% assign project_role = project.role_fr %}
+  {% endif %}
+  {% if project.institution_fr %}
+    {% assign project_institution = project.institution_fr %}
+  {% endif %}
+  {% if project.description_fr %}
+    {% assign project_description = project.description_fr %}
+  {% endif %}
+
+{% else %}
+  {% assign status_ongoing = "ONGOING" %}
+  {% assign status_completed = "COMPLETED" %}
+{% endif %}
 
 <article class="project-card{% if link_count > 0 %} project-card-has-links{% endif %}">
 
@@ -8,44 +60,44 @@
     <div class="project-meta">
 
       {% if project.status == "ongoing" %}
-        <span class="project-badge project-status-current">ONGOING</span>
+        <span class="project-badge project-status-current">{{ status_ongoing }}</span>
       {% elsif project.status == "completed" %}
-        <span class="project-badge">COMPLETED</span>
+        <span class="project-badge">{{ status_completed }}</span>
       {% endif %}
 
       {% if project.period %}
         <span class="project-badge">{{ project.period }}</span>
       {% endif %}
 
-      {% if project.type %}
-        <span class="project-badge">{{ project.type }}</span>
+      {% if project_type %}
+        <span class="project-badge">{{ project_type }}</span>
       {% endif %}
 
     </div>
 
     <h3 class="project-title">
-      {{ project.title }}
+      {{ project_title }}
     </h3>
 
-    {% if project.role or project.institution %}
+    {% if project_role or project_institution %}
       <div class="project-affiliation">
-        {% if project.role %}
-          <span class="project-role">{{ project.role }}</span>
+        {% if project_role %}
+          <span class="project-role">{{ project_role }}</span>
         {% endif %}
 
-        {% if project.role and project.institution %}
+        {% if project_role and project_institution %}
           <span class="project-affiliation-divider">·</span>
         {% endif %}
 
-        {% if project.institution %}
-          <span class="project-institution">{{ project.institution }}</span>
+        {% if project_institution %}
+          <span class="project-institution">{{ project_institution }}</span>
         {% endif %}
       </div>
     {% endif %}
 
-    {% if project.description %}
+    {% if project_description %}
       <div class="project-description">
-        {{ project.description }}
+        {{ project_description }}
       </div>
     {% endif %}
 
@@ -54,12 +106,21 @@
   {% if link_count > 0 %}
     <div class="project-links">
       {% for link in project.links %}
+
+        {% assign link_label = link.label %}
+
+        {% if current_lang == "tr" and link.label_tr %}
+          {% assign link_label = link.label_tr %}
+        {% elsif current_lang == "fr" and link.label_fr %}
+          {% assign link_label = link.label_fr %}
+        {% endif %}
+
         <a href="{{ link.url }}" class="project-link-button" target="_blank" rel="noopener noreferrer">
-          <span class="project-link-label">{{ link.label }}</span>
+          <span class="project-link-label">{{ link_label }}</span>
 
           <span class="project-external-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75V17.25A1.75 1.75 0 0 0 6.75 19H17.25A1.75 1.75 0 0 0 19 17.25V15"></path>
+              <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75V17.25A1.75 1.75 0 0 0 19 17.25V15"></path>
               <path d="M10 14L19 5"></path>
               <path d="M13.5 5H19V10.5"></path>
             </svg>
