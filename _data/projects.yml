@@ -1,19 +1,54 @@
 items:
   - title: "<em>Otorite</em>: Game-Based Applications in Political Science Education"
+    title_tr: "<em>Otorite</em>: Siyaset Bilimi Eğitiminde Oyun Tabanlı Uygulamalar"
+    title_fr: "<em>Otorite</em> : Applications ludiques pour l’enseignement de la science politique"
+
     status: "completed"
     sort_year: 2024
     period: "2023–2024"
+
     type: "TÜBİTAK 3005 Research Project"
-    role: "Research Assistant"
+    type_tr: "TÜBİTAK 3005 Araştırma Projesi"
+    type_fr: "Projet de recherche TÜBİTAK 3005"
+
+    role: "Scholarship Holder"
+    role_tr: "Bursiyer"
+    role_fr: "Boursier"
+
     institution: "Samsun University / TÜBİTAK"
+    institution_tr: "Samsun Üniversitesi / TÜBİTAK"
+    institution_fr: "Université de Samsun / TÜBİTAK"
+
     description: >-
       Authority is a game-based educational tool designed to introduce students
       to the central questions of political theory. Drawing on primary sources
       from twenty-two thinkers, including eight Turkish thinkers, it embeds
       political ideas within an interactive game narrative for students of
       political science and wider audiences interested in political thought.
+
+    description_tr: >-
+      Otorite, öğrencileri siyaset teorisinin temel sorularıyla tanıştırmak
+      amacıyla tasarlanmış oyun tabanlı bir eğitim aracıdır. Aralarında sekiz
+      Türk düşünürün de bulunduğu yirmi iki düşünürün birincil kaynaklarından
+      hareketle siyasal fikirleri, siyaset bilimi öğrencileri ve siyasal
+      düşünceye ilgi duyan daha geniş bir kitle için etkileşimli bir oyun
+      anlatısı içine yerleştirmektedir.
+
+    description_fr: >-
+      Otorite est un outil pédagogique ludique conçu pour introduire les étudiants
+      aux questions centrales de la théorie politique. S’appuyant sur des sources
+      primaires issues de vingt-deux penseurs, dont huit penseurs turcs, il inscrit
+      les idées politiques dans une narration interactive destinée aux étudiants
+      en science politique ainsi qu’à un public plus large intéressé par la pensée
+      politique.
+
     links:
       - label: "Project Website"
+        label_tr: "Web Sitesi"
+        label_fr: "Site web"
         url: "https://otoriteoyunu.com/en/"
+
       - label: "App Store"
+        label_tr: "App Store"
+        label_fr: "App Store"
         url: "https://apps.apple.com/us/app/otorite/id6743128067"
