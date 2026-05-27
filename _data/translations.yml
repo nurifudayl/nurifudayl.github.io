@@ -14,7 +14,6 @@
   years: [2022]
   sort_year: 2022
   publisher: "Türk Arkeoloji ve Kültürel Miras Enstitüsü"
-  publisher_url: "#"
   citation: "Gabriel, Albert-Louis. 2022. <em>Anadolu'daki Türk Anıtları II: Amasya - Tokat - Sivas</em>. Translated by Nuri Fudayl Kıcıroğlu. İstanbul: Türk Arkeoloji ve Kültürel Miras Enstitüsü."
 
 - title: "Kral: Mitler ve Simgeler"
@@ -34,4 +33,6 @@
   publisher: "Ayrıntı Yayınları"
   publisher_url: "https://www.ayrintiyayingrubu.com/kitap/somurge-ve-kolelik-2/"
   collaborators: "Lütfi Sunar, Burak M. N. Gücin, and Hasan Turunçkapı"
+  collaborators_tr: "Lütfi Sunar, Burak M. N. Gücin ve Hasan Turunçkapı"
+  collaborators_fr: "Lütfi Sunar, Burak M. N. Gücin et Hasan Turunçkapı"
   citation: "De Tocqueville, Alexis. 2016. <em>Sömürge ve Kölelik</em>. Edited by Lütfi Sunar. Translated by Burak M. N. Gücin, Hasan Turunçkapı, and Nuri Fudayl Kıcıroğlu. İstanbul: Ayrıntı Yayınları."
