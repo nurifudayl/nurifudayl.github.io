@@ -22,8 +22,18 @@
         <button><span class="navicon"></span></button>
 
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == home_url or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ home_url | relative_url }}">{{ site.title }}</a>
+          {% assign current_lang = page.lang | default: "en" %}
+          
+          {% if current_lang == "tr" %}
+            {% assign about_url = "/tr/about/" %}
+          {% elsif current_lang == "fr" %}
+            {% assign about_url = "/fr/about/" %}
+          {% else %}
+            {% assign about_url = "/about/" %}
+          {% endif %}
+          
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == about_url %}selected{% endif %}">
+            <a href="{{ about_url | relative_url }}">{{ site.title }}</a>
           </li>
 
           {% for link in nav_links %}
