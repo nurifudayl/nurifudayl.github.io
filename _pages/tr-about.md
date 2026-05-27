@@ -48,47 +48,47 @@ translations:
 <div class="about-accordion" id="about-accordion" markdown="1">
 
 <details open markdown="1">
-<summary>1. Araştırmacı Profili</summary>
+<summary>1. Araştırma Alanları ve Yaklaşımım</summary>
 
-**Siyaset teorisi**, **siyasal düşünceler tarihi** ve **uluslararası ilişkiler** alanlarının kesişiminde çalışan bir **siyaset bilimciyim**. Araştırmalarım, siyasal iktidarın farklı tarihsel ve kurumsal bağlamlarda nasıl kavramsallaştırıldığına, meşrulaştırıldığına ve tartışmaya açıldığına odaklanmaktadır.
+**Siyaset teorisi**, **siyasal düşünceler tarihi** ve **uluslararası ilişkiler**in kesişiminde çalışan bir **siyaset bilimciyim**. Araştırmalarım, siyasal iktidarın farklı tarihsel, düşünsel ve kurumsal bağlamlarda nasıl kavramsallaştırıldığı, meşrulaştırıldığı ve tartışmaya açıldığı sorusuna odaklanıyor.
 
-Çalışmalarımı şekillendiren temel ilgilerden biri, siyasal kavramların tarihsel yaşamıdır. Meşruiyet, egemenlik ve kamusal alan gibi fikirlerin belirli siyasal diller içinde nasıl anlam kazandığını; siyasal düzenin, devletliğin ve kolektif öz-anlayışın oluşumuna nasıl katkıda bulunduğunu inceliyorum.
+Çalışmalarımın merkezinde, siyasal kavramların tarihselliğine yönelik bir ilgi yer alıyor. Meşruiyet, egemenlik ve kamusal alan gibi kavramların belirli siyasal diller içinde nasıl anlam kazandıklarını; siyasal düzenin, devletin ve kolektif öz-anlayış biçimlerinin kuruluşuna nasıl katıldıklarını inceliyorum.
 
-Önceki araştırmalarım, **İslam** ve **Osmanlı** nasihatname literatürüne ve Orta Çağ ile erken modern siyasal düşüncede meşruiyet söz dağarcıklarına odaklanıyordu. Bu tarihsel birikim üzerine inşa edilen güncel çalışmalarım ise siyaset bilimi ve uluslararası ilişkiler alanlarındaki daha geniş akademik formasyonumla uyumlu biçimde modern döneme yönelmektedir. Bugün, modern siyasal yaşam ve dış politikada devlet otoritesi, egemenlik, siyasal kimlik ve ideolojiler meselelerini inceliyorum.
+İlk araştırmalarım, İslam ve **Osmanlı** nasihatname literatürü ile modern-öncesi siyasal düşüncedeki meşruiyet lügatlerine odaklandı. Bu tarihsel zemin üzerinde yükselen güncel çalışmalarım, modern siyasal yaşamda ve uluslararası ilişkilerde devlet otoritesi ile egemenliğin aldığı biçimlere yöneliyor.
 
-**Türkiye’nin siyasal yaşamı** ve dış politikası, bu araştırma yönelimi için önemli bir tarihsel ve kavramsal zemin oluşturmaktadır. Türkiye’yi yalnızca bir vaka olarak değil, modern devletlik, otorite ve uluslararası düzen hakkındaki daha geniş soruların yeniden düşünülebileceği bir alan olarak ele alıyorum.
+**Türkiye**, bu araştırma gündemi bakımından ayrıcalıklı bir tarihsel ve kavramsal inceleme alanı sunar. Türkiye’yi yalnızca ampirik bir örnek olarak değil, modern devlet, siyasal otorite ve uluslararası düzen hakkındaki daha genel soruların yeniden düşünülebileceği bir zemin olarak ele alıyorum.
 
-Metodolojik yönelimim, **dilsel bağlamcılığı**, **kavram tarihini** ve **yorumlayıcı siyasal analizi** bir araya getirmektedir. Siyaset teorisi, uluslararası ilişkiler teorisi, kavram tarihi, Türkiye siyaseti ve siyasal düşünceler tarihi alanlarında çalışan araştırmacılarla akademik etkileşim ve iş birliğine açığım.
-
-</details>
-
-<details markdown="1">
-<summary>2. Eğitim ve Entelektüel Gelişim</summary>
-
-Akademik formasyonum, **Galatasaray Üniversitesi Siyaset Bilimi Bölümü**'nde başladı. Modern siyasal düşünceye ve siyaset teorisine yönelik ilk sistematik ilgim burada şekillendi. Lisans eğitimim sırasında değişim öğrencisi olarak bir dönem **Université du Québec à Montréal (UQAM)**'de bulundum. Burada Hannah Arendt, Karl Marx, Friedrich Nietzsche ve Michel Foucault üzerine aldığım dersler, modern siyasal düşünceye ve siyasetin teorik temellerine yönelme kararımda belirleyici oldu.
-
-Bu yönelim, *Le démantèlement de la moralité et de la liberté: Domination de l’État sur la politique chez Arendt* başlıklı lisans tezimde daha da gelişti. Arendt üzerine çalışırken, özellikle özgürlük, ahlak, siyasal eylem ve devlet iktidarının siyasal alana yayılması meseleleri etrafında, **modern** ve **modern-öncesi siyasal düşünce** arasındaki gerilime giderek daha fazla dikkat göstermeye başladım.
-
-Ardından **École Normale Supérieure de Lyon**'da *Histoire de la pensée politique* alanında yüksek lisans eğitimime devam ettim. Bu süreçte hem **ENS Ampère Bursu**'na hem de Fransız Hükümeti'nin **Eiffel Bursu**'na layık görüldüm. Derslerimin önemli bir bölümü modern siyasal düşünürlere odaklansa da yüksek lisans tezim, modern-öncesi, hatta Orta Çağ siyasal düşüncesine yöneldi. *Gouverner la justice: La conception du gouvernement et de la justice chez Nizam al-Mulk* başlıklı çalışmamda, Nizamülmülk'ün *Siyasetname*'sinde yönetim, adalet ve siyasal otorite arasındaki ilişkiyi inceledim. Bu çalışma, siyasal kavramların tarihsel oluşumuna ve modern-öncesi siyasal söz dağarcıklarının yönetim, düzen ve adalet meselelerini nasıl yapılandırdığına ilişkin ilgimi derinleştirdi.
-
-ENS de Lyon'daki siyasal düşünce tarihi eğitimim, İtalyan siyasal düşüncesi üzerine aldığım ve özellikle *Gramsci* ile *Machiavelli*'ye odaklanan bir dersle de biçimlendi. Bu karşılaşma, siyasal nasihat, iktidar ve siyasetin özerkliği meselelerini karşılaştırmalı biçimde düşünmem için yeni bir ufuk açtı. Doktora çalışmalarım sırasında bir dönem **Università degli Studi di Siena**'da bulundum. İtalyan Rönesans siyasal düşüncesiyle, özellikle de Machiavelli ile burada sürdürdüğüm temas, tezimin doğrudan konusu haline gelmese de çalışmamın önemli kavramsal arka planlarından biri olarak kaldı. Bu birikim, nasihatname literatürünün dönüşümünü, ahlak ile siyaset arasındaki değişen ilişkiyi ve siyasetin görece özerk bir düşünme alanı olarak ortaya çıkışını daha dikkatli biçimde ele almama yardımcı oldu.
-
-Bu entelektüel güzergâh beni **dilsel bağlamcılığa** yöneltti; özellikle de siyasal kavramların belirli tartışmacı, kurumsal ve tarihsel bağlamlar içinde anlam kazandığı düşüncesine. Kavramları zamandan bağımsız analitik kategoriler olarak ele almak yerine, tarihsel olarak konumlanmış siyasal diller içinde nasıl ortaya çıktıkları, dolaşıma girdikleri ve dönüştükleriyle ilgilenmeye başladım. Bu anlamda çalışmalarım giderek birbiriyle ilişkili üç mesele etrafında şekillendi: **kavramlar**, **kavramların tarihselliği** ve **tarihselliğin siyasal niteliği**.
-
-Bu araştırma çizgisini, **İstanbul Üniversitesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü**'ndeki doktora çalışmalarımda sürdürdüm. Nasihatname türüne yeniden döndüğüm bu aşamada, on birinci yüzyıl İslam siyasal düşüncesi geleneğinden on yedinci yüzyıl Osmanlı nasihat metinlerine yöneldim. Daha sonra *Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme* başlıklı kitaba dönüşen doktora araştırmamda, Osmanlı nasihatname yazarlarının siyasal otoriteyi farklı biçimlerde nasıl meşrulaştırdıklarını inceledim. Çoğu zaman aynı edebi ve siyasal tür içinde sınıflandırılan bu metinlerin, aslında birbirinden ayrışan meşruiyet biçimleri geliştirdiğini; yazarlarının toplumsal konumları ile savundukları toplumsal ve siyasal düzen anlayışları arasında yakın bir ilişki bulunduğunu gösterdim.
-
-Akademik gelişimimin bütün bu aşamalarında, temel ilgimi **siyasal kavramların tarihselliği** ve **tarihsel anlamların üretildiği siyasal koşullar** oluşturdu. Yalnızca siyasal kavramların zaman içinde nasıl değiştiğiyle değil, tarihsel deneyimin nasıl yorumlandığı, anlatıya dönüştürüldüğü ve siyasal bakımdan anlamlı hale getirildiğiyle de ilgileniyorum. Bu yönelim, **meşruiyet**, **egemenlik**, **kamusal otorite** ve siyasal düzenin tarihsel olarak konumlanmış dilleri üzerine çalışmalarımı biçimlendirmeye devam ediyor. Bu uzun erimli tarihsel perspektiften hareketle güncel araştırmalarım, siyaset bilimi alanındaki daha geniş formasyonumla uyumlu biçimde yeniden **modern döneme** yönelmekte; meşruiyet, egemenlik, tanınma ve devlet öznelliği meselelerinin modern siyasal yaşam ve uluslararası ilişkiler içinde nasıl yeniden eklemlendiğini incelemektedir.
+Yöntemsel olarak çalışmalarım **dilsel bağlamcılığı**, **kavram tarihini** ve **yorumsamacı siyasal analizi** bir araya getiriyor. Siyaset teorisi, uluslararası ilişkiler teorisi, kavram tarihi, Türkiye siyaseti ve siyasal düşünceler tarihi alanlarında bilimsel alışverişe ve işbirliklerine açığım.
 
 </details>
 
 <details markdown="1">
-<summary>3. Akademik Görevler ve Dersler</summary>
+<summary>2. Akademik ve Düşünsel Güzergâh</summary>
 
-Halen **İstanbul Nişantaşı Üniversitesi Siyaset Bilimi ve Kamu Yönetimi Bölümü**'nde **Doktor Öğretim Üyesi** olarak görev yapıyorum. Eğitim ve araştırma faaliyetlerimin yanı sıra Bölüm Başkan Yardımcısı, Bölüm Kalite Komisyonu Başkanı ve Fakülte Kalite Komisyonu Üyesi olarak bölüm ve fakülte düzeyindeki idari çalışmalara katkıda bulunuyorum. Bölümde yürüttüğüm görevler kapsamında, Yükseköğretim Kurulu tarafından tanınan alan-özgü akreditasyon kuruluşu STAR tarafından bölüme verilen **dört yıllık akreditasyon** sürecinde kalite güvence ve akreditasyon çalışmalarına aktif olarak katıldım.
+Siyaset bilimi öğrenimime **Galatasaray Üniversitesi**nde başladım. Burada siyaset teorisine ve modern siyasal düşünceler tarihine yönelik ilgim belirginleşti. Lisans eğitimim sırasında **Université du Québec à Montréal**de değişim öğrencisi olarak bulunduğum dönemde Hannah Arendt, Karl Marx, Friedrich Nietzsche ve Michel Foucault okumalarımı derinleştirme imkânı buldum. Bu dönemden itibaren çalışmalarımın merkezinde yer alan temel soru şekillenmeye başladı: Siyasal otorite nasıl kurulur ve gerekçelendirilir; kolektif özgürlüğün koşullarını nasıl dönüştürür?
 
-İstanbul Nişantaşı Üniversitesi'ne katılmadan önce **İzmir Ekonomi Üniversitesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü**'nde ders verdim. Ağırlıklı olarak lisans düzeyinde yürüttüğüm dersler, akademik çalışmalarımın temel eksenlerini yansıtmaktadır: siyaset teorisi, siyasal düşünceler tarihi, karşılaştırmalı siyaset, Türk idare tarihi ve siyasal ideolojiler. Lisans düzeyindeki derslerimi hem **Türkçe** hem de **İngilizce** yürüttüm; ayrıca **Fransızca** ders verebilecek yeterliliğe sahibim.
+Bu soru ilk biçimini, [*Özgürlük ve Ahlakın Çözülüşü: Arendt’te Devletin Politik Alanda Tahakkümü*](/tr/publication/chapters-2019-1-ahlak) başlığını taşıyan lisans bitirme tezimde aldı. Arendt’in siyasal eylem ile tahakküm arasında kurduğu ayrımdan hareketle, devlet iktidarının genişlemesinin siyasal özgürlük ve sorumluluğun koşullarını nasıl aşındırabileceğini inceledim. Bu çalışma, siyasal iktidarın tarihsel olarak hangi biçimlerde meşrulaştırıldığı ve tartışmaya açıldığı üzerine daha geniş bir araştırma hattının başlangıcını oluşturdu.
 
-Derslerimde **yakın okumayı**, **kavramsal analizi** ve **tarihsel bağlamlandırmayı** öne çıkarıyor; öğrencileri teorik tartışmalar ile güncel siyasal meseleler arasında ilişki kurmaya teşvik ediyorum.
+Bu araştırma çerçevesini **École normale supérieure de Lyon**’da, Ampère Üstün Başarı Bursu ve Fransa Hükûmeti Eiffel Üstün Başarı Bursu desteğiyle tamamladığım **Siyasal Düşünceler Tarihi** yüksek lisans programında sürdürdüm. *Gouverner la justice : la conception du gouvernement et de la justice chez Nizam al-Mulk* (Adaleti Yönetmek: Nizamülmülk’te Hükümet ve Adalet Tasavvuru) yüksek lisans tezim, modern-öncesi siyasal düşüncenin temel metinlerinden biri olan *Siyasetnâme*’ye yöneldi. Bu yöneliş, ilk sorularımdan bir kopuş değil, onları tarihselleştirmenin bir yoluydu: Otorite ve hükümetin, adalet ve düzen etrafında örgütlenen bir siyasal dil içinde nasıl düşünüldüğünü ve gerekçelendirildiğini araştırdım.
+
+ENS de Lyon’da gelişen ve daha sonra **Università degli Studi di Siena**da gerçekleştirdiğim doktora araştırma ziyareti sırasında derinleşen İtalyan siyasal düşüncesine ilgim de bu güzergâhta önemli bir yer tuttu. Özellikle Machiavelli okumalarım, nasihatname literatürü, ahlak ile siyaset arasındaki ilişkinin yeniden kuruluşu ve siyasal olanın görece özerk bir muhakeme alanı olarak belirişi üzerine düşüncelerimi keskinleştirdi.
+
+Bu farklı metin dünyalarıyla kurduğum temas, beni zaman içinde **dilsel bağlamcılığa** yöneltti. Bu yaklaşım, siyasal kavramları zamanüstü analitik kategoriler olarak değil, belirli tarihsel, savsal ve kurumsal bağlamlar içindeki müdahaleler olarak incelemeyi gerektirir. Meşruiyet, otorite ve siyasal düzene dair politik dağarcığın dolaşımına ve dönüşümüne yönelik ilgim de bu yöntemsel yönelim tarafından şekilleniyor.
+
+**İstanbul Üniversitesi** Siyaset Bilimi ve Uluslararası İlişkiler Bölümünde yürüttüğüm doktora araştırması, düşünsel güzergâhımın bu ilk evresinin olgunlaştığı çalışma oldu. 17. yüzyıl Osmanlı nasihatname metinlerine odaklanan bu araştırma daha sonra [*Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme*](/tr/publication/book-2004-1-eski-rejim) başlığıyla kitaba dönüştü. Bu çalışmada, çoğu zaman aynı edebî ve siyasal tür altında bir araya getirilen metinlerin gerçekte farklı meşruiyet ve toplumsal düzen tasavvurları geliştirdiklerini; bu tasavvurların yazarlarının toplumsal konumlarıyla yakından ilişkili olduğunu savunuyorum.
+
+Bu tarihsel formasyon, modern ve çağdaş siyaset ile uluslararası ilişkiler alanındaki güncel çalışmalarımı da biçimlendirmeye devam ediyor. Egemenlik, siyasal iktidar, devlet otoritesi, meşruiyet ve siyasal öznelik meselelerine yönelen araştırmalarımda aynı temel sorunun izini sürüyorum: **Siyasal iktidar biçimleri, belirli dil ve kurumlar içinde tarihsel olarak nasıl üretilir, meşrulaştırılır ve tartışmaya açılır?**
+
+</details>
+
+<details markdown="1">
+<summary>3. Öğretim Faaliyetleri ve Kurumsal Görevler</summary>
+
+Halen **İstanbul Nişantaşı Üniversitesi** Siyaset Bilimi ve Kamu Yönetimi Bölümünde **Doktor Öğretim Üyesi** olarak görev yapıyorum. Daha önce **İzmir Ekonomi Üniversitesi** Siyaset Bilimi ve Uluslararası İlişkiler Bölümünde ders verdim. Lisans düzeyindeki derslerim siyaset teorisi, siyasal düşünceler tarihi, karşılaştırmalı siyaset, Türk yönetim tarihi ve siyasal ideolojiler alanlarını kapsıyor. Türkçe ve İngilizce ders verdim; Fransızca ders de verebilirim.
+
+Öğretim yaklaşımımda **yakın okuma**, **kavramsal çözümleme** ve **tarihsel bağlamsallaştırma**ya merkezi bir yer veriyorum. Öğrencileri, bu araçlardan hareketle çağdaş siyasal tartışmaları tarihsel ve kuramsal bir perspektife yerleştirmeye ve kendi savlarını titizlikle kurmaya teşvik ediyorum.
+
+Öğretim ve araştırma faaliyetlerimin yanı sıra Bölüm Başkan Yardımcısı, **Bölüm Kalite Komisyonu Başkanı** ve Fakülte Kalite Komisyonu üyesi olarak görev yapıyorum. Bu görevler kapsamında bölümün STAR tarafından **dört yıllığına akredite edilmesiyle** sonuçlanan kalite güvencesi ve akreditasyon sürecine katkıda bulundum.
 
 </details>
 
