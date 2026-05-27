@@ -82,13 +82,13 @@ Cette formation historique continue de nourrir mes recherches actuelles sur la p
 </details>
 
 <details markdown="1">
-<summary>3. Fonctions universitaires et enseignement</summary>
+<summary>3. Enseignement et responsabilités académiques</summary>
 
-J’occupe actuellement un poste d’**enseignant-chercheur (Assistant Professor)** au **Département de science politique et d’administration publique de l’Université Istanbul Nişantaşı**. Parallèlement à mes activités d’enseignement et de recherche, je contribue aux responsabilités administratives du département et de la faculté en tant que vice-directeur du département, président de la commission qualité du département et membre de la commission qualité de la faculté. Dans le cadre de ces fonctions, j’ai participé activement au processus d’assurance qualité et d’accréditation à l’issue duquel le département a obtenu une **accréditation de quatre ans**, délivrée par l’organisme d’accréditation disciplinaire STAR, reconnu par le Conseil turc de l’enseignement supérieur.
+J’occupe actuellement un poste d’**maître de conférences** au **département de science politique et d’administration publique** de l’**Université Istanbul Nişantaşı**. Auparavant, j’ai enseigné au **département de science politique et de relations internationales** de l’**Université d’économie d’Izmir**. Mes enseignements, principalement dispensés en licence, portent sur la théorie politique, l’histoire de la pensée politique, la politique comparée, l’histoire administrative de la Turquie et les idéologies politiques. Je les ai assurés en **turc** et en **anglais** ; je suis également en mesure d’enseigner en **français**.
 
-Avant de rejoindre l’Université Istanbul Nişantaşı, j’ai enseigné au **Département de science politique et de relations internationales de l’Université d’économie d’Izmir**. Mon enseignement, principalement dispensé au niveau de la licence, reflète les axes centraux de mon travail académique : théorie politique, histoire de la pensée politique, politique comparée, histoire administrative turque et idéologies politiques. J’ai enseigné en licence en **turc** et en **anglais** ; je suis également qualifié pour enseigner en **français**.
+Mon approche pédagogique accorde une place centrale à la **lecture attentive des textes**, à l’**analyse conceptuelle** et à la **contextualisation historique**. J’encourage les étudiants à mobiliser ces outils pour mettre en perspective les controverses politiques contemporaines et construire une argumentation rigoureuse.
 
-Dans mon enseignement, j’accorde une place centrale à la **lecture rapprochée des textes**, à l’**analyse conceptuelle** et à la **contextualisation historique**, tout en encourageant les étudiants à relier les débats théoriques aux enjeux politiques contemporains.
+Parallèlement à mes activités d’enseignement et de recherche, j’assume les fonctions de **directeur adjoint du département**, de **président de la commission qualité du département** et de **membre de la commission qualité de la faculté**. Dans ce cadre, j’ai contribué au processus d’assurance qualité et d’accréditation à l’issue duquel le département a obtenu une **accréditation de quatre ans** délivrée par STAR, organisme disciplinaire reconnu par le Conseil de l’enseignement supérieur de Turquie.
 
 </details>
 
