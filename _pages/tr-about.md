@@ -93,21 +93,23 @@ Halen **İstanbul Nişantaşı Üniversitesi** Siyaset Bilimi ve Kamu Yönetimi 
 </details>
 
 <details markdown="1">
-<summary>4. Araştırmalar, Yayınlar ve Güncel Projeler</summary>
+<summary>4. Araştırma Gündemi ve Bilimsel İş Birlikleri</summary>
 
-Güncel araştırma ve proje çalışmalarım birbiriyle ilişkili üç hat üzerinde ilerlemektedir: **siyaset bilimi eğitimi**, **siyasal davranış** ve **modern Türkiye siyasetinin entelektüel tarihi**.
+Güncel araştırma gündemim esas olarak **modern Türkiye’nin düşünsel ve anayasal tarihi** üzerinde yoğunlaşıyor. Meşruiyet, demokrasi ve anayasal düzen kavramlarının modern Türkiye siyasal yaşamında devlet otoritesini tanımlamak, gerekçelendirmek ve tartışmaya açmak üzere nasıl seferber edildiğini inceliyorum. Bu bireysel araştırma programının yanı sıra seçmen davranışı, siyaset bilimi öğretiminde yenilikçi yöntemler ve Türkiye’de çağdaş düşünce hayatı üzerine yürütülen ortak projelere katkıda bulunuyorum.
 
-İlk olarak, **siyaset bilimi eğitiminde yenilikçi uygulamalar** geliştirmeyi amaçlayan çeşitli projelerde yer alıyorum. Bu projeler özellikle siyaset bilimi öğretiminde **oyunların**, **simülasyonların** ve etkileşimli öğrenme ortamlarının kullanımına odaklanmaktadır. Bu çalışmaların ayırt edici katkısı, siyaset bilimi eğitimi için yeni pedagojik araçlar geliştirmek üzere **oyun tasarımını**, **yeni teknolojileri** ve **yapay zekâyı** bir araya getirmelerinde yatmaktadır. Bu projeler aracılığıyla, siyaset biliminin yalnızca bir bilgi alanı olarak değil, aynı zamanda pratik, karar verme ve eleştirel muhakeme alanı olarak nasıl öğretilebileceğiyle ilgileniyorum.
+Bireysel araştırmalarımın ilk kolu, 1960’ta başlayan ve **1961 Anayasası’nın kabulüyle sonuçlanan anayasa yapım süreci**ne odaklanıyor. Bu süreçte rol alan hukukçuları, onların düşünsel dünyalarını ve doktrinlerinin zaman içindeki dönüşümünü inceliyorum. Anayasa tartışmalarını yalnızca teknik-hukuki müzakereler olarak değil, devlet, demokrasi, kamusal otorite ve siyasal düzen hakkında farklı tasavvurların karşı karşıya geldiği bir alan olarak ele alıyorum.
 
-İkinci olarak, uluslararası siyasal krizlerin seçmen davranışı üzerindeki etkilerini inceleyen bir araştırma projesinde yer alıyorum. Bu proje, iç siyasete ilişkin algılar ile uluslararası gelişmeler arasındaki ilişkiye; dış politika olaylarının siyasal tutumları, seçmen tercihlerini ve kamusal tepkileri nasıl şekillendirebileceğine yönelik daha geniş ilgimi yansıtmaktadır.
+Bununla yakından ilişkili ikinci bir araştırma kolu, Türkiye siyasal yaşamında **Kemalizmin çoğul biçimlerini** konu alıyor. Kemalizmi yekpare ve değişmez bir doktrin olarak değil; farklı aktörlerin devlet, toplum, modernleşme, laiklik ve meşruiyet hakkında düşünmelerine imkân veren, ihtilaflı ve tarihsel olarak yeniden kurulan bir siyasal dil olarak inceliyorum.
 
-Bu devam eden proje rollerinin yanı sıra, bireysel araştırmalarım giderek Türkiye'deki **1960 Anayasası'nın yapım sürecine** yönelmektedir. Özellikle bu sürece katılan hukukçuların entelektüel dünyalarına odaklanıyor; hukuk doktrinlerinin zaman içinde nasıl değiştiğini ve bu dönüşümleri hangi siyasal, kurumsal ve entelektüel etkenlerin biçimlendirdiğini soruyorum. Anayasa tartışmalarını yalnızca hukuk-teknik meseleler olarak ele almak yerine, siyasal düzen, otorite, devletlik ve demokrasiye ilişkin rekabet halindeki tasavvurların dile getirildiği alanlar olarak inceliyorum.
+Bu iki araştırma, farklı kaynak kümelerinden hareketle ortak bir soruya yöneliyor: Modern Türkiye’de devlet, demokrasi ve meşruiyet nasıl yeniden tanımlanmış ve mücadele konusu hâline gelmiştir? İlk araştırma bu soruyu anayasal tartışmalar ve hukukçuların düşünsel güzergâhları üzerinden; ikincisi ise Türkiye siyasal yaşamının merkezi ideolojik dillerinden birinin rakip yorumları üzerinden ele alıyor.
 
-Buna paralel olarak, Türkiye siyasal yaşamında birden fazla “Kemalizm”in eş zamanlı varlığı üzerine bir araştırma geliştiriyorum. Bu çalışma, Kemalizmin tek ve değişmez bir doktrin olarak değil, farklı aktörlerin devlet, toplum, modernleşme, laiklik ve meşruiyet hakkında farklı tasavvurlar geliştirmek için başvurdukları, tartışmalı ve tarihsel olarak değişken bir siyasal dil olarak nasıl işlev gördüğünü incelemektedir.
+Ayrıca **uluslararası siyasal krizlerin seçmen davranışı üzerindeki etkileri**ne odaklanan ortak bir araştırma projesinde yer alıyorum. Bu proje, dış politika gelişmelerinin iç siyasete ilişkin algıları, kamuoyu tutumlarını ve seçmen tercihlerini nasıl yeniden şekillendirebileceğini araştırıyor.
 
-Son olarak, günümüz Türkiye'sinde felsefenin gündemleri ve aktörleri üzerine bir editoryal projede yer alıyorum. Bu proje, fikirlerin dolaşımı, entelektüel alanlar ve felsefi ve siyasal düşüncenin şekillendiği kurumsal koşullara ilişkin daha geniş ilgimi tamamlamaktadır.
+Bir diğer proje grubu, **siyaset bilimi öğretiminde yenilikçi yöntemlerin geliştirilmesi**ne odaklanıyor. Bu çalışmalar, dijital araçlardan ve **yapay zekâ**dan yararlanan uygulamalar dâhil olmak üzere, **oyun temelli** öğrenme yöntemlerinin, **simülasyon**ların ve etkileşimli öğrenme ortamlarının sunduğu imkânları araştırıyor. Amaçları, öğrencilerin siyaset hakkında bilgi edinmekle kalmayıp karar verme, sav geliştirme ve eleştirel muhakeme becerilerini de uygulama içinde geliştirebildikleri öğretim biçimleri tasarlamaktır.
 
-Birlikte değerlendirildiğinde, bu projeler modern siyasal yaşam içinde siyasal kavramların, kurumsal pratiklerin ve entelektüel geleneklerin nasıl oluştuğuna, dönüştüğüne ve harekete geçirildiğine yönelik temel ilgimi yansıtmaktadır.
+Son olarak, **Türkiye’de çağdaş felsefenin aktörleri ve gündemleri** üzerine bir editoryal projeye katkıda bulunuyorum. Bu proje, fikirlerin dolaşımına ve felsefi ve siyasal alanların biçimlendiği kurumsal koşullara yönelik ilgimin bir devamını oluşturuyor.
+
+Bu araştırma ve iş birliklerini bir araya getiren ortak mesele, kavramların, kurumların ve düşünsel geleneklerin modern siyasal yaşam içinde nasıl anlam kazandıklarını, dönüştüklerini ve seferber edildiklerini anlamaktır.
 
 </details>
 
