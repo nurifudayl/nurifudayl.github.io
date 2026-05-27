@@ -96,21 +96,23 @@ Alongside my teaching and research, I serve as Deputy Chair of the Department, *
 </details>
 
 <details markdown="1">
-<summary>4. Research, Publications, and Current Projects</summary>
+<summary>4. Current Research and Collaborative Projects</summary>
 
-My current research and project work develops along three interconnected lines: **political science education**, **political behavior**, and the **intellectual history of modern Turkish politics**.
+My current research centers on the **intellectual and constitutional history of modern Turkey**. I examine how notions of legitimacy, democracy, and constitutional order have been mobilized to define, justify, and contest state authority in modern Turkish political life. Alongside this individual research agenda, I contribute to collaborative projects on electoral behavior, innovation in political science pedagogy, and contemporary intellectual life in Türkiye.
 
-First, I am involved in several projects that seek to develop **innovative practices in political science education**. These projects focus especially on the use of **games**, **simulations**, and interactive learning environments in teaching political science. Their distinctive contribution lies in combining **game design**, **emerging technologies**, and **artificial intelligence** to create new pedagogical tools for political science education. Through these projects, I am interested in how political science can be taught not only as a body of knowledge, but also as a field of practice, decision-making, and critical reasoning.
+One strand of my individual research examines the constitution-making process initiated in 1960 and culminating in the **adoption of Türkiye’s 1961 Constitution**. I focus on the jurists involved in this process, their intellectual worlds, and the evolution of their doctrines. Rather than treating constitutional debates as merely juridical or technical discussions, I analyze them as sites in which competing conceptions of the state, democracy, public authority, and political order were articulated.
 
-Second, I am part of a research project examining the effects of international political crises on voter behavior. This project reflects my broader interest in the relationship between domestic political perception and international developments, and in the ways foreign policy events may shape political attitudes, electoral preferences, and public responses.
+A second, closely related strand explores **the multiple forms of Kemalism** in Turkish political life. Rather than treating Kemalism as a single, immutable doctrine, I examine it as a contested and historically reconfigured political language through which different actors have imagined the state, society, modernization, secularism, and legitimacy.
 
-Alongside these ongoing project roles, my current individual research increasingly turns toward **the 1960 constitution-making process** in Turkey. I focus in particular on the intellectual worlds of jurists involved in this process, asking how legal doctrines changed over time and what political, institutional, and intellectual factors shaped these transformations. Rather than treating constitutional debates only as legal-technical discussions, I approach them as sites where competing visions of political order, authority, statehood, and democracy were articulated.
+Taken together, these two projects address a common question through distinct bodies of material: how have the state, democracy, and legitimacy been redefined and contested in modern Turkey? The first approaches this question through constitutional debates and the intellectual trajectories of jurists; the second through competing appropriations of a central ideological language in Turkish political life.
 
-In parallel with this work, I am also developing research on the simultaneous presence of multiple “Kemalisms” in Turkish political life. This line of inquiry examines how Kemalism has functioned not as a single, fixed doctrine, but as a contested and historically variable political language through which different actors have imagined the state, society, modernization, secularism, and legitimacy.
+I also participate in a collaborative research project on the **effects of international political crises on electoral behavior**. This project investigates how foreign-policy events may reshape domestic political perceptions, public attitudes, and electoral preferences.
 
-Finally, I am currently involved in an editorial project on **the agendas and actors of contemporary philosophy in Turkey**. This project complements my broader interest in the circulation of ideas, intellectual fields, and the institutional conditions under which philosophical and political thought take shape.
+A further group of projects concerns **innovation in the teaching of political science**. These projects explore **game-based learning**, **simulations**, and interactive learning environments, including the use of digital tools and **artificial intelligence**. Their aim is to develop forms of teaching in which students not only acquire knowledge about politics, but also practice decision-making, argumentation, and critical judgment.
 
-Taken together, these projects reflect my broader concern with the ways political concepts, institutional practices, and intellectual traditions are formed, transformed, and mobilized in modern political life.
+Finally, I contribute to an editorial project on **the actors and intellectual agendas of contemporary philosophy in Turkey**. This project extends my interest in the circulation of ideas and in the institutional settings within which philosophical and political fields take shape.
+
+Taken together, these research projects and collaborations are united by a common concern: to understand how concepts, institutions, and intellectual traditions acquire meaning, undergo transformation, and are mobilized in modern political life.
 
 </details>
 
