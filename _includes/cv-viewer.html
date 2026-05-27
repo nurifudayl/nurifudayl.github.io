@@ -92,41 +92,76 @@
   text-decoration: underline;
 }
 
-/* Dark mode */
-html[data-theme="dark"] .cv-action-button,
-html[data-theme="dark"] .cv-action-button:visited {
-  background: transparent;
-  border-color: #F4EDE4;
+/* ==========================================================================
+   Dark Mode
+   ========================================================================== */
+
+/* Secondary button: Open PDF */
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary),
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary):visited {
+  background: transparent !important;
+  border-color: #F4EDE4 !important;
   color: #F4EDE4 !important;
 }
 
-html[data-theme="dark"] .cv-action-button:hover {
-  background: #F4EDE4;
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary) span,
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary) svg {
+  color: #F4EDE4 !important;
+  stroke: currentColor !important;
+}
+
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary):hover {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
   color: #7A3E3E !important;
 }
 
-html[data-theme="dark"] .cv-action-button.primary,
-html[data-theme="dark"] .cv-action-button.primary:visited {
-  background: #F4EDE4;
-  border-color: #F4EDE4;
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary):hover span,
+html[data-theme="dark"] .cv-page .cv-action-button:not(.primary):hover svg {
+  color: #7A3E3E !important;
+  stroke: currentColor !important;
+}
+
+/* Primary button: Download PDF */
+html[data-theme="dark"] .cv-page .cv-action-button.primary,
+html[data-theme="dark"] .cv-page .cv-action-button.primary:visited {
+  background: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
   color: #7A3E3E !important;
 }
 
-html[data-theme="dark"] .cv-action-button.primary:hover {
-  background: #FFFFFF;
-  border-color: #FFFFFF;
+html[data-theme="dark"] .cv-page .cv-action-button.primary span,
+html[data-theme="dark"] .cv-page .cv-action-button.primary svg,
+html[data-theme="dark"] .cv-page .cv-action-button.primary:visited span,
+html[data-theme="dark"] .cv-page .cv-action-button.primary:visited svg {
+  color: #7A3E3E !important;
+  stroke: currentColor !important;
 }
 
+html[data-theme="dark"] .cv-page .cv-action-button.primary:hover {
+  background: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  color: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .cv-page .cv-action-button.primary:hover span,
+html[data-theme="dark"] .cv-page .cv-action-button.primary:hover svg {
+  color: #7A3E3E !important;
+  stroke: currentColor !important;
+}
+
+/* Viewer and fallback text */
 html[data-theme="dark"] .cv-viewer {
-  border-color: rgba(244, 237, 228, 0.55);
-  background: transparent;
+  border-color: rgba(244, 237, 228, 0.55) !important;
+  background: transparent !important;
 }
 
 html[data-theme="dark"] .cv-fallback {
-  color: #F4EDE4;
+  color: #F4EDE4 !important;
 }
 
-html[data-theme="dark"] .cv-fallback a {
+html[data-theme="dark"] .cv-fallback a,
+html[data-theme="dark"] .cv-fallback a:visited {
   color: #F4EDE4 !important;
 }
 
