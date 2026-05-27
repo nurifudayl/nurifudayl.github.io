@@ -84,7 +84,7 @@ Cette formation historique continue de nourrir mes recherches actuelles sur la p
 <details markdown="1">
 <summary>3. Enseignement et responsabilités académiques</summary>
 
-J’occupe actuellement un poste d’**maître de conférences** au **département de science politique et d’administration publique** de l’**Université Istanbul Nişantaşı**. Auparavant, j’ai enseigné au **département de science politique et de relations internationales** de l’**Université d’économie d’Izmir**. Mes enseignements, principalement dispensés en licence, portent sur la théorie politique, l’histoire de la pensée politique, la politique comparée, l’histoire administrative de la Turquie et les idéologies politiques. Je les ai assurés en **turc** et en **anglais** ; je suis également en mesure d’enseigner en **français**.
+J’exerce actuellement les fonctions de **maître de conférences** au **département de science politique et d’administration publique** de l’**Université Istanbul Nişantaşı**. Auparavant, j’ai enseigné au **département de science politique et de relations internationales** de l’**Université d’économie d’Izmir**. Mes enseignements, principalement dispensés en licence, portent sur la théorie politique, l’histoire de la pensée politique, la politique comparée, l’histoire administrative de la Turquie et les idéologies politiques. Je les ai assurés en **turc** et en **anglais** ; je suis également en mesure d’enseigner en **français**.
 
 Mon approche pédagogique accorde une place centrale à la **lecture attentive des textes**, à l’**analyse conceptuelle** et à la **contextualisation historique**. J’encourage les étudiants à mobiliser ces outils pour mettre en perspective les controverses politiques contemporaines et construire une argumentation rigoureuse.
 
