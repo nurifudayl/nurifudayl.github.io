@@ -85,13 +85,13 @@ This historical training continues to shape my current research on modern and co
 </details>
 
 <details markdown="1">
-<summary>3. Academic Positions and Teaching</summary>
+<summary>3. Teaching and Academic Service</summary>
 
-I currently serve as an **Assistant Professor** in the **Department of Political Science and Public Administration at Istanbul Nişantaşı University**. Alongside my teaching and research, I contribute to departmental and faculty-level administrative work as Vice Chair of the Department, Chair of the Departmental Quality Commission, and member of the Faculty Quality Commission. As part of my departmental service, I have been actively involved in the quality assurance and accreditation process through which the department received a **four-year accreditation**, granted by the field-specific accreditation body (STAR) recognized by Turkish Counsil of Higher Education.
+I am currently **Assistant Professor** in the Department of Political Science and Public Administration at **Istanbul Nişantaşı University**. Previously, I taught in the Department of Political Science and International Relations at **Izmir University of Economics**. My undergraduate teaching includes political theory, the history of political thought, comparative politics, Turkish administrative history, and political ideologies. I have taught in Turkish and English, and I am also able to teach in French.
 
-Before joining Istanbul Nişantaşı University, I taught in the **Department of Political Science and International Relations at Izmir University of Economics**. My teaching has been primarily at the undergraduate level and reflects the main axes of my academic work: political theory, the history of political thought, comparative politics, Turkish administrative history, and political ideologies. My undergraduate teaching has been conducted in both **Turkish** and **English**; I am also qualified to teach in **French**.
+[My teaching](/teaching) centers on the **close reading of texts**, **conceptual analysis**, and **historical contextualization**. I encourage students to use these tools to place contemporary political controversies in perspective and to develop rigorous arguments of their own.
 
-In my teaching, I emphasize **close reading**, **conceptual analysis**, and **historical contextualization**, while encouraging students to connect theoretical debates with contemporary political questions.
+Alongside my teaching and research, I serve as Deputy Chair of the Department, **Chair of the Departmental Quality Commission**, and a member of the Faculty Quality Commission. In these capacities, I contributed to the quality assurance and accreditation process through which the department received a **four-year accreditation** from STAR, a disciplinary accreditation body recognized by Türkiye’s Council of Higher Education.
 
 </details>
 
