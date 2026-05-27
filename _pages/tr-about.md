@@ -114,19 +114,15 @@ Bu araştırma ve iş birliklerini bir araya getiren ortak mesele, kavramların,
 </details>
 
 <details markdown="1">
-<summary>5. Çeviriler ve Editoryal Çalışmalar</summary>
+<summary>5. Çeviri ve Yayıncılık Faaliyetleri</summary>
 
-**Frankofon akademik formasyonum**, Türkiye'deki yayıncılık dünyasıyla kurduğum ilişkiyi de şekillendirdi. Türkçe ve Fransızca entelektüel bağlamlar arasında hareket etmenin sağladığı imkânlardan biri, yalnızca bir akademisyen olarak değil, yayıncılığın farklı alanlarında çalışan bir çevirmen, editör ve okuyucu olarak da üretimde bulunabilmek oldu.
+Editoryal çalışmalarım, akademik formasyonum ve araştırma faaliyetlerimle eşzamanlı olarak gelişti. Türkçe ve Fransızca düşünce dünyaları arasında şekillenen güzergâhımın bir parçası olarak **çevirmenlik**, redaktörlük, raportörlük ve **editörlük** faaliyetlerinde bulundum. Bu faaliyetleri, metinler, düşünce gelenekleri ve okurları arasında kurulan bir tür entelektüel aracılık olarak görüyorum.
 
-Yayıncılık dünyasına, lisans eğitimimin ilk yılında **Ayrıntı Yayınları** ile çalışmaya başlayarak çevirmen olarak girdim. Daha sonra **Doğan Kitap** için okur raporları hazırladım ve edebiyat eklerinde kitap değerlendirmeleri yazdım. Ayrıca uzun bir dönem **Dergâh Yayınları** bünyesinde hem **çeviri editörü** hem de **tarih editörü** olarak çalıştım.
+Lisans öğrenimimin ilk yılında **Ayrıntı Yayınları** ile çalışarak çeviri yapmaya başladım. Daha sonra **Doğan Kitap** için değerlendirme raporları hazırladım ve gazetelerin kitap eklerinde kitap değerlendirmeleri yayımladım. Editoryal deneyimimin önemli bir bölümü, çeviri eserlerin ve tarih kitaplarının editoryal hazırlığında çalıştığım **Dergâh Yayınları** bünyesinde şekillendi.
 
-Çeviri ve editoryal çalışmalarım arasında **Kültür Bakanlığı** kapsamında yürütülen projeler de yer almaktadır. İkisi ortak çeviri çalışmasının ürünü olmak üzere toplam **dört kitap** çevirdim.
+İkisi ortak çeviri olmak üzere dört kitap çevirdim. Bunlar arasında Albert-Louis Gabriel’in Amasya, Tokat ve Sivas’a ayrılan *Monuments turcs d’Anatolie* eserinin ikinci cildinin, Türkiye Cumhuriyeti Kültür ve Turizm Bakanlığı bünyesinde yürütülen bir proje kapsamında *Anadolu’daki Türk Anıtları II: Amasya – Tokat – Sivas* başlığıyla yayımlanan Türkçe çevirisi yer alır. Çevirilerimin tamamına [Çeviriler]({{ "/tr/translations/" | relative_url }}) sayfasından ulaşılabilir.
 
-Çeviri ve editoryal çalışmaları akademik yaşamdan ayrı faaliyetler olarak değil, fikirlerin diller, disiplinler ve kamular arasında dolaşımının bir parçası olarak görüyorum. Diller arasında hareket etmek, yalnızca sözcüklere değil, entelektüel geleneklere, tarihsel bağlamlara ve kavramsal dünyalara da dikkat etmeyi gerektirir. Bu anlamda çevirmenlik ve editörlük çalışmalarım, **kavram tarihi**, **siyasal dil** ve siyasal düşüncenin tarihselliğine yönelik akademik ilgimle yakından ilişkilidir.
-
-Bu deneyim, fikirlerin kamusal ve kurumsal yaşamını nasıl düşündüğümü de şekillendirdi: metinlerin daha geniş entelektüel alanlar içinde nasıl seçildiği, değerlendirildiği, çevrildiği, yayıma hazırlandığı, dolaşıma sokulduğu ve alımlandığı sorularına özel bir dikkat geliştirmemi sağladı. Yayıncılık alanındaki geçmişim, özellikle argüman, yapı, kavramsal kesinlik, üslup ve bilimsel katkı bakımından metin değerlendirmeye dayanan **hakemlik** ve **akademik dergilerin editoryal süreçlerine** katkı sunmak için değerli bir zemin oluşturdu.
-
-Bu bakımdan çeviri ve editoryal çalışmalarım, akademik profilimin önemli bir parçası olmayı sürdürmektedir. Siyasal, tarihsel ve felsefi metinlerin dolayımlanması, değerlendirilmesi ve dolaşıma sokulmasına ilişkin pratik deneyim kazandırarak araştırma ve öğretim faaliyetlerimi tamamlamaktadır.
+Benim için çeviri ve editörlük, araştırmanın çevresinde kalan faaliyetler değildir. Bu çalışmalar, kavramların kullanımlarına, metinlerin tarihsel bağlamlarına, düşünsel geleneklere ve eserlerin dolaşım koşullarına yakından dikkat etmeyi gerektirir. Bu deneyim, araştırma ve öğretim faaliyetlerimi tamamladığı gibi, sav kurma biçimlerine, kavramsal tutarlılığa ve akademik yazının işçiliğine yönelik dikkatimi de keskinleştirir.
 
 </details>
 
