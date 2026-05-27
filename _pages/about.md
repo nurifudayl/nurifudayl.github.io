@@ -119,17 +119,13 @@ Taken together, these research projects and collaborations are united by a commo
 <details markdown="1">
 <summary>5. Translation and Editorial Work</summary>
 
-My **Francophone academic formation** has also shaped my engagement with the publishing world in Turkey. One of the advantages of moving across Turkish and French intellectual contexts has been the opportunity to work not only as a scholar, but also as a translator, editor, and reader within different areas of publishing.
+My editorial work has developed alongside my academic training and research. Rooted in a trajectory between Turkish and Francophone intellectual worlds, it has involved work as a **translator**, **editorial reader**, and editor—activities I understand as forms of mediation between texts, intellectual traditions, and their publics.
 
-I entered the publishing world as a translator during my first year as an undergraduate student, when I began working with **Ayrıntı Yayınları**. I later prepared reader reports for **Doğan Kitap** and wrote book reviews for literary supplements. For a considerable period, I also worked for **Dergâh Yayınları**, where I served both as a **translation editor** and as a **history editor**.
+I began translating during my first year as an undergraduate through a collaboration with **Ayrıntı Yayınları**. I subsequently prepared readers’ reports for **Doğan Kitap** and published book reviews in literary supplements. A substantial part of my editorial experience took place at **Dergâh Yayınları**, where I worked on translations and works of history.
 
-My translation and editorial work has included projects carried out within the framework of the **Ministry of Culture**. I have translated a total of **four books**, two of which were the product of collaborative translation work.
+I have translated four books, two of them in collaboration with other translators. These include the Turkish translation of the second volume of Albert Gabriel’s *Monuments turcs d’Anatolie*, devoted to Amasya, Tokat, and Sivas, published in Turkish as Anadolu’daki *Türk Anıtları II: Amasya – Tokat – Sivas* within a project of the Ministry of Culture and Tourism of the Republic of Turkey. My translations are listed on the [Translations]({{ "/translations/" | relative_url }}) page.
 
-I regard translation and editorial work not as activities separate from academic life, but as part of the broader circulation of ideas across languages, disciplines, and publics. Moving between languages requires attention not only to words, but also to intellectual traditions, historical contexts, and conceptual worlds. In this sense, my work as a translator and editor is closely connected to my academic interest in **conceptual history**, **political language**, and the historicity of political thought.
-
-This experience has also shaped the way I think about the public and institutional life of ideas: how texts are selected, evaluated, translated, edited, circulated, and received within broader intellectual fields. My background in publishing has provided me with a valuable foundation for contributing to **peer review** and the **editorial processes of academic journals**, particularly in assessing manuscripts with attention to argument, structure, conceptual precision, style, and scholarly contribution.
-
-In this sense, my translation and editorial work remains an important part of my academic profile. It complements my research and teaching by giving me practical experience in the mediation, evaluation, and circulation of political, historical, and philosophical texts.
+For me, translation and editing are not peripheral to research. They demand close attention to the uses of concepts, historical contexts, intellectual traditions, and the conditions under which texts circulate. This experience complements my research and teaching while sharpening my attention to argument, conceptual coherence, and the craft of scholarly writing.
 
 </details>
 
