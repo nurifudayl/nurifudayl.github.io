@@ -1,15 +1,16 @@
 ---
 layout: archive
 title: "Projects"
+lang: en
 permalink: /projects/
 author_profile: true
+translations:
+  en: "/projects/"
+  tr: "/tr/projects/"
+  fr: "/fr/projects/"
 ---
 
 {% include projects-style.html %}
-
-<p class="projects-intro">
-
-</p>
 
 {% assign ongoing_projects = site.data.projects.items | where: "status", "ongoing" | sort: "sort_year" | reverse %}
 {% assign completed_projects = site.data.projects.items | where: "status", "completed" | sort: "sort_year" | reverse %}
