@@ -112,19 +112,15 @@ Ces recherches et collaborations sont réunies par une même préoccupation : co
 </details>
 
 <details markdown="1">
-<summary>5. Traductions et travaux éditoriaux</summary>
+<summary>5. Traduction et activités éditoriales</summary>
 
-Ma **formation académique francophone** a également façonné mon rapport au monde de l’édition en Turquie. L’un des apports de mon parcours entre les contextes intellectuels turc et français a été la possibilité de travailler non seulement comme chercheur, mais aussi comme traducteur, éditeur et lecteur dans différents secteurs de l’édition.
+Mon activité éditoriale s’est développée en parallèle de ma formation universitaire et de mon travail de recherche. Inscrite dans un parcours entre les espaces intellectuels turc et francophone, elle m’a conduit à exercer comme **traducteur, lecteur éditorial et éditeur**, dans une perspective que je conçois comme une forme de médiation entre les textes, les traditions de pensée et leurs publics.
 
-Je suis entré dans le monde de l’édition comme traducteur dès ma première année de licence, lorsque j’ai commencé à travailler avec **Ayrıntı Yayınları**. J’ai ensuite rédigé des rapports de lecture pour **Doğan Kitap** et publié des comptes rendus d’ouvrages dans des suppléments littéraires. Pendant une période importante, j’ai également travaillé pour **Dergâh Yayınları**, où j’ai exercé à la fois comme **éditeur de traductions** et comme **éditeur en histoire**.
+J’ai commencé à traduire dès ma première année de licence, à l’occasion d’une collaboration avec **Ayrıntı Yayınları**. J’ai ensuite rédigé des rapports de lecture pour **Doğan Kitap** et publié des comptes rendus d’ouvrages dans la presse littéraire. Une part importante de mon expérience éditoriale s’est déroulée au sein de **Dergâh Yayınları**, où j’ai travaillé à l’édition de traductions et d’ouvrages d’histoire.
 
-Mes activités de traduction et d’édition comprennent également des projets menés dans le cadre du **ministère de la Culture**. J’ai traduit au total **quatre ouvrages**, dont deux dans le cadre de traductions collectives.
+J’ai traduit quatre ouvrages, dont deux en collaboration avec d’autres traducteurs. Parmi ces travaux figure la traduction du second volume des *Monuments turcs d’Anatolie* d’**Albert Gabriel**, consacré à Amasya, Tokat et Sivas, publié en turc sous le titre *Anadolu’daki Türk Anıtları II : Amasya – Tokat – Sivas* dans le cadre d’un projet du **ministère turc de la Culture et du Tourisme**. L’ensemble de mes traductions est présenté sur la [page **Traductions**](/fr/translations/).
 
-Je ne considère pas les activités de traduction et d’édition comme séparées de la vie académique, mais comme faisant partie de la circulation plus large des idées entre les langues, les disciplines et les publics. Passer d’une langue à l’autre exige une attention non seulement aux mots, mais aussi aux traditions intellectuelles, aux contextes historiques et aux univers conceptuels. En ce sens, mon travail de traducteur et d’éditeur est étroitement lié à mon intérêt académique pour l’**histoire conceptuelle**, le **langage politique** et l’historicité de la pensée politique.
-
-Cette expérience a également façonné ma manière de penser la vie publique et institutionnelle des idées : la façon dont les textes sont sélectionnés, évalués, traduits, édités, mis en circulation et reçus au sein de champs intellectuels plus larges. Mon expérience dans l’édition m’a fourni une base précieuse pour contribuer à l’**évaluation par les pairs** et aux **processus éditoriaux des revues scientifiques**, en particulier lorsqu’il s’agit d’examiner des manuscrits sous l’angle de l’argumentation, de la structure, de la précision conceptuelle, du style et de la contribution scientifique.
-
-En ce sens, mes activités de traduction et d’édition demeurent une composante importante de mon profil académique. Elles complètent mes recherches et mon enseignement en m’apportant une expérience pratique de la médiation, de l’évaluation et de la circulation des textes politiques, historiques et philosophiques.
+Pour moi, la traduction et l’édition ne constituent pas des activités périphériques à la recherche. Traduire et éditer supposent une attention aux usages des concepts, aux contextes historiques, aux traditions intellectuelles et aux conditions de circulation des textes. Cette expérience prolonge ainsi mes travaux et mon enseignement, tout en nourrissant mon attention à la construction de l’argumentation, à la cohérence conceptuelle et à la qualité de l’écriture scientifique.
 
 </details>
 
