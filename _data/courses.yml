@@ -2,15 +2,31 @@ current_academic_year: "2025-26"
 
 office_hours:
   enabled: true
+
   label: "Book Office Hours"
+  label_tr: "Randevu Al"
+  label_fr: "Prendre rendez-vous"
+
   url: "https://calendly.com/nurifudayl/office-hours"
+
   text: >-
     Students enrolled in a currently offered course may schedule an appointment
     to discuss readings, assignments, or course-related questions.
 
+  text_tr: >-
+    Güncel olarak verilen bir derse kayıtlı öğrenciler, okumalar, ödevler
+    veya dersle ilgili soruları görüşmek üzere randevu alabilir.
+
+  text_fr: >-
+    Les étudiants inscrits à un cours actuellement dispensé peuvent prendre
+    rendez-vous afin de discuter des lectures, des travaux ou de toute
+    question relative au cours.
+
 items:
   - id: "history-of-political-thought"
     title: "History of Political Thought"
+    title_tr: "Siyasal Düşünceler Tarihi"
+    title_fr: "Histoire de la pensée politique"
     sort_title: "History of Political Thought"
     current: true
     sort_year: 2025
@@ -27,6 +43,8 @@ items:
 
   - id: "comparative-political-systems"
     title: "Comparative Political Systems"
+    title_tr: "Karşılaştırmalı Siyasal Sistemler"
+    title_fr: "Systèmes politiques comparés"
     sort_title: "Comparative Political Systems"
     current: true
     sort_year: 2025
@@ -40,9 +58,11 @@ items:
       - "2025-26"
       - "2024-25"
     page_url:
-    
+
   - id: "political-philosophy"
     title: "Political Philosophy"
+    title_tr: "Siyaset Felsefesi"
+    title_fr: "Philosophie politique"
     sort_title: "Political Philosophy"
     current: false
     sort_year: 2024
@@ -56,6 +76,8 @@ items:
 
   - id: "political-theory"
     title: "Political Theory"
+    title_tr: "Siyaset Teorisi"
+    title_fr: "Théorie politique"
     sort_title: "Political Theory"
     current: true
     sort_year: 2025
@@ -66,10 +88,12 @@ items:
     years:
       - "2025-26"
       - "2024-25"
-    page_url:    
+    page_url:
 
   - id: "political-ideologies"
     title: "Political Ideologies"
+    title_tr: "Siyasal İdeolojiler"
+    title_fr: "Idéologies politiques"
     sort_title: "Political Ideologies"
     current: true
     sort_year: 2025
@@ -79,10 +103,12 @@ items:
       - ESBK419
     years:
       - "2025-26"
-    page_url:  
+    page_url:
 
   - id: "turkish-administrative-history"
     title: "Turkish Administrative History"
+    title_tr: "Türk Yönetim Tarihi"
+    title_fr: "Histoire de l’administration turque"
     sort_title: "Turkish Administrative History"
     current: true
     sort_year: 2025
@@ -92,10 +118,12 @@ items:
       - ESBK427
     years:
       - "2025-26"
-    page_url: 
-    
+    page_url:
+
   - id: "social-responsibility-and-ethics"
     title: "Social Responsibility and Ethics"
+    title_tr: "Sosyal Sorumluluk ve Etik"
+    title_fr: "Responsabilité sociale et éthique"
     sort_title: "Social Responsibility and Ethics"
     current: true
     sort_year: 2025
@@ -106,10 +134,12 @@ items:
     years:
       - "2025-26"
       - "2024-25"
-    page_url: 
+    page_url:
 
   - id: "introduction-to-political-science"
     title: "Introduction to Political Science"
+    title_tr: "Siyaset Bilimine Giriş"
+    title_fr: "Introduction à la science politique"
     sort_title: "Introduction to Political Science"
     current: false
     sort_year: 2023
@@ -119,4 +149,4 @@ items:
       - PSIR101
     years:
       - "2023-24"
-    page_url:     
+    page_url:
