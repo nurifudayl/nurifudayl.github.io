@@ -50,7 +50,7 @@ translations:
 <details open markdown="1">
 <summary>1. Profil académique</summary>
 
-Je suis **politiste** et mes travaux se situent au croisement de la **théorie politique**, de l’**histoire de la pensée politique** et des **relations internationales**. Elles portent sur les façons dont le pouvoir politique est pensé, légitimé et contesté dans des contextes historiques, intellectuels et institutionnels variés.
+Je suis **politiste** et mes travaux se situent au croisement de la **théorie politique**, de l’**histoire de la pensée politique** et des **relations internationales**. Ils portent sur les façons dont le pouvoir politique est pensé, légitimé et contesté dans des contextes historiques, intellectuels et institutionnels variés.
 
 Au cœur de mon travail se trouve un intérêt pour l’historicité des concepts politiques. J’étudie la manière dont des notions telles que la légitimité, la souveraineté ou l’espace public prennent sens dans des langages politiques spécifiques, et comment elles participent à la constitution de l’ordre politique, de l’État et des représentations collectives de soi.
 
@@ -63,7 +63,7 @@ Sur le plan méthodologique, mes travaux associent **contextualisme linguistique
 </details>
 
 <details markdown="1">
-<summary>2. Parcours universitaire et intelectuel</summary>
+<summary>2. Parcours universitaire et intellectuel</summary>
 
 Ma formation en science politique a débuté à l’**Université Galatasaray**, où s’est affirmé mon intérêt pour la théorie politique et l’histoire de la pensée politique moderne. Durant mes études de licence, un séjour d’échange à l’**Université du Québec à Montréal** m’a permis d’approfondir la lecture de Hannah Arendt, Karl Marx, Friedrich Nietzsche et Michel Foucault. Dès cette période, mon parcours s’est structuré autour d’une interrogation qui demeure au cœur de mes recherches : comment l’autorité politique se constitue-t-elle, se justifie-t-elle et transforme-t-elle les conditions de la liberté collective ?
 
@@ -95,7 +95,7 @@ Parallèlement à mes activités d’enseignement et de recherche, j’assume le
 <details markdown="1">
 <summary>4. Recherches actuelles et projets collectifs</summary>
 
-Mes recherches actuelles portent principalement sur l’**histoire intellectuelle et constitutionnelle de la Turquie moderne**. J’y examine la manière dont des notions telles que la légitimité, l’autorité, l’État et la démocratie ont été formulées, disputées et transformées dans différents contextes politiques. Parallèlement à ce programme individuel, je contribue à plusieurs projets collectifs consacrés aux comportements électoraux, à l’innovation pédagogique en science politique et à la vie intellectuelle contemporaine en Turquie.
+Mes recherches actuelles portent principalement sur l’**histoire intellectuelle et constitutionnelle de la Turquie moderne**. J’y examine la manière dont les notions de légitimité, de démocratie et d’ordre constitutionnel ont été mobilisées pour définir, justifier et contester l’autorité étatique dans la Turquie moderne. Parallèlement à ce programme individuel, je contribue à plusieurs projets collectifs consacrés aux comportements électoraux, à l’innovation pédagogique en science politique et à la vie intellectuelle contemporaine en Turquie.
 
 Un premier volet de mes recherches individuelles concerne le processus constituant ouvert en 1960 et ayant conduit à l’**adoption de la Constitution turque de 1961**. Je m’intéresse **aux juristes** impliqués dans ce processus, à leurs univers intellectuels et à l’évolution de leurs doctrines. Au-delà de leur dimension juridico-technique, j’analyse les débats constitutionnels comme un espace de confrontation entre différentes conceptions de l’État, de la démocratie, de l’autorité et de l’ordre politique.
 
