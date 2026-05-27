@@ -1,0 +1,50 @@
+---
+layout: archive
+title: "Projets"
+lang: fr
+permalink: /fr/projects/
+author_profile: true
+translations:
+  en: "/projects/"
+  tr: "/tr/projects/"
+  fr: "/fr/projects/"
+---
+
+{% include projects-style.html %}
+
+{% assign ongoing_projects = site.data.projects.items | where: "status", "ongoing" | sort: "sort_year" | reverse %}
+{% assign completed_projects = site.data.projects.items | where: "status", "completed" | sort: "sort_year" | reverse %}
+
+{% if ongoing_projects.size > 0 %}
+<section class="projects-section">
+  <div class="projects-section-header">
+    <h2 class="projects-section-title">
+      Projets en cours
+      <span class="projects-count">{{ ongoing_projects.size }}</span>
+    </h2>
+  </div>
+
+  <div class="project-list">
+    {% for project in ongoing_projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if completed_projects.size > 0 %}
+<section class="projects-section">
+  <div class="projects-section-header">
+    <h2 class="projects-section-title">
+      Projets achevés
+      <span class="projects-count">{{ completed_projects.size }}</span>
+    </h2>
+  </div>
+
+  <div class="project-list">
+    {% for project in completed_projects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
