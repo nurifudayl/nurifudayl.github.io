@@ -12,9 +12,7 @@ cover: "/images/publication/eski-rejimin-mesruiyeti.jpg"
 citation: "Kıcıroğlu, Nuri Fudayl. 2024. <em>Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme</em>. İstanbul: Selenge Yayınları."
 
 excerpt_tr: >-
-  Bu kitap, on yedinci yüzyıl Osmanlı nasihatname literatürünü meşruiyet,
-  otorite ve toplumsal düzen üzerine tarihsel olarak konumlanmış bir siyasal
-  tartışma alanı olarak incelemektedir.
+  Bu kitap, 17. Osmanlı nasihatnamelerini meşruiyet, otorite ve toplumsal düzen üzerine bağlamsal bir siyasal tartışma alanı olarak inceler.
 
 excerpt_fr: >-
   Cet ouvrage analyse la littérature ottomane de conseil du XVIIe siècle
