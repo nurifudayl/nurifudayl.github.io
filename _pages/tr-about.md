@@ -86,7 +86,7 @@ Bu tarihsel formasyon, modern ve çağdaş siyaset ile uluslararası ilişkiler 
 
 Halen **İstanbul Nişantaşı Üniversitesi** Siyaset Bilimi ve Kamu Yönetimi Bölümünde **Doktor Öğretim Üyesi** olarak görev yapıyorum. Daha önce **İzmir Ekonomi Üniversitesi** Siyaset Bilimi ve Uluslararası İlişkiler Bölümünde ders verdim. Lisans düzeyindeki derslerim siyaset teorisi, siyasal düşünceler tarihi, karşılaştırmalı siyaset, Türk yönetim tarihi ve siyasal ideolojiler alanlarını kapsıyor. Türkçe ve İngilizce ders verdim; Fransızca ders de verebilirim.
 
-Öğretim yaklaşımımda **yakın okuma**, **kavramsal çözümleme** ve **tarihsel bağlamsallaştırma**ya merkezi bir yer veriyorum. Öğrencileri, bu araçlardan hareketle çağdaş siyasal tartışmaları tarihsel ve kuramsal bir perspektife yerleştirmeye ve kendi savlarını titizlikle kurmaya teşvik ediyorum.
+[Dersler](/tr/teaching/)imde **yakın okuma**, **kavramsal çözümleme** ve **tarihsel bağlamsallaştırma**ya merkezi bir yer veriyorum. Öğrencileri, bu araçlardan hareketle çağdaş siyasal tartışmaları tarihsel ve kuramsal bir perspektife yerleştirmeye ve kendi savlarını titizlikle kurmaya teşvik ediyorum.
 
 Öğretim ve araştırma faaliyetlerimin yanı sıra Bölüm Başkan Yardımcısı, **Bölüm Kalite Komisyonu Başkanı** ve Fakülte Kalite Komisyonu üyesi olarak görev yapıyorum. Bu görevler kapsamında bölümün STAR tarafından **dört yıllığına akredite edilmesiyle** sonuçlanan kalite güvencesi ve akreditasyon sürecine katkıda bulundum.
 
