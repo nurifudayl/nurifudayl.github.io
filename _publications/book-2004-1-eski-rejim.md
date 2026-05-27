@@ -15,9 +15,7 @@ excerpt_tr: >-
   Bu kitap, 17. Osmanlı nasihatnamelerini meşruiyet, otorite ve toplumsal düzen üzerine bağlamsal bir siyasal tartışma alanı olarak inceler.
 
 excerpt_fr: >-
-  Cet ouvrage analyse la littérature ottomane de conseil du XVIIe siècle
-  comme un champ historiquement situé de controverses politiques portant
-  sur la légitimité, l’autorité et l’ordre social.
+  Cet ouvrage analyse les miroirs des princes ottomans du XVIIe siècle comme un espace historiquement situé de controverses politiques autour de la légitimité, de l’autorité et de l’ordre social.
 
 detail_url_tr: "/tr/publication/book-2004-1-eski-rejim"
 detail_url_fr: "/fr/publication/book-2004-1-eski-rejim"
