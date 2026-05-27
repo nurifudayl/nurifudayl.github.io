@@ -1,32 +1,33 @@
 ---
 layout: archive
 title: "Teaching"
+lang: en
 permalink: /teaching/
 author_profile: true
+translations:
+  en: "/teaching/"
+  tr: "/tr/teaching/"
+  fr: "/fr/teaching/"
 ---
 
 {% include teaching-style.html %}
 
 <div class="teaching-page">
 
-<p class="teaching-intro">
+  <div class="course-list">
 
-</p>
+    {% assign current_academic_year = site.data.courses.current_academic_year %}
+    {% assign current_courses = site.data.courses.items | where: "current", true | sort: "sort_year" | reverse %}
+    {% assign previous_courses = site.data.courses.items | where: "current", false | sort: "sort_year" | reverse %}
 
-<div class="course-list">
+    {% for course in current_courses %}
+      {% include course-card.html course=course current_academic_year=current_academic_year %}
+    {% endfor %}
 
-{% assign current_academic_year = site.data.courses.current_academic_year %}
-{% assign current_courses = site.data.courses.items | where: "current", true | sort: "sort_year" | reverse %}
-{% assign previous_courses = site.data.courses.items | where: "current", false | sort: "sort_year" | reverse %}
+    {% for course in previous_courses %}
+      {% include course-card.html course=course current_academic_year=current_academic_year %}
+    {% endfor %}
 
-{% for course in current_courses %}
-  {% include course-card.html course=course current_academic_year=current_academic_year %}
-{% endfor %}
-
-{% for course in previous_courses %}
-  {% include course-card.html course=course current_academic_year=current_academic_year %}
-{% endfor %}
-
-</div>
+  </div>
 
 </div>
