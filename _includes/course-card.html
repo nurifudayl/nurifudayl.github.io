@@ -1,5 +1,39 @@
 {% assign course = include.course %}
 {% assign current_academic_year = include.current_academic_year %}
+{% assign current_lang = page.lang | default: "en" %}
+
+{% assign course_title = course.title %}
+{% assign course_page_url = course.page_url %}
+{% assign codes_label = "Course Codes" %}
+{% assign years_label = "Academic Years" %}
+{% assign page_button_label = "Course Page" %}
+
+{% if current_lang == "tr" %}
+  {% if course.title_tr %}
+    {% assign course_title = course.title_tr %}
+  {% endif %}
+
+  {% if course.page_url_tr %}
+    {% assign course_page_url = course.page_url_tr %}
+  {% endif %}
+
+  {% assign codes_label = "Ders Kodları" %}
+  {% assign years_label = "Ders Dönemi" %}
+  {% assign page_button_label = "Ders Sayfası" %}
+
+{% elsif current_lang == "fr" %}
+  {% if course.title_fr %}
+    {% assign course_title = course.title_fr %}
+  {% endif %}
+
+  {% if course.page_url_fr %}
+    {% assign course_page_url = course.page_url_fr %}
+  {% endif %}
+
+  {% assign codes_label = "Codes du cours" %}
+  {% assign years_label = "Années universitaires" %}
+  {% assign page_button_label = "Page du cours" %}
+{% endif %}
 
 <article class="course-card">
 
@@ -15,7 +49,7 @@
 
     <div class="course-content">
 
-      <h2 class="course-title">{{ course.title }}</h2>
+      <h2 class="course-title">{{ course_title }}</h2>
 
       {% if course.languages %}
       <div class="course-badge-row">
@@ -26,7 +60,7 @@
       {% endif %}
 
       {% if course.codes %}
-      <div class="course-section-label">Course Codes</div>
+      <div class="course-section-label">{{ codes_label }}</div>
       <div class="course-badge-row">
         {% for code in course.codes %}
           <span class="course-badge">{{ code }}</span>
@@ -35,7 +69,7 @@
       {% endif %}
 
       {% if course.years %}
-      <div class="course-section-label">Academic Years</div>
+      <div class="course-section-label">{{ years_label }}</div>
       <div class="course-badge-row">
         {% assign sorted_years = course.years | sort | reverse %}
         {% for year in sorted_years %}
@@ -53,13 +87,13 @@
   </div>
 
   <div class="course-card-action">
-    {% if course.page_url %}
-      <a href="{{ course.page_url }}" class="course-page-button">
+    {% if course_page_url %}
+      <a href="{{ course_page_url | relative_url }}" class="course-page-button">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
           <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
         </svg>
-        <span>Course Page</span>
+        <span>{{ page_button_label }}</span>
       </a>
     {% else %}
       <span class="course-page-button course-page-button-disabled" aria-disabled="true">
@@ -67,7 +101,7 @@
           <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
           <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
         </svg>
-        <span>Course Page</span>
+        <span>{{ page_button_label }}</span>
       </span>
     {% endif %}
   </div>
