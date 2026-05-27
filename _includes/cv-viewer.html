@@ -1,0 +1,196 @@
+<style>
+/* ==========================================================================
+   CV Viewer
+   ========================================================================== */
+
+.cv-page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.cv-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.cv-action-button,
+.cv-action-button:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.3rem;
+  padding: 0.48rem 0.88rem;
+  border: 1.35px solid #7A3E3E;
+  border-radius: 3px;
+  background: #F4EDE4;
+  color: #7A3E3E !important;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.cv-action-button:hover {
+  background: #7A3E3E;
+  color: #F4EDE4 !important;
+}
+
+.cv-action-button.primary,
+.cv-action-button.primary:visited {
+  background: #7A3E3E;
+  color: #F4EDE4 !important;
+}
+
+.cv-action-button.primary:hover {
+  background: #4E2525;
+  border-color: #4E2525;
+  color: #F4EDE4 !important;
+}
+
+.cv-action-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+}
+
+.cv-action-icon svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cv-viewer {
+  width: 100%;
+  height: 1100px;
+  border: 1px solid #D8C8BE;
+  border-radius: 6px;
+  background: #F4EDE4;
+}
+
+.cv-fallback {
+  margin-top: 1rem;
+  color: #665850;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.cv-fallback a {
+  color: #7A3E3E !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Dark mode */
+html[data-theme="dark"] .cv-action-button,
+html[data-theme="dark"] .cv-action-button:visited {
+  background: transparent;
+  border-color: #F4EDE4;
+  color: #F4EDE4 !important;
+}
+
+html[data-theme="dark"] .cv-action-button:hover {
+  background: #F4EDE4;
+  color: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .cv-action-button.primary,
+html[data-theme="dark"] .cv-action-button.primary:visited {
+  background: #F4EDE4;
+  border-color: #F4EDE4;
+  color: #7A3E3E !important;
+}
+
+html[data-theme="dark"] .cv-action-button.primary:hover {
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+html[data-theme="dark"] .cv-viewer {
+  border-color: rgba(244, 237, 228, 0.55);
+  background: transparent;
+}
+
+html[data-theme="dark"] .cv-fallback {
+  color: #F4EDE4;
+}
+
+html[data-theme="dark"] .cv-fallback a {
+  color: #F4EDE4 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .cv-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .cv-action-button {
+    font-size: 0.8rem;
+  }
+
+  .cv-viewer {
+    height: 700px;
+  }
+}
+</style>
+
+<div class="cv-page">
+
+  <div class="cv-actions">
+
+    <a href="{{ page.cv_file | relative_url }}"
+       class="cv-action-button"
+       target="_blank"
+       rel="noopener noreferrer">
+      <span>{{ page.open_label }}</span>
+      <span class="cv-action-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75V17.25A1.75 1.75 0 0 0 6.75 19H17.25A1.75 1.75 0 0 0 19 17.25V15"></path>
+          <path d="M10 14L19 5"></path>
+          <path d="M13.5 5H19V10.5"></path>
+        </svg>
+      </span>
+    </a>
+
+    <a href="{{ page.cv_file | relative_url }}"
+       class="cv-action-button primary"
+       download>
+      <span>{{ page.download_label }}</span>
+      <span class="cv-action-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3v12"></path>
+          <path d="m7 10 5 5 5-5"></path>
+          <path d="M4 21h16"></path>
+        </svg>
+      </span>
+    </a>
+
+  </div>
+
+  <iframe
+    src="{{ page.cv_file | relative_url }}"
+    class="cv-viewer"
+    title="{{ page.viewer_title }}">
+  </iframe>
+
+  <p class="cv-fallback">
+    {{ page.fallback_before }}
+    <a href="{{ page.cv_file | relative_url }}"
+       target="_blank"
+       rel="noopener noreferrer">{{ page.fallback_link }}</a>{{ page.fallback_after }}
+  </p>
+
+</div>
