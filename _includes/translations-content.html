@@ -1,0 +1,137 @@
+{% assign current_lang = page.lang | default: "en" %}
+
+{% if current_lang == "tr" %}
+  {% assign collaboration_label = "İş birliği:" %}
+  {% assign publisher_label = "Yayınevi" %}
+  {% assign copy_label = "Atfı Kopyala" %}
+  {% assign copied_label = "Kopyalandı" %}
+  {% assign cover_label = "kapak görseli" %}
+{% elsif current_lang == "fr" %}
+  {% assign collaboration_label = "Collaborations :" %}
+  {% assign publisher_label = "Éditeur" %}
+  {% assign copy_label = "Copier la référence" %}
+  {% assign copied_label = "Copiée" %}
+  {% assign cover_label = "couverture" %}
+{% else %}
+  {% assign collaboration_label = "Collaborated with:" %}
+  {% assign publisher_label = "Publisher" %}
+  {% assign copy_label = "Copy citation" %}
+  {% assign copied_label = "Copied" %}
+  {% assign cover_label = "cover" %}
+{% endif %}
+
+<div class="translation-list">
+
+{% assign translations = site.data.translations | sort: "sort_year" | reverse %}
+
+{% for item in translations %}
+
+  {% assign displayed_collaborators = item.collaborators %}
+
+  {% if current_lang == "tr" and item.collaborators_tr %}
+    {% assign displayed_collaborators = item.collaborators_tr %}
+  {% elsif current_lang == "fr" and item.collaborators_fr %}
+    {% assign displayed_collaborators = item.collaborators_fr %}
+  {% endif %}
+
+  <div class="translation-item">
+
+    <div class="translation-cover">
+      <img src="{{ item.cover | relative_url }}" alt="{{ item.title | strip_html }} {{ cover_label }}">
+    </div>
+
+    <div class="translation-content">
+
+      <div class="translation-years">
+        {% for year in item.years %}
+          <span class="translation-year">{{ year }}</span>
+        {% endfor %}
+      </div>
+
+      <div class="translation-title">{{ item.title }}</div>
+      <div class="translation-author">{{ item.author }}</div>
+
+      {% if displayed_collaborators %}
+      <div class="translation-collaboration">
+        <strong>{{ collaboration_label }}</strong> {{ displayed_collaborators }}
+      </div>
+      {% endif %}
+
+      <div class="translation-publisher-text">{{ item.publisher }}</div>
+
+      <div class="translation-citation-text" id="citation-{{ forloop.index }}">
+        {{ item.citation }}
+      </div>
+
+    </div>
+
+    <div class="translation-actions">
+
+      {% if item.publisher_url %}
+      <a href="{{ item.publisher_url }}" target="_blank" rel="noopener noreferrer">
+        {{ publisher_label }}
+      </a>
+      {% endif %}
+
+      <button
+        class="copy-btn"
+        type="button"
+        onclick="copyCitation('citation-{{ forloop.index }}', 'status-{{ forloop.index }}')">
+        {{ copy_label }}
+      </button>
+
+      <span class="copy-status" id="status-{{ forloop.index }}"></span>
+
+    </div>
+
+  </div>
+{% endfor %}
+
+</div>
+
+<script>
+function copyCitation(citationId, statusId) {
+  const citationElement = document.getElementById(citationId);
+  const statusElement = document.getElementById(statusId);
+  const copiedMessage = {{ copied_label | jsonify }};
+
+  if (!citationElement || !statusElement) return;
+
+  const citationText = citationElement.innerText;
+
+  function showCopiedStatus() {
+    statusElement.textContent = copiedMessage;
+    setTimeout(function() {
+      statusElement.textContent = "";
+    }, 1600);
+  }
+
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(citationText).then(function() {
+      showCopiedStatus();
+    }).catch(function() {
+      fallbackCopy(citationText, showCopiedStatus);
+    });
+  } else {
+    fallbackCopy(citationText, showCopiedStatus);
+  }
+}
+
+function fallbackCopy(text, callback) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+
+  document.body.appendChild(textarea);
+  textarea.select();
+
+  try {
+    document.execCommand("copy");
+    callback();
+  } finally {
+    document.body.removeChild(textarea);
+  }
+}
+</script>
