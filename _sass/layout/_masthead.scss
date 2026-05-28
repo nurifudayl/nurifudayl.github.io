@@ -198,3 +198,11 @@
   }
 }
 
+/* Name in masthead only */
+.greedy-nav .visible-links a.masthead-site-name {
+  font-family: "Cormorant Garamond", Garamond, serif !important;
+  font-weight: 600 !important;
+  font-size: 1.22rem;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+}
