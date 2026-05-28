@@ -148,7 +148,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 :  "/images/social/nuri-fudayl-social-card.png"
 og_description           :  "Research on legitimacy, sovereignty, political authority, Ottoman political thought, modern Turkey, and international relations."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
