@@ -1,5 +1,28 @@
 {% include base_path %}
 
+<script>
+  (function () {
+    try {
+      var savedTheme = localStorage.getItem("theme");
+      var prefersDark = window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      var useDark =
+        savedTheme === "dark" ||
+        (!savedTheme && prefersDark) ||
+        (savedTheme === "system" && prefersDark);
+
+      if (useDark) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+      }
+    } catch (e) {
+      /* If localStorage is unavailable, keep the default light theme. */
+    }
+  })();
+</script>
+
 <meta charset="utf-8">
 
 {% include seo.html %}
