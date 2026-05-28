@@ -32,7 +32,7 @@
         <ul class="visible-links">
 
           <!-- Site title: returns to the About/Home page in the current language -->
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == about_url %}selected{% elsif current_lang == 'en' and page.url == '/index.html' %}selected{% endif %}">
+          <li class="masthead__menu-item masthead__menu-item--lg persist site-title">
             <a href="{{ about_url | relative_url }}">{{ site.title }}</a>
           </li>
 
