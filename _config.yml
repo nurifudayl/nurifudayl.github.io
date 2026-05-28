@@ -12,9 +12,9 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Nuri Fudayl Kıcıroğlu"
 title_separator          : "-"
 name                     : &name "Nuri Fudayl Kıcıroğlu"
-description              : &description "Political Science and International Relations"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://nurifudayl.github.io # The base hostname & protocol for your site e.g. "https://[nurifudayl].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[nurifudayl].github.io/[nurifudayl]"
+description              : &description "Political theorist and historian of political thought working on legitimacy, sovereignty, Ottoman political thought, modern Turkey, and international relations."
+url                      : "https://www.nurifudayl.com" 
+                                                          
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nurifudayl/nurifudayl.github.io"
 
@@ -143,13 +143,13 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "NuriFudayl"
 facebook:
   username               :
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           :  "Research on legitimacy, sovereignty, political authority, Ottoman political thought, modern Turkey, and international relations."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
