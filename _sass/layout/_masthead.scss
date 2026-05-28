@@ -191,3 +191,34 @@
     padding-right: 0.12rem !important;
   }
 }
+
+/* ==========================================================================
+   SITE TITLE — protect Turkish characters and descenders on mobile
+   ========================================================================== */
+
+.site-title a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.35;
+  padding-top: 0.55rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 0 !important;
+}
+
+.site-title a::before {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  .masthead__menu-item--lg {
+    padding-right: 0.45rem;
+  }
+
+  .site-title a {
+    margin-right: 0.25rem !important;
+    padding-top: 0.55rem !important;
+    padding-bottom: 0.7rem !important;
+    line-height: 1.4 !important;
+    white-space: nowrap;
+  }
+}
