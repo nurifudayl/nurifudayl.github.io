@@ -14,7 +14,9 @@ excerpt_tr: >-
   Bu makale, 1933 Reformu sonrasında İstanbul Üniversitesi’nin, taşradaki Üniversite Konferansları aracılığıyla bilimi kamusal bir görev olarak nasıl sunduğunu ve erken Cumhuriyet’in düşünsel hayatında etkin bir kurumsal aktör olarak kendisini nasıl konumlandırdığını inceler.
 
 excerpt_fr: >-
-  Cet article examine comment l’Université d’Istanbul, après la réforme universitaire de 1933, mobilisa les Conférences universitaires en province afin de présenter la science comme une mission publique et de s’affirmer comme un acteur institutionnel de la vie intellectuelle de la jeune République.
+  Cet article examine comment l’Université d’Istanbul, après 1933, mobilisa les Conférences universitaires 
+  en province afin de présenter la science comme une mission publique et de s’affirmer comme un acteur institutionnel de 
+  la vie intellectuelle de la jeune République.
 
 detail_url_tr: "/tr/publication/article-2022-2-üniversite-haftaları"
 detail_url_fr: "/fr/publication/article-2022-2-üniversite-haftaları"
@@ -36,7 +38,7 @@ keywords:
   - Albert Malche
 ---
 
-This article examines how Istanbul University, after the 1933 University Reform, used the University Conferences to present science as a public mission and to position itself as an institutional actor in the intellectual life of the early Republic.
+This article examines how Istanbul University, after the University Reform, used University Conferences to present science as a public mission and to position itself as an institutional actor in the intellectual life of the early Republic.
 
 ## About the Article
 
