@@ -25,14 +25,14 @@ keywords:
   - héros national
 ---
 
-Cet article examine la manière dont Nihal Atsız a transformé l’histoire littéraire en un canon national qui mythifie l’identité turque préislamique et esthétise une vision racialisée du nationalisme turc.
+Cet article relit le *Türk Edebiyatı Tarihi* de Nihal Atsız comme une entreprise de formation du canon national et montre comment l’histoire littéraire transforma le passé turcique préislamique en fondement esthétique et politique d’un nationalisme racialiste, turquiste et touraniste.
 
 ## Résumé
 
-Cet article étudie le *Türk Edebiyatı Tarihi* de Nihal Atsız non pas simplement comme une œuvre d’historiographie littéraire, mais comme un projet idéologique de formation d’un canon national. Il soutient que, tout en s’inscrivant dans la trajectoire turcologique ouverte par Mehmet Fuat Köprülü, Atsız l’a radicalisée en construisant le passé préislamique comme l’origine purifiée d’une identité turque essentialisée. Par sa périodisation de l’histoire turque, sa conception de la langue et l’importance qu’il accorde aux héros nationaux, Atsız transforme la littérature en un moyen de produire une continuité historique et de légitimer une vision politique orientée vers l’avenir, façonnée par le turquisme et le touranisme. L’article montre également que les écrits littéraires et historiques d’Atsız ne peuvent être dissociés de sa pensée politique, puisque son canon traduit un nationalisme racialisé en symboles esthétiques puissants qui continuent d’informer les imaginaires nationalistes turcs.
+Cet article réexamine le *Türk Edebiyatı Tarihi* de Nihal Atsız non comme un simple ouvrage d’histoire littéraire, mais comme une intervention idéologique et politique dans l’élaboration d’un canon national. Tout en inscrivant Atsız dans le sillage de la trajectoire turcologique ouverte par Mehmet Fuat Köprülü, il soutient que celui-là en radicalisa la logique en érigeant le passé turcique préislamique en origine purifiée d’une identité nationale tenue pour authentique et essentielle. Par sa périodisation de l’histoire turque, sa conception de la langue et la fonction fondatrice qu’il assigne aux héros nationaux, Atsız fait de l’histoire littéraire un moyen d’établir une continuité entre un passé primordial réinventé et un avenir politique orienté par le turquisme et le touranisme. L’article montre ainsi que son historiographie littéraire est indissociable de sa pensée politique : le canon qu’il construit donne au nationalisme racialiste une puissance narrative et esthétique dont les effets continuent d’informer les imaginaires nationalistes en Turquie.
 
 ## Contributions
 
-- Repositionne Nihal Atsız dans les débats sur la formation du canon national.
-- Montre comment l’historiographie littéraire fonctionne comme une pratique idéologique de production mythique.
-- Explique le rôle du héros national dans l’esthétisation d’un nationalisme racialisé.
+- Réinscrire Nihal Atsız dans l’histoire de la formation du canon national.
+- Lire l’histoire littéraire comme une pratique idéologique.
+- Interroger la puissance esthétique du nationalisme racialiste.
