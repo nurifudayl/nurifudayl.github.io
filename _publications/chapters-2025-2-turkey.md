@@ -36,11 +36,11 @@ This chapter conceptualizes Turkey as a hybrid regional power: a multidimensiona
 
 ## About the Chapter
 
-This chapter examines Turkey’s transformation from a cautious, Western-oriented status quo actor into an assertive and multidimensional regional power. Drawing on the volume’s post-sovereignty framework, it argues that Turkey occupies an intermediary position beyond the conventional great power–small state binary: fully sovereign and capable of projecting influence, yet unable to consolidate regional dominance. The chapter traces this transformation historically and evaluates Turkey’s contemporary power through four interrelated dimensions: military capabilities and interventions, economic statecraft and strategic access, ideational and cultural influence, and multilateral engagement. It highlights Turkey’s growing defense industry, regional military presence, development and energy diplomacy, and civilizational narratives, while also emphasizing the constraints imposed by economic vulnerability, democratic erosion, regional rivalry, and geopolitical overextension. Ultimately, Turkey emerges as influential but contested: visible across multiple arenas, yet hegemonic in none.
+This chapter reconsiders Turkey’s place in contemporary regional politics through the volume’s post-sovereignty framework. It traces the country’s transformation from a cautious, Western-oriented, status quo actor into an assertive regional power capable of mobilizing military force, economic instruments, development initiatives, energy diplomacy, and civilizational narratives across multiple arenas. Rather than locating Turkey within the conventional binary between great powers and small states, the chapter conceptualizes it as a hybrid regional power: fully sovereign and capable of projecting sustained influence, yet unable to convert visibility and activism into consolidated regional leadership. Examining military capacity and regional interventions, economic statecraft and strategic access, ideational and cultural influence, and multilateral engagement, the chapter identifies the sources of Turkey’s growing regional reach while foregrounding the constraints imposed by economic vulnerability, democratic erosion, regional rivalry, and geopolitical overextension. Turkey thus emerges as an influential but contested power: present across multiple domains of regional politics, yet hegemonic in none.
 
 ## Contribution
 
-- Conceptualizes Turkey as a hybrid regional power in line with the volume’s broader post-sovereignty framework.
-- Provides a multidimensional account of Turkish influence.
-- Explains why Turkey’s growing visibility does not automatically translate into sustained leadership.
+- Conceptualizing Turkey as a hybrid regional power.
+- Providing a multidimensional account of regional influence.
+- Explaining the limits of regional leadership.
 
