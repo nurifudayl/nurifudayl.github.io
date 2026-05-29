@@ -26,14 +26,14 @@ keywords:
   - Albert Malche
 ---
 
-Cet article examine la manière dont, après la réforme de 1933, l’université s’est positionnée à la fois comme institution scientifique et comme acteur public à travers les Semaines universitaires.
+Cet article examine comment l’Université d’Istanbul, refondée à la suite de la réforme universitaire de 1933, mobilisa les Conférences universitaires et les Semaines universitaires afin de présenter la science comme une mission publique et de s’affirmer comme un acteur institutionnel de la vie intellectuelle de la jeune République.
 
-## Résumé
+## Présentation de l’article
 
-Cet article étudie la réorganisation de l’Université d’Istanbul à la suite de la réforme universitaire de 1933 à travers le cadre conceptuel du modèle humboldtien d’enseignement supérieur. En se concentrant sur les principes de l’**unité de l’enseignement et de la recherche**, de l’**unité de la science** et de la **Bildung**, il soutient que la réforme visait à positionner l’université non seulement comme une institution de transmission du savoir et de recherche scientifique, mais aussi comme un acteur central dans la formation de la vie sociale et intellectuelle de la République. L’article analyse les Conférences universitaires et les Semaines universitaires comme des expressions pratiques de cette nouvelle mission, en montrant comment l’université réformée s’est présentée au public tout en promouvant une conception particulière de la citoyenneté cultivée et de la formation des élites.
+Cet article réexamine la réorganisation de l’Université d’Istanbul consécutive à la réforme universitaire de 1933 à partir de l’idéal humboldtien de l’université. En s’appuyant sur les principes d’unité de l’enseignement et de la recherche, d’unité des sciences et de *Bildung*, il montre que la réforme ne se limita pas à une restructuration administrative de l’enseignement supérieur : elle entendait instituer l’université comme l’un des acteurs appelés à façonner la vie scientifique, culturelle et civique de la République. L’article analyse les Conférences universitaires et les Semaines universitaires comme les mises en pratique de cette vocation publique. Par ces initiatives, l’université réorganisée étendit son autorité scientifique au-delà de ses murs, présenta le savoir comme une ressource nationale et civique, et prit part à la formation des citoyens instruits et des élites républicaines. L’étude situe ainsi l’Université d’Istanbul au croisement de la réforme de l’enseignement supérieur, de la politique culturelle de l’État et de la constitution de la vie intellectuelle dans la Turquie républicaine des premières décennies.
 
 ## Contributions
 
-- Réinscrit la réorganisation de l’Université d’Istanbul dans le cadre du **modèle humboldtien**, de la *Bildung* et de l’unité de l’enseignement et de la recherche.
-- Analyse les **Semaines universitaires** comme une expression institutionnelle du nouveau modèle universitaire.
-- Montre comment l’université réformée a diffusé le savoir scientifique à travers le pays conformément à la politique de l’État, tout en devenant un acteur actif de la formation culturelle de la Turquie républicaine naissante.
+- Réinterpréter la réorganisation de l’Université d’Istanbul à travers le modèle humboldtien.
+- Analyser les Semaines universitaires comme expression institutionnelle du nouveau modèle universitaire.
+- Situer l’université dans la formation culturelle de la République naissante.
