@@ -23,14 +23,14 @@ keywords:
   - Yeni Osmanlıcılık
 ---
 
-Bu bölüm, Türkiye’yi hibrit bir bölgesel güç olarak yeniden kavramsallaştırır: askerî, ekonomik ve sembolik erişimi kayda değer, ancak iç kırılganlıklar ve tartışmalı bir bölgesel düzen tarafından sürekli sınırlandırılan iddialı ve çok boyutlu bir aktör.
+Bu bölüm, Türkiye’yi askerî, ekonomik ve sembolik nüfuzu kayda değer ölçüde artmış; ancak bölgesel liderlik iddiası iç kırılganlıklar ve ihtilaflı bölgesel düzen tarafından sınırlanmış melez bir bölgesel güç olarak ele alır.
 
-## Özet
+## Bölüm Hakkında
 
-Bu bölüm, Türkiye’nin temkinli ve Batı yönelimli bir statüko aktöründen iddialı ve çok boyutlu bir bölgesel güce dönüşümünü incelemektedir. Kitabın egemenlik-sonrası çerçevesinden hareketle, Türkiye’nin geleneksel büyük güç–küçük devlet ikiliğini aşan bir ara konumda bulunduğunu ileri sürmektedir: Türkiye tam egemenliğe sahip ve etki projeksiyonu yapabilen bir devlet olmakla birlikte, bölgesel üstünlüğünü kalıcı biçimde tesis edememektedir. Bölüm, bu dönüşümün tarihsel seyrini izlemekte ve Türkiye’nin güncel gücünü birbiriyle ilişkili dört boyut üzerinden değerlendirmektedir: askerî kapasite ve müdahaleler, ekonomik devlet yönetimi ve stratejik erişim, düşünsel ve kültürel etki ile çok taraflı angajman. Türkiye’nin gelişen savunma sanayiini, bölgesel askerî varlığını, kalkınma ve enerji diplomasisini ve medeniyetçi anlatılarını öne çıkarırken; ekonomik kırılganlık, demokratik gerileme, bölgesel rekabet ve jeopolitik aşırı yayılmanın getirdiği sınırları da vurgulamaktadır. Sonuç olarak Türkiye, birden fazla alanda görünür ve etkili, fakat hiçbirinde hegemonik olmayan, etkisi tartışmalı bir bölgesel aktör olarak ortaya çıkmaktadır.
+Bu bölüm, Türkiye’nin günümüz bölgesel siyasetindeki konumunu, kitabın egemenlik-sonrası yaklaşımı çerçevesinde yeniden değerlendirir. Türkiye’nin ihtiyatlı, Batı yönelimli ve statükoyu gözeten bir aktörden; askerî güç, ekonomik nüfuz araçları, kalkınma girişimleri, enerji diplomasisi ve medeniyetçi anlatıları farklı sahalarda seferber edebilen iddialı bir bölgesel güce dönüşümünü izler. Bölümün temel savı, Türkiye’nin büyük güç ile küçük devlet arasındaki geleneksel ikili sınıflandırmaya sığdırılamayacağıdır: Türkiye, egemen ve farklı alanlarda etkili bir nüfuz üretebilen, buna karşılık bu görünürlüğü kalıcı bir bölgesel liderliğe dönüştüremeyen melez bir bölgesel güçtür. Çalışma, bu savı askerî kapasite ve bölgesel müdahaleler, ekonomik nüfuz ve stratejik erişim, fikrî ve kültürel etki ile çok taraflı diplomasi boyutları üzerinden geliştirir. Aynı zamanda ekonomik kırılganlık, demokratik gerileme, bölgesel rekabet ve jeopolitik aşırı yayılmanın Türkiye’nin güç projeksiyonuna getirdiği sınırları ortaya koyar. Böylece Türkiye, bölgesel siyasetin birçok alanında etkili ve görünür olan, fakat hiçbirinde hegemonik bir konum tesis edemeyen bir güç olarak belirir.
 
-## Katkılar
+## Katkı
 
-- Türkiye’yi, kitabın daha geniş egemenlik-sonrası çerçevesiyle uyumlu biçimde hibrit bir bölgesel güç olarak kavramsallaştırır.
-- Türkiye’nin etkisine ilişkin çok boyutlu bir değerlendirme sunar.
-- Türkiye’nin artan görünürlüğünün neden kendiliğinden kalıcı bir liderliğe dönüşmediğini açıklar.
+- Türkiye’yi hibrit bir bölgesel güç olarak kavramsallaştırmak.
+- Bölgesel nüfuzun çok boyutlu yapısını göstermek.
+- Bölgesel liderliğin sınırlarını açıklamak.
