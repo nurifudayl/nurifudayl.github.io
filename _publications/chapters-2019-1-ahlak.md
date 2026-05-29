@@ -15,15 +15,10 @@ citation: >-
   Hacıfevzioğlu, 139–158. Bursa: Sentez Yayıncılık.
 
 excerpt_tr: >-
-  Bu bölüm, Hannah Arendt’in düşüncesinde egemen devletin çoğul eylemin
-  yerine şiddeti, itaati ve bürokratik yönetimi geçirerek siyasal özgürlüğü
-  ve ahlaki sorumluluğu nasıl aşındırdığını incelemektedir.
+  Bu bölüm, Arendt’in egemen devlet eleştirisini siyasal özgürlük ile ahlaki sorumluluğun birlikte çözülüşüne ilişkin bir analiz olarak ele alır: Eylemin yerini şiddet ve bürokratik yönetim aldığında hem politik alan hem yargı yetisi aşınır.
 
 excerpt_fr: >-
-  Ce chapitre examine la manière dont, dans la pensée de Hannah Arendt,
-  l’État souverain affaiblit la liberté politique et la responsabilité
-  morale en substituant la violence, l’obéissance et le gouvernement
-  bureaucratique à l’action plurielle.
+  Ce chapitre relit la critique arendtienne de l’État souverain comme une analyse de l’effacement conjoint de la liberté politique et de la responsabilité morale : lorsque l’action cède la place à la violence et au gouvernement bureaucratique, la politique comme la capacité de juger se trouvent compromis.
 
 detail_url_tr: "/tr/publication/chapters-2019-1-ahlak"
 detail_url_fr: "/fr/publication/chapters-2019-1-ahlak"
