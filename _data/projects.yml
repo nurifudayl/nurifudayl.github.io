@@ -11,9 +11,9 @@ items:
     type_tr: "TÜBİTAK 3005 Araştırma Projesi"
     type_fr: "Projet de recherche TÜBİTAK 3005"
 
-    role: "Scholarship Holder"
+    role: "Research Assistant"
     role_tr: "Bursiyer"
-    role_fr: "Boursier"
+    role_fr: "Boursier de recherche"
 
     institution: "Samsun University / TÜBİTAK"
     institution_tr: "Samsun Üniversitesi / TÜBİTAK"
@@ -32,7 +32,7 @@ items:
       Türk düşünürün de bulunduğu yirmi iki düşünürün birincil kaynaklarından
       hareketle siyasal fikirleri, siyaset bilimi öğrencileri ve siyasal
       düşünceye ilgi duyan daha geniş bir kitle için etkileşimli bir oyun
-      anlatısı içine yerleştirmektedir.
+      anlatısı içine yerleştirir.
 
     description_fr: >-
       Otorite est un outil pédagogique ludique conçu pour introduire les étudiants
