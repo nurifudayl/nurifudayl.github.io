@@ -10,10 +10,8 @@ paperurl: "https://doi.org/10.1080/21624887.2024.2380550"
 citation: "Kıcıroğlu, Ceren Melis, and Nuri Fudayl Kıcıroğlu. 2025. “Türkiye-Greece-Cyprus, and the West: A Lacanian Family Portrait.” <em>Critical Studies on Security</em> 13 (3): 349–366."
 
 excerpt_tr: >-
-  Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla ele
-  alarak Türkiye, Yunanistan ve Batı ile kurulan ilişkilerin siyasal öznelliğin
-  oluşumu üzerindeki etkisini inceler.
-
+  Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla elealarak Türkiye, Yunanistan ve Batı ile kurulan ilişkilerin siyasal öznelliğin oluşumu üzerindeki etkisini inceler.
+  
 excerpt_fr: >-
   Cet article examine la relation entre la Turquie, la Grèce, Chypre et
   l’Occident à travers une lecture lacanienne des études de sécurité
