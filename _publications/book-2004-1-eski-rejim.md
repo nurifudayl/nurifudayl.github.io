@@ -15,7 +15,7 @@ excerpt_tr: >-
   Bu kitap, 17. yüzyıl Osmanlı nasihatnamelerini, meşruiyet ve siyasal düzen üzerine farklı tasavvurların dile getirildiği çoğul bir siyasal dil olarak yeniden yorumlar.
 
 excerpt_fr: >-
-  Cet ouvrage analyse les miroirs des princes ottomans du XVIIe siècle comme un espace historiquement situé de controverses politiques autour de la légitimité, de l’autorité et de l’ordre social.
+  Cet ouvrage relit les miroirs des princes ottomans du XVIIe siècle comme un langage politique disputé, au sein duquel s’élaborent des conceptions concurrentes de la légitimité, de l’autorité et de l’ordre social.
 
 detail_url_tr: "/tr/publication/book-2004-1-eski-rejim"
 detail_url_fr: "/fr/publication/book-2004-1-eski-rejim"
