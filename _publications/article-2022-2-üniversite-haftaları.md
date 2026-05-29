@@ -16,7 +16,7 @@ excerpt_tr: >-
 excerpt_fr: >-
   Cet article examine comment l’Université d’Istanbul, après 1933, mobilisa les Conférences universitaires 
   en province afin de présenter la science comme une mission publique et de s’affirmer comme un acteur institutionnel de 
-  la vie intellectuelle de la jeune République.
+  la vie intellectuelle de la République.
 
 detail_url_tr: "/tr/publication/article-2022-2-üniversite-haftaları"
 detail_url_fr: "/fr/publication/article-2022-2-üniversite-haftaları"
