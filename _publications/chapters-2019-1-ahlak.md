@@ -18,7 +18,7 @@ excerpt_tr: >-
   Bu bölüm, Arendt’in egemen devlet eleştirisini siyasal özgürlük ile ahlaki sorumluluğun birlikte çözülüşüne ilişkin bir analiz olarak ele alır: Eylemin yerini şiddet ve bürokratik yönetim aldığında hem politik alan hem yargı yetisi aşınır.
 
 excerpt_fr: >-
-  Ce chapitre relit la critique arendtienne de l’État souverain comme une analyse de l’effacement conjoint de la liberté politique et de la responsabilité morale : lorsque l’action cède la place à la violence et au gouvernement bureaucratique, la politique comme la capacité de juger se trouvent compromis.
+  Ce chapitre relit la critique arendtienne de l’État souverain comme une analyse du déclin conjoint de la liberté politique et de la responsabilité morale sous l’effet de la violence, de l’obéissance et de la bureaucratie.
 
 detail_url_tr: "/tr/publication/chapters-2019-1-ahlak"
 detail_url_fr: "/fr/publication/chapters-2019-1-ahlak"
