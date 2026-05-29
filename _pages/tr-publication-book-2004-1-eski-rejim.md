@@ -25,8 +25,8 @@ keywords:
   - Veysî
 ---
 
-Bu kitap, 17. Osmanlı nasihatnamelerini meşruiyet, otorite ve toplumsal düzen üzerine bağlamsal bir siyasal tartışma alanı olarak inceler.
+Bu kitap, 17. yüzyıl Osmanlı nasihatnamelerini, meşruiyet ve siyasal düzen üzerine farklı tasavvurların dile getirildiği çoğul bir siyasal dil olarak yeniden yorumlar.
 
 ## Kitap Hakkında
 
-Bu çalışma, Osmanlı nasihatname literatürünü yalnızca ahlaki öğütler sunan veya idari bozukluklara çözüm arayan bir tür olarak ele almaz, farklı meşruiyet iddialarının dile getirildiği bir siyasal dil olarak değerlendirir. Aynı tür altında sınıflandırılan metinlerin yalnızca ortak bir nasihat, düzen ve ıslahat söz dağarcığını tekrarlamadığını; aksine siyasal otoriteye ve toplumsal hiyerarşiye ilişkin birbirinden ayrışan tasavvurlar geliştirdiğini ileri sürer. Çalışma bu argümanı geliştirmek üzere üç Osmanlı nasihatnamesini inceler: Kâtip Çelebi’nin *Düstûrü’l-Amel li-Islâhi’l-Halel*i, Koçi Bey’in *Risâle*si ve Veysî’nin *Hâbnâme*si. Birlikte okunduğunda bu eserler, Osmanlı nasihatname literatürünün içsel çoğulluğunu görünür kılar ve türün meşru yönetimin temellerini tartışmaya açan esnek bir mecra olarak işlediğini gösterir.
+Bu kitap, Osmanlı nasihatname literatürünü yalnızca ahlaki öğütler vermeye yahut idari bozulmalara çare aramaya yönelik metinlerden ibaret görmez; onu, meşruiyete ilişkin farklı iddiaların formüle edildiği bir siyasal dil olarak ele alır. Kitabın temel savı, nasihatname başlığı altında toplanan metinlerin ortak bir nasihat, düzen ve ıslahat söz dağarcığını yinelemekle yetinmediği; siyasal otoritenin niteliği ve toplumsal hiyerarşinin dayanakları konusunda birbirinden ayrışan tasavvurlar geliştirdiğidir. Bu sav, Kâtip Çelebi’nin *Düstûrü’l-Amel li-Islâhi’l-Halel*’i, Koçi Bey’in *Risâle*’si ve Veysî’nin *Hâbnâme*’si üzerinden geliştirilir. Bu üç metnin karşılaştırmalı okuması, Osmanlı nasihatname literatürünün iç çoğulluğunu ortaya koyarken, nasihatnamenin meşru yönetimin dayanaklarını tartışmaya açan bir siyasal düşünce alanı olarak işlediğini gösterir.
