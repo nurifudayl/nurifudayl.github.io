@@ -41,15 +41,15 @@ keywords:
   - bureaucracy
 ---
 
-This chapter explores how, in Hannah Arendt’s thought, the sovereign state undermines political freedom and moral responsibility by replacing plural action with violence, obedience, and bureaucratic rule.
+This chapter reads Hannah Arendt’s critique of the sovereign state as an account of the erosion of political freedom and moral responsibility through violence, obedience, and bureaucratic rule.
 
-## Abstract
+## About the Chapter
 
-This chapter examines the relationship between freedom, morality, and the modern sovereign state in Hannah Arendt’s political thought. It argues that freedom can emerge only in a political sphere constituted by plurality, speech, action, and the absence of coercion. The modern state, however, transforms this realm by concentrating violence, extending authority into public life, and subordinating political action to the preservation of sovereignty and the status quo. The chapter further shows how bureaucracy deepens this domination: by reducing individuals to obedient functionaries operating behind legal and anonymous procedures, it erodes both their capacity to act freely and their ability to assume moral responsibility. Drawing on Arendt’s analysis of Eichmann, the chapter concludes that evil becomes political when sovereign rule and bureaucratic obedience dissolve the conditions of freedom and morality.
+This chapter reads Arendt’s critique of the sovereign state as an account of the joint erosion of political freedom and moral responsibility: when plural action gives way to violence, obedience, and bureaucratic rule, both the space of politics and the capacity for judgment are imperiled. It revisits the relationship between freedom, morality, and the modern sovereign state in Hannah Arendt’s political thought. It argues that, for Arendt, freedom is neither a private condition of individual autonomy nor an achievement secured by sovereign rule; it comes into being in a political sphere constituted by plurality, speech, and action among equals. The modern state threatens this fragile space insofar as it places the preservation of sovereignty, the exercise of coercion, and the logic of obedience above the unpredictability of political action. The chapter then turns to bureaucracy as the administrative form through which this displacement acquires its most consequential moral effects. Bureaucratic rule dissolves agency into procedure, transforms individuals into functionaries, and makes obedience appear as an adequate substitute for judgment. Drawing on Arendt’s analysis of Eichmann, the chapter shows that the destruction of political freedom and the dissolution of moral responsibility are not separate problems: both arise when individuals cease to act and judge within a common world. In this sense, Arendt’s critique of the sovereign state becomes a diagnosis of the conditions under which domination assumes an ordinary, anonymous, and morally devastating form.
 
 ## Contribution
 
-- Conceptualizes the political sphere as a third sphere distinct from both the private and the public spheres.
-- Interprets sovereignty as a threat to political freedom.
-- Connects bureaucratic obedience to the dissolution of moral responsibility.
+- Conceptualizing the political sphere as a third sphere distinct from both the private and the public spheres.
+- Interpreting sovereignty as a threat to political freedom.
+- Connecting bureaucratic obedience to the dissolution of moral responsibility.
   
