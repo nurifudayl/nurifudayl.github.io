@@ -35,8 +35,8 @@ keywords:
   - Veysî
 ---
 
-This book examines seventeenth-century Ottoman advice literature as a historically situated field of political argument about legitimacy, authority, and social order.
+This book recasts seventeenth-century Ottoman advice literature as a contested political language in which competing visions of legitimacy, authority, and social order were articulated.
 
 ## About the Book
 
-This study approaches Ottoman advice literature not simply as a moralizing or administrative genre, but as a political language through which different claims to legitimacy were articulated. It argues that texts conventionally grouped under the same genre did not merely repeat a shared vocabulary of counsel, order, and reform; rather, they advanced distinct visions of political authority and social hierarchy. To develop this argument, the study examines three Ottoman mirror-for-princes texts: Kâtip Çelebi’s *Düstûrü’l-Amel li-Islâhi’l-Halel*, Koçi Bey’s *Risâle*, and Veysî’s *Hâbnâme*. Read together, these works reveal the internal plurality of Ottoman advice literature and show how the genre functioned as a flexible medium for debating the foundations of legitimate rule.
+This book recasts Ottoman advice literature as a contested political language rather than a merely moralizing genre or a repertoire of administrative remedies. It argues that works conventionally gathered under the rubric of advice did more than reiterate a shared vocabulary of counsel, order, and reform: they articulated competing visions of legitimate authority and social hierarchy. At the center of the analysis are three Ottoman works in the mirrors-for-princes tradition—Kâtip Çelebi’s Düstûrü’l-Amel li-Islâhi’l-Halel, Koçi Bey’s Risâle, and Veysî’s Hâbnâme. Read in relation to one another, these texts disclose the internal plurality of Ottoman advice literature and reveal it as a vital arena in which the foundations, limits, and proper ordering of legitimate rule were debated. In doing so, the book offers a new account of Ottoman political thought as a field of argument rather than a uniform discourse of decline and reform.
