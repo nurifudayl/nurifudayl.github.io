@@ -10,9 +10,7 @@ paperurl: "https://doi.org/10.1080/21624887.2024.2380550"
 citation: "Kıcıroğlu, Ceren Melis, and Nuri Fudayl Kıcıroğlu. 2025. “Türkiye-Greece-Cyprus, and the West: A Lacanian Family Portrait.” <em>Critical Studies on Security</em> 13 (3): 349–366."
 
 excerpt_tr: >-
-  Bu makale, Türkiye, Yunanistan, Kıbrıs ve Batı arasındaki ilişkiyi
-  Ontolojik Güvenlik Çalışmaları’nın Lacancı bir okuması aracılığıyla
-  incelemektedir.
+Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla ele alarak Türkiye, Yunanistan ve Batı ile kurulan ilişkilerin siyasal öznelliğin oluşumu üzerindeki etkisini inceler.
 
 excerpt_fr: >-
   Cet article examine la relation entre la Turquie, la Grèce, Chypre et
@@ -39,14 +37,14 @@ keywords:
   - Greece
 ---
 
-This article examines the relationship between Türkiye, Greece, Cyprus, and the West through a Lacanian reading of Ontological Security Studies.
+This article offers a Lacanian reinterpretation of the Cyprus conflict, examining how contested relations with Türkiye, Greece, and the West shape the formation and recognition of political subjectivity.
 
-## Abstract
+## About the Article
 
-This study examines the protracted Cyprus conflict by employing an Ontological Security Studies (OSS) framework enriched with the Lacanian psychoanalytic approach. In this context, the tripartite structure Lacan established between mother, father, and child is adapted to understand the years-long dispute over Cyprus. We argue that the two main reasons for this problem are 1) the unhealthily broken bond between the mothers (Türkiye and Greece) and the child (Cyprus), and 2) the child’s inability to fully identify with the Name-of-the-Father (the West). Recognising the father’s law, the child is freed from the mother’s overwhelming presence and thus begins the process of subject formation. We assert that global politics shares similarities with what Lacan calls the ‘symbolic’ and that Cyprus’s existence as an actor in this ‘symbolic’ depends on its full separation from its mother(s), namely Türkiye and Greece, and on its recognition of the father’s law. This study raises the question of what happens if this separation is not achieved. In other words, could Cyprus exist as a fully fledged actor in global politics/the symbolic in the shadow of two motherlands, Türkiye and Greece, which have not abandoned their ‘baby homeland’?
+This article brings Lacanian psychoanalytic theory into dialogue with Ontological Security Studies in order to rethink the protracted Cyprus conflict. Rather than approaching the conflict solely as a territorial dispute or a problem of interstate bargaining, it reads Cyprus as a contested site of political subject formation. Drawing on Lacan’s concepts of separation, symbolic authority, and the Name-of-the-Father, the article examines how Cyprus’s relations with Türkiye and Greece, figured as “motherlands,” and with the West, assigned the symbolic function of paternal authority within the proposed analytic framework, condition its capacity to assume an autonomous position in global politics. In doing so, the article shifts attention from the persistence of the conflict alone to a more fundamental question: what forms of separation and recognition enable a political entity to emerge as a subject within the symbolic order of international relations?
 
 ## Contribution
 
-- Explores the conceptual relation between legitimacy and recognition.
-- Connects Lacanian psychoanalytic theory, particularly the Lacanian orders, with Ontological Security Studies.
-- Uses the Cyprus case as a historical and conceptual site for rethinking modern statehood.
+- Extending Ontological Security Studies through Lacan.
+- Reframing the Cyprus conflict.
+- Rethinking recognition and modern statehood.
