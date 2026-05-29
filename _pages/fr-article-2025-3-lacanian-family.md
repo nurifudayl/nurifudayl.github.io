@@ -26,14 +26,14 @@ keywords:
   - Grèce
 ---
 
-Cet article examine la relation entre la Turquie, la Grèce, Chypre et l’Occident à travers une lecture lacanienne des études de sécurité ontologique.
+Cet article propose une relecture lacanienne du conflit chypriote et examine comment les relations disputées avec la Turquie, la Grèce et l’Occident façonnent la constitution et la reconnaissance d’une subjectivité politique.
 
-## Résumé
+## Présentation de l’article
 
-Cette étude examine le conflit chypriote de longue durée en mobilisant un cadre issu des études de sécurité ontologique, enrichi par l’approche psychanalytique lacanienne. Dans cette perspective, la structure tripartite établie par Lacan entre la mère, le père et l’enfant est adaptée afin de comprendre le différend persistant autour de Chypre. Nous soutenons que ce problème repose sur deux causes principales : premièrement, la rupture malsaine du lien entre les mères — la Turquie et la Grèce — et l’enfant — Chypre ; deuxièmement, l’incapacité de l’enfant à s’identifier pleinement au Nom-du-Père — l’Occident. En reconnaissant la loi du père, l’enfant se libère de la présence envahissante de la mère et entame ainsi le processus de constitution du sujet. Nous affirmons que la politique mondiale présente des similitudes avec ce que Lacan appelle le « symbolique » et que l’existence de Chypre comme acteur dans ce « symbolique » dépend de sa séparation complète d’avec ses mères, à savoir la Turquie et la Grèce, ainsi que de sa reconnaissance de la loi du père. L’étude soulève dès lors la question de ce qui advient lorsque cette séparation n’est pas accomplie : Chypre peut-elle exister comme un acteur pleinement constitué de la politique mondiale/du symbolique à l’ombre de deux mères-patries, la Turquie et la Grèce, qui n’ont pas abandonné leur « bébé-patrie » ?
+Cet article met la théorie psychanalytique lacanienne en dialogue avec les études de sécurité ontologique afin de repenser la persistance du conflit chypriote. Plutôt que de réduire ce conflit à une question territoriale ou à un problème de négociation interétatique, il envisage Chypre comme un lieu disputé de constitution de la subjectivité politique. En mobilisant les notions lacaniennes de séparation, d’autorité symbolique et de Nom-du-Père, l’article analyse la manière dont les relations de Chypre avec la Turquie et la Grèce, figurées comme des « mères-patries », ainsi qu’avec l’Occident, auquel le cadre analytique proposé attribue la fonction symbolique de l’autorité paternelle, conditionnent sa capacité à occuper une position autonome dans la politique mondiale. Ce faisant, l’article déplace l’analyse de la seule persistance du conflit vers une interrogation plus fondamentale : quelles formes de séparation et de reconnaissance permettent à une entité politique de se constituer comme sujet dans l’ordre symbolique des relations internationales ?
 
 ## Contributions
 
-- Explore la relation conceptuelle entre la légitimité et la reconnaissance.
-- Articule la théorie psychanalytique lacanienne, en particulier la conception des ordres lacaniens, aux études de sécurité ontologique.
-- Mobilise le cas chypriote comme un lieu historique et conceptuel permettant de repenser l’État moderne.
+- Élargir les études de sécurité ontologique par la théorie lacanienne.
+- Relire le conflit chypriote à partir de la subjectivité politique.
+- Repenser la reconnaissance et le statut de l'État.
