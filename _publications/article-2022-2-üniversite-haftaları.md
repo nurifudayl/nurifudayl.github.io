@@ -36,7 +36,7 @@ keywords:
   - Albert Malche
 ---
 
-This article examines how Istanbul University, reconstituted after the 1933 University Reform, used the University Conferences and University Weeks to present science as a public mission and to position itself as an institutional actor in the intellectual life of the early Republic.
+This article examines how Istanbul University, after the 1933 University Reform, used the University Conferences to present science as a public mission and to position itself as an institutional actor in the intellectual life of the early Republic.
 
 ## About the Article
 
