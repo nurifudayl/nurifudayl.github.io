@@ -26,14 +26,14 @@ keywords:
   - Albert Malche
 ---
 
-Bu makale, 1933 reformu sonrasında üniversitenin Üniversite Haftaları aracılığıyla kendisini hem bilimsel bir kurum hem de kamusal bir aktör olarak nasıl konumlandırdığını incelemektedir.
+Bu makale, 1933 Üniversite Reformu sonrasında yeniden kurulan İstanbul Üniversitesinin, Üniversite Konferansları ve Üniversite Haftaları aracılığıyla bilimi kamusal bir görev olarak nasıl sunduğunu ve erken Cumhuriyet’in düşünsel hayatında etkin bir kurumsal aktör olarak kendisini nasıl konumlandırdığını inceler.
 
 ## Özet
 
-Bu makale, 1933 Üniversite Reformu sonrasında İstanbul Üniversitesi’nin yeniden yapılanmasını Humboldtçu yükseköğretim modeli çerçevesinde incelemektedir. **Öğretim ile araştırmanın birliği**, **bilimin birliği** ve **Bildung** ilkelerine odaklanan çalışma, reformun üniversiteyi yalnızca bilgi aktarımı ve bilimsel araştırma kurumu olarak değil, aynı zamanda Cumhuriyet’in toplumsal ve entelektüel yaşamını biçimlendiren merkezi bir aktör olarak konumlandırmayı amaçladığını ileri sürmektedir. Makale, Üniversite Konferansları ile Üniversite Haftalarını bu yeni misyonun pratik ifadeleri olarak analiz etmekte; reform sonrası üniversitenin kendisini kamuoyuna nasıl sunduğunu ve aynı zamanda eğitimli yurttaşlık ile seçkin oluşumuna ilişkin belirli bir anlayışı nasıl teşvik ettiğini göstermektedir.
+Bu makale, 1933 Üniversite Reformu sonrasında İstanbul Üniversitesi’nin Humboldtçu üniversite anlayışı çerçevesinde yeniden yapılandırılandığını ve reformun idari bir düzenlemeyle sınırlı kalmadığını savunur. Öğretim ile araştırmanın birliği, bilimlerin birliği ve *Bildung* kavramı üzerinden yeni üniversite, Cumhuriyet’in bilimsel ve kültürel gelişimine katkı sağlayacak, aynı zamanda eğitimli yurttaşların yetişmesine destek olacak bir kurum olarak kurgulanmıştır. Makale, Üniversite Konferansları ve Üniversite Haftalarını bu anlayışın uygulamadaki örnekleri olarak ele alır. İstanbul Üniversitesi bu etkinlikler sayesinde bilimsel bilgiyi kampüs dışına taşımış, farklı şehirlerdeki topluluklarla buluşturmuş ve Cumhuriyet’in eğitim ve kültür politikalarına katkıda bulunmuştur. Bu yönüyle çalışma, üniversitenin erken Cumhuriyet döneminde yükseköğretim reformları, devletin kültür politikaları ve Türkiye’de düşünsel hayatın gelişimi arasındaki ilişkide oynadığı rolü ortaya koyar.
 
 ## Katkılar
 
-- İstanbul Üniversitesi’nin yeniden yapılanmasını **Humboldt modeli**, *Bildung* ve öğretim-araştırma birliğiyle yeniden ilişkilendirir.
-- **Üniversite Haftalarını**, yeni üniversite modelinin kurumsal bir dışavurumu olarak analiz eder.
-- Reform sonrası üniversitenin devlet politikası doğrultusunda bilimsel bilgiyi ülkeye yayarken erken Cumhuriyet Türkiye’sinin kültürel oluşumunda etkin bir aktör haline geldiğini gösterir.
+- İstanbul Üniversitesinin yeniden yapılanmasını **Humboldt modeli**, *Bildung* ve öğretim-araştırma birliğiyle yeniden ilişkilendirmek.
+- **Üniversite Haftalarını**, yeni üniversite modelinin kurumsal bir dışavurumu olarak analiz etmek.
+- Üniversiteyi erken Cumhuriyet'in kültürel oluşumu içinde konumlandırmak.
