@@ -32,7 +32,7 @@ Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla ele 
 
 Bu makale, uzun süredir devam eden Kıbrıs meselesini yeniden düşünmek amacıyla Lacancı psikanalitik kuramı Ontolojik Güvenlik Çalışmalarıyla buluşturur. İhtilafı yalnızca toprak, egemenlik veya devletler arası müzakere meselesi olarak değerlendirmek yerine Kıbrıs’ı siyasal özneliğin kuruluşunun tartışmaya açıldığı bir alan olarak okur. Lacan’ın ayrılma, simgesel otorite ve Babanın-Adı kavramlarından hareketle makale, Türkiye ve Yunanistan’ın “anavatan” figürleri olarak, Batı’nın ise önerilen analitik çerçeve içinde babaya atfedilen simgesel işlevi üstlenen bir otorite olarak konumlandırılmasının, Kıbrıs’ın küresel siyasette özerk bir siyasal özne olarak yer edinmesinin koşullarını nasıl biçimlendirdiğini sorgular. Böylece çalışma, meselenin sürekliliği sorununun ötesine geçerek, uluslararası ilişkilerin simgesel düzeninde siyasal özneliğin hangi tanınma süreçleri aracılığıyla kurulabileceğini tartışmaya açar.
 
-## Katkılar
+## Katkı
 
 - Ontolojik Güvenlik Çalışmalarını Lacancı kuramla genişletmek.
 - Kıbrıs meselesini siyasal öznelik üzerinden yeniden okumak.
