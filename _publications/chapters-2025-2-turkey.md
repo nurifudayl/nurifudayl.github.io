@@ -32,7 +32,7 @@ keywords:
   - Neo-Ottomanism
 ---
 
-This chapter conceptualizes Turkey as a hybrid regional power: a multidimensional actor whose military, economic, and symbolic reach has expanded considerably, but whose aspirations to regional leadership remain constrained by domestic vulnerabilities and a deeply contested regional order.
+This chapter conceptualizes Turkey as a hybrid regional power: a multidimensional actor whose military, economic, and symbolic reach has expanded considerably, but whose aspirations remain constrained by domestic and regional vulnerabilities.
 
 ## About the Chapter
 
