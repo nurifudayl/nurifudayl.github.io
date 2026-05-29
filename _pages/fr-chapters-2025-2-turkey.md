@@ -23,14 +23,14 @@ keywords:
   - néo-ottomanisme
 ---
 
-Ce chapitre reconceptualise la Turquie comme une puissance régionale hybride : un acteur ambitieux et multidimensionnel, doté d’une portée militaire, économique et symbolique considérable, mais constamment limité par ses fragilités internes et par un ordre régional contesté.
+Ce chapitre conceptualise la Turquie comme une puissance régionale hybride : un acteur dont le rayonnement militaire, économique et symbolique s’est considérablement étendu, mais dont les ambitions de leadership régional demeurent limitées par ses fragilités internes et par un ordre régional profondément disputé.
 
-## Résumé
+## Présentation du chapitre
 
-Ce chapitre examine la transformation de la Turquie, passée du statut d’acteur prudent, orienté vers l’Occident et attaché au statu quo, à celui de puissance régionale affirmée et multidimensionnelle. En s’appuyant sur le cadre post-souveraineté proposé par l’ouvrage, il soutient que la Turquie occupe une position intermédiaire qui dépasse l’opposition conventionnelle entre grandes puissances et petits États : pleinement souveraine et capable de projeter son influence, elle demeure néanmoins incapable de consolider une domination régionale durable. Le chapitre retrace historiquement cette transformation et évalue la puissance contemporaine de la Turquie selon quatre dimensions interdépendantes : les capacités et interventions militaires, l’usage économique de la puissance et l’accès stratégique, l’influence idéelle et culturelle, ainsi que l’engagement multilatéral. Il met en évidence l’essor de l’industrie de défense turque, sa présence militaire régionale, sa diplomatie du développement et de l’énergie, ainsi que ses récits civilisationnels, tout en soulignant les contraintes liées à la vulnérabilité économique, à l’érosion démocratique, aux rivalités régionales et à la surextension géopolitique. La Turquie apparaît ainsi comme un acteur influent mais contesté : visible dans de multiples espaces, sans être hégémonique dans aucun d’entre eux.
+Ce chapitre propose une relecture de la place de la Turquie dans les dynamiques régionales contemporaines à la lumière de l’approche post-souveraine développée dans cet ouvrage. Il retrace la transformation d’un acteur prudent, tourné vers l’Occident et soucieux de préserver le statu quo, en une puissance régionale plus affirmée, capable de mobiliser simultanément des ressources militaires, économiques, diplomatiques et symboliques dans différents espaces géopolitiques. Plutôt que de situer la Turquie dans la dichotomie classique entre grandes puissances et petits États, le chapitre la conceptualise comme une puissance régionale hybride : un acteur pleinement souverain, doté d’une capacité réelle de projection d’influence, mais dont la visibilité et l’activisme ne se traduisent pas nécessairement par un leadership régional durable. L’analyse s’articule autour de quatre dimensions complémentaires : les capacités militaires et les interventions extérieures, les instruments économiques et les leviers d’accès stratégique, l’influence culturelle et idéelle, ainsi que l’engagement dans les cadres multilatéraux. Elle met également en lumière les contraintes qui limitent cette projection de puissance, notamment la vulnérabilité économique, le recul démocratique, les rivalités régionales et les risques de surextension géopolitique. La Turquie apparaît ainsi comme une puissance influente mais contestée, présente dans de multiples domaines de la politique régionale sans pour autant parvenir à y exercer une hégémonie durable.
 
 ## Contributions
 
-- Conceptualise la Turquie comme une puissance régionale hybride, conformément au cadre plus général de la post-souveraineté développé dans l’ouvrage.
-- Propose une analyse multidimensionnelle de l’influence turque.
-- Explique pourquoi la visibilité croissante de la Turquie ne se traduit pas automatiquement par un leadership durable.
+- Conceptualiser la Turquie comme une puissance régionale hybride.
+- Proposer une lecture multidimensionnelle de l’influence régionale.
+- Expliquer les limites du leadership régional.
