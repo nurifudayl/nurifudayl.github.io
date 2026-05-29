@@ -26,14 +26,14 @@ keywords:
   - Yunanistan
 ---
 
-Bu makale, Türkiye, Yunanistan, Kıbrıs ve Batı arasındaki ilişkiyi Ontolojik Güvenlik Çalışmaları’nın Lacancı bir okuması aracılığıyla incelemektedir.
+Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla ele alarak Türkiye, Yunanistan ve Batı ile kurulan ilişkilerin siyasal özneliğin oluşumu üzerindeki etkisini inceler.
 
-## Özet
+## Makale Hakkında
 
-Bu çalışma, uzun süredir devam eden Kıbrıs sorununu Lacancı psikanalitik yaklaşımla zenginleştirilmiş bir Ontolojik Güvenlik Çalışmaları çerçevesi kullanarak incelemektedir. Bu bağlamda Lacan’ın anne, baba ve çocuk arasında kurduğu üçlü yapı, Kıbrıs üzerindeki uzun soluklu anlaşmazlığı anlamak amacıyla uyarlanmaktadır. Çalışma, sorunun iki temel kaynağı bulunduğunu ileri sürmektedir: birincisi, anneler (Türkiye ve Yunanistan) ile çocuk (Kıbrıs) arasındaki bağın sağlıksız biçimde kopmuş olması; ikincisi ise çocuğun Babanın-Adı (Batı) ile tam olarak özdeşleşememesidir. Çocuk, babanın yasasını tanıyarak annenin kuşatıcı mevcudiyetinden özgürleşir ve böylece özneleşme sürecine başlar. Makale, küresel siyasetin Lacan’ın “simgesel” olarak adlandırdığı düzenle benzerlikler taşıdığını ve Kıbrıs’ın bu “simgesel” içinde bir aktör olarak var olmasının, anneleri olan Türkiye ve Yunanistan’dan tam olarak ayrışmasına ve babanın yasasını tanımasına bağlı olduğunu savunmaktadır. Çalışma, bu ayrışmanın gerçekleşmemesi halinde ne olacağı sorusunu gündeme getirmektedir: Türkiye ve Yunanistan’ın terk etmediği iki “anavatan”ın gölgesinde Kıbrıs, küresel siyasette/simgesel düzende tam teşekküllü bir aktör olarak var olabilir mi?
+Bu makale, uzun süredir devam eden Kıbrıs meselesini yeniden düşünmek amacıyla Lacancı psikanalitik kuramı Ontolojik Güvenlik Çalışmalarıyla buluşturur. İhtilafı yalnızca toprak, egemenlik veya devletler arası müzakere meselesi olarak değerlendirmek yerine Kıbrıs’ı siyasal özneliğin kuruluşunun tartışmaya açıldığı bir alan olarak okur. Lacan’ın ayrılma, simgesel otorite ve Babanın-Adı kavramlarından hareketle makale, Türkiye ve Yunanistan’ın “anavatan” figürleri olarak, Batı’nın ise önerilen analitik çerçeve içinde babaya atfedilen simgesel işlevi üstlenen bir otorite olarak konumlandırılmasının, Kıbrıs’ın küresel siyasette özerk bir siyasal özne olarak yer edinmesinin koşullarını nasıl biçimlendirdiğini sorgular. Böylece çalışma, meselenin sürekliliği sorununun ötesine geçerek, uluslararası ilişkilerin simgesel düzeninde siyasal özneliğin hangi tanınma süreçleri aracılığıyla kurulabileceğini tartışmaya açar.
 
 ## Katkılar
 
-- Meşruiyet ile tanınma arasındaki kavramsal ilişkiyi inceler.
-- Lacancı psikanalitik teoriyi, özellikle Lacancı düzenler kavrayışını, Ontolojik Güvenlik Çalışmaları ile ilişkilendirir.
-- Kıbrıs vakasını modern devletliği yeniden düşünmek için tarihsel ve kavramsal bir alan olarak ele alır.
+- Ontolojik Güvenlik Çalışmalarını Lacancı kuramla genişletmek.
+- Kıbrıs meselesini siyasal öznelik üzerinden yeniden okumak.
+- Tanınma ile devletlik arasındaki ilişkiyi tartışmak.
