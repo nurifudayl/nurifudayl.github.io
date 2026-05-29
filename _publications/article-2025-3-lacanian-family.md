@@ -13,9 +13,7 @@ excerpt_tr: >-
   Bu makale, Kıbrıs meselesini Lacancı bir ontolojik güvenlik okumasıyla elealarak Türkiye, Yunanistan ve Batı ile kurulan ilişkilerin siyasal öznelliğin oluşumu üzerindeki etkisini inceler.
   
 excerpt_fr: >-
-  Cet article examine la relation entre la Turquie, la Grèce, Chypre et
-  l’Occident à travers une lecture lacanienne des études de sécurité
-  ontologique.
+  Cet article propose une relecture lacanienne du conflit chypriote et examine comment les relations disputées avec la Turquie, la Grèce et l’Occident façonnent la constitution et la reconnaissance d’une subjectivité politique.
 
 detail_url_tr: "/tr/publication/article-2025-3-lacanian-family"
 detail_url_fr: "/fr/publication/article-2025-3-lacanian-family"
