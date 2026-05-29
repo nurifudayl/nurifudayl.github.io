@@ -12,7 +12,7 @@ cover: "/images/publication/eski-rejimin-mesruiyeti.jpg"
 citation: "Kıcıroğlu, Nuri Fudayl. 2024. <em>Eski Rejimin Meşruiyeti: 17. Yüzyıl Osmanlı Nasihatnameleri Üzerine Siyasal Bir İnceleme</em>. İstanbul: Selenge Yayınları."
 
 excerpt_tr: >-
-  Bu kitap, 17. Osmanlı nasihatnamelerini meşruiyet, otorite ve toplumsal düzen üzerine bağlamsal bir siyasal tartışma alanı olarak inceler.
+  Bu kitap, 17. yüzyıl Osmanlı nasihatnamelerini, meşruiyet ve siyasal düzen üzerine farklı tasavvurların dile getirildiği çoğul bir siyasal dil olarak yeniden yorumlar.
 
 excerpt_fr: >-
   Cet ouvrage analyse les miroirs des princes ottomans du XVIIe siècle comme un espace historiquement situé de controverses politiques autour de la légitimité, de l’autorité et de l’ordre social.
