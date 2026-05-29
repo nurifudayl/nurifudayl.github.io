@@ -13,7 +13,9 @@ excerpt_tr: >-
   Bu makale, Nihal Atsız’ın <em>Türk Edebiyatı Tarihi</em>’ni millî kanon inşasına yönelik siyasal bir müdahale olarak okuyarak, edebiyat tarihinin ırk temelli Türkçü-Turancı milliyetçiliğin estetik ve siyasal dayanağına nasıl dönüştürdüğünü inceler.
 
 excerpt_fr: >-
-  Cet article relit le <em>Türk Edebiyatı Tarihi</em> de Nihal Atsız comme une entreprise de formation du canon national et montre comment l’histoire littéraire transforma le passé turcique préislamique en fondement esthétique et politique d’un nationalisme racialiste, turquiste et touraniste.
+  Cet article relit le <em>Türk Edebiyatı Tarihi</em> de Nihal Atsız comme une entreprise de formation du 
+  canon national et montre comment l’histoire littéraire transforma le passé turcique préislamique en fondement esthétique et 
+  politique d’un nationalisme racialiste, turquiste et touraniste.
 
 detail_url_tr: "/tr/publication/article-2019-1-atsiz"
 detail_url_fr: "/fr/publication/article-2019-1-atsiz"
