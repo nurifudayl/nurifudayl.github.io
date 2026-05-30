@@ -16,8 +16,18 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+  
+    {% if author.pronouns %}
+      <p class="author__pronouns">{{ author.pronouns }}</p>
+    {% endif %}
+  
+    {% assign current_lang = page.lang | default: "en" %}
+    {% assign bio_key = "bio_" | append: current_lang %}
+    {% assign localized_bio = author[bio_key] | default: author.bio %}
+  
+    {% if localized_bio %}
+      <p class="author__bio">{{ localized_bio }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
