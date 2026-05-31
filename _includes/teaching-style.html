@@ -317,5 +317,19 @@ html[data-theme="dark"] .course-card:hover .course-page-button {
   text-decoration: none !important;
   box-shadow: none !important;
 }
+
+/* FINAL OVERRIDE — Course labels in light/dark mode */
+.teaching-page .course-card .course-section-label {
+  color: #111111 !important;
+  opacity: 1 !important;
+}
+
+/* Dark mode */
+html[data-theme="dark"] .teaching-page .course-card .course-section-label,
+[data-theme="dark"] .teaching-page .course-card .course-section-label,
+body[data-theme="dark"] .teaching-page .course-card .course-section-label {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
   
 </style>
