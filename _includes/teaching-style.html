@@ -229,6 +229,30 @@ body,
   box-shadow: none !important;
 }
 
+.course-card:hover .course-page-button span,
+.course-card:hover .course-page-button svg {
+  color: inherit !important;
+  stroke: currentColor !important;
+}
+
+/* Dark mode: keep Course Page button readable on card hover */
+html[data-theme="dark"] .teaching-page .course-card:hover .course-page-button,
+[data-theme="dark"] .teaching-page .course-card:hover .course-page-button {
+  background: #7A3E3E !important;
+  color: #F4EDE4 !important;
+  border-color: #F4EDE4 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+html[data-theme="dark"] .teaching-page .course-card:hover .course-page-button span,
+html[data-theme="dark"] .teaching-page .course-card:hover .course-page-button svg,
+[data-theme="dark"] .teaching-page .course-card:hover .course-page-button span,
+[data-theme="dark"] .teaching-page .course-card:hover .course-page-button svg {
+  color: #F4EDE4 !important;
+  stroke: #F4EDE4 !important;
+}
+
 .course-page-button-disabled {
   cursor: default;
   pointer-events: none;
@@ -283,26 +307,6 @@ body,
   color: #111111 !important;
   opacity: 1 !important;
   font-weight: 700 !important;
-}
-
-/* Dark mode */
-html[data-theme="dark"] .course-card .course-section-label {
-  color: #ffffff !important;
-  opacity: 1 !important;
-}
-
-/* Dark mode: keep Course Page button readable on card hover */
-html[data-theme="dark"] .course-card:hover .course-page-button {
-  background: #F4EDE4 !important;
-  color: #4E2525 !important;
-  border-color: #F4EDE4 !important;
-  text-decoration: none !important;
-  box-shadow: none !important;
-}
-
-html[data-theme="dark"] .course-card:hover .course-page-button svg {
-  color: #4E2525 !important;
-  stroke: #4E2525 !important;
 }
   
 </style>
