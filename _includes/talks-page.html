@@ -1,164 +1,145 @@
 {% assign current_lang = page.lang | default: "en" %}
-
-{% assign sorted_talks = site.data.talks.items
-  | sort: "date"
-  | reverse
-%}
-
-{% assign featured_talks = sorted_talks
-  | where: "featured", true
-%}
-
+{% assign sorted_talks = site.data.talks.items | sort: "date" | reverse %}
+{% assign featured_talks = sorted_talks | where: "featured", true %}
 {% assign featured_talk = featured_talks.first %}
 
-{% assign archive_count = 0 %}
-
-{% for talk in sorted_talks %}
-  {% unless talk.featured == true %}
-    {% assign archive_count = archive_count | plus: 1 %}
-  {% endunless %}
-{% endfor %}
-
 {% if current_lang == "tr" %}
-
   {% assign featured_label = "Öne Çıkan" %}
   {% assign archive_label = "Arşiv" %}
-  {% assign empty_label = "Henüz yayımlanmış bir kayıt bulunmuyor." %}
+  {% assign empty_label = "Henüz bir kayıt eklenmedi." %}
 
 {% elsif current_lang == "fr" %}
-
   {% assign featured_label = "À la une" %}
   {% assign archive_label = "Archives" %}
   {% assign empty_label = "Aucune intervention n’a encore été ajoutée." %}
 
 {% else %}
-
   {% assign featured_label = "Featured" %}
   {% assign archive_label = "Archive" %}
   {% assign empty_label = "No talks have been added yet." %}
-
 {% endif %}
 
 <div class="talks-page">
 
   {% if page.intro %}
-    <p class="talks-intro">
+    <p class="talks-page__intro">
       {{ page.intro }}
     </p>
   {% endif %}
 
-  {% if featured_talk %}
+  {% if sorted_talks.size == 0 %}
 
-    <section
-      class="talks-section talks-featured-section"
-      aria-labelledby="talks-featured-heading">
-
-      <div class="talks-section-header">
-
-        <div class="talks-section-icon" aria-hidden="true">
-          <i
-            class="fa-solid fa-comment-dots talks-section-icon-svg"
-            aria-hidden="true">
-          </i>
-        </div>
-
-        <h2
-          id="talks-featured-heading"
-          class="talks-section-title">
-          {{ featured_label }}
-        </h2>
-
-      </div>
-
-      {% include talk-card.html
-        talk=featured_talk
-        featured=true
-      %}
-
-    </section>
-
-  {% endif %}
-
-  {% if archive_count > 0 %}
-
-    <section
-      class="talks-section talks-archive-section"
-      aria-labelledby="talks-archive-heading">
-
-      <div class="talks-section-header">
-
-        <div class="talks-section-icon" aria-hidden="true">
-          {% include talking-head-icon.html
-            icon_class="talks-section-icon-svg"
-          %}
-        </div>
-
-        <h2
-          id="talks-archive-heading"
-          class="talks-section-title">
-
-          {{ archive_label }}
-
-          <span class="talks-count">
-            {{ archive_count }}
-          </span>
-
-        </h2>
-
-      </div>
-
-      <div class="talks-archive-list">
-
-        {% assign current_year = "" %}
-
-        {% for talk in sorted_talks %}
-
-          {% unless talk.featured == true %}
-
-            {% assign talk_year = talk.date | date: "%Y" %}
-
-            {% if talk_year != current_year %}
-
-              {% unless current_year == "" %}
-                  </div>
-                </div>
-              {% endunless %}
-
-              <div class="talk-year-group">
-
-                <h3 class="talk-year-heading">
-                  {{ talk_year }}
-                </h3>
-
-                <div class="talk-year-list">
-
-              {% assign current_year = talk_year %}
-
-            {% endif %}
-
-            {% include talk-card.html
-              talk=talk
-              featured=false
-            %}
-
-          {% endunless %}
-
-        {% endfor %}
-
-        {% unless current_year == "" %}
-            </div>
-          </div>
-        {% endunless %}
-
-      </div>
-
-    </section>
-
-  {% elsif featured_talk == nil %}
-
-    <p class="talks-empty">
+    <p class="talks-page__empty">
       {{ empty_label }}
     </p>
+
+  {% else %}
+
+    {% if featured_talk %}
+      <section
+        class="talks-section"
+        aria-labelledby="featured-talk-heading">
+
+        <div class="talks-section__heading">
+
+          <i
+            class="fa-solid fa-comment-dots"
+            aria-hidden="true">
+          </i>
+
+          <h2 id="featured-talk-heading">
+            {{ featured_label }}
+          </h2>
+
+        </div>
+
+        {% include talk-card.html
+          talk=featured_talk
+          featured=true
+        %}
+
+      </section>
+    {% endif %}
+
+    {% assign archive_count = 0 %}
+
+    {% for talk in sorted_talks %}
+      {% unless talk.featured == true %}
+        {% assign archive_count = archive_count | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if archive_count > 0 %}
+      <section
+        class="talks-section"
+        aria-labelledby="talk-archive-heading">
+
+        <div class="talks-section__heading">
+
+          <i
+            class="fa-solid fa-comment-dots"
+            aria-hidden="true">
+          </i>
+
+          <h2 id="talk-archive-heading">
+
+            {{ archive_label }}
+
+            <span class="talks-section__count">
+              {{ archive_count }}
+            </span>
+
+          </h2>
+
+        </div>
+
+        <div class="talks-archive">
+
+          {% assign current_year = "" %}
+
+          {% for talk in sorted_talks %}
+
+            {% unless talk.featured == true %}
+
+              {% assign talk_year = talk.date | date: "%Y" %}
+
+              {% if talk_year != current_year %}
+
+                {% unless current_year == "" %}
+                    </div>
+                  </div>
+                {% endunless %}
+
+                <div class="talks-year">
+
+                  <h3 class="talks-year__title">
+                    {{ talk_year }}
+                  </h3>
+
+                  <div class="talks-year__list">
+
+                {% assign current_year = talk_year %}
+
+              {% endif %}
+
+              {% include talk-card.html
+                talk=talk
+                featured=false
+              %}
+
+            {% endunless %}
+
+          {% endfor %}
+
+          {% unless current_year == "" %}
+              </div>
+            </div>
+          {% endunless %}
+
+        </div>
+
+      </section>
+    {% endif %}
 
   {% endif %}
 
