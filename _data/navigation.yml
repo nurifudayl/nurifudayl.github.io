@@ -19,6 +19,12 @@ en:
     mobile_icon: "fa-graduation-cap"
     url: /teaching/
 
+  - title: "Talks"
+    compact_title: "Talks"
+    mobile_title: "Talks"
+    mobile_icon: "talking-head"
+    url: /talks/
+
   - title: "CV"
     mobile_title: "CV"
     mobile_icon: "fa-file-lines"
@@ -45,6 +51,12 @@ tr:
     mobile_icon: "fa-graduation-cap"
     url: /tr/teaching/
 
+  - title: "Söyleşiler"
+    compact_title: "Söyl."
+    mobile_title: "Söyl."
+    mobile_icon: "talking-head"
+    url: /tr/talks/
+
   - title: "CV"
     mobile_title: "CV"
     mobile_icon: "fa-file-lines"
@@ -70,6 +82,12 @@ fr:
     mobile_title: "Ens."
     mobile_icon: "fa-graduation-cap"
     url: /fr/teaching/
+
+  - title: "Interventions"
+    compact_title: "Interv."
+    mobile_title: "Interv."
+    mobile_icon: "talking-head"
+    url: /fr/talks/
 
   - title: "CV"
     mobile_title: "CV"
