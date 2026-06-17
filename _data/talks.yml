@@ -63,13 +63,13 @@ items:
       - label: "Watch"
         label_tr: "İzle"
         label_fr: "Regarder"
-        url: "https://example.com/video"
+        url: ""
         primary: true
 
       - label: "Programme page"
         label_tr: "Program sayfası"
         label_fr: "Page de l’émission"
-        url: "https://example.com/programme"
+        url: ""
 
 
   - date: "2025-09-17"
