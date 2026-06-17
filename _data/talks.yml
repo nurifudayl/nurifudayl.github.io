@@ -1,0 +1,18 @@
+# Kayıtlar tarih alanına göre otomatik olarak yeniden sıralanır.
+#
+# Temel alanlar:
+#   date, type, title, host
+#
+# İsteğe bağlı alanlar:
+#   featured, language, role, institution, description,
+#   image, image_alt, links
+#
+# Türkçe karşılık için alanın sonuna _tr ekle:
+#   title_tr, description_tr
+#
+# Fransızca karşılık için alanın sonuna _fr ekle:
+#   title_fr, description_fr
+#
+# En fazla bir kayıtta featured: true kullanılması önerilir.
+
+items: []
