@@ -1,0 +1,645 @@
+<style>
+/* ==========================================================================
+   Talks / Söyleşiler / Interventions
+
+   All colours and fonts are inherited from the existing site variables.
+   No separate visual system is introduced.
+   ========================================================================== */
+
+.talks-page,
+.talks-intro,
+.talk-card-meta,
+.talk-card-context,
+.talk-card-description,
+.talk-link-button,
+.talks-count,
+.talk-year-heading,
+.talks-empty {
+  font-family: var(--font-sans) !important;
+}
+
+.talks-section-title,
+.talk-card-title {
+  font-family: var(--font-serif) !important;
+}
+
+.talks-page {
+  width: 100%;
+}
+
+.talks-intro {
+  max-width: 760px;
+  margin: 0 0 2rem;
+  color: var(--site-muted) !important;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+/* Sections */
+
+.talks-section {
+  margin-top: 2.6rem;
+  margin-bottom: 3.2rem;
+  clear: both;
+}
+
+.talks-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.58rem;
+  margin-bottom: 1rem;
+}
+
+.talks-section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.8rem;
+  height: 1.8rem;
+  flex: 0 0 auto;
+
+  border: 1.3px solid var(--site-burgundy);
+  border-radius: 50%;
+
+  color: var(--site-burgundy);
+}
+
+.talks-section-icon-svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.talks-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  margin: 0;
+
+  color: var(--site-burgundy) !important;
+
+  font-size: 1.65rem !important;
+  font-weight: 700 !important;
+}
+
+.talks-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 1.55rem;
+  padding: 0.2rem 0.58rem;
+
+  border: 1.3px solid var(--site-burgundy);
+  border-radius: 3px;
+
+  color: var(--site-burgundy) !important;
+  background: var(--site-bg);
+
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Card */
+
+.talk-card {
+  position: relative;
+  display: grid;
+  align-items: stretch;
+
+  width: 100%;
+  overflow: hidden;
+
+  border: 1px solid var(--site-border);
+  border-left: 5px solid var(--site-burgundy);
+  border-radius: 8px;
+
+  color: var(--site-text);
+  background: var(--site-bg);
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.talk-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--site-burgundy);
+  box-shadow: 0 8px 22px rgba(78, 37, 37, 0.10);
+}
+
+/* Featured */
+
+.talk-card--featured {
+  grid-template-columns:
+    minmax(240px, 0.9fr)
+    minmax(0, 1.15fr);
+}
+
+.talk-card--featured.talk-card--has-links {
+  grid-template-columns:
+    minmax(240px, 0.9fr)
+    minmax(0, 1.15fr)
+    155px;
+}
+
+/* Archive */
+
+.talk-card--archive {
+  grid-template-columns:
+    155px
+    minmax(0, 1fr);
+}
+
+.talk-card--archive.talk-card--has-links {
+  grid-template-columns:
+    155px
+    minmax(0, 1fr)
+    145px;
+}
+
+/* Image or fallback */
+
+.talk-card-media {
+  min-height: 100%;
+  background: var(--site-border);
+}
+
+.talk-card--featured .talk-card-media {
+  aspect-ratio: 16 / 9;
+}
+
+.talk-card--archive .talk-card-media {
+  min-height: 116px;
+}
+
+.talk-card-media img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+  object-fit: cover;
+}
+
+.talk-card-media--fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--site-bg);
+  background: var(--site-burgundy);
+}
+
+.talk-card-fallback-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.38rem;
+
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+.talk-card-fallback-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.talk-card--archive .talk-card-fallback-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.talk-card-fallback-type {
+  max-width: 100%;
+
+  font-family: var(--font-sans);
+  font-size: 0.67rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.talk-card-fallback-year {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Card content */
+
+.talk-card-content {
+  min-width: 0;
+  align-self: center;
+  padding: 1rem 1.05rem;
+}
+
+.talk-card--featured .talk-card-content {
+  padding: 1.15rem 1.2rem;
+}
+
+.talk-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.38rem 0.58rem;
+
+  margin-bottom: 0.58rem;
+
+  color: var(--site-muted) !important;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.talk-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 1.55rem;
+  padding: 0.2rem 0.58rem;
+
+  border: 1.3px solid var(--site-burgundy);
+  border-radius: 3px;
+
+  color: var(--site-burgundy) !important;
+  background: var(--site-bg);
+
+  font-size: 0.69rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+.talk-language {
+  padding-left: 0.58rem;
+  border-left: 1px solid var(--site-border);
+}
+
+.talk-card-title {
+  margin: 0 0 0.38rem;
+
+  color: var(--site-text) !important;
+
+  font-size: 1.34rem !important;
+  font-weight: 700 !important;
+  line-height: 1.27;
+}
+
+.talk-card--featured .talk-card-title {
+  font-size: 1.58rem !important;
+}
+
+.talk-card-context {
+  margin-bottom: 0.55rem;
+
+  color: var(--site-burgundy) !important;
+
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.talk-context-divider {
+  margin: 0 0.28rem;
+  color: var(--site-border) !important;
+}
+
+.talk-card-description {
+  max-width: 790px;
+  margin: 0;
+
+  color: var(--site-text) !important;
+
+  font-size: 0.9rem;
+  line-height: 1.52;
+}
+
+/* Links */
+
+.talk-card-links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.52rem;
+
+  min-width: 0;
+  padding: 0.95rem 1rem;
+
+  border-left: 1px solid var(--site-border);
+}
+
+.talk-link-button,
+.talk-link-button:visited {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 0.52rem !important;
+
+  min-height: 1.85rem !important;
+  padding: 0.34rem 0.7rem !important;
+
+  border: 1.4px solid var(--site-burgundy) !important;
+  border-radius: 3px !important;
+
+  color: var(--site-burgundy) !important;
+  background: var(--site-bg) !important;
+
+  font-size: 0.76rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+
+  text-decoration: none !important;
+  box-shadow: none !important;
+
+  transition:
+    background 0.18s ease,
+    color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.talk-link-button--primary,
+.talk-link-button:hover {
+  color: var(--site-bg) !important;
+  background: var(--site-burgundy) !important;
+  border-color: var(--site-burgundy) !important;
+  text-decoration: none !important;
+}
+
+.talk-link-button--primary:hover {
+  color: var(--site-bg) !important;
+  background: var(--site-burgundy-dark) !important;
+  border-color: var(--site-burgundy-dark) !important;
+}
+
+.talk-external-icon,
+.talk-external-icon svg {
+  display: block;
+
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+}
+
+.talk-external-icon svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}
+
+/* Archive year groups */
+
+.talks-archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.talk-year-group {
+  min-width: 0;
+}
+
+.talk-year-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+
+  margin: 0 0 0.78rem;
+
+  color: var(--site-burgundy) !important;
+
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em;
+}
+
+.talk-year-heading::after {
+  content: "";
+
+  height: 1px;
+  flex: 1 1 auto;
+
+  background: var(--site-border);
+}
+
+.talk-year-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.78rem;
+}
+
+/* Empty state */
+
+.talks-empty {
+  padding: 1rem 1.05rem;
+
+  border: 1px solid var(--site-border);
+  border-left: 5px solid var(--site-burgundy);
+  border-radius: 8px;
+
+  color: var(--site-muted) !important;
+  background: var(--site-bg);
+
+  font-size: 0.92rem;
+}
+
+/* Dark mode */
+
+html[data-theme="dark"] .talk-card {
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .talk-card:hover {
+  box-shadow: 0 8px 22px rgba(43, 14, 18, 0.28);
+}
+
+html[data-theme="dark"] .talk-link-button--primary:hover {
+  color: #7A3E3E !important;
+  background: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+/* Medium screens */
+
+@media (max-width: 900px) {
+  .talk-card--featured,
+  .talk-card--featured.talk-card--has-links {
+    grid-template-columns:
+      minmax(220px, 0.85fr)
+      minmax(0, 1.15fr);
+  }
+
+  .talk-card--featured .talk-card-links {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding: 0.85rem 1rem;
+
+    border-left: 0;
+    border-top: 1px solid var(--site-border);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 760px) {
+  .talks-intro {
+    margin-bottom: 1.8rem;
+    font-size: 0.94rem;
+  }
+
+  .talks-section {
+    margin-top: 2.1rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .talks-section-title {
+    font-size: 1.42rem !important;
+  }
+
+  .talk-card:hover {
+    transform: none;
+  }
+
+  .talk-card--featured,
+  .talk-card--featured.talk-card--has-links {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-card--featured .talk-card-media {
+    aspect-ratio: 16 / 9;
+  }
+
+  .talk-card--featured .talk-card-content {
+    padding: 0.95rem 1rem;
+  }
+
+  .talk-card--featured .talk-card-links {
+    grid-column: auto;
+  }
+
+  .talk-card--archive,
+  .talk-card--archive.talk-card--has-links {
+    grid-template-columns:
+      104px
+      minmax(0, 1fr);
+  }
+
+  .talk-card--archive .talk-card-media {
+    min-height: 108px;
+  }
+
+  .talk-card--archive .talk-card-content {
+    padding: 0.82rem 0.88rem;
+  }
+
+  .talk-card--archive .talk-card-links {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    padding: 0.75rem 0.88rem;
+
+    border-left: 0;
+    border-top: 1px solid var(--site-border);
+  }
+
+  .talk-card-title,
+  .talk-card--featured .talk-card-title {
+    font-size: 1.2rem !important;
+  }
+
+  .talk-card--archive .talk-card-title {
+    font-size: 1.08rem !important;
+  }
+
+  .talk-card-description {
+    font-size: 0.87rem;
+  }
+
+  .talk-link-button {
+    width: auto;
+  }
+}
+
+/* Small mobile */
+
+@media (max-width: 430px) {
+  .talk-card--archive,
+  .talk-card--archive.talk-card--has-links {
+    grid-template-columns:
+      88px
+      minmax(0, 1fr);
+  }
+
+  .talk-card--archive .talk-card-media {
+    min-height: 100px;
+  }
+
+  .talk-card--archive .talk-card-fallback-inner {
+    padding: 0.55rem;
+  }
+
+  .talk-card--archive .talk-card-fallback-type {
+    font-size: 0.56rem;
+  }
+
+  .talk-card-meta {
+    gap: 0.3rem 0.42rem;
+    font-size: 0.66rem;
+  }
+
+  .talk-badge {
+    min-height: 1.4rem;
+    padding: 0.16rem 0.4rem;
+    font-size: 0.6rem;
+  }
+
+  .talk-language {
+    padding-left: 0.42rem;
+  }
+
+  .talk-card-context {
+    font-size: 0.78rem;
+  }
+
+  .talk-card--archive .talk-card-description {
+    display: none;
+  }
+
+  .talk-card-links {
+    gap: 0.4rem;
+  }
+
+  .talk-link-button {
+    padding: 0.34rem 0.58rem !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .talk-card,
+  .talk-link-button {
+    transition: none;
+  }
+}
+</style>
