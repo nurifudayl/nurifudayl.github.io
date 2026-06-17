@@ -15,4 +15,96 @@
 #
 # En fazla bir kayıtta featured: true kullanılması önerilir.
 
-items: []
+items:
+
+  - date: "2026-05-23"
+    featured: true
+
+    type: "TV PROGRAMME"
+    type_tr: "TV PROGRAMI"
+    type_fr: "ÉMISSION TV"
+
+    language: "TR"
+
+    title: "Episode 13"
+    title_tr: "13. Bölüm"
+    title_fr: "Episode 13"
+
+    host: "Genç Kalemler"
+    host_tr: "Genç Kalemler"
+    host_fr: "Genç Kalemler"
+
+    role: "Guest"
+    role_tr: "Konuk"
+    role_fr: "Invitée"
+
+    institution: "Tarih TV"
+    institution_tr: "Tarih TV"
+    institution_fr: "Tarih TV"
+
+    description: >-
+      A conversation on modernity, knowledge production,
+      and the future of the social sciences.
+
+    description_tr: >-
+      Modernite, bilgi üretimi ve sosyal bilimlerin geleceği
+      üzerine bir söyleşi.
+
+    description_fr: >-
+      Un entretien sur la modernité, la production des savoirs
+      et l’avenir des sciences sociales.
+
+    image: ""
+
+    image_alt: "Television programme interview"
+    image_alt_tr: "Televizyon programındaki söyleşi"
+    image_alt_fr: "Entretien dans une émission télévisée"
+
+    links:
+      - label: "Watch"
+        label_tr: "İzle"
+        label_fr: "Regarder"
+        url: "https://example.com/video"
+        primary: true
+
+      - label: "Programme page"
+        label_tr: "Program sayfası"
+        label_fr: "Page de l’émission"
+        url: "https://example.com/programme"
+
+
+  - date: "2025-09-17"
+
+    type: "PUBLIC LECTURE"
+    type_tr: "KAMUYA AÇIK KONUŞMA"
+    type_fr: "CONFÉRENCE PUBLIQUE"
+
+    language: "EN"
+
+    title: "The Future of Knowledge and Universities"
+    title_tr: "Bilginin ve Üniversitelerin Geleceği"
+    title_fr: "L’avenir du savoir et des universités"
+
+    host: "Public Lecture Series"
+    host_tr: "Kamuya Açık Konuşmalar Dizisi"
+    host_fr: "Cycle de conférences publiques"
+
+    role: "Invited Speaker"
+    role_tr: "Davetli Konuşmacı"
+    role_fr: "Conférencière invitée"
+
+    institution: "Hosting University"
+    institution_tr: "Düzenleyen Üniversite"
+    institution_fr: "Université organisatrice"
+
+    description: >-
+      A public lecture on the changing institutional conditions
+      of knowledge production.
+
+    description_tr: >-
+      Bilgi üretiminin değişen kurumsal koşulları üzerine
+      kamuya açık bir konuşma.
+
+    description_fr: >-
+      Une conférence publique sur la transformation des conditions
+      institutionnelles de la production des savoirs.
