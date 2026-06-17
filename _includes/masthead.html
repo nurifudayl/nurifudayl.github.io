@@ -45,7 +45,15 @@
             {% endif %}
 
             <li class="masthead__menu-item desktop-menu-link persist {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ link_url }}">{{ link.title }}</a>
+              <a href="{{ link_url }}">
+                <span class="desktop-nav-title desktop-nav-title--full">
+                  {{ link.title }}
+                </span>
+            
+                <span class="desktop-nav-title desktop-nav-title--compact">
+                  {{ link.compact_title | default: link.title }}
+                </span>
+              </a>
             </li>
           {% endfor %}
 
