@@ -70,7 +70,7 @@ Methodologically, my work brings together **linguistic contextualism**, **concep
 
 My training in political science began at **Galatasaray University**, where I developed a sustained interest in political theory and the history of modern political thought. During my undergraduate studies, an exchange period at the **Université du Québec à Montréal** allowed me to deepen my engagement with Hannah Arendt, Karl Marx, Friedrich Nietzsche, and Michel Foucault. From this period onward, my work has been animated by a central question: how is political authority constituted and justified, and how does it transform the conditions of collective freedom?
 
-This question first took shape in my undergraduate thesis, *The Dismantlement of Freedom and Morality: State Domination in Arendt’s Political Realm*. Drawing on Arendt’s distinction between political action and domination, I examined how the expansion of state power can erode the conditions of political freedom and responsibility. This project marked the beginning of a broader inquiry into the historical forms through which political power is legitimized and contested.
+This question first took shape in my undergraduate thesis, *The Dismantlement of Freedom and Morality: State Domination on Political Sphere in Arendt*. Drawing on Arendt’s distinction between political action and domination, I examined how the expansion of state power can erode the conditions of political freedom and responsibility. This project marked the beginning of a broader inquiry into the historical forms through which political power is legitimized and contested.
 
 I pursued this inquiry at the **École normale supérieure de Lyon**, where I completed a master’s degree in **History of Political Thought** with the support of the Ampère Excellence Scholarship and the French government’s Eiffel Scholarship. My master’s thesis, *Governing Justice: Conceptions of Government and Justice in Nizam al-Mulk*, turned to a premodern corpus centered on the *Siyasatnama*. This shift did not represent a departure from my earlier concerns; rather, it allowed me to historicize them by examining how authority and government were understood and justified within a political language organized around justice and order.
 
@@ -91,16 +91,16 @@ I am currently **Assistant Professor** in the Department of Political Science an
 
 [My teaching](/teaching) centers on the **close reading of texts**, **conceptual analysis**, and **historical contextualization**. I encourage students to use these tools to place contemporary political controversies in perspective and to develop rigorous arguments of their own.
 
-Alongside my teaching and research, I serve as Deputy Chair of the Department, **Chair of the Departmental Quality Commission**, and a member of the Faculty Quality Commission. In these capacities, I contributed to the quality assurance and accreditation process through which the department received a **four-year accreditation** from STAR, a disciplinary accreditation body recognized by Türkiye’s Council of Higher Education.
+Alongside my teaching and research, I serve as Deputy Head of the Department, **Coordinator of the Departmental Quality Commission**, and a member of the Faculty Quality Commission. In these capacities, I contributed to the quality assurance and accreditation process through which the department received a **four-year accreditation** from STAR, a disciplinary accreditation body recognized by Türkiye’s Council of Higher Education.
 
 </details>
 
 <details markdown="1">
 <summary>4. Current Research and Collaborative Projects</summary>
 
-My current research centers on the **intellectual and constitutional history of modern Turkey**. I examine how notions of legitimacy, democracy, and constitutional order have been mobilized to define, justify, and contest state authority in modern Turkish political life. Alongside this individual research agenda, I contribute to collaborative projects on electoral behavior, innovation in political science pedagogy, and contemporary intellectual life in Türkiye.
+My current research centers on the **intellectual and constitutional history of modern Turkey**. I examine how notions of legitimacy, democracy, and constitutional order have been mobilized to define, justify, and contest state authority in modern Turkish political life. Alongside this individual research agenda, I contribute to collaborative projects on electoral behavior, innovation in political science pedagogy, and contemporary intellectual life in Turkey.
 
-One strand of my individual research examines the constitution-making process initiated in 1960 and culminating in the **adoption of Türkiye’s 1961 Constitution**. I focus on the jurists involved in this process, their intellectual worlds, and the evolution of their doctrines. Rather than treating constitutional debates as merely juridical or technical discussions, I analyze them as sites in which competing conceptions of the state, democracy, public authority, and political order were articulated.
+One strand of my individual research examines the constitution-making process initiated in 1960 and culminating in the **adoption of Turkey’s 1961 Constitution**. I focus on the jurists involved in this process, their intellectual worlds, and the evolution of their doctrines. Rather than treating constitutional debates as merely juridical or technical discussions, I analyze them as sites in which competing conceptions of the state, democracy, public authority, and political order were articulated.
 
 A second, closely related strand explores **the multiple forms of Kemalism** in Turkish political life. Rather than treating Kemalism as a single, immutable doctrine, I examine it as a contested and historically reconfigured political language through which different actors have imagined the state, society, modernization, secularism, and legitimacy.
 
@@ -121,7 +121,7 @@ Taken together, these research projects and collaborations are united by a commo
 
 My editorial work has developed alongside my academic training and research. Rooted in a trajectory between Turkish and Francophone intellectual worlds, it has involved work as a **translator**, **editorial reader**, and editor—activities I understand as forms of mediation between texts, intellectual traditions, and their publics.
 
-I began translating during my first year as an undergraduate through a collaboration with **Ayrıntı Yayınları**. I subsequently prepared readers’ reports for **Doğan Kitap** and published book reviews in literary supplements. A substantial part of my editorial experience took place at **Dergâh Yayınları**, where I worked on translations and works of history.
+I began translating during my first year as an undergraduate through a collaboration with **Ayrıntı Publishing**. I subsequently prepared readers’ reports for **Doğan Books** and published book reviews in literary supplements. A substantial part of my editorial experience took place at **Dergâh Publishing**, where I worked on translations and works of history.
 
 I have translated four books, two of them in collaboration with other translators. These include the Turkish translation of the second volume of Albert Gabriel’s *Monuments turcs d’Anatolie*, devoted to Amasya, Tokat, and Sivas, published in Turkish as Anadolu’daki *Türk Anıtları II: Amasya – Tokat – Sivas* within a project of the Ministry of Culture and Tourism of the Republic of Turkey. My translations are listed on the [Translations]({{ "/translations/" | relative_url }}) page.
 
