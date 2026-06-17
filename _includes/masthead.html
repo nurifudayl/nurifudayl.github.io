@@ -104,11 +104,7 @@
 
             <li class="mobile-section-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
               <a href="{{ link_url }}">
-                {% if link.mobile_icon == "talking-head" %}
-                  {% include talking-head-icon.html icon_class="mobile-section-custom-icon" %}
-                {% else %}
-                  <i class="fa-solid {{ link.mobile_icon }}" aria-hidden="true"></i>
-                {% endif %}
+                <i class="fa-solid {{ link.mobile_icon }}" aria-hidden="true"></i>
               
                 <span>{{ link.mobile_title }}</span>
               </a>
