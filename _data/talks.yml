@@ -16,7 +16,6 @@
 # En fazla bir kayıtta featured: true kullanılması önerilir.
 
 items:
-
   - date: "2026-05-23"
     featured: true
 
