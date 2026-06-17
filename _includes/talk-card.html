@@ -11,7 +11,6 @@
 {% assign talk_image_alt = talk.image_alt | default: talk.title %}
 
 {% if current_lang == "tr" %}
-
   {% if talk.title_tr %}
     {% assign talk_title = talk.title_tr %}
   {% endif %}
@@ -72,24 +71,9 @@
 
 {% endif %}
 
-<article class="
-  talk-card
-  {% if include.featured %}
-    talk-card--featured
-  {% else %}
-    talk-card--archive
-  {% endif %}
-  {% if link_count > 0 %}
-    talk-card--has-links
-  {% endif %}
-">
+<article class="talk-card{% if include.featured %} talk-card--featured{% endif %}{% if link_count > 0 %} talk-card--has-links{% endif %}">
 
-  <div class="
-    talk-card-media
-    {% unless talk.image and talk.image != "" %}
-      talk-card-media--fallback
-    {% endunless %}
-  ">
+  <div class="talk-card__media{% unless talk.image and talk.image != '' %} talk-card__media--fallback{% endunless %}">
 
     {% if talk.image and talk.image != "" %}
 
@@ -100,35 +84,31 @@
 
     {% else %}
 
-      <div class="talk-card-fallback-inner" aria-hidden="true">
+      <i
+        class="fa-solid fa-comment-dots talk-card__fallback-icon"
+        aria-hidden="true">
+      </i>
 
-        <i
-          class="fa-solid fa-comment-dots talk-card-fallback-icon"
-          aria-hidden="true">
-        </i>
-
-        {% if talk_type %}
-          <span class="talk-card-fallback-type">
-            {{ talk_type }}
-          </span>
-        {% endif %}
-
-        <span class="talk-card-fallback-year">
-          {{ talk.date | date: "%Y" }}
+      {% if talk_type %}
+        <span class="talk-card__fallback-type">
+          {{ talk_type }}
         </span>
+      {% endif %}
 
-      </div>
+      <span class="talk-card__fallback-year">
+        {{ talk.date | date: "%Y" }}
+      </span>
 
     {% endif %}
 
   </div>
 
-  <div class="talk-card-content">
+  <div class="talk-card__content">
 
-    <div class="talk-card-meta">
+    <div class="talk-card__meta">
 
       {% if talk_type %}
-        <span class="talk-badge">
+        <span class="talk-card__badge">
           {{ talk_type }}
         </span>
       {% endif %}
@@ -140,26 +120,26 @@
       {% endif %}
 
       {% if talk.language %}
-        <span class="talk-language">
+        <span class="talk-card__language">
           {{ talk.language }}
         </span>
       {% endif %}
 
     </div>
 
-    <h3 class="talk-card-title">
+    <h3 class="talk-card__title">
       {{ talk_title }}
     </h3>
 
     {% if talk_host or talk_role or talk_institution %}
-      <div class="talk-card-context">
+      <div class="talk-card__context">
 
         {% if talk_host %}
           <span>{{ talk_host }}</span>
         {% endif %}
 
         {% if talk_host and talk_role %}
-          <span class="talk-context-divider">·</span>
+          <span aria-hidden="true"> · </span>
         {% endif %}
 
         {% if talk_role %}
@@ -169,7 +149,7 @@
         {% if talk_institution %}
 
           {% if talk_host or talk_role %}
-            <span class="talk-context-divider">·</span>
+            <span aria-hidden="true"> · </span>
           {% endif %}
 
           <span>{{ talk_institution }}</span>
@@ -180,16 +160,15 @@
     {% endif %}
 
     {% if talk_description %}
-      <div class="talk-card-description">
+      <p class="talk-card__description">
         {{ talk_description }}
-      </div>
+      </p>
     {% endif %}
 
   </div>
 
   {% if link_count > 0 %}
-
-    <div class="talk-card-links">
+    <div class="talk-card__links">
 
       {% for link in talk.links limit: 2 %}
 
@@ -202,32 +181,19 @@
         {% endif %}
 
         <a
+          class="talk-card__button{% if link.primary %} talk-card__button--primary{% endif %}"
           href="{{ link.url }}"
-          class="
-            talk-link-button
-            {% if link.primary %}
-              talk-link-button--primary
-            {% endif %}
-          "
           target="_blank"
           rel="noopener noreferrer">
 
           <span>{{ link_label }}</span>
-
-          <span class="talk-external-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75v10.5A1.75 1.75 0 0 0 6.75 19h10.5A1.75 1.75 0 0 0 19 17.25V15"></path>
-              <path d="M10 14 19 5"></path>
-              <path d="M13.5 5H19v5.5"></path>
-            </svg>
-          </span>
+          <span aria-hidden="true">↗</span>
 
         </a>
 
       {% endfor %}
 
     </div>
-
   {% endif %}
 
 </article>
