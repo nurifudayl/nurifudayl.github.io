@@ -1,0 +1,232 @@
+{% assign talk = include.talk %}
+{% assign current_lang = page.lang | default: "en" %}
+{% assign link_count = talk.links | size %}
+
+{% assign talk_title = talk.title %}
+{% assign talk_type = talk.type %}
+{% assign talk_host = talk.host %}
+{% assign talk_role = talk.role %}
+{% assign talk_institution = talk.institution %}
+{% assign talk_description = talk.description %}
+{% assign talk_image_alt = talk.image_alt | default: talk.title %}
+
+{% if current_lang == "tr" %}
+
+  {% if talk.title_tr %}
+    {% assign talk_title = talk.title_tr %}
+  {% endif %}
+
+  {% if talk.type_tr %}
+    {% assign talk_type = talk.type_tr %}
+  {% endif %}
+
+  {% if talk.host_tr %}
+    {% assign talk_host = talk.host_tr %}
+  {% endif %}
+
+  {% if talk.role_tr %}
+    {% assign talk_role = talk.role_tr %}
+  {% endif %}
+
+  {% if talk.institution_tr %}
+    {% assign talk_institution = talk.institution_tr %}
+  {% endif %}
+
+  {% if talk.description_tr %}
+    {% assign talk_description = talk.description_tr %}
+  {% endif %}
+
+  {% if talk.image_alt_tr %}
+    {% assign talk_image_alt = talk.image_alt_tr %}
+  {% endif %}
+
+{% elsif current_lang == "fr" %}
+
+  {% if talk.title_fr %}
+    {% assign talk_title = talk.title_fr %}
+  {% endif %}
+
+  {% if talk.type_fr %}
+    {% assign talk_type = talk.type_fr %}
+  {% endif %}
+
+  {% if talk.host_fr %}
+    {% assign talk_host = talk.host_fr %}
+  {% endif %}
+
+  {% if talk.role_fr %}
+    {% assign talk_role = talk.role_fr %}
+  {% endif %}
+
+  {% if talk.institution_fr %}
+    {% assign talk_institution = talk.institution_fr %}
+  {% endif %}
+
+  {% if talk.description_fr %}
+    {% assign talk_description = talk.description_fr %}
+  {% endif %}
+
+  {% if talk.image_alt_fr %}
+    {% assign talk_image_alt = talk.image_alt_fr %}
+  {% endif %}
+
+{% endif %}
+
+<article class="
+  talk-card
+  {% if include.featured %}
+    talk-card--featured
+  {% else %}
+    talk-card--archive
+  {% endif %}
+  {% if link_count > 0 %}
+    talk-card--has-links
+  {% endif %}
+">
+
+  <div class="
+    talk-card-media
+    {% unless talk.image and talk.image != "" %}
+      talk-card-media--fallback
+    {% endunless %}
+  ">
+
+    {% if talk.image and talk.image != "" %}
+
+      <img
+        src="{{ talk.image | relative_url }}"
+        alt="{{ talk_image_alt | escape }}"
+        loading="lazy">
+
+    {% else %}
+
+      <div class="talk-card-fallback-inner" aria-hidden="true">
+
+        {% include talking-head-icon.html
+          icon_class="talk-card-fallback-icon"
+        %}
+
+        {% if talk_type %}
+          <span class="talk-card-fallback-type">
+            {{ talk_type }}
+          </span>
+        {% endif %}
+
+        <span class="talk-card-fallback-year">
+          {{ talk.date | date: "%Y" }}
+        </span>
+
+      </div>
+
+    {% endif %}
+
+  </div>
+
+  <div class="talk-card-content">
+
+    <div class="talk-card-meta">
+
+      {% if talk_type %}
+        <span class="talk-badge">
+          {{ talk_type }}
+        </span>
+      {% endif %}
+
+      {% if talk.date %}
+        <time datetime="{{ talk.date }}">
+          {{ talk.date | date: "%d.%m.%Y" }}
+        </time>
+      {% endif %}
+
+      {% if talk.language %}
+        <span class="talk-language">
+          {{ talk.language }}
+        </span>
+      {% endif %}
+
+    </div>
+
+    <h3 class="talk-card-title">
+      {{ talk_title }}
+    </h3>
+
+    {% if talk_host or talk_role or talk_institution %}
+      <div class="talk-card-context">
+
+        {% if talk_host %}
+          <span>{{ talk_host }}</span>
+        {% endif %}
+
+        {% if talk_host and talk_role %}
+          <span class="talk-context-divider">·</span>
+        {% endif %}
+
+        {% if talk_role %}
+          <span>{{ talk_role }}</span>
+        {% endif %}
+
+        {% if talk_institution %}
+
+          {% if talk_host or talk_role %}
+            <span class="talk-context-divider">·</span>
+          {% endif %}
+
+          <span>{{ talk_institution }}</span>
+
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+    {% if talk_description %}
+      <div class="talk-card-description">
+        {{ talk_description }}
+      </div>
+    {% endif %}
+
+  </div>
+
+  {% if link_count > 0 %}
+
+    <div class="talk-card-links">
+
+      {% for link in talk.links limit: 2 %}
+
+        {% assign link_label = link.label %}
+
+        {% if current_lang == "tr" and link.label_tr %}
+          {% assign link_label = link.label_tr %}
+        {% elsif current_lang == "fr" and link.label_fr %}
+          {% assign link_label = link.label_fr %}
+        {% endif %}
+
+        <a
+          href="{{ link.url }}"
+          class="
+            talk-link-button
+            {% if link.primary %}
+              talk-link-button--primary
+            {% endif %}
+          "
+          target="_blank"
+          rel="noopener noreferrer">
+
+          <span>{{ link_label }}</span>
+
+          <span class="talk-external-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 5H6.75A1.75 1.75 0 0 0 5 6.75v10.5A1.75 1.75 0 0 0 6.75 19h10.5A1.75 1.75 0 0 0 19 17.25V15"></path>
+              <path d="M10 14 19 5"></path>
+              <path d="M13.5 5H19v5.5"></path>
+            </svg>
+          </span>
+
+        </a>
+
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+</article>
