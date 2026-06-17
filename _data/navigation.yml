@@ -22,7 +22,7 @@ en:
   - title: "Talks"
     compact_title: "Talks"
     mobile_title: "Talks"
-    mobile_icon: "talking-head"
+    mobile_icon: "fa-comment-dots"
     url: /talks/
 
   - title: "CV"
@@ -54,7 +54,7 @@ tr:
   - title: "Söyleşiler"
     compact_title: "Söyl."
     mobile_title: "Söyl."
-    mobile_icon: "talking-head"
+    mobile_icon: "fa-comment-dots"
     url: /tr/talks/
 
   - title: "CV"
@@ -86,7 +86,7 @@ fr:
   - title: "Interventions"
     compact_title: "Interv."
     mobile_title: "Interv."
-    mobile_icon: "talking-head"
+    mobile_icon: "fa-comment-dots"
     url: /fr/talks/
 
   - title: "CV"
