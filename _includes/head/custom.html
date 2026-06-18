@@ -1689,6 +1689,80 @@ a.author__icon-link:focus-visible .ai::before {
 .sidebar .author__content .author__name {
   display: block !important;
 }
+
+/* ==========================================================================
+   Final author avatar correction
+   ========================================================================== */
+
+/* All screen sizes */
+
+.sidebar .author__avatar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+  max-width: 100% !important;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0.8rem !important;
+
+  text-align: center !important;
+
+  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.sidebar .author__avatar img {
+  display: block !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  object-fit: cover !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 925px) {
+
+  .sidebar .author__avatar img {
+    width: 9.75rem !important;
+    height: 9.75rem !important;
+    max-width: 9.75rem !important;
+  }
+}
+
+/* Mobile and tablet */
+
+@media screen and (max-width: 924px) {
+
+  .sidebar .author__avatar {
+    position: relative !important;
+    float: none !important;
+
+    clear: both !important;
+
+    height: auto !important;
+    min-height: 7.5rem !important;
+  }
+
+  .sidebar .author__avatar img {
+    position: relative !important;
+    float: none !important;
+
+    width: 7.5rem !important;
+    height: 7.5rem !important;
+    max-width: 7.5rem !important;
+
+    border-radius: 50% !important;
+  }
+}
   
 </style>
 
