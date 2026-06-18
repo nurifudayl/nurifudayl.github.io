@@ -1691,76 +1691,168 @@ a.author__icon-link:focus-visible .ai::before {
 }
 
 /* ==========================================================================
-   Final author avatar correction
+   Final responsive author layout
+   Desktop: centred avatar
+   Mobile: avatar left, name and bio right
    ========================================================================== */
-
-/* All screen sizes */
-
-.sidebar .author__avatar {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  width: 100% !important;
-  max-width: 100% !important;
-
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-bottom: 0.8rem !important;
-
-  text-align: center !important;
-
-  overflow: visible !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-.sidebar .author__avatar img {
-  display: block !important;
-
-  margin-left: auto !important;
-  margin-right: auto !important;
-
-  object-fit: cover !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-}
 
 /* Desktop */
 
 @media screen and (min-width: 925px) {
 
+  /* Only the profile photograph is centred */
+
+  .sidebar .author__avatar {
+    display: block !important;
+    position: relative !important;
+    float: none !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 0 0.8rem !important;
+
+    text-align: center !important;
+    overflow: visible !important;
+  }
+
   .sidebar .author__avatar img {
+    display: block !important;
+    position: relative !important;
+    float: none !important;
+
     width: 9.75rem !important;
     height: 9.75rem !important;
     max-width: 9.75rem !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    object-fit: cover !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Name and biography remain left aligned */
+
+  .sidebar .author__content,
+  .sidebar .author__name,
+  .sidebar .author__pronouns,
+  .sidebar .author__bio {
+    text-align: left !important;
   }
 }
+
 
 /* Mobile and tablet */
 
 @media screen and (max-width: 924px) {
 
+  /*
+     Restore the original mobile composition:
+     avatar on the left, text on the right.
+  */
+
+  .sidebar [itemtype="http://schema.org/Person"] {
+    display: grid !important;
+
+    grid-template-columns: 5.25rem minmax(0, 1fr);
+    grid-template-areas:
+      "avatar content"
+      "links links";
+
+    column-gap: 0.9rem;
+    row-gap: 0.7rem;
+
+    align-items: start;
+
+    width: 100% !important;
+  }
+
   .sidebar .author__avatar {
+    grid-area: avatar;
+
+    display: block !important;
     position: relative !important;
     float: none !important;
 
-    clear: both !important;
-
+    width: 5.25rem !important;
+    max-width: 5.25rem !important;
     height: auto !important;
-    min-height: 7.5rem !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+
+    text-align: left !important;
+    overflow: visible !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
   .sidebar .author__avatar img {
+    display: block !important;
     position: relative !important;
     float: none !important;
 
-    width: 7.5rem !important;
-    height: 7.5rem !important;
-    max-width: 7.5rem !important;
+    width: 5.25rem !important;
+    height: 5.25rem !important;
+    max-width: 5.25rem !important;
 
+    margin: 0 !important;
+
+    object-fit: cover !important;
     border-radius: 50% !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .sidebar .author__content {
+    grid-area: content;
+
+    width: 100% !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    text-align: left !important;
+  }
+
+  .sidebar .author__name,
+  .sidebar .author__pronouns,
+  .sidebar .author__bio {
+    width: 100% !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    text-align: left !important;
+  }
+
+  .sidebar .author__name {
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  .sidebar .author__bio {
+    margin-top: 0 !important;
+  }
+
+  /*
+     Location, university and social links remain
+     underneath the avatar/text row.
+  */
+
+  .sidebar .author__urls-wrapper {
+    grid-area: links;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0.2rem 0 0 !important;
   }
 }
   
