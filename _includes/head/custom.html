@@ -1443,11 +1443,6 @@ a.author__icon-link i::before {
 
   /* Name centred, biography kept readable */
 
-  .sidebar .author__name,
-  .sidebar .author__pronouns {
-    text-align: center !important;
-  }
-
   .sidebar .author__bio {
     text-align: left !important;
   }
@@ -1648,6 +1643,22 @@ a.author__icon-link:focus-visible .ai::before {
   color: #7A3E3E !important;
   opacity: 1 !important;
   visibility: visible !important;
+}
+
+/* Author name and biography: force left alignment */
+
+.sidebar .author__content,
+.sidebar .author__content .author__name,
+.sidebar .author__content .author__pronouns,
+.sidebar .author__content .author__bio {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}
+
+.sidebar .author__content .author__name {
+  display: block !important;
 }
   
 </style>
