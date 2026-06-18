@@ -1379,31 +1379,34 @@ a.author__icon-link i::before {
 
 /* ==========================================================================
    Desktop author column alignment
-   Avatar, details and social buttons share the same axis
+   Left-aligned profile with centred final button row
    ========================================================================== */
 
 @media screen and (min-width: 925px) {
 
   /*
-     Shared desktop column width.
-     This is also the width used by the four-button icon grid.
+     Avatar, text and links use the full available
+     width of the left sidebar.
   */
+
   .sidebar .author__avatar,
   .sidebar .author__content,
   .sidebar .author__urls-wrapper {
     box-sizing: border-box;
 
-    width: 11.95rem !important;
-    max-width: 100% !important;
+    width: 100% !important;
+    max-width: none !important;
 
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    text-align: left !important;
   }
 
-  /* Profile image centred within the shared column */
+  /* Profile photograph */
 
   .sidebar .author__avatar {
-    text-align: center !important;
+    text-align: left !important;
   }
 
   .sidebar .author__avatar img {
@@ -1412,77 +1415,102 @@ a.author__icon-link i::before {
     width: 9.75rem !important;
     height: 9.75rem !important;
 
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 0 !important;
 
-    object-fit: cover; 
+    object-fit: cover;
   }
 
-    .sidebar .author__content,
-  .sidebar .author__name,
-  .sidebar .author__pronouns,
-  .sidebar .author__bio {
+  /* Name, pronouns and biography */
+
+  .sidebar .author__content,
+  .sidebar .author__content .author__name,
+  .sidebar .author__content .author__pronouns,
+  .sidebar .author__content .author__bio {
+    width: 100% !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
     text-align: left !important;
   }
 
-  .sidebar .author__details {
-    width: 11.95rem !important;
-    max-width: 100% !important;
-
-    margin: 0 auto 1rem !important;
+  .sidebar .author__content .author__name {
+    display: block !important;
   }
 
-  .sidebar .author__icon-grid {
-    width: 11.95rem !important;
-    max-width: 100% !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-  /* Name centred, biography kept readable */
-
-  .sidebar .author__bio {
-    text-align: left !important;
-  }
-
-  /*
-     Location and university use exactly the same width
-     as the icon grid.
-  */
+  /* Location and university */
 
   .sidebar .author__details {
     box-sizing: border-box;
 
-    width: 11.95rem !important;
-    max-width: 100% !important;
+    width: 100% !important;
+    max-width: none !important;
 
-    margin: 0 auto 1rem !important;
+    margin: 0 0 1rem !important;
     padding: 0 !important;
   }
 
   .sidebar .author__details li {
-    width: 100%;
+    width: 100% !important;
 
-    justify-content: flex-start;
-    text-align: left;
+    justify-content: flex-start !important;
+    text-align: left !important;
   }
 
   /*
-     Ensure the icon grid sits directly on the same
-     left and right boundaries.
+     Four-column button grid.
+     The first two rows span the full sidebar width.
   */
 
   .sidebar .author__icon-grid,
   .sidebar .author__urls.social-icons.author__icon-grid {
+    display: grid !important;
+
+    grid-template-columns: repeat(4, 2.55rem);
+    grid-auto-flow: row;
+
+    justify-content: space-between !important;
+    align-items: center !important;
+
+    column-gap: 0 !important;
+    row-gap: 0.65rem !important;
+
     box-sizing: border-box;
 
-    width: 11.95rem !important;
-    max-width: 100% !important;
+    width: 100% !important;
+    max-width: none !important;
 
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .sidebar .author__icon-grid li,
+  .sidebar
+  .author__urls.social-icons.author__icon-grid
+  li {
+    width: 2.55rem !important;
+    height: 2.55rem !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /*
+     When exactly two buttons remain in the final row,
+     place them in columns two and three.
+  */
+
+  .sidebar
+  .author__icon-grid
+  li:nth-last-child(2):nth-child(4n + 1),
+  .sidebar
+  .author__urls.social-icons.author__icon-grid
+  li:nth-last-child(2):nth-child(4n + 1) {
+    grid-column: 2;
   }
 }
   
