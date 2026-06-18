@@ -1332,6 +1332,97 @@ a.author__icon-link i::before {
 }
 
 /* ==========================================================================
+   Desktop author column alignment
+   Avatar, details and social buttons share the same axis
+   ========================================================================== */
+
+@media screen and (min-width: 925px) {
+
+  /*
+     Shared desktop column width.
+     This is also the width used by the four-button icon grid.
+  */
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    box-sizing: border-box;
+
+    width: 11.95rem !important;
+    max-width: 100% !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Profile image centred within the shared column */
+
+  .sidebar .author__avatar {
+    text-align: center !important;
+  }
+
+  .sidebar .author__avatar img {
+    display: block !important;
+
+    width: 9.75rem !important;
+    height: 9.75rem !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    object-fit: cover;
+  }
+
+  /* Name centred, biography kept readable */
+
+  .sidebar .author__name,
+  .sidebar .author__pronouns {
+    text-align: center !important;
+  }
+
+  .sidebar .author__bio {
+    text-align: left !important;
+  }
+
+  /*
+     Location and university use exactly the same width
+     as the icon grid.
+  */
+
+  .sidebar .author__details {
+    box-sizing: border-box;
+
+    width: 11.95rem !important;
+    max-width: 100% !important;
+
+    margin: 0 auto 1rem !important;
+    padding: 0 !important;
+  }
+
+  .sidebar .author__details li {
+    width: 100%;
+
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  /*
+     Ensure the icon grid sits directly on the same
+     left and right boundaries.
+  */
+
+  .sidebar .author__icon-grid,
+  .sidebar .author__urls.social-icons.author__icon-grid {
+    box-sizing: border-box;
+
+    width: 11.95rem !important;
+    max-width: 100% !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+  
+/* ==========================================================================
    Dark mode
    Buttons retain burgundy backgrounds and cream icons
    ========================================================================== */
