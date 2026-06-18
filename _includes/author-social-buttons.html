@@ -149,14 +149,23 @@
 
     {% if author.yokakademik %}
       <li>
-        <a class="author__icon-link"
-           href="{{ author.yokakademik }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="YÖK Akademik"
-           title="YÖK Akademik">
-          <i class="fas fa-building-columns" aria-hidden="true"></i>
-          <span class="sr-only">YÖK Akademik</span>
+        <a
+          class="author__icon-link"
+          href="{{ author.yokakademik }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YÖK Akademik"
+          title="YÖK Akademik">
+    
+          <span
+            class="author__yok-icon"
+            aria-hidden="true">
+          </span>
+    
+          <span class="sr-only">
+            YÖK Akademik
+          </span>
+    
         </a>
       </li>
     {% endif %}
