@@ -1855,6 +1855,158 @@ a.author__icon-link:focus-visible .ai::before {
     margin: 0.2rem 0 0 !important;
   }
 }
+
+/* ==========================================================================
+   Final mobile author row
+   Photo left, name and bio beside it, Links at far right
+   ========================================================================== */
+
+@media screen and (max-width: 924px) {
+
+  /*
+     Mobile row:
+     profile photo | name and bio | Links button
+  */
+
+  .sidebar [itemscope][itemtype="http://schema.org/Person"] {
+    display: grid !important;
+
+    grid-template-columns: 5.25rem minmax(0, 1fr) auto;
+    grid-template-areas:
+      "avatar content links";
+
+    column-gap: 0.7rem;
+    align-items: start;
+
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Profile photo on the left */
+
+  .sidebar .author__avatar {
+    grid-area: avatar;
+
+    display: block !important;
+    position: relative !important;
+    float: none !important;
+
+    width: 5.25rem !important;
+    height: 5.25rem !important;
+    max-width: 5.25rem !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    text-align: left !important;
+    overflow: visible !important;
+  }
+
+  .sidebar .author__avatar img {
+    display: block !important;
+    position: relative !important;
+    float: none !important;
+
+    width: 5.25rem !important;
+    height: 5.25rem !important;
+    max-width: 5.25rem !important;
+
+    margin: 0 !important;
+
+    object-fit: cover !important;
+    border-radius: 50% !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Name and biography beside the photo */
+
+  .sidebar .author__content {
+    grid-area: content;
+
+    width: 100% !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    text-align: left !important;
+  }
+
+  .sidebar .author__name,
+  .sidebar .author__pronouns,
+  .sidebar .author__bio {
+    width: 100% !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    text-align: left !important;
+  }
+
+  .sidebar .author__name {
+    margin-top: 0 !important;
+    margin-bottom: 0.2rem !important;
+  }
+
+  .sidebar .author__bio {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /*
+     Links button at the far right.
+     Its top margin centres it against the 5.25rem photo.
+  */
+
+  .sidebar .author__urls-wrapper {
+    grid-area: links;
+
+    position: relative !important;
+
+    align-self: start !important;
+    justify-self: end !important;
+
+    width: auto !important;
+    max-width: none !important;
+
+    margin-top: 1.55rem !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+
+    padding: 0 !important;
+  }
+
+  .sidebar .author__urls-wrapper > button,
+  .sidebar .author__links-toggle {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: auto !important;
+    min-width: 0 !important;
+    height: 2.15rem !important;
+    min-height: 2.15rem !important;
+
+    margin: 0 !important;
+    padding: 0.35rem 0.7rem !important;
+
+    white-space: nowrap !important;
+  }
+
+  /*
+     The social icon panel opens below the Links button
+     and aligns with its right edge.
+  */
+
+  .sidebar .author__urls-wrapper
+  .author__urls.social-icons.author__icon-grid {
+    right: 0 !important;
+    left: auto !important;
+  }
+}
   
 </style>
 
