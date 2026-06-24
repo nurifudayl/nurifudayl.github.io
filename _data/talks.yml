@@ -25,13 +25,13 @@ items:
 
     language: "TR"
 
-    title: "Episode 13"
-    title_tr: "13. Bölüm"
-    title_fr: "Épisode 13"
+    title: "Genç Kalemler"
+    title_tr: "Genç Kalemler"
+    title_fr: "Genç Kalemler"
 
-    host: "Genç Kalemler"
-    host_tr: "Genç Kalemler"
-    host_fr: "Genç Kalemler"
+    host: "Episode 13"
+    host_tr: "13. Bölüm"
+    host_fr: "Épisode 13"
 
     role: "Guest"
     role_tr: "Konuk"
