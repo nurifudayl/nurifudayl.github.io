@@ -17,13 +17,13 @@ translations:
   fr: "/fr/publication/papers-2026-1-idris"
 
 keywords:
-  - Türkiye
-  - Kıbrıs
-  - Lacancı psikanaliz
-  - devletlik
-  - Yunanistan
+  - İdris Küçükömer
+  - kapitalizme geçiş
+  - Dobb-Sweezy tartışması
+  - bağımlılık
+  - merkantalist sıçrama
 ---
 
-5–9 Eylül 2023 tarihlerinde Potsdam Üniversitesi’nde düzenlenen *16th EISA Pan-European Conference on International Relations* konferansında sunulmuştur.
+16–18 Nisan 2026 tarihlerinde Erciyes Üniversitesi’nde düzenlenen *10. Ekonomik Araştırmalar ve Finansal Piyasalar Kongresi*nde sunulmuştur.
 
-Bu bildirinin yayımlanmış nihai makale sürümüne [buradan](/tr/publication/article-2025-3-lacanian-family) ulaşılabilir.
+
