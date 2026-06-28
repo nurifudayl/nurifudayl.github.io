@@ -19,9 +19,9 @@ translations:
 keywords:
   - İdris Küçükömer
   - transition au capitalism
-  - debat Dobb-Sweezy
+  - débat Dobb-Sweezy
   - dépendance
   - essor mercantiliste
 ---
 
-16–18 Nisan 2026 tarihlerinde Erciyes Üniversitesi’nde düzenlenen *10. Ekonomik Araştırmalar ve Finansal Piyasalar Kongresi*nde sunulmuştur.
+Communication présentée lors du *10th IERFM The Economic Research and Financial Markets Congress*, tenue à l’Université d'Erciyes, à Kayseri, du 16 au 18 avril 2026.
