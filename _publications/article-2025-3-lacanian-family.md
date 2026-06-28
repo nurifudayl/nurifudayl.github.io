@@ -26,6 +26,7 @@ translations:
 indexing:
   - ESCI
   - Scopus
+  - Q2
 
 keywords:
   - Lacanian psychoanalysis
