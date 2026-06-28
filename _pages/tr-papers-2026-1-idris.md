@@ -21,7 +21,7 @@ keywords:
   - kapitalizme geçiş
   - Dobb-Sweezy tartışması
   - bağımlılık
-  - merkantalist sıçrama
+  - merkantilist sıçrama
 ---
 
 16–18 Nisan 2026 tarihlerinde Erciyes Üniversitesi’nde düzenlenen *10. Ekonomik Araştırmalar ve Finansal Piyasalar Kongresi*nde sunulmuştur.
