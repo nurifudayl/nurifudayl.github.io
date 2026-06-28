@@ -4,7 +4,7 @@ title: "Rethinking Polycrisis through İdris Küçükömer: Capitalist Transitio
 lang: tr
 permalink: /tr/publication/papers-2026-1-idris
 author_profile: false
-date: 2023-01-01
+date: 2026-01-01
 venue: "10th IERFM The Economic Research and Financial Markets Congress"
 paperurl: "https://ierfm.com/wp-content/uploads/2026/06/IERFM-2026-Bildiri-Kitabi.pdf"
 citation: >-
