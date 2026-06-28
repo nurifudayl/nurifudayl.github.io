@@ -19,7 +19,7 @@ excerpt_fr: >-
   à l’Université d'Erciyes, à Kayseri, du 16 au 18 avril 2026.
 
 detail_url_tr: "/tr/publication/papers-2026-1-idris"
-detail_url_fr: "/fr/publication/papers-2023-1-idris"
+detail_url_fr: "/fr/publication/papers-2026-1-idris"
 
 translations:
   en: "/publication/papers-2026-1-idris"
