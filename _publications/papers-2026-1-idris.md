@@ -29,9 +29,9 @@ translations:
 keywords:
   - İdris Küçükömer
   - transitions to capitalism
-  - Lacanian psychoanalysis
-  - statehood
-  - Greece
+  - Dobb-Sweezy debate
+  - dependency
+  - mercantalist take-off
 ---
 
 held at Erciyes University in Kayseri on 16-18 April 2026.
