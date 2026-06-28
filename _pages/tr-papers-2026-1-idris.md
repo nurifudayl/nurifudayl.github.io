@@ -9,7 +9,7 @@ venue: "10th IERFM The Economic Research and Financial Markets Congress"
 paperurl:
 citation: >-
   Nuri Fudayl Kıcıroğlu. 2026. “Rethinking Polycrisis through İdris Küçükömer: Capitalist Transition, Dependency, and Peripheral Fragility.”
-  <em>10th IERFM The Economic Research and Financial Markets Congress Proceeding Book</em>, Kayseri, 16–18 Avril 2026.
+  <em>10th IERFM The Economic Research and Financial Markets Congress Proceeding Book</em>, Kayseri, 16–18 Nisan 2026.
 
 translations:
   en: "/publication/papers-2026-1-idris"
