@@ -1,7 +1,7 @@
 ---
 layout: publication-detail
 title: "Rethinking Polycrisis through İdris Küçükömer: Capitalist Transition, Dependency, and Peripheral Fragility"
-lang: tr
+lang: fr
 permalink: /fr/publication/papers-2026-1-idris
 author_profile: false
 date: 2026-01-01
