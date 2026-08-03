@@ -5,6 +5,13 @@ permalink: /teaching/political-theory/
 author_profile: false
 course_id: "political-theory"
 
+lang: en
+
+translations:
+  en: "/teaching/political-theory/"
+  tr: "/tr/teaching/political-theory/"
+  fr: "/fr/teaching/"
+  
 languages:
   - TR
 
