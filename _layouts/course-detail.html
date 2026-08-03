@@ -28,7 +28,7 @@ layout: default
 <main class="course-detail-page">
 
   <div class="course-back-link">
-    <a href="{{ '/teaching/' | relative_url }}">← Back to Teaching</a>
+    <a href="{{ teaching_url | relative_url }}">← {{ labels.back }}</a>
   </div>
 
   <header class="course-header">
@@ -39,7 +39,7 @@ layout: default
 
       {% if page.languages %}
       <div class="course-metadata-row">
-        <div class="course-metadata-label">Languages</div>
+        <div class="course-metadata-label">{{ labels.languages }}</div>
         <div class="course-badge-list">
           {% for language in page.languages %}
             <span class="course-badge">{{ language }}</span>
@@ -50,7 +50,7 @@ layout: default
 
       {% if page.codes %}
       <div class="course-metadata-row">
-        <div class="course-metadata-label">Course Codes</div>
+        <div class="course-metadata-label">{{ labels.course_codes }}</div>
         <div class="course-badge-list">
           {% for code in page.codes %}
             <span class="course-badge">{{ code }}</span>
@@ -61,7 +61,7 @@ layout: default
 
       {% if page.offerings %}
       <div class="course-metadata-row">
-        <div class="course-metadata-label">Offerings</div>
+        <div class="course-metadata-label">{{ labels.offerings }}</div>
         <div class="course-badge-list">
           {% for offering in page.offerings %}
             <span class="course-badge{% if offering.current %} course-badge-current{% endif %}">
@@ -82,7 +82,7 @@ layout: default
 
       {% if page.overview %}
       <section class="course-content-row">
-        <h2 class="course-section-title">Course Overview</h2>
+        <h2 class="course-section-title">{{ labels.overview }}</h2>
         <div class="course-section-body course-overview">
           {{ page.overview }}
         </div>
@@ -91,7 +91,7 @@ layout: default
 
       {% if page.themes %}
       <section class="course-content-row">
-        <h2 class="course-section-title">Key Themes</h2>
+        <h2 class="course-section-title">{{ labels.themes }}</h2>
         <div class="course-section-body">
           <div class="course-theme-list">
             {% for theme in page.themes %}
@@ -104,7 +104,7 @@ layout: default
 
       {% if page.objectives %}
       <section class="course-content-row">
-        <h2 class="course-section-title">Learning Objectives</h2>
+        <h2 class="course-section-title">{{ labels.objectives }}</h2>
         <div class="course-section-body">
           <ul class="course-objectives-list">
             {% for objective in page.objectives %}
@@ -117,7 +117,7 @@ layout: default
 
       {% if page.structure %}
       <section class="course-content-row">
-        <h2 class="course-section-title">Course Structure</h2>
+        <h2 class="course-section-title">{{ labels.structure }}</h2>
         <div class="course-section-body">
           <div class="course-structure-list">
             {% for module in page.structure %}
@@ -138,7 +138,7 @@ layout: default
 
       {% if page.further_resources %}
       <section class="course-content-row course-resources-row">
-        <h2 class="course-section-title">Beyond Text</h2>
+        <h2 class="course-section-title">{{ labels.beyond_text }}</h2>
         <div class="course-section-body">
           <div class="course-resource-list">
             {% for resource in page.further_resources %}
@@ -177,7 +177,7 @@ layout: default
               <path d="M12 7.2v12.1"></path>
             </svg>
           </span>
-          Core Readings
+          {{ labels.core_readings }}
         </h2>
 
         <ul class="course-readings-list">
@@ -190,7 +190,7 @@ layout: default
 
         {% if page.complete_reading_list_url %}
           <a href="{{ page.complete_reading_list_url }}" class="course-outline-button" target="_blank" rel="noopener noreferrer">
-            <span>View Complete Reading List</span>
+            {{ labels.complete_reading_list }}
             {% include external-link-icon.html %}
           </a>
         {% endif %}
@@ -208,7 +208,7 @@ layout: default
               <path d="M9 15.5h7"></path>
             </svg>
           </span>
-          Syllabi
+          {{ labels.syllabi }}
         </h2>
 
         {% for syllabus_group in page.syllabi %}
@@ -223,12 +223,20 @@ layout: default
               {% for file in syllabus_group.files %}
                 {% if file.url %}
                   <a href="{{ file.url | relative_url }}" class="course-outline-button course-syllabus-button" download>
-                    <span>{{ file.language }} Syllabus (PDF)</span>
+                    {% if current_lang == "tr" %}
+                      <span>{{ file.language }} İzlence (PDF)</span>
+                    {% else %}
+                      <span>{{ file.language }} Syllabus (PDF)</span>
+                    {% endif %}
                     {% include external-link-icon.html %}
                   </a>
                 {% else %}
                   <span class="course-outline-button course-syllabus-button disabled">
-                    {{ file.language }} Syllabus (PDF)
+                    {% if current_lang == "tr" %}
+                      {{ file.language }} İzlence (PDF)
+                    {% else %}
+                      {{ file.language }} Syllabus (PDF)
+                    {% endif %}
                   </span>
                 {% endif %}
               {% endfor %}
@@ -251,15 +259,15 @@ layout: default
               <path d="M12 13v1.8l1.35.8"></path>
             </svg>
           </span>
-          Office Hours
+          {{ labels.office_hours }}
         </h2>
       
         <p class="course-office-text">
-          {{ shared_office_hours.text }}
+          {{ office_hours_text }}
         </p>
       
         <a href="{{ shared_office_hours.url }}" class="course-filled-button" target="_blank" rel="noopener noreferrer">
-          <span>{{ shared_office_hours.label }}</span>
+          <span>{{ office_hours_label }}</span>
           {% include external-link-icon.html %}
         </a>
       </section>
