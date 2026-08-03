@@ -8,6 +8,23 @@ layout: default
 {% assign course_record = site.data.courses.items | where: "id", page.course_id | first %}
 {% assign shared_office_hours = site.data.courses.office_hours %}
 
+{% assign current_lang = page.lang | default: "en" %}
+{% assign labels = site.data.i18n[current_lang].teaching %}
+
+{% assign teaching_url = "/teaching/" %}
+{% assign office_hours_text = shared_office_hours.text %}
+{% assign office_hours_label = shared_office_hours.label %}
+
+{% if current_lang == "tr" %}
+  {% assign teaching_url = "/tr/teaching/" %}
+  {% assign office_hours_text = shared_office_hours.text_tr %}
+  {% assign office_hours_label = shared_office_hours.label_tr %}
+{% elsif current_lang == "fr" %}
+  {% assign teaching_url = "/fr/teaching/" %}
+  {% assign office_hours_text = shared_office_hours.text_fr %}
+  {% assign office_hours_label = shared_office_hours.label_fr %}
+{% endif %}
+
 <main class="course-detail-page">
 
   <div class="course-back-link">
