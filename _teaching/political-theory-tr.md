@@ -26,21 +26,18 @@ offerings:
 overview: >-
   Bu ders, siyasal hayatı anlamak için kullanılan temel kavramları, bu
   kavramların dayandığı varsayımları ve siyasal düzene ilişkin normatif
-  iddiaları inceler. Kurumlar, partiler, seçimler ve güncel gelişmelerin
-  ötesine geçerek devletin varlık nedeni, iktidar ile otorite arasındaki
-  ayrım, meşruiyetin temelleri, egemenliğin kuruluşu, hukuk ile adalet
-  arasındaki ilişki, özgürlük, eşitlik ve mülkiyet arasındaki gerilimler
+  iddiaları inceler. Devletin varlık nedeni, iktidar ile otorite arasındaki
+  ayrım, meşruiyetin temelleri, egemenliğin kuruluşu, toplum sözleşmesi, 
+  özgürlük, eşitlik ve mülkiyet arasındaki gerilimler
   ve demokrasinin sınırları gibi temel sorulara odaklanır. Siyaset teorisi,
   bu derste siyaset bilimi, siyaset felsefesi ve siyasi düşünceler tarihiyle
   ilişkili kavramsal ve normatif bir araştırma alanı olarak ele alınır.
-  Dersin amacı öğrencilere hazır siyasal cevaplar sunmak değil; siyasal
-  kavramların nasıl kurulduğunu, teorik argümanların hangi varsayımlara
-  dayandığını, farklı düşünce gelenekleri içinde nasıl biçimlendiğini ve
-  güncel siyasal sorunların değerlendirilmesinde nasıl kullanılabileceğini
-  göstermektir.
+  Dersin amacı öğrencilere siyasal kavramların nasıl kurulduğunu, 
+  teorik argümanların hangi varsayımlara dayandığını, farklı düşünce gelenekleri 
+  içinde nasıl biçimlendiğini ve güncel siyasal sorunların değerlendirilmesinde 
+  nasıl kullanılabileceğini göstermektir.
 
 themes:
-  - Siyaset Teorisinin Niteliği
   - İnsan Doğası, Birey ve Toplum
   - Devlet ve Egemenlik
   - İktidar, Otorite ve Meşruiyet
@@ -101,29 +98,21 @@ core_readings:
   - author: "Gianfranco Poggi"
     title: "Modern Devletin Gelişimi"
 
-  - author: "Max Weber"
-    title: "Meşru Egemenliğin Üç Saf Tipi"
-
   - author: "Hannah Arendt"
     title: "Şiddet Üzerine"
-
-  - author: "John Rawls"
-    title: "Bir Adalet Teorisi"
 
   - author: "Jürgen Habermas"
     title: "Kamusallığın Yapısal Dönüşümü"
 
-  - author: "John Stuart Mill"
-    title: "Özgürlük Üzerine"
-
-  - author: "Iris Marion Young"
-    title: "Adalet ve Farklılık Politikası"
+  - author: "Pierre Clastres"
+    title: "Devlete Karşı Toplum"
 
   - author: "Chantal Mouffe"
     title: "Siyasal Üzerine"
 
-complete_reading_list_url: "/assets/files/syllabi/political-theory-2025-26-tr.pdf"
-
+  - author: "Gerard Mairet"
+    title: "Egemenlik İlkesi"
+    
 syllabi:
   - year: "2025–26"
     current: true
