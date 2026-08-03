@@ -89,6 +89,7 @@ items:
       - "2025-26"
       - "2024-25"
     page_url: "/teaching/political-theory/"
+    page_url_tr: "/tr/teaching/political-theory/"
 
   - id: "political-ideologies"
     title: "Political Ideologies"
