@@ -21,6 +21,7 @@ offerings:
   - year: "2026–27"
     current: true
   - year: "2025–26"
+    current: false
 
 overview: >-
   Political ideologies are systems of thought that interpret the political world
