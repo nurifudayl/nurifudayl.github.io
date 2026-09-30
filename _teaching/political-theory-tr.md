@@ -19,7 +19,7 @@ codes:
 
 offerings:
   - year: "2026–27"
-    current: false
+    current: true
   - year: "2025–26"
     current: false
   - year: "2024–25"
