@@ -26,26 +26,28 @@ offerings:
 overview: >-
   Türk Yönetim Tarihi, Türkiye’deki siyasal ve idari kurumların oluşumunu ve
   dönüşümünü tarihsel bağlamları içinde inceler. Ders, Türk devletlerinin yönetim
-  anlayışlarını tek ve kesintisiz bir gelenek olarak değil; İran, Bizans ve İslam
-  idare gelenekleri, Akdeniz’deki ve Osmanlı öncesi Anadolu’daki yapılar ve farklı
-  tarihsel koşulların etkileşimi içinde ele alır. Osmanlı toprak sistemi,
-  merkez-taşra teşkilatı, klasik dönem sonrası dönüşümler, Tanzimat ve modernleşme,
-  Meşrutiyet ve Cumhuriyet’e geçiş dersin temel konuları arasındadır. Amaç,
-  öğrencilerin idari kurumları kendi tarihsel bağlamlarında analiz etmelerini ve
-  Türkiye’deki yönetim yapılarında süreklilik ve değişimi değerlendirmelerini
+  anlayışlarını İran, Bizans ve İslam idare gelenekleri, Akdeniz’deki ve Osmanlı öncesi 
+  Anadolu’daki yapılar ve farklı tarihsel koşulların etkileşimi içinde ele alır. 
+  Osmanlı toprak sistemi, merkez-taşra teşkilatı, klasik dönem sonrası dönüşümler, 
+  Tanzimat ve modernleşme, Meşrutiyet ve Cumhuriyet’e geçiş dersin temel konuları 
+  arasındadır. Amaç, öğrencilerin idari kurumları kendi tarihsel bağlamlarında analiz 
+  etmelerini ve Türkiye’deki yönetim yapılarında süreklilik ve değişimi değerlendirmelerini
   sağlamaktır.
 
 themes:
-  - İran, Bizans ve İslam İdare Gelenekleri
-  - Akdeniz ve Osmanlı Öncesi Anadolu’daki İdari Yapılar
-  - Türk Devlet Geleneği ve Yönetim Anlayışı
+  - İran
+  - Bizans
+  - İslamiyet
+  - Akdeniz
+  - Yönetim Gelenekleri
   - Osmanlı Toprak Sistemi
-  - Osmanlı’da Merkez ve Taşra Teşkilatları
-  - Klasik Dönem Sonrası İdari ve Siyasi Dönüşümler
-  - Tanzimat ve Modernleşme
-  - Meşrutiyet ve Cumhuriyet’e Geçiş
-  - Cumhuriyet Döneminde Yönetim Kurumları
-  - İdari Kurumlarda Süreklilik ve Değişim
+  - Osmanlı Merkez ve Taşra Teşkilatları
+  - Klasik Dönem
+  - Tanzimat
+  - Modernleşme
+  - Meşrutiyet
+  - Cumhuriyet’e Geçiş
+  - Süreklilik ve Değişim
 
 objectives:
   - "İran, Bizans ve İslam geleneklerinin Türkiye’deki idari yapılar üzerindeki etkisini açıklar."
@@ -83,30 +85,26 @@ structure:
     thinkers: "Osmanlı toprak sistemi devletin mali düzeni ve taşra üzerindeki denetimiyle nasıl ilişkilidir?"
 
   - number: "VIII"
-    title: "Vize Haftası"
-    thinkers: "Ara sınav haftası"
-
-  - number: "IX"
     title: "Osmanlı İmparatorluğu’nda Merkez ve Taşra Teşkilatları"
     thinkers: "Merkez-taşra ilişkileri Osmanlı yönetiminde otoriteyi ve idari denetimi nasıl kurmuştur?"
 
-  - number: "X"
+  - number: "IX"
     title: "Klasik Dönem Sonrası İdari ve Siyasi Yapı"
     thinkers: "Osmanlı İmparatorluğu bozuldu mu?"
 
-  - number: "XI"
+  - number: "X"
     title: "Tanzimat ve Modernleşme"
     thinkers: "Osmanlı yönetimi ve bürokrasisi nasıl modernleşti?"
 
-  - number: "XII"
+  - number: "XI"
     title: "Meşrutiyet"
     thinkers: "Meşrutiyet yönetimi siyasal iktidarın kullanımını ve sınırlarını nasıl değiştirmiştir?"
 
-  - number: "XIII"
+  - number: "XII"
     title: "Cumhuriyet’e Doğru"
     thinkers: "Osmanlı’nın son dönemindeki siyasal ve idari dönüşümler Cumhuriyet’e geçişi nasıl hazırlamıştır?"
 
-  - number: "XIV"
+  - number: "XIII"
     title: "Cumhuriyet ve Kurumlar"
     thinkers: "Cumhuriyet döneminde yönetim kurumları hangi ilkeler doğrultusunda yeniden düzenlenmiştir?"
 
