@@ -75,38 +75,30 @@ structure:
     thinkers: "Are socialism and communism the same?"
 
   - number: "VI"
-    title: "Republic Day"
-    thinkers: "No class meeting."
-
-  - number: "VII"
     title: "Anarchism"
     thinkers: "Does anarchism seek to destroy everything?"
 
-  - number: "VIII"
-    title: "Midterm Week"
-    thinkers: "Midterm examination week"
-
-  - number: "IX"
+  - number: "VII"
     title: "Nationalism"
     thinkers: "Is nationalism racism?"
 
-  - number: "X"
+  - number: "VIII"
     title: "Fascism"
     thinkers: "Did fascism end with the Second World War?"
 
-  - number: "XI"
+  - number: "IX"
     title: "Feminism"
     thinkers: "How many waves has the women's movement passed through?"
 
-  - number: "XII"
+  - number: "X"
     title: "Ecologism"
     thinkers: "Is ecology a concern that transcends ideologies?"
 
-  - number: "XIII"
+  - number: "XI"
     title: "Religious Fundamentalism"
     thinkers: "Is religion an ideology?"
 
-  - number: "XIV"
+  - number: "XII"
     title: "Ideologies Revisited"
     thinkers: "How have ideologies changed, and how have they transformed politics?"
 
