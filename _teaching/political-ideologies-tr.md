@@ -20,6 +20,7 @@ codes:
 offerings:
   - year: "2026–27"
     current: true
+  - year: "2025–26"
 
 overview: >-
   Siyasal ideolojiler, siyasal dünyayı yorumlayan ve siyasal düzenin nasıl
@@ -74,38 +75,30 @@ structure:
     thinkers: "Sosyalizm ile komünizm aynı mıdır?"
 
   - number: "VI"
-    title: "29 Ekim Cumhuriyet Bayramı"
-    thinkers: "Ders yapılmayacaktır."
-
-  - number: "VII"
     title: "Anarşizm"
     thinkers: "Anarşizm her şeyi yıkar mı?"
 
-  - number: "VIII"
-    title: "Vize Haftası"
-    thinkers: "Ara sınav haftası"
-
-  - number: "IX"
+  - number: "VII"
     title: "Milliyetçilik"
     thinkers: "Milliyetçilik ırkçılık mıdır?"
 
-  - number: "X"
+  - number: "VIII"
     title: "Faşizm"
     thinkers: "Faşizm II. Dünya Savaşı ile bitmiş midir?"
 
-  - number: "XI"
+  - number: "IX"
     title: "Feminizm"
     thinkers: "Kadın mücadelesi kaç aşamadan geçti?"
 
-  - number: "XII"
+  - number: "X"
     title: "Ekolojizm"
     thinkers: "Ekoloji ideolojiler üstü bir mesele midir?"
 
-  - number: "XIII"
+  - number: "XI"
     title: "Dinî Köktencilik"
     thinkers: "Din bir ideoloji midir?"
 
-  - number: "XIV"
+  - number: "XII"
     title: "İdeolojiler Yeni Baştan"
     thinkers: "İdeolojiler nasıl dönüştü, dönüştürdü?"
 
