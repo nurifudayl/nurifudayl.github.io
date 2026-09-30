@@ -43,7 +43,7 @@ themes:
   - Governmental Traditions
   - The Ottoman Land System
   - Ottoman Central and Provincial Administration
-  - Classic Age
+  - Classical Period
   - The Tanzimat
   - Modernization
   - Constitutional Government
