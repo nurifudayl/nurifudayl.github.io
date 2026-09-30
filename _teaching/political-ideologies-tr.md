@@ -21,6 +21,7 @@ offerings:
   - year: "2026–27"
     current: true
   - year: "2025–26"
+    current: false
 
 overview: >-
   Siyasal ideolojiler, siyasal dünyayı yorumlayan ve siyasal düzenin nasıl
