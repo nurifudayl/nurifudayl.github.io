@@ -318,6 +318,13 @@ html[data-theme="dark"] .course-card:hover .course-page-button {
   box-shadow: none !important;
 }
 
+/* Keep the label and icon in the hover button in step with its light background. */
+html[data-theme="dark"] .teaching-page .course-card:hover .course-page-button span,
+html[data-theme="dark"] .teaching-page .course-card:hover .course-page-button svg {
+  color: #4E2525 !important;
+  stroke: #4E2525 !important;
+}
+
 /* FINAL OVERRIDE — Course labels in light/dark mode */
 .teaching-page .course-card .course-section-label {
   color: #111111 !important;
