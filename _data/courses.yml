@@ -1,4 +1,4 @@
-current_academic_year: "2025-26"
+current_academic_year: "2026-27"
 
 office_hours:
   enabled: true
@@ -80,7 +80,7 @@ items:
     title_fr: "Théorie politique"
     sort_title: "Political Theory"
     current: true
-    sort_year: 2025
+    sort_year: 2026
     languages:
       - TR
     codes:
@@ -97,14 +97,16 @@ items:
     title_fr: "Idéologies politiques"
     sort_title: "Political Ideologies"
     current: true
-    sort_year: 2025
+    sort_year: 2026
     languages:
       - TR
     codes:
       - ESBK419
     years:
+      - "2026-27"
       - "2025-26"
-    page_url:
+    page_url: "/teaching/political-ideologies/"
+    page_url_tr: "/tr/teaching/political-ideologies/"
 
   - id: "turkish-administrative-history"
     title: "Turkish Administrative History"
@@ -112,7 +114,7 @@ items:
     title_fr: "Histoire de l’administration turque"
     sort_title: "Turkish Administrative History"
     current: true
-    sort_year: 2025
+    sort_year: 2026
     languages:
       - TR
     codes:
