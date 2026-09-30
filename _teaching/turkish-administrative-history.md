@@ -26,27 +26,29 @@ offerings:
 overview: >-
   Turkish Administrative History examines the formation and transformation of
   political and administrative institutions in Turkey in their historical
-  contexts. It treats the administrative traditions of Turkish states not as a
-  single, uninterrupted legacy, but as the outcome of interactions among Iranian,
-  Byzantine, and Islamic traditions, institutions in the Mediterranean and
-  pre-Ottoman Anatolia, and changing historical conditions. The course considers
-  the Ottoman land system and central-provincial administration, post-classical
-  transformations, the Tanzimat and modernization, constitutional government,
+  contexts. It treats the administrative traditions of Turkish states as the outcome 
+  of interactions among Iranian, Byzantine, and Islamic traditions, institutions 
+  in the Mediterranean and pre-Ottoman Anatolia, and changing historical conditions. 
+  The course considers the Ottoman land system and central-provincial administration,
+  post-classical transformations, the Tanzimat and modernization, constitutional government,
   and the transition to the Republic. Students analyze administrative
   institutions in context and assess continuity and change in Turkey’s structures
   of government.
 
 themes:
-  - Iranian, Byzantine, and Islamic Administrative Traditions
-  - Mediterranean and Pre-Ottoman Anatolian Institutions
-  - Turkish State Traditions and Approaches to Government
+  - Iran
+  - Byzance
+  - Islam
+  - Mediterranean
+  - Governmental Traditions
   - The Ottoman Land System
   - Ottoman Central and Provincial Administration
-  - Post-Classical Administrative and Political Transformations
-  - The Tanzimat and Modernization
-  - Constitutional Government and the Transition to the Republic
-  - Administrative Institutions in the Republican Period
-  - Continuity and Change in Administrative Institutions
+  - Classic Age
+  - The Tanzimat
+  - Modernization
+  - Constitutional Government
+  - The Republic
+  - Continuity and Change
 
 objectives:
   - "Explain the influence of Iranian, Byzantine, and Islamic traditions on administrative structures in Turkey."
@@ -84,30 +86,26 @@ structure:
     thinkers: "How was the Ottoman land system connected to state finance and control over the provinces?"
 
   - number: "VIII"
-    title: "Midterm Week"
-    thinkers: "Midterm examination week"
-
-  - number: "IX"
     title: "Ottoman Central and Provincial Administration"
     thinkers: "How did center-province relations organize authority and administrative control in the Ottoman Empire?"
 
-  - number: "X"
+  - number: "IX"
     title: "Post-Classical Administrative and Political Structures"
     thinkers: "Did the Ottoman Empire decline?"
 
-  - number: "XI"
+  - number: "X"
     title: "The Tanzimat and Modernization"
     thinkers: "How did Ottoman government and bureaucracy modernize?"
 
-  - number: "XII"
+  - number: "XI"
     title: "Constitutional Government"
     thinkers: "How did constitutional government change the exercise and limits of political power?"
 
-  - number: "XIII"
+  - number: "XII"
     title: "Toward the Republic"
     thinkers: "How did late Ottoman political and administrative transformations prepare the transition to the Republic?"
 
-  - number: "XIV"
+  - number: "XIII"
     title: "The Republic and Its Institutions"
     thinkers: "According to which principles were administrative institutions reorganized in the Republican period?"
 
