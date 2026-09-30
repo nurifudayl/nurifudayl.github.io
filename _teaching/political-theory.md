@@ -157,6 +157,6 @@ syllabi:
     current: true
     files:
       - language: "TR"
-        url: "/assets/files/syllabi/political-theory-2025-26-tr.pdf"
+        url: "/assets/files/syllabi/political-theory-2026-27-tr.pdf"
 
 ---
