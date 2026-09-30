@@ -153,7 +153,7 @@ core_readings:
 complete_reading_list_url: "/assets/files/syllabi/political-theory-2025-26-tr.pdf"
 
 syllabi:
-  - year: "2025–26"
+  - year: "2026–27"
     current: true
     files:
       - language: "TR"
