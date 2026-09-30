@@ -19,8 +19,10 @@ codes:
   - ESBK209
 
 offerings:
-  - year: "2025–26"
+  - year: "2026–27"
     current: true
+  - year: "2025–26"
+    current: false
   - year: "2024–25"
     current: false
 
