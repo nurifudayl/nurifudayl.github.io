@@ -120,8 +120,10 @@ items:
     codes:
       - ESBK427
     years:
+      - "2026-27"
       - "2025-26"
-    page_url:
+    page_url: "/teaching/turkish-administrative-history/"
+    page_url_tr: "/tr/teaching/turkish-administrative-history/"
 
   - id: "social-responsibility-and-ethics"
     title: "Social Responsibility and Ethics"
