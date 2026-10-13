@@ -19,4 +19,4 @@ translations:
 
 7–10 Mayıs 2026 tarihlerinde Eskişehir’de düzenlenen *XI. Uluslararası İlişkiler Çalışmaları ve Eğitimi Kongresi*’nde sunulmuştur.
 
-**Yazarlar:** Nuri Fudayl Kıcıroğlu ve Ceren Melis Kıcıroğlu.
+
