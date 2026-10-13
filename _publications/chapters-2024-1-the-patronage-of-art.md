@@ -1,9 +1,10 @@
 ---
 title: "The Patronage of Art: Conceptual and Historical Framework"
+lang: en
 collection: publications
+category: book-chapters
 permalink: /publication/chapters-2024-1-the-patronage-of-art
 date: 2024-09-01
-type: "Book Chapter"
 venue: "Musician Portraits from the Ottoman Bureaucracy"
 excerpt: >-
   This chapter examines the historical development of art patronage, tracing
@@ -11,9 +12,9 @@ excerpt: >-
   the industrial era, with particular attention to the Ottoman context.
 paperurl: "https://doi.org/10.26650/B/SSc21.2024.028.001"
 citation: >-
-  Altun, Erdoğan, Nuri Fudayl Kıcıroğlu, and Ayşegül Komsuoğlu. 2024.
+  Altun, Erdoğan, Nuri Fudayl Kıcıroğlu and Ayşegül Komsuoğlu. 2024.
   “The Patronage of Art: Conceptual and Historical Framework.” In
-  Musician Portraits from the Ottoman Bureaucracy, edited by Ayşegül
+  <em>Musician Portraits from the Ottoman Bureaucracy</em>, ed. Ayşegül
   Komsuoğlu and Hikmet Toker, 1–12. Istanbul: Istanbul University Press.
   https://doi.org/10.26650/B/SSc21.2024.028.001.
 ---
