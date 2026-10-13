@@ -13,13 +13,13 @@ citation: >-
   Paper presented at the <em>XI. Uluslararası İlişkiler Çalışmaları ve Eğitimi Kongresi</em>, Eskişehir, 7–10 May 2026.
 
 excerpt: >-
-  Presented at the XI. Uluslararası İlişkiler Çalışmaları ve Eğitimi Kongresi in Eskişehir, 7–10 May 2026.
+  organised by Uluslararası İlişkiler Konseyi in Eskişehir on 7–10 May 2026.
 
 excerpt_tr: >-
-  7–10 Mayıs 2026 tarihlerinde Eskişehir’de düzenlenen XI. Uluslararası İlişkiler Çalışmaları ve Eğitimi Kongresi’nde sunuldu.
+  7–10 Mayıs 2026, Uluslararası İlişkiler Konseyi, Eskişehir.
 
 excerpt_fr: >-
-  Communication présentée au XI. Uluslararası İlişkiler Çalışmaları ve Eğitimi Kongresi, organisé à Eskişehir du 7 au 10 mai 2026.
+  par Uluslararası İlişkiler Konseyi, à Eskişehir, les 7-10 mai 2026.
 
 detail_url_tr: "/tr/publication/papers-2026-3-ontolojik-guvenlik"
 detail_url_fr: "/fr/publication/papers-2026-3-ontolojik-guvenlik"
