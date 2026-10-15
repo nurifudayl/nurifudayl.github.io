@@ -34,7 +34,3 @@ The chapter also considers the Ottoman context, where sultans and state institut
 ## Citation
 
 Altun, Erdoğan, Nuri Fudayl Kıcıroğlu, and Ayşegül Komsuoğlu. 2024. “The Patronage of Art: Conceptual and Historical Framework.” In *Musician Portraits from the Ottoman Bureaucracy*, edited by Ayşegül Komsuoğlu and Hikmet Toker, 1–12. Istanbul: Istanbul University Press. https://doi.org/10.26650/B/SSc21.2024.028.001.
-
-## Access
-
-[Read the chapter](https://doi.org/10.26650/B/SSc21.2024.028.001)
