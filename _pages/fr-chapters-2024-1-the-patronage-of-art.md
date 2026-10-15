@@ -1,6 +1,6 @@
 ---
 layout: publication-detail
-title: "Le patronage des arts : cadre conceptuel et historique"
+title: "The Patronage of Art: Conceptual and Historical Framework"
 lang: fr
 permalink: /fr/publication/chapters-2024-1-the-patronage-of-art
 author_profile: false
