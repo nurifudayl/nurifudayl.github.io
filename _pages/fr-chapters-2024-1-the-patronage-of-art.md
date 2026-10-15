@@ -18,10 +18,12 @@ citation: >-
 
 ## Présentation du chapitre
 
-Ce chapitre examine l’évolution historique et les dynamiques complexes du patronage, en particulier dans le domaine des arts. Il analyse la relation asymétrique entre le mécène et l’artiste, en mettant l’accent sur les structures hiérarchiques du pouvoir et les obligations réciproques. Du système féodal à l’ère industrielle, il retrace le passage des monarques à la bourgeoisie parmi les principaux mécènes des arts.
+Ce chapitre examine le mécénat artistique comme une relation évolutive, façonnée par l’accès inégal aux ressources, les obligations réciproques et l’autorité politique. Il retrace le passage du mécénat féodal aux systèmes patrimoniaux, puis aux formes de soutien associées à la bourgeoisie et à l’ère industrielle.
 
-En étudiant l’évolution historique du patronage artistique, le chapitre met en lumière les interactions entre les transformations sociales, les rapports de pouvoir et l’expression artistique. À l’époque contemporaine, alors que les modèles traditionnels de patronage se transforment, il examine comment la relation entre les artistes et leurs mécènes associe héritages historiques et adaptations modernes.
+Le chapitre aborde également le contexte ottoman, où les sultans et les institutions de l’État soutenaient les artistes en leur accordant des fonctions, un statut, des récompenses et des possibilités de formation. Il étudie la manière dont ces dispositifs reliaient la production artistique à la légitimité politique et à l’évolution de la place des artistes au sein de la bureaucratie.
 
-## Apport du chapitre
+## Ses apports
 
-Cette étude propose un cadre historique et conceptuel pour l’analyse du patronage artistique, qui contribue également à l’étude du patronage des arts dans le contexte ottoman.
+- Retracer l’évolution des relations entre mécènes et artistes dans différents systèmes sociaux et politiques.
+- Distinguer les formes féodales, patrimoniales et industrielles du mécénat.
+- Examiner le rôle des souverains et des institutions ottomanes dans le soutien à la production artistique.
