@@ -18,10 +18,12 @@ citation: >-
 
 ## Bölüm Hakkında
 
-Bu bölüm, özellikle sanat bağlamında patronajın tarihsel gelişimini ve karmaşık dinamiklerini inceler. Patron ile himaye edilen arasındaki asimetrik ilişkiyi, hiyerarşik güç yapıları ve karşılıklı yükümlülükler çerçevesinde ele alır. Feodal dönemden sanayi çağına uzanan süreçte, sanata destek veren aktörlerin hükümdarlardan burjuvaziye doğru değişimini izler.
+Bu bölüm, sanat patronajını; kaynaklara eşitsiz erişim, karşılıklı yükümlülükler ve siyasi otorite tarafından şekillenen, tarih içinde dönüşen bir ilişki olarak inceler. Feodal patronajdan patrimonyal sistemlere ve daha sonra burjuvazi ile sanayi çağıyla ilişkilendirilen destek biçimlerine geçişi izler.
 
-Bölüm, sanat patronajının tarihsel seyrini inceleyerek toplumsal değişim, güç ilişkileri ve sanatsal ifade biçimleri arasındaki karşılıklı etkileşimi ortaya koyar. Geleneksel patronaj modellerinin dönüşüm geçirdiği günümüzde ise sanatçı ile patron arasındaki ilişkinin tarihsel mirasla modern uyarlamaları nasıl bir araya getirdiğini tartışır.
+Bölüm, Osmanlı bağlamında padişahların ve devlet kurumlarının sanatçıları makamlar, statü, ödüller ve eğitim olanakları aracılığıyla nasıl desteklediğini de ele alır. Bu düzenlemelerin sanatsal üretimi siyasi meşruiyetle ve sanatçıların bürokrasi içindeki değişen konumuyla nasıl ilişkilendirdiğini inceler.
 
-## Temel Katkısı
+## Katkı
 
-Çalışma, sanat patronajını tarihsel ve kavramsal bir çerçevede ele alarak Osmanlı sanat patronajının incelenmesine de zemin sağlayan bir yaklaşım sunar.
+- Patronlar ile sanatçılar arasındaki ilişkinin farklı toplumsal ve siyasal sistemlerde nasıl değiştiğini izler.
+- Feodal, patrimonyal ve sanayi çağıyla bağlantılı patronaj biçimlerini birbirinden ayırır.
+- Osmanlı hükümdarları ve kurumlarının sanatsal üretimi desteklemedeki rolünü inceler.
