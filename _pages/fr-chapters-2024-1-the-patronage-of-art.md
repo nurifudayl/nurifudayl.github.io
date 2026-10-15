@@ -14,6 +14,10 @@ citation: >-
   <em>Musician Portraits from the Ottoman Bureaucracy</em>, edited by Ayşegül
   Komsuoğlu and Hikmet Toker, 1–12. Istanbul: Istanbul University Press.
   https://doi.org/10.26650/B/SSc21.2024.028.001.
+translations:
+  en: "/publication/chapters-2024-1-the-patronage-of-art"
+  tr: "/tr/publication/chapters-2024-1-the-patronage-of-art"
+  fr: "/fr/publication/chapters-2024-1-the-patronage-of-art"  
 ---
 
 ## Présentation du chapitre
