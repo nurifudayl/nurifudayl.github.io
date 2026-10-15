@@ -1,6 +1,6 @@
 ---
 layout: publication-detail
-title: "Sanat Patronajı: Kavramsal ve Tarihsel Çerçeve"
+title: "The Patronage of Art: Conceptual and Historical Framework"
 lang: tr
 permalink: /tr/publication/chapters-2024-1-the-patronage-of-art
 author_profile: false
