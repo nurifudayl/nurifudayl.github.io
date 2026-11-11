@@ -45,6 +45,11 @@ translations:
   tr: "/tr/publication/article-2026-1-kubali-solidarism"
   fr: "/fr/publication/article-2026-1-kubali-solidarism"
 
+indexing:
+  - SSCI
+  - Scopus
+  - Q1
+
 keywords:
   - Kemalism
   - solidarism
