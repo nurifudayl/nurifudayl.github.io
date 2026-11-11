@@ -1,6 +1,6 @@
 ---
 layout: publication-detail
-title: "Hüseyin Nail Kubalı ile Kemalizmi Yeniden Düşünmek: Korporatist Teleolojinin Ötesinde Solidarizm"
+title: "Rethinking Kemalism with Hüseyin Nail Kubalı: solidarism beyond corporatist teleology"
 lang: tr
 permalink: /tr/publication/article-2026-1-kubali-solidarism
 author_profile: false
